@@ -1,0 +1,31 @@
+#switches {
+    opacity:0.1;
+    position:fixed;
+    top:2em;
+    right:2em;
+    background:$red;
+    color:$white;
+    width:200px;
+    height:300px;
+    z-index: 1000; 
+    padding:1em;
+
+    &:hover {
+        opacity:1;
+    }
+}  
+
+.one-col-title {
+    position:sticky;
+    top:5rem; left:1rem;
+    padding-top:2rem;
+    width:20vw;
+    height:0;
+    // height:0;
+}
+
+@media (max-width:800px) {
+    #switches { display:none; }
+
+}
+

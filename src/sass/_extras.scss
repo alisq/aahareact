@@ -1,0 +1,143 @@
+#loud-title {
+    font-size:80vh;
+    position:fixed;
+    width:1500vh;
+    top:50%;
+    transform:translateY(-50%);
+    color:$foreground;
+    mix-blend-mode:screen;
+    background-blend-mode: screen;;
+    
+}
+
+#section-01:hover #loud-title {
+    animation:moveLoudTitle 20s;
+}
+
+
+
+
+@keyframes moveLoudTitle {
+
+    0% {
+        left:0;
+    }
+
+    100% {
+        left:-1500vh;
+    }
+    
+}
+
+#hover-image2 {
+    position:fixed;
+    max-height:80vh;
+    width:auto;
+    bottom:0;
+    right:0;
+}
+
+// #test-menu {
+//     position:fixed;
+    
+//     z-index:200;
+//     height:100vh;
+    
+//     transform:translateX(-95%);
+//     transition:all 0.1s;
+
+//     &:hover {
+//         background:red;
+//         mix-blend-mode: luminosity;
+//         transform:translateX(0);
+//     }
+
+//     & button {
+//         margin:1em;
+//     }
+// }
+
+// #big-title {
+//     font-size:22vw;
+//     position:absolute;
+//     z-index:100;
+//     font-family:'Sukima';
+//     color:#FF3B1E;
+//     font-weight:bold;
+//     mix-blend-mode: luminosity;
+//     width:230vw;
+//     top:50%;
+//     transform:translateY(-50%);
+//     display:none;
+//     pointer-events:none;
+
+// }
+
+
+
+
+// #test-layers,
+// #test-statement,
+// #test-purchase {
+//     position:fixed;
+//     z-index:100;
+//     mix-blend-mode:color-dodge;
+//     pointer-events:none;
+//     display:none;
+// }
+
+
+// #test-statement {
+//     top:30%;
+//     right:0;
+// }
+// #test-purchase {
+//     height:80vh;
+//     bottom:0;
+//     right:50%;
+// }
+
+// #test-layers.active,
+// #test-statement.active,
+// #test-purchase.active,
+// #big-title.active {
+//     display:block;
+// }
+
+
+// #test-grid {
+//  position:fixed;
+//  top:0;
+//  left:0;
+//  width:2500vh;
+//  height:100vh;
+//  background:url('../img/grid.png');
+//  background-size:100%;
+//  z-index:100;
+//  opacity:0.15;
+//  mix-blend-mode: luminosity;
+//  animation-name: moveBG;
+//  animation-duration: 290s;
+//  animation-iteration-count: infinite;
+//  pointer-events: none;
+//  display:none;
+
+//  &.active {
+//      display:block;
+//  }
+// }
+
+
+
+
+// @keyframes moveBG {
+
+//     0% {
+//         left:0;
+//     }
+
+//     100% {
+//         left:-2500vh;
+//     }
+    
+// }

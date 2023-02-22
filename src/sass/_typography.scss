@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'AAHA-WEB';
+    src: url('../public/fonts/AAHA-Regular.woff2') format('woff');
+    font-weight:normal;
+}
+
+
+body {
+    font-family:freight-text-pro;
+    font-size:21px;
+    line-height:1.4em;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: $red;
+    color: $background;
+  }
+  
+  ::selection {
+    background: $red;
+    color: $background;
+  }
+
+a:link,
+a:visited {
+    color:inherit;
+    text-decoration-color: $red!important;
+    text-decoration:underline;
+}
+
+a:hover,
+a:active {
+    text-decoration:none;
+}
+
+
+.inverse a:link,
+.inverse a:visited {
+    color:$background;
+    text-decoration:underline;
+}
+
+.inverse a:hover,
+.inverse a:active {
+    text-decoration:none;
+}
+
+
+.truth a:link,
+.truth a:visited {
+    color:$background;
+}
+
+.red {
+    color:$red;
+}
+
+h3 {
+    font-family:'Lettera', Courier, monospace;
+    font-weight:normal;
+    font-size:1rem;
+    padding:0;
+    margin:0;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'AAHA-WEB';
+    color:$foreground;
+}
+
+h4 {
+    font-size:1em;
+    font-weight:bold;
+}
+
+
+h1 {
+    font-size:3rem;
+}
+
+h2 {
+    font-size:5.5rem;
+    letter-spacing: 0.02em;
+    line-height:6rem;
+    
+}
+
+
+h3 {
+    font-size:3rem;
+    letter-spacing: 0.02em;
+    line-height:4rem;
+}
+
+h5 {
+    font-size:2.5rem;
+    letter-spacing: 0.02em;
+    line-height:3rem;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+.exAlt1:before {
+    content:'\0777';
+}
+
+.exAlt2:before {
+    content:'\0776';
+}
+
+.exAlt3:before {
+    content:'\0778';
+}
+
+
+.caption {
+font-size:0.75em;
+text-align:right;
+font-weight:bold;
+font-style: italic;
+}
+
+button {
+    background:$red;
+    color:$background;
+    border:1px solid $red;
+    border-radius: 30px!important;
+}
+
+button:active,
+button:hover,
+button:visited {
+    color:$background;
+    color:$red;
+    background:$background;
+    border:1px solid $red;
+    border-radius: 30px;
+}
+
+.small {
+    font-size:0.75em;
+    line-height:1.3em;
+    font-weight:bold;
+    }
+
+.manifesto {
+    font-family: 'AAHA-WEB';
+    text-align:center;
+    font-weight:normal;
+    font-size:5vw;
+    line-height:1em;
+    margin:0;
+    padding:0;
+    position:absolute;
+    width:100%;
+    top:50%;
+    transform:translateY(-50%);
+
+    &:hover h2, 
+    &:hover .num{
+        color:rgba($foreground,0.3)
+    }
+    // margin-top:-50%;
+
+
+    h2 {
+        font-weight:normal;
+        display:inline;
+        font-size:inherit;
+        cursor:pointer;
+        transition:color $transition-time;
+
+        &:hover {
+            color:$red;
+
+            & span.num {
+                color:$red;
+            }
+        }
+    }
+    
+}
+
+/**** BEGIN ALT ****/
+
+.manifesto-2 {
+    font-family: 'AAHA-WEB';
+    text-align:left;
+    font-weight:normal;
+    font-size:5.5vw;
+    line-height:0.9em;
+    margin:0;
+    padding:0;
+    // position:absolute;
+    width:100%;
+    padding:1em;
+
+    &:hover h2, 
+    &:hover .num{
+        color:rgba($foreground,0.3)
+    }
+    // margin-top:-50%;
+
+
+    h2 {
+        
+        margin-left:-0.4em;
+        font-weight:normal;
+        // display:inline;
+        font-size:inherit;
+        line-height:0.9;
+        cursor:pointer;
+        transition:color $transition-time;
+
+        &:hover {
+            color:$red;
+
+            & span.num {
+                color:$red;
+            }
+        }
+    }
+    
+}
+
+
+.num {
+    // font-size:0.66em;
+    color:$red;
+    display:inline-block;
+    margin-right:0.1em;
+    // margin-top:-1.333em;
+    // transform:translateY(-0.5em);
+    // font-weight:bold;
+}
+
+
+label,
+.label {
+    font-family:aaha-web, monospace;
+    text-transform:uppercase;
+    display:inline-block;
+    font-size:0.8em;
+    line-height:1.2em;
+    letter-spacing:0.1em;
+    
+}
+
+.label li {
+    padding:0;
+    margin:0;
+}
+
+.label--red {
+    background:$red;
+    color:$white;
+    padding:0.25em 0.75em 0.05em;
+    border-radius:1em;
+}

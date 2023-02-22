@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+} 
+
+html, body {
+     background: $background;
+     color: $foreground;
+    min-height:100vh;
+    background-size:200vw;
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
+    
+}
+
+img {
+    width:100%;
+    max-width:100%;
+    filter: grayscale(100%) contrast(125%);
+    transition: filter $transition-time;
+
+    &:hover {
+        filter: grayscale(0%) contrast(100%);
+    }
+}
