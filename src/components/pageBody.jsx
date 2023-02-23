@@ -11,8 +11,8 @@ function PageBody({ title, getBodyRef, view_node, body }) {
 
 
           </div>
-          <div className='six columns'>
-            {body}
+          <div className='six columns'>            
+            <div dangerouslySetInnerHTML={ { __html: body } }></div>
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
            

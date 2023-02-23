@@ -26,6 +26,11 @@ function App() {
         </div>
          */}
 
+      <div id="lang">
+          <div className="active">EN</div>
+          <div>FR</div>
+          <div>IT</div>
+      </div>
 
       <h1>
         <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
