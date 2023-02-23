@@ -7,12 +7,12 @@ function App() {
   return (
     <>
       <h1>
-        <div className="title-top">ARCHITECTS AGAINST HOUSING ALIENATION!</div>
-        <div className="title-bottom">ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div>
+        <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
+        <div className='title-bottom'>ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div>
       </h1>
 
-      <section id="demands">
-        <div className="manifesto">
+      <section id='demands'>
+        <div className='manifesto'>
 
           TO DECOMMODIFY HOUSING IN
           C<span className='red'>\</span>A<span className='red'>\</span>N<span className='red'>\</span>A<span

@@ -1,10 +1,10 @@
 function DemandBody({ title }) {
 
   return (
-    <section id="the-unearned-increment" className="demand">
-      <div className="container">
-        <div className="row">
-          <div className="three columns sticky">
+    <section id='the-unearned-increment' className='demand'>
+      <div className='container'>
+        <div className='row'>
+          <div className='three columns sticky'>
             <h5>To decomodify housing in c/a/n/a/d/a we demand</h5>
             <h2>{title}</h2>
 
@@ -23,9 +23,9 @@ function DemandBody({ title }) {
             Levitt Goodman Associates
 
           </div>
-          <div className="six columns">
-            <img src="https://server-aaha.codepanel.in/web/sites/default/files/2022-12/Affordable%20Parkdale%201.jpeg?itok=hcX127WD" />
-            <p className="caption">This is a caption</p>
+          <div className='six columns'>
+            <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/Affordable%20Parkdale%201.jpeg?itok=hcX127WD' />
+            <p className='caption'>This is a caption</p>
 
             <p>
               We demand to tax the unearned increment to finance land trusts that acquire private rental housing and transform it into deeply affordable homes. The unearned increment is the value embedded in real estate, that is not created by a private owner, but rather has been built by Indigenous people, local cultures, tenants, neighbourhoods, publicly funded infrastructure and non-human biotic and abiotic ecologies. This value must be reinvested in affordable housing land trusts, in order to keep this value in the community that created it.
@@ -59,48 +59,48 @@ function DemandBody({ title }) {
             </p>
 
 
-            <div className="main-carousel">
-              <div className="carousel-cell">
-                <img src="https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_3cc.jpg?itok=BppEniI5" />
-                <p className="caption">example caption</p>
+            <div className='main-carousel'>
+              <div className='carousel-cell'>
+                <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_3cc.jpg?itok=BppEniI5' />
+                <p className='caption'>example caption</p>
               </div>
-              <div className="carousel-cell">
-                <img src="https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_2cc.jpg?itok=pPtOD-xP" />
-                <p className="caption">example caption</p>
+              <div className='carousel-cell'>
+                <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_2cc.jpg?itok=pPtOD-xP' />
+                <p className='caption'>example caption</p>
               </div>
-              <div className="carousel-cell">
-                <img src="https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_1cc.jpg?itok=8t0Is5R_" />
-                <p className="caption">example caption</p>
+              <div className='carousel-cell'>
+                <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_1cc.jpg?itok=8t0Is5R_' />
+                <p className='caption'>example caption</p>
               </div>
             </div>
           </div>
-          <div className="action-bar three columns sticky-bottom white-bg">
+          <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>TAKE ACTION</h3>
 
-            <ul className="actions">
+            <ul className='actions'>
               <li>
-                <label className="label--red">donate</label><br />
+                <label className='label--red'>donate</label><br />
                 Learn more about the campaign to for a gentrification tax
                 in Toronto by visiting <label>this page.</label>
                 <br />
                 <label>PAY THE VOLUNTARY TAX</label>
               </li>
               <li>
-                <label className="label--red">donate</label><br />
+                <label className='label--red'>donate</label><br />
                 Learn more about the campaign to for a gentrification tax
                 in Toronto by visiting <label>this page.</label>
                 <br />
                 <label>PAY THE VOLUNTARY TAX</label>
               </li>
               <li>
-                <label className="label--red">donate</label><br />
+                <label className='label--red'>donate</label><br />
                 Learn more about the campaign to for a gentrification tax
                 in Toronto by visiting <label>this page.</label>
                 <br />
                 <label>PAY THE VOLUNTARY TAX</label>
               </li>
               <li>
-                <label className="label--red">donate</label><br />
+                <label className='label--red'>donate</label><br />
                 Learn more about the campaign to for a gentrification tax
                 in Toronto by visiting <label>this page.</label>
                 <br />
@@ -108,14 +108,14 @@ function DemandBody({ title }) {
               </li>
 
               <li>
-                <label className="label--red">Sign</label><br />
+                <label className='label--red'>Sign</label><br />
                 Advocate for taxing the unearned incremenet at city hall by signing the petition below:
                 <br />
                 <label>Sign here</label>
               </li>
 
               <li>
-                <label className="label--red">participate</label><br />
+                <label className='label--red'>participate</label><br />
                 Attend one of the forthcoming Parkdale Community Information Sessions hosted by PNLT
                 <label>RSVP FOR AN INFORMATION SESSION</label>
               </li>
