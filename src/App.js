@@ -1,9 +1,12 @@
+import { useRef } from 'react'
 import './App.css'
 import headerData from './demands.json'
 import DemandHeader from './components/demandHeader'
 import DemandBody from './components/demandBody'
 
 function App() {
+  const demandRefs = useRef(Array(headerData.length))
+
   return (
     <>
       <h1>
@@ -18,10 +21,10 @@ function App() {
           C<span className='red'>\</span>A<span className='red'>\</span>N<span className='red'>\</span>A<span
             className='red'>\</span>D<span className='red'>\</span>A<br />
           WE DEMAND...
-          {headerData.map((header, i) => <DemandHeader {...header} key={i} />)}
+          {headerData.map((header, i) => <DemandHeader {...header} demandRef={demandRefs[i]} key={i} />)}
         </div>
       </section>
-      {headerData.map((header, i) => <DemandBody {...header} key={i} />)}
+      {headerData.map((header, i) => <DemandBody {...header} scrollToRef={demandRefs} key={i} />)}
     </>
   )
 }

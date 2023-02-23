@@ -1,7 +1,7 @@
-function DemandBody({ title }) {
+function DemandBody({ title, scrollToRef, view_node }) {
 
   return (
-    <section id='the-unearned-increment' className='demand'>
+    <section id={view_node} className={`demand ${title}`} ref={scrollToRef}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
