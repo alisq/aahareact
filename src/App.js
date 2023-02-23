@@ -16,15 +16,22 @@ function App() {
 
       <section id='demands'>
         <div className='manifesto'>
-
           TO DECOMMODIFY HOUSING IN
           C<span className='red'>\</span>A<span className='red'>\</span>N<span className='red'>\</span>A<span
             className='red'>\</span>D<span className='red'>\</span>A<br />
           WE DEMAND...
-          {headerData.map((header, i) => <DemandHeader {...header} demandRef={demandRefs[i]} key={i} />)}
+          {headerData.map((header, i) =>
+            <DemandHeader {...header}
+              getBodyRef={() => demandRefs.current[i]}
+              key={i} />
+          )}
         </div>
       </section>
-      {headerData.map((header, i) => <DemandBody {...header} scrollToRef={demandRefs} key={i} />)}
+      {headerData.map((header, i) =>
+        <DemandBody {...header}
+          getBodyRef={section => demandRefs.current[i] = section}
+          key={i} />
+      )}
     </>
   )
 }
