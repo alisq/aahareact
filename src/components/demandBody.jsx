@@ -1,7 +1,7 @@
-function DemandBody({ title, scrollToRef, view_node }) {
+function DemandBody({ title, getBodyRef, view_node }) {
 
   return (
-    <section id={view_node} className={`demand ${title}`} ref={scrollToRef}>
+    <section id={view_node} className='demand' ref={getBodyRef}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
