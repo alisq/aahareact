@@ -1,7 +1,6 @@
-function DemandBody({ title, getBodyRef, view_node }) {
-
+function DemandBody({ title, getBodyRef, demand_id }) {
   return (
-    <section id={view_node} className='demand' ref={getBodyRef}>
+    <section id={demand_id} className='demand' ref={getBodyRef}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>

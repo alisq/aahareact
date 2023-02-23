@@ -1,4 +1,5 @@
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import './App.css'
 import headerData from './demands.json'
 import DemandHeader from './components/demandHeader'
@@ -6,6 +7,14 @@ import DemandBody from './components/demandBody'
 
 function App() {
   const demandRefs = useRef(Array(headerData.length))
+
+  const { hash } = useLocation()
+  const navigate = useNavigate()
+  useEffect(() => {
+    if (!hash) return
+    const targetDemandRef = demandRefs.current.find(ref => `#${ref.id}` === hash)
+    if (targetDemandRef) targetDemandRef.scrollIntoView()
+  }, [])
 
   return (
     <>
@@ -22,6 +31,7 @@ function App() {
           WE DEMAND...
           {headerData.map((header, i) =>
             <DemandHeader {...header}
+              navigate={navigate}
               getBodyRef={() => demandRefs.current[i]}
               key={i} />
           )}

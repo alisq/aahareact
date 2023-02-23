@@ -9,7 +9,7 @@
     "field_dom_text": "Land Back",
     "field_exmark": "",
     "title_1": "\u003Ca href=\u0022/land-back\u0022 hreflang=\u0022en\u0022\u003ELand Back\u003C/a\u003E",
-    "view_node": "land-back"
+    "demand_id": "land-back"
   },
   {
     "title": "Collective Ownership",
@@ -21,7 +21,7 @@
     "field_dom_text": "Collective\u003Cbr /\u003E\u003Cbr /\u003E\r\nOwnership",
     "field_exmark": "",
     "title_1": "\u003Ca href=\u0022/collective-ownership\u0022 hreflang=\u0022en\u0022\u003ECollective Ownership\u003C/a\u003E",
-    "view_node": "collective-ownership"
+    "demand_id": "collective-ownership"
   },
   {
     "title": "Home Building Lodges",
@@ -33,7 +33,7 @@
     "field_dom_text": "Home \u003Cbr /\u003E\u003Cbr /\u003E\r\nBuilding Lodges",
     "field_exmark": "exAlt2",
     "title_1": "\u003Ca href=\u0022/home-building-lodges\u0022 hreflang=\u0022en\u0022\u003EHome Building Lodges\u003C/a\u003E",
-    "view_node": "home-building-lodges"
+    "demand_id": "home-building-lodges"
   },
   {
     "title": "On the Land Housing",
@@ -45,7 +45,7 @@
     "field_dom_text": "On the Land Housing",
     "field_exmark": "exAlt2",
     "title_1": "\u003Ca href=\u0022/land-housing\u0022 hreflang=\u0022en\u0022\u003EOn the Land Housing\u003C/a\u003E",
-    "view_node": "land-housing"
+    "demand_id": "land-housing"
   },
   {
     "title": "Reparative Planning",
@@ -57,7 +57,7 @@
     "field_dom_text": "Reparative Planning",
     "field_exmark": "exAlt1",
     "title_1": "\u003Ca href=\u0022/reparative-planning\u0022 hreflang=\u0022en\u0022\u003EReparative Planning\u003C/a\u003E",
-    "view_node": "reparative-planning"
+    "demand_id": "reparative-planning"
   },
   {
     "title": "Intentional Communities for Unhoused People",
@@ -69,7 +69,7 @@
     "field_dom_text": "Intentional Communities for Unhoused\u003Cbr /\u003E\u003Cbr /\u003E\r\nPeople",
     "field_exmark": "",
     "title_1": "\u003Ca href=\u0022/intentional-communities-unhoused-people\u0022 hreflang=\u0022en\u0022\u003EIntentional Communities for Unhoused People\u003C/a\u003E",
-    "view_node": "intentional-communities-unhoused-people"
+    "demand_id": "intentional-communities-unhoused-people"
   },
   {
     "title": "The Unearned Increment",
@@ -81,7 +81,7 @@
     "field_dom_text": "The Unearned Increment",
     "field_exmark": "exAlt2",
     "title_1": "\u003Ca href=\u0022/unearned-increment\u0022 hreflang=\u0022en\u0022\u003EThe Unearned Increment\u003C/a\u003E",
-    "view_node": "unearned-increment"
+    "demand_id": "unearned-increment"
   },
   {
     "title": "Mutual Aid Housing",
@@ -93,7 +93,7 @@
     "field_dom_text": "Mutual \u003Cbr /\u003E\u003Cbr /\u003E\r\nAid Housing",
     "field_exmark": "",
     "title_1": "\u003Ca href=\u0022/mutual-aid-housing\u0022 hreflang=\u0022en\u0022\u003EMutual Aid Housing\u003C/a\u003E",
-    "view_node": "mutual-aid-housing"
+    "demand_id": "mutual-aid-housing"
   },
   {
     "title": "Ambient Ecosystems Commons",
@@ -105,7 +105,7 @@
     "field_dom_text": "Ambient Ecosystems \u003Cbr /\u003E\u003Cbr /\u003E\r\nCommons",
     "field_exmark": "",
     "title_1": "\u003Ca href=\u0022/ambient-ecosystems-commons\u0022 hreflang=\u0022en\u0022\u003EAmbient Ecosystems Commons\u003C/a\u003E",
-    "view_node": "ambient-ecosystems-commons"
+    "demand_id": "ambient-ecosystems-commons"
   },
   {
     "title": "Surplus Properties for Housing",
@@ -117,6 +117,6 @@
     "field_dom_text": "Surplus Properties for Housing",
     "field_exmark": "exAlt3",
     "title_1": "\u003Ca href=\u0022/surplus-properties-housing\u0022 hreflang=\u0022en\u0022\u003ESurplus Properties for Housing\u003C/a\u003E",
-    "view_node": "surplus-properties-housing"
+    "demand_id": "surplus-properties-housing"
   }
 ]
