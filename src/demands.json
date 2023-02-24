@@ -8,7 +8,7 @@
     "field_demand_no": "\u00b9",
     "field_dom_text": "Land Back",
     "field_exmark": "",
-    "title_1": "\u003Ca href=\u0022/land-back\u0022 hreflang=\u0022en\u0022\u003ELand Back\u003C/a\u003E",
+    "title_1": "<a href=\u0022/land-back\u0022 hreflang=\u0022en\u0022>Land Back</a>",
     "demand_id": "land-back"
   },
   {
@@ -18,9 +18,9 @@
     "field_region": "",
     "field_short_summary": "",
     "field_demand_no": "\u00b2",
-    "field_dom_text": "Collective\u003Cbr /\u003E\u003Cbr /\u003E\r\nOwnership",
+    "field_dom_text": "Collective<br />\r\nOwnership",
     "field_exmark": "",
-    "title_1": "\u003Ca href=\u0022/collective-ownership\u0022 hreflang=\u0022en\u0022\u003ECollective Ownership\u003C/a\u003E",
+    "title_1": "<a href=\u0022/collective-ownership\u0022 hreflang=\u0022en\u0022>Collective Ownership</a>",
     "demand_id": "collective-ownership"
   },
   {
@@ -30,9 +30,9 @@
     "field_region": "",
     "field_short_summary": "",
     "field_demand_no": "\u2074",
-    "field_dom_text": "Home \u003Cbr /\u003E\u003Cbr /\u003E\r\nBuilding Lodges",
+    "field_dom_text": "Home <br />\r\nBuilding Lodges",
     "field_exmark": "exAlt2",
-    "title_1": "\u003Ca href=\u0022/home-building-lodges\u0022 hreflang=\u0022en\u0022\u003EHome Building Lodges\u003C/a\u003E",
+    "title_1": "<a href=\u0022/home-building-lodges\u0022 hreflang=\u0022en\u0022>Home Building Lodges</a>",
     "demand_id": "home-building-lodges"
   },
   {
@@ -44,7 +44,7 @@
     "field_demand_no": "\u00b3",
     "field_dom_text": "On the Land Housing",
     "field_exmark": "exAlt2",
-    "title_1": "\u003Ca href=\u0022/land-housing\u0022 hreflang=\u0022en\u0022\u003EOn the Land Housing\u003C/a\u003E",
+    "title_1": "<a href=\u0022/land-housing\u0022 hreflang=\u0022en\u0022>On the Land Housing</a>",
     "demand_id": "land-housing"
   },
   {
@@ -56,7 +56,7 @@
     "field_demand_no": "\u2075",
     "field_dom_text": "Reparative Planning",
     "field_exmark": "exAlt1",
-    "title_1": "\u003Ca href=\u0022/reparative-planning\u0022 hreflang=\u0022en\u0022\u003EReparative Planning\u003C/a\u003E",
+    "title_1": "<a href=\u0022/reparative-planning\u0022 hreflang=\u0022en\u0022>Reparative Planning</a>",
     "demand_id": "reparative-planning"
   },
   {
@@ -66,9 +66,9 @@
     "field_region": "",
     "field_short_summary": "",
     "field_demand_no": "\u2076",
-    "field_dom_text": "Intentional Communities for Unhoused\u003Cbr /\u003E\u003Cbr /\u003E\r\nPeople",
+    "field_dom_text": "Intentional Communities for Unhoused<br />\r\nPeople",
     "field_exmark": "",
-    "title_1": "\u003Ca href=\u0022/intentional-communities-unhoused-people\u0022 hreflang=\u0022en\u0022\u003EIntentional Communities for Unhoused People\u003C/a\u003E",
+    "title_1": "<a href=\u0022/intentional-communities-unhoused-people\u0022 hreflang=\u0022en\u0022>Intentional Communities for Unhoused People</a>",
     "demand_id": "intentional-communities-unhoused-people"
   },
   {
@@ -80,19 +80,19 @@
     "field_demand_no": "\u2077",
     "field_dom_text": "The Unearned Increment",
     "field_exmark": "exAlt2",
-    "title_1": "\u003Ca href=\u0022/unearned-increment\u0022 hreflang=\u0022en\u0022\u003EThe Unearned Increment\u003C/a\u003E",
+    "title_1": "<a href=\u0022/unearned-increment\u0022 hreflang=\u0022en\u0022>The Unearned Increment</a>",
     "demand_id": "unearned-increment"
   },
   {
     "title": "Mutual Aid Housing",
-    "field_content": "  \u003Cdiv class=\u0022paragraph paragraph--type--single-image paragraph--view-mode--default\u0022\u003E\n          \n  \u003Cdiv class=\u0022field field--name-field-image field--type-image field--label-above\u0022\u003E\n    \u003Cdiv class=\u0022field__label\u0022\u003EImage\u003C/div\u003E\n              \u003Cdiv class=\u0022field__item\u0022\u003E  \u003Cimg loading=\u0022lazy\u0022 src=\u0022/sites/default/files/2023-01/Screen%20Shot%202022-04-07%20at%2012.44.31%20PM.png\u0022 width=\u00222156\u0022 height=\u00222276\u0022 alt=\u0022book.\u0022 /\u003E\n\n\u003C/div\u003E\n          \u003C/div\u003E\n\n      \u003C/div\u003E\n,   \u003Cdiv class=\u0022paragraph paragraph--type--long-text paragraph--view-mode--default\u0022\u003E\n          \n  \u003Cdiv class=\u0022text-content clearfix field field--name-field-text field--type-text-long field--label-above\u0022\u003E\n    \u003Cdiv class=\u0022field__label\u0022\u003EText\u003C/div\u003E\n              \u003Cdiv class=\u0022field__item\u0022\u003E\u003Ch3\u003EHere is a piece of text. real quick.\u003C/h3\u003E\u003Cp\u003E\u00a0\u003C/p\u003E\u003Cp\u003Esome thing else\u003C/p\u003E\u003C/div\u003E\n          \u003C/div\u003E\n\n      \u003C/div\u003E\n",
+    "field_content": "  <div class=\u0022paragraph paragraph--type--single-image paragraph--view-mode--default\u0022>\n          \n  <div class=\u0022field field--name-field-image field--type-image field--label-above\u0022>\n    <div class=\u0022field__label\u0022>Image</div>\n              <div class=\u0022field__item\u0022>  <img loading=\u0022lazy\u0022 src=\u0022/sites/default/files/2023-01/Screen%20Shot%202022-04-07%20at%2012.44.31%20PM.png\u0022 width=\u00222156\u0022 height=\u00222276\u0022 alt=\u0022book.\u0022 />\n\n</div>\n          </div>\n\n      </div>\n,   <div class=\u0022paragraph paragraph--type--long-text paragraph--view-mode--default\u0022>\n          \n  <div class=\u0022text-content clearfix field field--name-field-text field--type-text-long field--label-above\u0022>\n    <div class=\u0022field__label\u0022>Text</div>\n              <div class=\u0022field__item\u0022><h3>Here is a piece of text. real quick.</h3><p>\u00a0</p><p>some thing else</p></div>\n          </div>\n\n      </div>\n",
     "field_long_summary": "",
     "field_region": "Montr\u00e9al",
     "field_short_summary": "",
     "field_demand_no": "\u2078",
-    "field_dom_text": "Mutual \u003Cbr /\u003E\u003Cbr /\u003E\r\nAid Housing",
+    "field_dom_text": "Mutual <br />\r\nAid Housing",
     "field_exmark": "",
-    "title_1": "\u003Ca href=\u0022/mutual-aid-housing\u0022 hreflang=\u0022en\u0022\u003EMutual Aid Housing\u003C/a\u003E",
+    "title_1": "<a href=\u0022/mutual-aid-housing\u0022 hreflang=\u0022en\u0022>Mutual Aid Housing</a>",
     "demand_id": "mutual-aid-housing"
   },
   {
@@ -102,9 +102,9 @@
     "field_region": "",
     "field_short_summary": "",
     "field_demand_no": "\u2079",
-    "field_dom_text": "Ambient Ecosystems \u003Cbr /\u003E\u003Cbr /\u003E\r\nCommons",
+    "field_dom_text": "Ambient Ecosystems <br />\r\nCommons",
     "field_exmark": "",
-    "title_1": "\u003Ca href=\u0022/ambient-ecosystems-commons\u0022 hreflang=\u0022en\u0022\u003EAmbient Ecosystems Commons\u003C/a\u003E",
+    "title_1": "<a href=\u0022/ambient-ecosystems-commons\u0022 hreflang=\u0022en\u0022>Ambient Ecosystems Commons</a>",
     "demand_id": "ambient-ecosystems-commons"
   },
   {
@@ -116,7 +116,7 @@
     "field_demand_no": "\u00b9\u2070",
     "field_dom_text": "Surplus Properties for Housing",
     "field_exmark": "exAlt3",
-    "title_1": "\u003Ca href=\u0022/surplus-properties-housing\u0022 hreflang=\u0022en\u0022\u003ESurplus Properties for Housing\u003C/a\u003E",
+    "title_1": "<a href=\u0022/surplus-properties-housing\u0022 hreflang=\u0022en\u0022>Surplus Properties for Housing</a>",
     "demand_id": "surplus-properties-housing"
   }
 ]
