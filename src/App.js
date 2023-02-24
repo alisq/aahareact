@@ -6,35 +6,31 @@ import pageData from './pages.json'
 import DemandHeader from './components/demandHeader'
 import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
-import {ReactComponent as FistHome} from './svg/fist-home.svg';
+import { ReactComponent as FistHome } from './svg/fist-home.svg'
 
 function App() {
   const demandRefs = useRef(Array(headerData.length))
-  
+
   const { hash } = useLocation()
   const navigate = useNavigate()
 
   useEffect(() => {
-    //console.log(demandRefs.current)
     if (!hash) return
     // when you enter a url with hash, it scrolls to that automatically
     const targetDemandRef = demandRefs.current.find(ref => `#${ref.id}` === hash)
     if (targetDemandRef) targetDemandRef.scrollIntoView()
-  }, []) 
-
-  const divRef = useRef(null)
-  // console.log(divRef.current)
+  }, [])
 
   return (
     <>
-      <div id="menu-button" ref={divRef}>
+      <div id="menu-button">
         <div className="menu-button-square top-left"></div>
         <div className="menu-button-square top-right"></div>
         <div className="menu-button-square bottom-left"></div>
         <div className="menu-button-square bottom-right"></div>
       </div>
 
-      <FistHome id="menu-fist"/>  
+      <FistHome id="menu-fist" />
 
       <div id="lang">
         <div className="active">EN</div>
@@ -61,7 +57,7 @@ function App() {
           )}
         </div>
       </section>
-      {headerData.map((header, i) =>  
+      {headerData.map((header, i) =>
         <DemandBody {...header}
           loadBodyRef={section => demandRefs.current[i] = section}
           key={i} />

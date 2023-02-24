@@ -1,17 +1,7 @@
-import { useRef , useEffect} from "react"
-import useOnScreen from "../hooks/useOnScreen"
-
 function DemandBody({ title, loadBodyRef, demand_id }) {
-
-  const dummyRef = useRef(null)
-  const isVisible = useOnScreen(dummyRef)
-  useEffect(() => {
-    console.log(isVisible, demand_id)
-  }, [isVisible])
-
   return (
     <section id={demand_id} className='demand' ref={loadBodyRef}>
-      <div className='container' ref={dummyRef}>
+      <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
             <h5>To decomodify housing in c/a/n/a/d/a we demand</h5>
