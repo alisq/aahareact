@@ -1,7 +1,7 @@
 function DemandHeader({ title, navigate, field_demand_no, getBodyRef, field_exmark, demand_id }) {
   const handleClick = () => {
     // gets the reference to the corresponding body
-    getBodyRef().scrollIntoView({ behavior: 'smooth' })
+    getBodyRef().current.scrollIntoView({ behavior: 'smooth' })
     navigate(`#${demand_id}`)
   }
 

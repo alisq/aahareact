@@ -9,7 +9,7 @@ import PageBody from './components/pageBody'
 import { ReactComponent as FistHome } from './svg/fist-home.svg'
 
 function App() {
-  const demandRefs = useRef(Array(headerData.length))
+  const demandRefs = useRef([])
 
   const { hash } = useLocation()
   const navigate = useNavigate()
@@ -17,23 +17,23 @@ function App() {
   useEffect(() => {
     if (!hash) return
     // when you enter a url with hash, it scrolls to that automatically
-    const targetDemandRef = demandRefs.current.find(ref => `#${ref.id}` === hash)
-    if (targetDemandRef) targetDemandRef.scrollIntoView()
+    const targetDemandBodyRef = demandRefs.current.find(demandBodyRef => demandBodyRef.current.id === hash.slice(1))
+    if (targetDemandBodyRef) targetDemandBodyRef.current.scrollIntoView()
   }, [])
 
   return (
     <>
-      <div id="menu-button">
-        <div className="menu-button-square top-left"></div>
-        <div className="menu-button-square top-right"></div>
-        <div className="menu-button-square bottom-left"></div>
-        <div className="menu-button-square bottom-right"></div>
+      <div id='menu-button'>
+        <div className='menu-button-square top-left'></div>
+        <div className='menu-button-square top-right'></div>
+        <div className='menu-button-square bottom-left'></div>
+        <div className='menu-button-square bottom-right'></div>
       </div>
 
-      <FistHome id="menu-fist" />
+      <FistHome id='menu-fist' />
 
-      <div id="lang">
-        <div className="active">EN</div>
+      <div id='lang'>
+        <div className='active'>EN</div>
         <div>FR</div>
         <div>IT</div>
       </div>
@@ -59,13 +59,12 @@ function App() {
       </section>
       {headerData.map((header, i) =>
         <DemandBody {...header}
-          loadBodyRef={section => demandRefs.current[i] = section}
+          onDemandRefLoad={ref => demandRefs.current[i] = ref}
           key={i} />
       )}
 
       {pageData.map((page, i) =>
-        <PageBody {...page}
-          key={i} />
+        <PageBody {...page} key={i} />
       )}
     </>
   )

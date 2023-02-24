@@ -4,12 +4,12 @@ import App from './App'
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom"
+} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App />,
   },
 ])
