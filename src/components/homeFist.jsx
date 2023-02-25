@@ -16,8 +16,7 @@ function HomeFist() {
     <FistHome
       id='menu-fist'
       style={{ display: scrollY > 100 ? 'block' : 'none' }}
-      onClick={handleClick}
-    />
+      onClick={handleClick} />
   )
 }
 
