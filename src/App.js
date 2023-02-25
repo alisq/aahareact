@@ -6,10 +6,12 @@ import pageData from './pages.json'
 import DemandHeader from './components/demandHeader'
 import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
+import Menu from './components/menu'
 import { ReactComponent as FistHome } from './svg/fist-home.svg'
 
+
 function App() {
-  const demandRefs = useRef([])
+  const demandRefs = useRef(Array(headerData.length))
 
   const { hash } = useLocation()
   const navigate = useNavigate()
@@ -23,13 +25,8 @@ function App() {
 
   return (
     <>
-      <div id='menu-button'>
-        <div className='menu-button-square top-left'></div>
-        <div className='menu-button-square top-right'></div>
-        <div className='menu-button-square bottom-left'></div>
-        <div className='menu-button-square bottom-right'></div>
-      </div>
 
+      <Menu />
       <FistHome id='menu-fist' />
 
       <div id='lang'>
