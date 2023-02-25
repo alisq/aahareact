@@ -6,9 +6,8 @@ import pageData from './pages.json'
 import DemandHeader from './components/demandHeader'
 import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
+import HomeFist from './components/homeFist'
 import Menu from './components/menu'
-import { ReactComponent as FistHome } from './svg/fist-home.svg'
-
 
 function App() {
   const demandRefs = useRef(Array(headerData.length))
@@ -28,7 +27,7 @@ function App() {
     <>
 
       <Menu navigate={navigate} pageRefs={pageRefs} />
-      <FistHome id='menu-fist' />
+      <HomeFist />
 
       <div id='lang'>
         <div className='active'>EN</div>
