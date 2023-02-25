@@ -1,35 +1,39 @@
 import { useState } from 'react'
+import pageData from '../pages.json'
+import MenuLink from './menuLink'
 
-function Menu() {
+function Menu({ navigate, pageRefs }) {
   const [visibility, setVisibility] = useState(false)
 
-  const handleClick = () => {
-    console.log('CLicked')
-    setVisibility(!visibility)
+  const createHandleClick = (i, view_node) => () => {
+    // gets the reference to the corresponding body
+    pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
+    navigate(`#${view_node}`)
+    setVisibility(false)
   }
+
   return (
     <>
-      <div id='menu-button' onClick={handleClick}>
+      <div id='menu-button'
+        onClick={() => setVisibility(!visibility)}
+        className={visibility ? 'active' : ''}>
         <div className='menu-button-square top-left'></div>
         <div className='menu-button-square top-right'></div>
         <div className='menu-button-square bottom-left'></div>
         <div className='menu-button-square bottom-right'></div>
       </div>
 
-
-
-      <section id='menu' style={{
-        display: visibility ? 'block' : 'none',
-        opacity: visibility ? '1' : '0',
-        visibility: visibility ? 'visible' : 'hidden',
-      }}>
+      <section id='menu' className={visibility ? 'active' : ''}>
         <ul>
-          <li data-item='demands'><a>DEMANDS</a></li>
-          <li data-item='manifesto'><a>MANIFESTO</a></li>
-          <li data-item='take-action'><a>TAKE ACTION</a></li>
-          <li data-item='events'><a>EVENTS</a></li>
-          <li data-item='collective'><a>COLLECTIVE</a></li>
-          <li data-item='contact'><a>CONTACT</a></li>
+
+          {pageData.map((page, i) =>
+            <MenuLink {...page}
+              navigate={navigate}
+              getBodyRef={() => pageRefs.current[i]}
+              handleClick={createHandleClick(i, page.view_node)}
+              key={i} />
+          )}
+
         </ul>
       </section>
     </>

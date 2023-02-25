@@ -12,6 +12,7 @@ import { ReactComponent as FistHome } from './svg/fist-home.svg'
 
 function App() {
   const demandRefs = useRef(Array(headerData.length))
+  const pageRefs = useRef(Array(pageData.length))
 
   const { hash } = useLocation()
   const navigate = useNavigate()
@@ -26,7 +27,7 @@ function App() {
   return (
     <>
 
-      <Menu />
+      <Menu navigate={navigate} pageRefs={pageRefs} />
       <FistHome id='menu-fist' />
 
       <div id='lang'>
@@ -61,7 +62,9 @@ function App() {
       )}
 
       {pageData.map((page, i) =>
-        <PageBody {...page} key={i} />
+        <PageBody {...page}
+          onPageRefLoad={ref => pageRefs.current[i] = ref}
+          key={i} />
       )}
     </>
   )
