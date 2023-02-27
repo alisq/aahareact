@@ -26,6 +26,8 @@ function App() {
   return (
     <>
 
+    
+
       <Menu navigate={navigate} pageRefs={pageRefs} />
       <HomeFist />
 
@@ -70,3 +72,4 @@ function App() {
 }
 
 export default App
+ 

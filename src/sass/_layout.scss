@@ -249,7 +249,8 @@ h1 {
 
 #menu-fist {
     width:30px;height:30px;
-    display:none;
+    display:block;
+    opacity:0;
     cursor: pointer;
     position:fixed;
     z-index:12;
@@ -260,6 +261,7 @@ h1 {
     right:2rem;
     font-size:4em;
     font-family: "AAHA-WEB";
+    fill: rgb(192,0,0);
 
     & #top_fist {
         fill:$red;
