@@ -26,7 +26,7 @@ function App() {
   const browserLangIndex = langs.indexOf(browserLang)
   const [langIndex, setLangIndex] = useState(browserLangIndex !== -1 ? browserLangIndex : 0)
 
-  
+
   useEffect(() => {
     if (!hash) return
     // when you enter a url with hash, it scrolls to that automatically
@@ -35,13 +35,13 @@ function App() {
   }, [])
 
   const showDemand = () => {
-    
+
     const matchedDemand = headerData.find(demand => demand.demand_id === currentDemand)
     //console.log(matchedDemand.demand_id)
 
 
     if (matchedDemand) return (
-      
+
       <DemandBody {...matchedDemand} lang={matchedDemand[langs[langIndex]]} />
     )
 
@@ -50,9 +50,9 @@ function App() {
   }
 
   return (
-    
+
     <>
-    
+
       <Menu navigate={navigate} pageRefs={pageRefs} />
       <HomeFist />
 
@@ -64,7 +64,7 @@ function App() {
               isActive={langIndex === i}
               handleClick={() => {
                 setLangIndex(i)
-                
+
               }}
               key={i} />)
         }
@@ -86,8 +86,8 @@ function App() {
               navigate={navigate}
               handleClick={setCurrentDemand}
               getBodyRef={() => demandRefs.current[i]}
-              key={i} 
-              lang={header[langs[langIndex]]}/>
+              key={i}
+              lang={header[langs[langIndex]]} />
           )}
         </div>
       </section>
@@ -107,7 +107,7 @@ function App() {
           onPageRefLoad={ref => pageRefs.current[i] = ref}
           key={i} />
       )} */}
-      
+
     </>
   )
 }

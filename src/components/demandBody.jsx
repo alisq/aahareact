@@ -1,13 +1,17 @@
+import { useEffect } from 'react'
 
 function DemandBody({ lang, demand_id }) {
 
-  document.title = "AAHA | "+lang.title;
+  document.title = "AAHA | " + lang.title
 
-  setTimeout(function(){
-    window.scrollTo(({ top: window.innerHeight, behavior: 'smooth' }))
-  },200)
+  // setTimeout(function () {
+  //   window.scrollTo(({ top: window.innerHeight, behavior: 'smooth' }))
+  // }, 200)
 
-  
+  useEffect(() => {
+    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
+  }, [])
+
   return (
     <section id={demand_id} className='demand'>
       <div className='container'>
@@ -32,8 +36,8 @@ function DemandBody({ lang, demand_id }) {
 
           </div>
           <div className='six columns'>
-           
-            <div dangerouslySetInnerHTML={ { __html: lang.field_content } }></div>
+
+            <div dangerouslySetInnerHTML={{ __html: lang.field_content }}></div>
 
             <div className='main-carousel'>
               <div className='carousel-cell'>
