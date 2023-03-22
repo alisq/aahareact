@@ -1,25 +1,21 @@
 import { useEffect } from 'react'
 
-function DemandBody({ lang, demand_id }) {
+function DemandBody({ lang, demand_id, sectionRef }) {
 
   document.title = "AAHA | " + lang.title
 
-  // setTimeout(function () {
-  //   window.scrollTo(({ top: window.innerHeight, behavior: 'smooth' }))
-  // }, 200)
-
   useEffect(() => {
-    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
-  }, [])
+    if (sectionRef && sectionRef.current)
+      sectionRef.current.scrollIntoView({ behavior: 'smooth' })
+  }, [sectionRef, lang])
 
   return (
-    <section id={demand_id} className='demand'>
+    <section id={demand_id} className='demand' ref={sectionRef}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
             <h5>To decomodify housing in c/a/n/a/d/a we demand</h5>
             <h2>{lang.title}</h2>
-
 
             <p>
               {lang.field_long_summary}

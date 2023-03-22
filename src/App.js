@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
 import './App.css'
+import { gsap } from "gsap"
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import headerData from './demands.json'
 import pageData from './pages.json'
 import DemandHeader from './components/demandHeader'
@@ -9,65 +10,85 @@ import PageBody from './components/pageBody'
 import HomeFist from './components/homeFist'
 import Menu from './components/menu'
 import Footer from './components/footer'
-import getBrowserLang from './util/getBrowserLang'
-import LanguageButton from './components/languageButton'
+import { getBrowserLang, setBrowserLang } from './services/languageServices'
+import LangButton from './components/langButton'
 
 function App() {
-  const demandRefs = useRef(Array(headerData.length))
+  const [currentDemand, setCurrentDemand] = useState(null)
+
+  const compRef = useRef(null)
+  const demandBodyRef = useRef(null)
   const pageRefs = useRef(Array(pageData.length))
 
   const { hash } = useLocation()
   const navigate = useNavigate()
-
-  const [currentDemand, setCurrentDemand] = useState(null)
 
   const langs = ['en', 'fr']
   const browserLang = getBrowserLang()
   const browserLangIndex = langs.indexOf(browserLang)
   const [langIndex, setLangIndex] = useState(browserLangIndex !== -1 ? browserLangIndex : 0)
 
+  const findDemandFromId = demandId => headerData.find(demand => demand.demand_id === demandId)
+  const scrollToDemand = () => {
+    if (demandBodyRef && demandBodyRef.current)
+      demandBodyRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+  const showDemand = () => {
+    if (!currentDemand) return null
+    const matchedDemand = findDemandFromId(currentDemand)
+    return <DemandBody {...matchedDemand}
+      lang={matchedDemand[langs[langIndex]]}
+      sectionRef={demandBodyRef} />
+  }
+
+  const gsapConfig = {
+    duration: 0.2,
+    ease: 'power2'
+  }
 
   useEffect(() => {
     if (!hash) return
-    // when you enter a url with hash, it scrolls to that automatically
-    const targetDemandBodyRef = demandRefs.current.find(demandBodyRef => demandBodyRef.current.id === hash.slice(1))
-    if (targetDemandBodyRef) targetDemandBodyRef.current.scrollIntoView()
-  }, [])
+    const demandId = hash.slice(1)
+    if (findDemandFromId(demandId)) setCurrentDemand(demandId)
+  }, [hash])
 
-  const showDemand = () => {
+  useEffect(scrollToDemand, [currentDemand, demandBodyRef])
+  useLayoutEffect(() => {
+    let ctx = gsap.context(
+      gsap.to(
+        demandBodyRef.current, { opacity: 1, ...gsapConfig }
+      ), compRef)
+    return () => ctx.revert()
+  }, [langIndex])
 
-    const matchedDemand = headerData.find(demand => demand.demand_id === currentDemand)
-    //console.log(matchedDemand.demand_id)
+  const handleLangButton = i => {
+    if (langIndex === i) return
+    setBrowserLang(langs[i])
+    gsap.to(demandBodyRef.current, {
+      opacity: 0,
+      onComplete: () => setLangIndex(i),
+      ...gsapConfig
+    })
+  }
 
-
-    if (matchedDemand) return (
-
-      <DemandBody {...matchedDemand} lang={matchedDemand[langs[langIndex]]} />
-    )
-
-
-    return null
+  const handleHeaderClick = (demand_id) => {
+    setCurrentDemand(demand_id)
+    scrollToDemand()
+    navigate(`#${demand_id}`)
   }
 
   return (
-
     <>
-
       <Menu navigate={navigate} pageRefs={pageRefs} />
       <HomeFist />
 
       <div id='lang'>
-        {
-          langs && langs.map((lang, i) =>
-            <LanguageButton
-              lang={lang}
-              isActive={langIndex === i}
-              handleClick={() => {
-                setLangIndex(i)
-
-              }}
-              key={i} />)
-        }
+        {langs && langs.map((lang, i) =>
+          <LangButton
+            lang={lang}
+            isActive={langIndex === i}
+            handleClick={() => handleLangButton(i)}
+            key={i} />)}
       </div>
 
       <h1>
@@ -75,7 +96,7 @@ function App() {
         <div className='title-bottom'>ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div>
       </h1>
 
-      <section id='demands'>
+      <section id='demands' ref={compRef}>
         <div className='manifesto'>
           TO DECOMMODIFY HOUSING IN
           c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
@@ -84,8 +105,7 @@ function App() {
           {headerData.map((header, i) =>
             <DemandHeader {...header}
               navigate={navigate}
-              handleClick={setCurrentDemand}
-              getBodyRef={() => demandRefs.current[i]}
+              handleClick={handleHeaderClick}
               key={i}
               lang={header[langs[langIndex]]} />
           )}
@@ -95,12 +115,6 @@ function App() {
       {showDemand()}
 
       <Footer />
-
-      {/* {headerData.map((header, i) =>
-        <DemandBody {...header}
-          onDemandRefLoad={ref => demandRefs.current[i] = ref}
-          key={i} />
-      )} */}
 
       {/* {pageData.map((page, i) =>
         <PageBody {...page}

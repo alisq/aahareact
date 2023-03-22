@@ -1,16 +1,16 @@
 import React from 'react'
 
-function LanguageButton({ lang, isActive, handleClick }) {
+function LangButton({ lang, isActive, handleClick }) {
 
-  
+
   return (
     <div
       className={isActive ? 'active' : ''}
       onClick={handleClick} >
       {lang.toLocaleUpperCase()}
     </div>
-  
+
   )
 }
 
-export default LanguageButton
+export default LangButton
