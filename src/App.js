@@ -36,7 +36,12 @@ function App() {
   const showDemand = () => {
     
     const matchedDemand = headerData.find(demand => demand.demand_id === currentDemand)
-    
+    //console.log(matchedDemand.demand_id)
+
+    setTimeout(function(){
+      window.scrollTo(({ top: window.innerHeight, behavior: 'smooth' }))
+    },200)
+
     if (matchedDemand) return (
       
     <DemandBody {...matchedDemand} lang={matchedDemand[langs[langIndex]]} />
