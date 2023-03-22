@@ -1,5 +1,10 @@
 
 function DemandBody({ lang, demand_id }) {
+
+  setTimeout(function(){
+    window.scrollTo(({ top: window.innerHeight, behavior: 'smooth' }))
+  },200)
+
   
   return (
     <section id={demand_id} className='demand'>

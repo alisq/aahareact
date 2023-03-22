@@ -8,6 +8,7 @@ import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
 import HomeFist from './components/homeFist'
 import Menu from './components/menu'
+import Footer from './components/footer'
 import getBrowserLang from './util/getBrowserLang'
 import LanguageButton from './components/languageButton'
 
@@ -38,14 +39,13 @@ function App() {
     const matchedDemand = headerData.find(demand => demand.demand_id === currentDemand)
     //console.log(matchedDemand.demand_id)
 
-    setTimeout(function(){
-      window.scrollTo(({ top: window.innerHeight, behavior: 'smooth' }))
-    },200)
 
     if (matchedDemand) return (
       
-    <DemandBody {...matchedDemand} lang={matchedDemand[langs[langIndex]]} />
+      <DemandBody {...matchedDemand} lang={matchedDemand[langs[langIndex]]} />
     )
+
+
     return null
   }
 
@@ -94,6 +94,7 @@ function App() {
 
       {showDemand()}
 
+      <Footer />
 
       {/* {headerData.map((header, i) =>
         <DemandBody {...header}
