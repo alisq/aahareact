@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import './App.css'
 import headerData from './demands.json'
@@ -8,6 +8,8 @@ import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
 import HomeFist from './components/homeFist'
 import Menu from './components/menu'
+import getBrowserLang from './util/getBrowserLang'
+import LanguageButton from './components/languageButton'
 
 function App() {
   const demandRefs = useRef(Array(headerData.length))
@@ -16,6 +18,13 @@ function App() {
   const { hash } = useLocation()
   const navigate = useNavigate()
 
+  const [currentDemand, setCurrentDemand] = useState(null)
+
+  const langs = ['en', 'fr']
+  const browserLang = getBrowserLang()
+  const browserLangIndex = langs.indexOf(browserLang)
+  const [langIndex, setLangIndex] = useState(browserLangIndex !== -1 ? browserLangIndex : 0)
+
   useEffect(() => {
     if (!hash) return
     // when you enter a url with hash, it scrolls to that automatically
@@ -23,18 +32,26 @@ function App() {
     if (targetDemandBodyRef) targetDemandBodyRef.current.scrollIntoView()
   }, [])
 
+  const showDemand = () => {
+    const matchedDemand = headerData.find(demand => demand.demand_id === currentDemand)
+    if (matchedDemand) return <DemandBody {...matchedDemand} />
+    return null
+  }
+
   return (
     <>
-
-    
-
       <Menu navigate={navigate} pageRefs={pageRefs} />
       <HomeFist />
 
       <div id='lang'>
-        <div className='active'>EN</div>
-        <div>FR</div>
-        <div>IT</div>
+        {
+          langs && langs.map((lang, i) =>
+            <LanguageButton
+              lang={lang}
+              isActive={langIndex === i}
+              handleClick={() => setLangIndex(i)}
+              key={i} />)
+        }
       </div>
 
       <h1>
@@ -51,16 +68,21 @@ function App() {
           {headerData.map((header, i) =>
             <DemandHeader {...header}
               navigate={navigate}
+              handleClick={setCurrentDemand}
               getBodyRef={() => demandRefs.current[i]}
               key={i} />
           )}
         </div>
       </section>
-      {headerData.map((header, i) =>
+
+      {showDemand()}
+
+
+      {/* {headerData.map((header, i) =>
         <DemandBody {...header}
           onDemandRefLoad={ref => demandRefs.current[i] = ref}
           key={i} />
-      )}
+      )} */}
 
       {pageData.map((page, i) =>
         <PageBody {...page}
@@ -72,4 +94,3 @@ function App() {
 }
 
 export default App
- 
