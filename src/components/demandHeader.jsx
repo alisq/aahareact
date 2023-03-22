@@ -1,4 +1,4 @@
-function DemandHeader({ lang, en, fr, handleClick, navigate, field_demand_no, getBodyRef, field_exmark, demand_id }) {
+function DemandHeader({ lang,  handleClick, navigate, field_demand_no, getBodyRef, field_exmark, demand_id }) {
   // const handleClick = () => {
   //   // gets the reference to the corresponding body
   //   getBodyRef().current.scrollIntoView({ behavior: 'smooth' })

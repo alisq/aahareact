@@ -36,11 +36,16 @@ function App() {
   const showDemand = () => {
     
     const matchedDemand = headerData.find(demand => demand.demand_id === currentDemand)
-    if (matchedDemand) return <DemandBody {...matchedDemand} />
+    
+    if (matchedDemand) return (
+      
+    <DemandBody {...matchedDemand} lang={matchedDemand[langs[langIndex]]} />
+    )
     return null
   }
 
   return (
+    
     <>
     
       <Menu navigate={navigate} pageRefs={pageRefs} />
@@ -91,11 +96,11 @@ function App() {
           key={i} />
       )} */}
 
-      {pageData.map((page, i) =>
+      {/* {pageData.map((page, i) =>
         <PageBody {...page}
           onPageRefLoad={ref => pageRefs.current[i] = ref}
           key={i} />
-      )}
+      )} */}
       
     </>
   )

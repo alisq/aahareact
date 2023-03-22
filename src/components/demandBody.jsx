@@ -1,12 +1,13 @@
 
-function DemandBody({ title, demand_id }) {
+function DemandBody({ lang, demand_id }) {
+  
   return (
     <section id={demand_id} className='demand'>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
             <h5>To decomodify housing in c/a/n/a/d/a we demand</h5>
-            <h2>{title}</h2>
+            <h2>{lang.title}</h2>
 
 
             <p>
