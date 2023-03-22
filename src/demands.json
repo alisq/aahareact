@@ -1,122 +1,229 @@
 [
   {
-    "title": "Land Back",
-    "field_content": "",
-    "field_long_summary": "",
+    "demand_id": "land-back",
     "field_region": "",
-    "field_short_summary": "",
     "field_demand_no": "\u00b9",
-    "field_dom_text": "Land Back",
     "field_exmark": "",
-    "title_1": "<a href=\u0022/land-back\u0022 hreflang=\u0022en\u0022>Land Back</a>",
-    "demand_id": "land-back"
+    "en": {
+      "title": "Land Back",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Land Back",
+      "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+    },
+    "fr": {
+      "title": "Terre Retour",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Land Back",
+      "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+    }
+    
+    
   },
   {
-    "title": "Collective Ownership",
-    "field_content": "",
-    "field_long_summary": "",
+    "demand_id": "land-housing",
     "field_region": "",
-    "field_short_summary": "",
     "field_demand_no": "\u00b2",
-    "field_dom_text": "Collective<br />\r\nOwnership",
-    "field_exmark": "",
-    "title_1": "<a href=\u0022/collective-ownership\u0022 hreflang=\u0022en\u0022>Collective Ownership</a>",
-    "demand_id": "collective-ownership"
-  },
-  {
-    "title": "Home Building Lodges",
-    "field_content": "",
-    "field_long_summary": "",
-    "field_region": "",
-    "field_short_summary": "",
-    "field_demand_no": "\u2074",
-    "field_dom_text": "Home <br />\r\nBuilding Lodges",
     "field_exmark": "exAlt2",
-    "title_1": "<a href=\u0022/home-building-lodges\u0022 hreflang=\u0022en\u0022>Home Building Lodges</a>",
-    "demand_id": "home-building-lodges"
+    "en": {
+      "title": "On the Land Housing",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "On the Land Housing",
+      "title_1": "<a href='/land-housing' hreflang='en'>On the Land Housing</a>"
+    },
+    "fr": {
+      "title": "Sur le terrain Logement",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "On the Land Housing",
+      "title_1": "<a href='/land-housing' hreflang='en'>On the Land Housing</a>"
+    }
+    
+    
   },
   {
-    "title": "On the Land Housing",
-    "field_content": "",
-    "field_long_summary": "",
+    "demand_id": "home-building-lodges",
     "field_region": "",
-    "field_short_summary": "",
     "field_demand_no": "\u00b3",
-    "field_dom_text": "On the Land Housing",
     "field_exmark": "exAlt2",
-    "title_1": "<a href=\u0022/land-housing\u0022 hreflang=\u0022en\u0022>On the Land Housing</a>",
-    "demand_id": "land-housing"
+    "en": {
+      "title": "First Nations Home Building Lodges",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Home <br />\r\nBuilding Lodges",
+      "title_1": "<a href='/home-building-lodges' hreflang='en'>Home Building Lodges</a>"
+    },
+    "fr": {
+      "title": "Loges de construction de maisons des Premières Nations",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Home <br />\r\nBuilding Lodges",
+      "title_1": "<a href='/home-building-lodges' hreflang='en'>Home Building Lodges</a>"
+    }
   },
   {
-    "title": "Reparative Planning",
-    "field_content": "",
-    "field_long_summary": "",
+    "demand_id": "reparative-architecture",
     "field_region": "",
-    "field_short_summary": "",
-    "field_demand_no": "\u2075",
-    "field_dom_text": "Reparative Planning",
+    "field_demand_no": "\u2074",
     "field_exmark": "exAlt1",
-    "title_1": "<a href=\u0022/reparative-planning\u0022 hreflang=\u0022en\u0022>Reparative Planning</a>",
-    "demand_id": "reparative-planning"
+    "en": {
+      "title": "Reparative Architecture",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Reparative Planning",
+      "title_1": "<a href='/reparative-planning' hreflang='en'>Reparative Planning</a>"
+    },
+    "fr": {
+      "title": "Architecture réparatrice",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Reparative Planning",
+      "title_1": "<a href='/reparative-planning' hreflang='en'>Reparative Planning</a>"
+    }        
   },
   {
-    "title": "Intentional Communities for Unhoused People",
-    "field_content": "",
-    "field_long_summary": "",
+    "demand_id": "gentrification-tax",
     "field_region": "",
-    "field_short_summary": "",
-    "field_demand_no": "\u2076",
-    "field_dom_text": "Intentional Communities for Unhoused<br />\r\nPeople",
-    "field_exmark": "",
-    "title_1": "<a href=\u0022/intentional-communities-unhoused-people\u0022 hreflang=\u0022en\u0022>Intentional Communities for Unhoused People</a>",
-    "demand_id": "intentional-communities-unhoused-people"
-  },
-  {
-    "title": "The Unearned Increment",
-    "field_content": "",
-    "field_long_summary": "",
-    "field_region": "",
-    "field_short_summary": "",
-    "field_demand_no": "\u2077",
-    "field_dom_text": "The Unearned Increment",
+    "field_demand_no": "\u2075",
     "field_exmark": "exAlt2",
-    "title_1": "<a href=\u0022/unearned-increment\u0022 hreflang=\u0022en\u0022>The Unearned Increment</a>",
-    "demand_id": "unearned-increment"
+    "en": {
+      "title": "A Gentrification Tax",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "The Unearned Increment",
+      "title_1": "<a href='/unearned-increment' hreflang='en'>The Unearned Increment</a>"
+    },
+    "fr": {
+      "title": "Une taxe de gentrification",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "The Unearned Increment",
+      "title_1": "<a href='/unearned-increment' hreflang='en'>The Unearned Increment</a>"
+    }        
   },
   {
-    "title": "Mutual Aid Housing",
-    "field_content": "  <div class=\u0022paragraph paragraph--type--single-image paragraph--view-mode--default\u0022>\n          \n  <div class=\u0022field field--name-field-image field--type-image field--label-above\u0022>\n    <div class=\u0022field__label\u0022>Image</div>\n              <div class=\u0022field__item\u0022>  <img loading=\u0022lazy\u0022 src=\u0022/sites/default/files/2023-01/Screen%20Shot%202022-04-07%20at%2012.44.31%20PM.png\u0022 width=\u00222156\u0022 height=\u00222276\u0022 alt=\u0022book.\u0022 />\n\n</div>\n          </div>\n\n      </div>\n,   <div class=\u0022paragraph paragraph--type--long-text paragraph--view-mode--default\u0022>\n          \n  <div class=\u0022text-content clearfix field field--name-field-text field--type-text-long field--label-above\u0022>\n    <div class=\u0022field__label\u0022>Text</div>\n              <div class=\u0022field__item\u0022><h3>Here is a piece of text. real quick.</h3><p>\u00a0</p><p>some thing else</p></div>\n          </div>\n\n      </div>\n",
-    "field_long_summary": "",
-    "field_region": "Montr\u00e9al",
-    "field_short_summary": "",
-    "field_demand_no": "\u2078",
-    "field_dom_text": "Mutual <br />\r\nAid Housing",
-    "field_exmark": "",
-    "title_1": "<a href=\u0022/mutual-aid-housing\u0022 hreflang=\u0022en\u0022>Mutual Aid Housing</a>",
-    "demand_id": "mutual-aid-housing"
-  },
-  {
-    "title": "Ambient Ecosystems Commons",
-    "field_content": "",
-    "field_long_summary": "",
+    "demand_id": "surplus-properties-housing",
     "field_region": "",
-    "field_short_summary": "",
-    "field_demand_no": "\u2079",
-    "field_dom_text": "Ambient Ecosystems <br />\r\nCommons",
-    "field_exmark": "",
-    "title_1": "<a href=\u0022/ambient-ecosystems-commons\u0022 hreflang=\u0022en\u0022>Ambient Ecosystems Commons</a>",
-    "demand_id": "ambient-ecosystems-commons"
-  },
-  {
-    "title": "Surplus Properties for Housing",
-    "field_content": "",
-    "field_long_summary": "",
-    "field_region": "",
-    "field_short_summary": "",
-    "field_demand_no": "\u00b9\u2070",
-    "field_dom_text": "Surplus Properties for Housing",
+    "field_demand_no": "\u2076",
     "field_exmark": "exAlt3",
-    "title_1": "<a href=\u0022/surplus-properties-housing\u0022 hreflang=\u0022en\u0022>Surplus Properties for Housing</a>",
-    "demand_id": "surplus-properties-housing"
+    "en": {
+      "title": "Surplus Properties for Housing",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Surplus Properties for Housing",
+      "title_1": "<a href='/surplus-properties-housing' hreflang='en'>Surplus Properties for Housing</a>"
+    },
+    "fr": {
+      "title": "Propriétés excédentaires pour le logement",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Surplus Properties for Housing",
+      "title_1": "<a href='/surplus-properties-housing' hreflang='en'>Surplus Properties for Housing</a>"
+    }    
+  },{
+    "demand_id": "intentional-communities-unhoused-people",
+    "field_region": "",
+    "field_demand_no": "\u2077",
+    "field_exmark": "",
+    "en": {
+      "title": "Intentional Communities for Unhoused People",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Intentional Communities for Unhoused<br />\r\nPeople",
+      "title_1": "<a href='/intentional-communities-unhoused-people' hreflang='en'>Intentional Communities for Unhoused People</a>"
+    },
+    "fr": {
+      "title": "Communautés intentionnelles pour les personnes sans logement",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Intentional Communities for Unhoused<br />\r\nPeople",
+      "title_1": "<a href='/intentional-communities-unhoused-people' hreflang='en'>Intentional Communities for Unhoused People</a>"
+    }        
+  },
+  {
+    "demand_id": "collective-ownership",
+    "field_region": "",
+    "field_demand_no": "\u2078",
+    "field_exmark": "",
+    "en": {
+      "title": "Collective Ownership",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Collective<br />\r\nOwnership",
+      "title_1": "<a href='/collective-ownership' hreflang='en'>Collective Ownership</a>"
+    },
+    "fr": {
+      "title": "Propriété collective",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Collective<br />\r\nOwnership",
+      "title_1": "<a href='/collective-ownership' hreflang='en'>Collective Ownership</a>"
+    }
+  },
+  {
+    "demand_id": "mutual-aid-housing",
+    "field_region": "Montr\u00e9al",
+    "field_demand_no": "\u2079",
+    "field_exmark": "",
+    "en": {
+      "title": "Mutual Aid Housing",
+      "field_content": "  <div class='paragraph paragraph--type--single-image paragraph--view-mode--default'>\n          \n  <div class='field field--name-field-image field--type-image field--label-above'>\n    <div class='field__label'>Image</div>\n              <div class='field__item'>  <img loading='lazy' src='/sites/default/files/2023-01/Screen%20Shot%202022-04-07%20at%2012.44.31%20PM.png' width='2156' height='2276' alt='book.' />\n\n</div>\n          </div>\n\n      </div>\n,   <div class='paragraph paragraph--type--long-text paragraph--view-mode--default'>\n          \n  <div class='text-content clearfix field field--name-field-text field--type-text-long field--label-above'>\n    <div class='field__label'>Text</div>\n              <div class='field__item'><h3>Here is a piece of text. real quick.</h3><p>\u00a0</p><p>some thing else</p></div>\n          </div>\n\n      </div>\n",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Mutual <br />\r\nAid Housing",
+      "title_1": "<a href='/mutual-aid-housing' hreflang='en'>Mutual Aid Housing</a>"
+    },
+    "fr": {
+      "title": "Logement d'entraide",
+      "field_content": "  <div class='paragraph paragraph--type--single-image paragraph--view-mode--default'>\n          \n  <div class='field field--name-field-image field--type-image field--label-above'>\n    <div class='field__label'>Image</div>\n              <div class='field__item'>  <img loading='lazy' src='/sites/default/files/2023-01/Screen%20Shot%202022-04-07%20at%2012.44.31%20PM.png' width='2156' height='2276' alt='book.' />\n\n</div>\n          </div>\n\n      </div>\n,   <div class='paragraph paragraph--type--long-text paragraph--view-mode--default'>\n          \n  <div class='text-content clearfix field field--name-field-text field--type-text-long field--label-above'>\n    <div class='field__label'>Text</div>\n              <div class='field__item'><h3>Here is a piece of text. real quick.</h3><p>\u00a0</p><p>some thing else</p></div>\n          </div>\n\n      </div>\n",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Mutual <br />\r\nAid Housing",
+      "title_1": "<a href='/mutual-aid-housing' hreflang='en'>Mutual Aid Housing</a>"
+    }
+    
+    
+  },
+  {
+    "demand_id": "ambient-ecosystems-commons",
+    "field_region": "",
+    "field_demand_no": "\u00b9\u2070",
+    "field_exmark": "",
+    "en": {
+      "title": "Ambient Ecosystems Commons",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Ambient Ecosystems <br />\r\nCommons",
+      "title_1": "<a href='/ambient-ecosystems-commons' hreflang='en'>Ambient Ecosystems Commons</a>"
+    },
+    "fr": {
+      "title": "Écosystèmes ambiants communs",
+      "field_content": "",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Ambient Ecosystems <br />\r\nCommons",
+      "title_1": "<a href='/ambient-ecosystems-commons' hreflang='en'>Ambient Ecosystems Commons</a>"
+    }
+    
+    
   }
 ]

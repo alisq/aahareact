@@ -25,6 +25,7 @@ function App() {
   const browserLangIndex = langs.indexOf(browserLang)
   const [langIndex, setLangIndex] = useState(browserLangIndex !== -1 ? browserLangIndex : 0)
 
+  
   useEffect(() => {
     if (!hash) return
     // when you enter a url with hash, it scrolls to that automatically
@@ -33,6 +34,7 @@ function App() {
   }, [])
 
   const showDemand = () => {
+    
     const matchedDemand = headerData.find(demand => demand.demand_id === currentDemand)
     if (matchedDemand) return <DemandBody {...matchedDemand} />
     return null
@@ -40,6 +42,7 @@ function App() {
 
   return (
     <>
+    
       <Menu navigate={navigate} pageRefs={pageRefs} />
       <HomeFist />
 
@@ -49,7 +52,10 @@ function App() {
             <LanguageButton
               lang={lang}
               isActive={langIndex === i}
-              handleClick={() => setLangIndex(i)}
+              handleClick={() => {
+                setLangIndex(i)
+                
+              }}
               key={i} />)
         }
       </div>
@@ -62,15 +68,16 @@ function App() {
       <section id='demands'>
         <div className='manifesto'>
           TO DECOMMODIFY HOUSING IN
-          C<span className='red'>\</span>A<span className='red'>\</span>N<span className='red'>\</span>A<span
-            className='red'>\</span>D<span className='red'>\</span>A<br />
+          c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
+            className='red'>\</span>d<span className='red'>\</span>a<br />
           WE DEMAND...
           {headerData.map((header, i) =>
             <DemandHeader {...header}
               navigate={navigate}
               handleClick={setCurrentDemand}
               getBodyRef={() => demandRefs.current[i]}
-              key={i} />
+              key={i} 
+              lang={header[langs[langIndex]]}/>
           )}
         </div>
       </section>
@@ -89,6 +96,7 @@ function App() {
           onPageRefLoad={ref => pageRefs.current[i] = ref}
           key={i} />
       )}
+      
     </>
   )
 }
