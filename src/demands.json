@@ -1,10 +1,9 @@
 [
   {
-    "demand_id": "land-back",
-    "field_region": "",
+    "demand_id": "land-back",    
     "field_demand_no": "\u00b9",
     "field_exmark": "",
-    "en": {
+    "en": {      
       "title": "Land Back",
       "field_content": "",
       "field_long_summary": "",
@@ -14,6 +13,7 @@
     },
     "fr": {
       "title": "Terre Retour",
+      "field_region": "Vancouver",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -25,11 +25,11 @@
   },
   {
     "demand_id": "land-housing",
-    "field_region": "",
     "field_demand_no": "\u00b2",
     "field_exmark": "exAlt2",
     "en": {
       "title": "On the Land Housing",
+      "field_region": "Northern",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -38,6 +38,7 @@
     },
     "fr": {
       "title": "Sur le terrain Logement",
+      "field_region": "Northern",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -48,12 +49,12 @@
     
   },
   {
-    "demand_id": "home-building-lodges",
-    "field_region": "",
+    "demand_id": "home-building-lodges",    
     "field_demand_no": "\u00b3",
     "field_exmark": "exAlt2",
     "en": {
       "title": "First Nations Home Building Lodges",
+      "field_region": "Praries",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -62,6 +63,7 @@
     },
     "fr": {
       "title": "Loges de construction de maisons des Premières Nations",
+      "field_region": "Praries",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -71,11 +73,12 @@
   },
   {
     "demand_id": "reparative-architecture",
-    "field_region": "",
+    
     "field_demand_no": "\u2074",
     "field_exmark": "exAlt1",
     "en": {
       "title": "Reparative Architecture",
+      "field_region": "Toronto",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -84,6 +87,7 @@
     },
     "fr": {
       "title": "Architecture réparatrice",
+      "field_region": "Toronto",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -93,11 +97,12 @@
   },
   {
     "demand_id": "gentrification-tax",
-    "field_region": "",
+    
     "field_demand_no": "\u2075",
     "field_exmark": "exAlt2",
     "en": {
       "title": "A Gentrification Tax",
+      "field_region": "Toronto",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -106,6 +111,7 @@
     },
     "fr": {
       "title": "Une taxe de gentrification",
+      "field_region": "Toronto",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -114,12 +120,12 @@
     }        
   },
   {
-    "demand_id": "surplus-properties-housing",
-    "field_region": "",
+    "demand_id": "surplus-properties-housing",  
     "field_demand_no": "\u2076",
     "field_exmark": "exAlt3",
     "en": {
       "title": "Surplus Properties for Housing",
+      "field_region": "Atlantic",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -128,6 +134,7 @@
     },
     "fr": {
       "title": "Propriétés excédentaires pour le logement",
+      "field_region": "Atlantique",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -135,12 +142,12 @@
       "title_1": "<a href='/surplus-properties-housing' hreflang='en'>Surplus Properties for Housing</a>"
     }    
   },{
-    "demand_id": "intentional-communities-unhoused-people",
-    "field_region": "",
+    "demand_id": "intentional-communities-unhoused-people",    
     "field_demand_no": "\u2077",
     "field_exmark": "",
     "en": {
       "title": "Intentional Communities for Unhoused People",
+      "field_region": "Toronto",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -149,6 +156,7 @@
     },
     "fr": {
       "title": "Communautés intentionnelles pour les personnes sans logement",
+      "field_region": "Toronto",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -157,12 +165,12 @@
     }        
   },
   {
-    "demand_id": "collective-ownership",
-    "field_region": "",
+    "demand_id": "collective-ownership",    
     "field_demand_no": "\u2078",
     "field_exmark": "",
     "en": {
       "title": "Collective Ownership",
+      "field_region": "Vancouver",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -171,6 +179,7 @@
     },
     "fr": {
       "title": "Propriété collective",
+      "field_region": "Vancouver",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -179,12 +188,12 @@
     }
   },
   {
-    "demand_id": "mutual-aid-housing",
-    "field_region": "Montr\u00e9al",
+    "demand_id": "mutual-aid-housing",    
     "field_demand_no": "\u2079",
     "field_exmark": "",
     "en": {
       "title": "Mutual Aid Housing",
+      "field_region": "Montr\u00e9al",
       "field_content": "  <div class='paragraph paragraph--type--single-image paragraph--view-mode--default'>\n          \n  <div class='field field--name-field-image field--type-image field--label-above'>\n    <div class='field__label'>Image</div>\n              <div class='field__item'>  <img loading='lazy' src='/sites/default/files/2023-01/Screen%20Shot%202022-04-07%20at%2012.44.31%20PM.png' width='2156' height='2276' alt='book.' />\n\n</div>\n          </div>\n\n      </div>\n,   <div class='paragraph paragraph--type--long-text paragraph--view-mode--default'>\n          \n  <div class='text-content clearfix field field--name-field-text field--type-text-long field--label-above'>\n    <div class='field__label'>Text</div>\n              <div class='field__item'><h3>Here is a piece of text. real quick.</h3><p>\u00a0</p><p>some thing else</p></div>\n          </div>\n\n      </div>\n",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -193,6 +202,7 @@
     },
     "fr": {
       "title": "Logement d'entraide",
+      "field_region": "Montr\u00e9al",
       "field_content": "  <div class='paragraph paragraph--type--single-image paragraph--view-mode--default'>\n          \n  <div class='field field--name-field-image field--type-image field--label-above'>\n    <div class='field__label'>Image</div>\n              <div class='field__item'>  <img loading='lazy' src='/sites/default/files/2023-01/Screen%20Shot%202022-04-07%20at%2012.44.31%20PM.png' width='2156' height='2276' alt='book.' />\n\n</div>\n          </div>\n\n      </div>\n,   <div class='paragraph paragraph--type--long-text paragraph--view-mode--default'>\n          \n  <div class='text-content clearfix field field--name-field-text field--type-text-long field--label-above'>\n    <div class='field__label'>Text</div>\n              <div class='field__item'><h3>Here is a piece of text. real quick.</h3><p>\u00a0</p><p>some thing else</p></div>\n          </div>\n\n      </div>\n",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -203,12 +213,12 @@
     
   },
   {
-    "demand_id": "ambient-ecosystems-commons",
-    "field_region": "",
+    "demand_id": "ambient-ecosystems-commons",    
     "field_demand_no": "\u00b9\u2070",
     "field_exmark": "",
     "en": {
       "title": "Ambient Ecosystems Commons",
+      "field_region": "Montr\u00e9al",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
@@ -217,6 +227,7 @@
     },
     "fr": {
       "title": "Écosystèmes ambiants communs",
+      "field_region": "Montr\u00e9al",
       "field_content": "",
       "field_long_summary": "",
       "field_short_summary": "",
