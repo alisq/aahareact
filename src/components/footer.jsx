@@ -1,3 +1,8 @@
+import { useState } from 'react'
+import pageData from '../pages.json'
+import MenuLink from './menuLink'
+
+
 function Footer() {
     return(
         
@@ -12,23 +17,17 @@ function Footer() {
         <div className="three columns">
     A site map goes here. In essence, the menu:
 
-    <ul className="label">
+    <ul class="label">
 
-        
-        
+{pageData.map((page, i) =>
+  <MenuLink {...page}
+    // navigate={navigate}
+    // getBodyRef={() => pageRefs.current[i]}
+    // handleClick={createHandleClick(i, page.view_node)}
+    key={i} />
+)}
 
-
-
-
-
-
-    <li><a href="/">DEMAND</a></li>
-    <li><a href="/">MANIFESTO</a></li>
-    <li><a href="/">TAKE ACTION</a></li>
-    <li><a href="/">EVENTS</a></li>
-    <li><a href="/">COLLECTIVE</a></li>
-    <li><a href="/">CONTACT</a></li>
-    </ul>
+</ul>
         </div>
         <div className="three columns">
             <div className="socials">

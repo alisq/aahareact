@@ -1,6 +1,8 @@
 
 function DemandBody({ lang, demand_id }) {
 
+  document.title = "AAHA | "+lang.title;
+
   setTimeout(function(){
     window.scrollTo(({ top: window.innerHeight, behavior: 'smooth' }))
   },200)
