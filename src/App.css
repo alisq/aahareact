@@ -16,7 +16,8 @@ html, body {
 img {
   width: 100%;
   max-width: 100%;
-  filter: grayscale(100%) contrast(125%);
+  filter: grayscale(100%) contrast(500%);
+  mix-blend-mode: multiply;
   transition: filter 0.4s; }
   img:hover {
     filter: grayscale(0%) contrast(100%); }
