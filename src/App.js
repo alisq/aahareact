@@ -95,13 +95,13 @@ function App() {
 
 
 
-        <div className='title-top'>{(langs[langIndex] == 'fr') ? "ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!" : "ARCHITECTS AGAINST HOUSING ALIENATION!"}</div>
+        <div className='title-top'>{(langs[langIndex] === 'fr') ? "ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!" : "ARCHITECTS AGAINST HOUSING ALIENATION!"}</div>
         {/* <div className='title-bottom'>ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div> */}
       </h1>
 
       <section id='demands' ref={compRef}>
         <div className='manifesto'>
-          TO DECOMMODIFY HOUSING IN
+          TO END HOUSING ALIENATION IN
           c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
             className='red'>\</span>d<span className='red'>\</span>a<br />
           WE DEMAND...
