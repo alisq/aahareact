@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { Action } from './action'
 
 function DemandBody({ lang, demand_id, sectionRef }) {
 
@@ -35,7 +36,7 @@ function DemandBody({ lang, demand_id, sectionRef }) {
 
             <div dangerouslySetInnerHTML={{ __html: lang.field_content }}></div>
 
-            <div className='main-carousel'>
+            {/* <div className='main-carousel'>
               <div className='carousel-cell'>
                 <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_3cc.jpg?itok=BppEniI5' />
                 <p className='caption'>example caption</p>
@@ -48,7 +49,7 @@ function DemandBody({ lang, demand_id, sectionRef }) {
                 <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_1cc.jpg?itok=8t0Is5R_' />
                 <p className='caption'>example caption</p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>TAKE ACTION</h3>
