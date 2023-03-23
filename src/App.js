@@ -92,8 +92,11 @@ function App() {
       </div>
 
       <h1>
-        <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
-        <div className='title-bottom'>ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div>
+
+
+
+        <div className='title-top'>{(langs[langIndex] == 'fr') ? "ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!" : "ARCHITECTS AGAINST HOUSING ALIENATION!"}</div>
+        {/* <div className='title-bottom'>ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div> */}
       </h1>
 
       <section id='demands' ref={compRef}>
