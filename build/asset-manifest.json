@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.960e7f25.css",
+    "main.js": "/static/js/main.893d4554.js",
+    "static/js/787.9cb3345b.chunk.js": "/static/js/787.9cb3345b.chunk.js",
+    "static/media/AAHA-Regular.woff2": "/static/media/AAHA-Regular.b71083b1fe058f5505f0.woff2",
+    "static/media/fist-home.svg": "/static/media/fist-home.d2ef46005bdbf42176a4a896601740be.svg",
+    "index.html": "/index.html",
+    "main.960e7f25.css.map": "/static/css/main.960e7f25.css.map",
+    "main.893d4554.js.map": "/static/js/main.893d4554.js.map",
+    "787.9cb3345b.chunk.js.map": "/static/js/787.9cb3345b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.960e7f25.css",
+    "static/js/main.893d4554.js"
+  ]
+}
