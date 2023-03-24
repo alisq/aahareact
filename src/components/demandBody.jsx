@@ -1,6 +1,6 @@
 
 import { useEffect } from 'react'
-import { Action } from './action'
+import Action  from './action'
 
 function DemandBody({ lang, demand_id, sectionRef }) {
 
@@ -55,8 +55,11 @@ function DemandBody({ lang, demand_id, sectionRef }) {
           <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>TAKE ACTION</h3>
 
+            
             <ul className='actions'>
-            {/* <Action /> */}
+            
+           
+            <Action />
               <li>
                 <label className='label--red'>donate</label><br />
                 Learn more about the campaign to for a gentrification tax
