@@ -37,7 +37,7 @@
             <div><label>Demand ID:</label> <input name="demand_id" id="demand_id" type="text"></div>
             <div><label>demand Number:</label> <input name="field_demand_no" id="field_demand_no" type="text"></div>
             <div><label>exmark:</label> <input name="field_exmark" id="field_exmark" type="text"></div>
-            
+            <div><label>banner:</label> <input name="banner" id="field_exmark" type="text"></div>
 
             <div class="split">
             <div class="en">
@@ -100,6 +100,7 @@ $("input, textarea").on("input", function(){
     json.demand_id = $("#demand_id").val()
     json.field_demand_no = $("#field_demand_no").val()
     json.field_exmark = $("#field_exmark").val()
+    json.banner = $("#banner").val()
     json.en.title = $("#en_title").val()
     json.en.header_html = $("#en_header_html").val()
     json.en.field_region = $("#en_field_region").val()

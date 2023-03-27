@@ -40,7 +40,7 @@
             <div><label>Demand ID:</label> <input name="demand_id" id="demand_id" type="text"></div>
             <div><label>demand Number:</label> <input name="field_demand_no" id="field_demand_no" type="text"></div>
             <div><label>exmark:</label> <input name="field_exmark" id="field_exmark" type="text"></div>
-            
+            <div><label>banner:</label> <input name="banner" id="banner" type="text"></div>
 
             <div class="split">
             <div class="en">
@@ -99,6 +99,7 @@ fetch('./demands.json')
 $("#demand_id").val(demands[d].demand_id)
 $("#field_demand_no").val(demands[d].field_demand_no)
 $("#field_exmark").val(demands[d].field_exmark)
+$("#banner").val(demands[d].banner)
 $("#en_title").val(demands[d].en.title)
 $("#en_header_html").val(demands[d].en.header_html)
 $("#en_field_region").val(demands[d].en.field_region)
@@ -123,6 +124,7 @@ $("#fr_title_1").val(demands[d].fr.title_1)
     demands[d].demand_id = $("#demand_id").val()
     demands[d].field_demand_no = $("#field_demand_no").val()
     demands[d].field_exmark = $("#field_exmark").val()
+    demands[d].banner = $("#banner").val()
     demands[d].en.title = $("#en_title").val()
     demands[d].en.header_html = $("#en_header_html").val()
     demands[d].en.field_region = $("#en_field_region").val()
