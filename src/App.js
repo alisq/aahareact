@@ -13,6 +13,7 @@ import Footer from './components/footer'
 import { getBrowserLang } from './utils/languageUtil'
 import LangButton from './components/langButton'
 import { setUrlPart } from './utils/urlUtil'
+import BodySection from './components/bodySection'
 
 const langs = ['en', 'fr']
 
@@ -31,18 +32,18 @@ function App() {
           {demandData.map((demand, i) =>
             <Route
               path={`demand/${demand.demand_id}`}
-              element={<DemandBody {...demand} lang={demand.en} />}
+              element={<BodySection {...demand} Component={DemandBody} lang={demand.en} />}
               key={i}
             />)}
           {pageData.map((page, i) =>
             <Route
               path={`page/${page.view_node}`}
-              element={<PageBody {...page} />}
+              element={<BodySection {...page} Component={PageBody} />}
               key={i}
             />)}
         </Route>
       )}
-      {/* <Route path='*' element={<Navigate to={fallbackLang} />} /> */}
+      <Route path='*' element={<Navigate to={fallbackLang} />} />
     </Routes>
   )
 }

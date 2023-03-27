@@ -1,16 +1,8 @@
-import { useEffect, useRef } from 'react'
-import { useLocation } from 'react-router-dom'
+import { forwardRef } from 'react'
 
-function PageBody({ view_node, body, title }) {
-  const location = useLocation()
-  const pageRef = useRef(null)
-
-  useEffect(() => {
-    pageRef.current.scrollIntoView({ behavior: 'smooth' })
-  }, [location])
-
+const PageBody = forwardRef(({ view_node, body, title }, ref) => {
   return (
-    <section id={view_node} className='page' ref={pageRef}>
+    <section id={view_node} className='page' ref={ref}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
@@ -28,6 +20,6 @@ function PageBody({ view_node, body, title }) {
       </div>
     </section >
   )
-}
+})
 
 export default PageBody

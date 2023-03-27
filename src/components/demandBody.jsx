@@ -1,20 +1,12 @@
 
-import { useEffect, useRef } from 'react'
-import { useLocation } from 'react-router-dom'
+import { forwardRef } from 'react'
 import Action from './action'
 
-function DemandBody({ lang, demand_id }) {
-  const location = useLocation()
+const DemandBody = forwardRef(({ lang, demand_id }, ref) => {
 
-  const sectionRef = useRef(null)
   document.title = "AAHA | " + lang.title
-
-  useEffect(() => {
-    sectionRef.current.scrollIntoView({ behavior: 'smooth' })
-  }, [location])
-
   return (
-    <section id={demand_id} className='demand' ref={sectionRef}>
+    <section id={demand_id} className='demand' ref={ref}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
@@ -112,6 +104,6 @@ function DemandBody({ lang, demand_id }) {
       </div>
     </section >
   )
-}
+})
 
 export default DemandBody
