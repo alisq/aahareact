@@ -1,6 +1,5 @@
 import './App.css'
 import { Navigate, Outlet, Route, Routes } from 'react-router-dom'
-import { useEffect, useRef, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import demandData from './demands.json'
 import pageData from './pages.json'
@@ -13,6 +12,7 @@ import Menu from './components/menu'
 import Footer from './components/footer'
 import { getBrowserLang } from './utils/languageUtil'
 import LangButton from './components/langButton'
+import { setUrlPart } from './utils/urlUtil'
 
 const langs = ['en', 'fr']
 
@@ -53,14 +53,7 @@ function Main({ currentLang }) {
 
   const handleLangButton = lang => {
     console.log(location.pathname.split('/'))
-    navigate(`/${lang}`)
-    // if (langIndex === i) return
-    // setBrowserLang(langs[i])
-    // gsap.to(demandBodyRef.current, {
-    //   opacity: 0,
-    //   onComplete: () => setLangIndex(i),
-    //   ...gsapConfig
-    // })
+    setUrlPart(location, navigate, 'lang', lang)
   }
 
   return (

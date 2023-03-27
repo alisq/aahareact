@@ -4,10 +4,12 @@ export const getUrlParts = location => {
   return { lang, cateogry, content }
 }
 
-export const partsToUrl = ({ lang, cateogry, content }) => `/${lang}/${cateogry}/${content}`
+export const partsToUrl = ({ lang, cateogry: category, content }) => `/${lang}${category && content ?
+  `/${category}/${content}` : ''
+  }`
 
-export const setUrlParts = (navigate, type, value) => {
-  const urlParts = getUrlParts()
+export const setUrlPart = (location, navigate, type, value) => {
+  const urlParts = getUrlParts(location)
   if (type === 'lang') urlParts.lang = value
   if (type === 'content') urlParts.content = value
   const url = partsToUrl(urlParts)
