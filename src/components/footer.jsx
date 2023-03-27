@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Member from './member'
+import Action from './action'
+import contributorData from '../contributors.json'
 import pageData from '../pages.json'
 import MenuLink from './menuLink'
 
@@ -36,8 +39,16 @@ function Footer() {
                             <i className="fa-brands fa-twitter"></i>
                         </div>
                         followed by contact details and credits?
+                        
+
+                       
                     </div>
                 </div>
+                {contributorData.map((member, i) =>
+            <Member {...member}
+              
+               />
+          )}
             </div>
         </section>
 
