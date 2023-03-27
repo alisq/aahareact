@@ -2,11 +2,13 @@ import { useState } from 'react'
 import Member from './member'
 import Action from './action'
 import contributorData from '../contributors.json'
+import orgData from '../orgs.json'
 import pageData from '../pages.json'
 import MenuLink from './menuLink'
 
 
-function Footer() {
+function Footer({lang}) {
+    
     return (
 
         <section id="contact" className="inverse">
@@ -44,11 +46,16 @@ function Footer() {
                        
                     </div>
                 </div>
-                {contributorData.map((member, i) =>
-            <Member {...member}
-              
-               />
-          )}
+
+                {orgData.map((member, i) => 
+                            <Member member={member} lang={lang} key={i}/>
+                        )}
+                
+                {contributorData.map((member, i) => 
+                            <Member member={member} lang={lang} key={i}/>
+                        )}
+
+
             </div>
         </section>
 

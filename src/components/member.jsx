@@ -1,22 +1,26 @@
-function Member(member) {
-    console.log(member)
-    return (
-        <tr>
+function Member({member, lang}) {
+    
+    const hasBio =member[lang]["Bio"] !== null
 
-<td>
-       {member["Name"]}
-       </td>
-            <td>
-            {member["Team"]}
-            </td>
-            <td>
-            {member["Role"]}
-            </td>
-       <td>
-       {member["Organization"]}
-       </td>
+    
+
+    return (
+        <>
+        <tr>
+            
+            <td>{member["Name"]}</td>
+            <td>{member["Team"]}</td>
+            <td>{member[lang]["Role"]}</td>
+            <td>{member[lang]["Organization"]}</td>
       </tr>
 
+{
+    hasBio && <tr>
+            
+    <td colspan='4'>{member[lang]["Bio"]}</td>
+    </tr>
+}
+</>
     )
     
 }
