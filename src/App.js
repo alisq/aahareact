@@ -84,11 +84,25 @@ function Main({ currentLang }) {
       </h1>
 
       <section id='demands'>
-        <div className='manifesto'>
-          TO END HOUSING ALIENATION IN
-          c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
-            className='red'>\</span>d<span className='red'>\</span>a<br />
-          WE DEMAND...
+        <div className={'manifesto '+currentLang}>
+
+ 
+            {
+              currentLang == "en" ?  <>TO END HOUSING ALIENATION IN c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span className='red'>\</span>d<span className='red'>\</span>a<br /> WE DEMAND...</> : 
+              <>POUR METTRE FIN À L’ALIÉNATION DU LOGEMENT AU c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
+                className='red'>\</span>d<span className='red'>\</span>a, NOUS DEMANDONS…
+    </>
+
+ 
+
+    
+
+            }
+
+
+        
+
+
           {demandData.map((header, i) =>
             <DemandHeader {...header}
               navigate={navigate}

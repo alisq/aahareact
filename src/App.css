@@ -152,6 +152,8 @@ button:visited {
   width: 100%;
   top: 50%;
   transform: translateY(-50%); }
+  .manifesto.fr {
+    font-size: 4.5vw; }
   .manifesto:hover h2,
   .manifesto:hover .num {
     color: rgba(60, 60, 60, 0.3); }
@@ -585,3 +587,17 @@ ul.actions {
 @media (max-width: 800px) {
   #switches {
     display: none; } }
+
+.fade-enter {
+  opacity: 0; }
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms; }
+
+.fade-exit {
+  opacity: 1; }
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms; }

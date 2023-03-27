@@ -159,6 +159,10 @@ button:visited {
     top:50%;
     transform:translateY(-50%);
 
+    &.fr {
+        font-size:4.5vw;
+    }
+
     &:hover h2, 
     &:hover .num{
         color:rgba($foreground,0.3)
