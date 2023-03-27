@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label {
+            display:inline-block;
+            width:200px;
+            padding-bottom:1em;
+        }    
+
+        input,
+        textarea {
+            font-size: 20px;
+            padding:0.25em;
+            width:400px;
+        }
+
+        .split {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+        }
+
+        #json_dump {
+            width:80%;
+            height:500px;
+        }
+    </style>
+
+</head>
+<body>
+        <form>
+            <div><label></label><select id="demand">
+                <option>Demand:</option>
+            </select>
+            <div><label>Demand ID:</label> <input name="demand_id" id="demand_id" type="text"></div>
+            <div><label>demand Number:</label> <input name="field_demand_no" id="field_demand_no" type="text"></div>
+            <div><label>exmark:</label> <input name="field_exmark" id="field_exmark" type="text"></div>
+            
+
+            <div class="split">
+            <div class="en">
+                <h2>EN</h2>
+                <div><label>en_title</label><input type="text" name="en_title" id="en_title"></div>
+                <!-- <div><label>en_header_html</label><input type="text" name="en_header_html" id="en_header_html"></div> -->
+                <div><label>en_field_region</label><input type="text" name="en_field_region" id="en_field_region"></div>
+                <div><label>en_field_content</label><textarea name="en_field_content" id="en_field_content"></textarea></div>
+                <div><label>en_field_long_summary</label><input type="text" name="en_field_long_summary" id="en_field_long_summary"></div>
+                <!-- <div><label>en_field_short_summary</label><input type="text" name="en_field_short_summary" id="en_field_short_summary"></div>
+                <div><label>en_field_dom_text</label><input type="text" name="en_field_dom_text" id="en_field_dom_text"></div>
+                <div><label>en_title_1</label><input type="text" name="en_title_1" id="en_title_1"></div> -->
+            </div>
+
+            <div class="fr">
+                <h2>FR</h2>
+                <div><label>fr_title</label><input type="text" name="fr_title" id="fr_title"></div>
+                <!-- <div><label>fr_header_html</label><input type="text" name="fr_header_html" id="fr_header_html"></div> -->
+                <div><label>fr_field_region</label><input type="text" name="fr_field_region" id="fr_field_region"></div>
+                <div><label>fr_field_content</label><textarea name="fr_field_content" id="fr_field_content"></textarea></div>
+                <div><label>fr_field_long_summary</label><input type="text" name="fr_field_long_summary" id="fr_field_long_summary"></div>
+                <!-- <div><label>fr_field_short_summary</label><input type="text" name="fr_field_short_summary" id="fr_field_short_summary"></div>
+                <div><label>fr_field_dom_text</label><input type="text" name="fr_field_dom_text" id="fr_field_dom_text"></div>
+                <div><label>fr_title_1</label><input type="text" name="fr_title_1" id="fr_title_1"></div> -->
+            </div>
+            </div>
+        </form>
+        <button id="load_json">load json</button><br /><br />
+        <textarea id="json_dump"></textarea>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <script>
+
+let demands;
+let d;
+fetch('./demands.json')
+   .then(response => response.json())
+   .then(json => {
+    demands = [...json]
+
+    for(i=0;i<demands.length;i++) {
+        $("#demand").append($('<option>', {
+                value: i,
+                text: demands[i].demand_id
+        }));
+
+        
+    }
+
+    $("#demand").change(function(){
+
+        d = $(this).val()
+        
+        $("#viewport").val(demands[d].viewport)
+$("#demand_id").val(demands[d].demand_id)
+$("#field_demand_no").val(demands[d].field_demand_no)
+$("#field_exmark").val(demands[d].field_exmark)
+$("#en_title").val(demands[d].en.title)
+$("#en_header_html").val(demands[d].en.header_html)
+$("#en_field_region").val(demands[d].en.field_region)
+$("#en_field_content").val(demands[d].en.field_content)
+$("#en_field_long_summary").val(demands[d].en.field_long_summary)
+$("#en_field_short_summary").val(demands[d].en.field_short_summary)
+$("#en_field_dom_text").val(demands[d].en.field_dom_text)
+$("#en_title_1").val(demands[d].en.title_1)
+$("#fr_title").val(demands[d].fr.title)
+$("#fr_header_html").val(demands[d].fr.header_html)
+$("#fr_field_region").val(demands[d].fr.field_region)
+$("#fr_field_content").val(demands[d].fr.field_content)
+$("#fr_field_long_summary").val(demands[d].fr.field_long_summary)
+$("#fr_field_short_summary").val(demands[d].fr.field_short_summary)
+$("#fr_field_dom_text").val(demands[d].fr.field_dom_text)
+$("#fr_title_1").val(demands[d].fr.title_1)
+    })
+
+
+    $("input, #en_field_content, #fr_field_content").on("input", function(){
+    
+    demands[d].demand_id = $("#demand_id").val()
+    demands[d].field_demand_no = $("#field_demand_no").val()
+    demands[d].field_exmark = $("#field_exmark").val()
+    demands[d].en.title = $("#en_title").val()
+    demands[d].en.header_html = $("#en_header_html").val()
+    demands[d].en.field_region = $("#en_field_region").val()
+    demands[d].en.field_content = $("#en_field_content").val()
+    demands[d].en.field_long_summary = $("#en_field_long_summary").val()
+    demands[d].en.field_short_summary = $("#en_field_short_summary").val()
+    demands[d].en.field_dom_text = $("#en_field_dom_text").val()
+    demands[d].en.title_1 = $("#en_title_1").val()
+    demands[d].fr.title = $("#fr_title").val()
+    demands[d].fr.header_html = $("#fr_header_html").val()
+    demands[d].fr.field_region = $("#fr_field_region").val()
+    demands[d].fr.field_content = $("#fr_field_content").val()
+    demands[d].fr.field_long_summary = $("#fr_field_long_summary").val()
+    demands[d].fr.field_short_summary = $("#fr_field_short_summary").val()
+    demands[d].fr.field_dom_text = $("#fr_field_dom_text").val()
+    demands[d].fr.title_1 = $("#fr_title_1").val()
+    $("#json_dump").val(JSON.stringify(demands))
+    
+ })
+    
+})
+
+
+   
+
+
+//             let demands={
+//     "demand_id": "land-back",    
+//     "field_demand_no": "\u00b9",
+//     "field_exmark": "",
+//     "en": {      
+//       "title": "Land Back",
+//       "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Land</span> Back!",
+//       "field_region": "Vancouver",
+//       "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
+//       "field_long_summary": "We demand that all land c\\a\\n\\a\\d\\a claims for the “crown” be returned to First Nations, Métis, and Inuit Peoples as Indigenous lands. ",
+//       "field_short_summary": "",
+//       "field_dom_text": "Land Back",
+//       "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+//     },
+//     "fr": {
+//       "title": "Terre Retour",
+//       "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Terre</span> Retour!",
+//       "field_region": "Vancouver",
+//       "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
+//       "field_long_summary": "",
+//       "field_short_summary": "",
+//       "field_dom_text": "Land Back",
+//       "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+//     }
+    
+    
+//   }
+
+  //loadJSON();
+
+  
+
+
+
+
+
+
+
+
+
+
+function loadJSON() {
+
+    console.log(demands)
+// $("#viewport").val(demands.viewport)
+// $("#demand_id").val(demands.demand_id)
+// $("#field_demand_no").val(demands.field_demand_no)
+// $("#field_exmark").val(demands.field_exmark)
+// $("#en_title").val(demands.en.title)
+// $("#en_header_html").val(demands.en.header_html)
+// $("#en_field_region").val(demands.en.field_region)
+// $("#en_field_content").val(demands.en.field_content)
+// $("#en_field_long_summary").val(demands.en.field_long_summary)
+// $("#en_field_short_summary").val(demands.en.field_short_summary)
+// $("#en_field_dom_text").val(demands.en.field_dom_text)
+// $("#en_title_1").val(demands.en.title_1)
+// $("#fr_title").val(demands.fr.title)
+// $("#fr_header_html").val(demands.fr.header_html)
+// $("#fr_field_region").val(demands.fr.field_region)
+// $("#fr_field_content").val(demands.fr.field_content)
+// $("#fr_field_long_summary").val(demands.fr.field_long_summary)
+// $("#fr_field_short_summary").val(demands.fr.field_short_summary)
+// $("#fr_field_dom_text").val(demands.fr.field_dom_text)
+// $("#fr_title_1").val(demands.fr.title_1)
+
+}
+
+
+            
+        </script>
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
