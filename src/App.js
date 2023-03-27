@@ -11,7 +11,7 @@ import PageBody from './components/pageBody'
 import HomeFist from './components/homeFist'
 import Menu from './components/menu'
 import Footer from './components/footer'
-import { getBrowserLang } from './services/languageServices'
+import { getBrowserLang } from './utils/languageUtil'
 import LangButton from './components/langButton'
 
 const langs = ['en', 'fr']
@@ -42,15 +42,18 @@ function App() {
             />)}
         </Route>
       )}
-      <Route path='*' element={<Navigate to={fallbackLang} />} />
+      {/* <Route path='*' element={<Navigate to={fallbackLang} />} /> */}
     </Routes>
   )
 }
 
 function Main({ currentLang }) {
   const navigate = useNavigate()
+  const location = useLocation()
 
-  const handleLangButton = i => {
+  const handleLangButton = lang => {
+    console.log(location.pathname.split('/'))
+    navigate(`/${lang}`)
     // if (langIndex === i) return
     // setBrowserLang(langs[i])
     // gsap.to(demandBodyRef.current, {
@@ -70,7 +73,7 @@ function Main({ currentLang }) {
           <LangButton
             lang={lang}
             isActive={lang === currentLang}
-            handleClick={() => handleLangButton(i)}
+            handleClick={() => handleLangButton(lang)}
             key={i} />)}
       </div>
 
