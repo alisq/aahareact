@@ -1,5 +1,6 @@
 function Member({member, lang}) {
     
+
     const hasBio =member[lang]["Bio"] !== null
 
     

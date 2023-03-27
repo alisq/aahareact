@@ -95,7 +95,7 @@ function Main({ currentLang }) {
       </section>
 
       <Outlet />
-      <Footer />
+      <Footer lang={currentLang} />
     </>
   )
 }
