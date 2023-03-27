@@ -14,12 +14,14 @@ import { getBrowserLang } from './utils/languageUtil'
 import LangButton from './components/langButton'
 import { setUrlPart } from './utils/urlUtil'
 import BodySection from './components/bodySection'
+import { useState } from 'react'
 
 const langs = ['en', 'fr']
 
 function App() {
   const browserLang = getBrowserLang()
   const fallbackLang = langs.includes(browserLang) ? browserLang : langs[0]
+  const isAnimating = useState()
 
   return (
     <Routes>
@@ -32,7 +34,7 @@ function App() {
           {demandData.map((demand, i) =>
             <Route
               path={`demand/${demand.demand_id}`}
-              element={<BodySection {...demand} Component={DemandBody} lang={demand.en} />}
+              element={<BodySection {...demand} Component={DemandBody} lang={demand[lang]} />}
               key={i}
             />)}
           {pageData.map((page, i) =>
