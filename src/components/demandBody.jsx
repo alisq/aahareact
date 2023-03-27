@@ -2,14 +2,14 @@
 import { forwardRef } from 'react'
 import Action from './action'
 
-const DemandBody = forwardRef(({ lang, demand_id }, ref) => {
+const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
   document.title = "AAHA | " + lang.title
   return (
     <section id={demand_id} className='demand' ref={ref}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
-            <h5>To decomodify housing in c/a/n/a/d/a we demand</h5>
+            
             <h2>{lang.title}</h2>
 
             <p>
@@ -27,6 +27,8 @@ const DemandBody = forwardRef(({ lang, demand_id }, ref) => {
 
           </div>
           <div className='six columns'>
+
+            <img src={'/img/banners/' + banner} />
 
             <div dangerouslySetInnerHTML={{ __html: lang.field_content }}></div>
 
@@ -53,48 +55,7 @@ const DemandBody = forwardRef(({ lang, demand_id }, ref) => {
 
 
               <Action />
-              <li>
-                <label className='label--red'>donate</label><br />
-                Learn more about the campaign to for a gentrification tax
-                in Toronto by visiting <label>this page.</label>
-                <br />
-                <label>PAY THE VOLUNTARY TAX</label>
-              </li>
-              <li>
-                <label className='label--red'>donate</label><br />
-                Learn more about the campaign to for a gentrification tax
-                in Toronto by visiting <label>this page.</label>
-                <br />
-                <label>PAY THE VOLUNTARY TAX</label>
-              </li>
-              <li>
-                <label className='label--red'>donate</label><br />
-                Learn more about the campaign to for a gentrification tax
-                in Toronto by visiting <label>this page.</label>
-                <br />
-                <label>PAY THE VOLUNTARY TAX</label>
-              </li>
-              <li>
-                <label className='label--red'>donate</label><br />
-                Learn more about the campaign to for a gentrification tax
-                in Toronto by visiting <label>this page.</label>
-                <br />
-                <label>PAY THE VOLUNTARY TAX</label>
-              </li>
-
-              <li>
-                <label className='label--red'>Sign</label><br />
-                Advocate for taxing the unearned incremenet at city hall by signing the petition below:
-                <br />
-                <label>Sign here</label>
-              </li>
-
-              <li>
-                <label className='label--red'>participate</label><br />
-                Attend one of the forthcoming Parkdale Community Information Sessions hosted by PNLT
-                <label>RSVP FOR AN INFORMATION SESSION</label>
-              </li>
-            </ul>
+                          </ul>
 
 
 
