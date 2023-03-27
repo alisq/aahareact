@@ -1,10 +1,9 @@
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
-import { Navigate, Outlet, Route, Routes } from 'react-router-dom'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { Navigate, Outlet, Route, Routes, useNavigate, useLocation } from 'react-router-dom'
 import demandData from './demands.json'
 import pageData from './pages.json'
 import DemandHeader from './components/demandHeader'
-// import { AnimatePresence } from "framer-motion"
 import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
 import HomeFist from './components/homeFist'
@@ -14,33 +13,37 @@ import { getBrowserLang } from './utils/languageUtil'
 import LangButton from './components/langButton'
 import { setUrlPart } from './utils/urlUtil'
 import BodySection from './components/bodySection'
-import { useState } from 'react'
 
 const langs = ['en', 'fr']
 
 function App() {
   const browserLang = getBrowserLang()
   const fallbackLang = langs.includes(browserLang) ? browserLang : langs[0]
-  const isAnimating = useState()
+  const location = useLocation()
 
   return (
-    <Routes>
+    <Routes location={location}>
       {langs.map((lang, i) =>
         <Route
           path={lang}
-          element={<Main currentLang={lang} />}
+          element={<Main
+            currentLang={lang} />}
           key={i}>
           <Route index element={null} />
           {demandData.map((demand, i) =>
             <Route
               path={`demand/${demand.demand_id}`}
-              element={<BodySection {...demand} Component={DemandBody} lang={demand[lang]} />}
+              element={<BodySection {...demand}
+                Component={DemandBody}
+                lang={demand[lang]} />}
               key={i}
             />)}
           {pageData.map((page, i) =>
             <Route
               path={`page/${page.view_node}`}
-              element={<BodySection {...page} Component={PageBody} />}
+              element={<BodySection {...page}
+
+                Component={PageBody} />}
               key={i}
             />)}
         </Route>
@@ -54,8 +57,8 @@ function Main({ currentLang }) {
   const navigate = useNavigate()
   const location = useLocation()
 
-  const handleLangButton = lang => {
-    console.log(location.pathname.split('/'))
+  const handleLangSwitch = lang => {
+    if (currentLang === lang) return
     setUrlPart(location, navigate, 'lang', lang)
   }
 
@@ -69,7 +72,7 @@ function Main({ currentLang }) {
           <LangButton
             lang={lang}
             isActive={lang === currentLang}
-            handleClick={() => handleLangButton(lang)}
+            handleClick={() => handleLangSwitch(lang)}
             key={i} />)}
       </div>
 

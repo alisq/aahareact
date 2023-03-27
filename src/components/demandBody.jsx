@@ -3,7 +3,6 @@ import { forwardRef } from 'react'
 import Action from './action'
 
 const DemandBody = forwardRef(({ lang, demand_id }, ref) => {
-
   document.title = "AAHA | " + lang.title
   return (
     <section id={demand_id} className='demand' ref={ref}>
