@@ -8,7 +8,6 @@ import MenuLink from './menuLink'
 
 
 function Footer({lang}) {
-    console.log(lang)
     
     return (
 
