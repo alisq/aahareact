@@ -1,15 +1,15 @@
 
-import { useEffect } from 'react'
-import Action  from './action'
+import { useEffect, useRef } from 'react'
+import Action from './action'
 
-function DemandBody({ lang, demand_id, sectionRef }) {
+function DemandBody({ lang, demand_id }) {
 
+  const sectionRef = useRef(null)
   document.title = "AAHA | " + lang.title
 
   useEffect(() => {
-    if (sectionRef && sectionRef.current)
-      sectionRef.current.scrollIntoView({ behavior: 'smooth' })
-  }, [sectionRef, lang])
+    sectionRef.current.scrollIntoView({ top: 0, left: 0, behavior: 'smooth' })
+  }, [])
 
   return (
     <section id={demand_id} className='demand' ref={sectionRef}>
@@ -55,11 +55,11 @@ function DemandBody({ lang, demand_id, sectionRef }) {
           <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>TAKE ACTION</h3>
 
-            
+
             <ul className='actions'>
-            
-           
-            <Action />
+
+
+              <Action />
               <li>
                 <label className='label--red'>donate</label><br />
                 Learn more about the campaign to for a gentrification tax

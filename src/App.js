@@ -3,10 +3,10 @@ import { Route, Routes, Outlet } from 'react-router-dom'
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { useLocation, useNavigate } from 'react-router-dom'
-import headerData from './demands.json'
+import demandData from './demands.json'
 import pageData from './pages.json'
 import DemandHeader from './components/demandHeader'
-
+import { AnimatePresence } from "framer-motion"
 import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
 import HomeFist from './components/homeFist'
@@ -16,24 +16,8 @@ import { getBrowserLang, setBrowserLang } from './services/languageServices'
 import LangButton from './components/langButton'
 
 function App() {
-  return (
-    <Routes>
-      <Route element={<Main />}>
-        <Route index element={null} />
-        <Route path='about/:view_node' element={<PageBody />} />
-      </Route>
-    </Routes >
-  )
-}
-
-function Main() {
-
-  const [currentDemand, setCurrentDemand] = useState(null)
-
+  const location = useLocation()
   const compRef = useRef(null)
-  const demandBodyRef = useRef(null)
-
-  const { hash } = useLocation()
   const navigate = useNavigate()
 
   const langs = ['en', 'fr']
@@ -41,54 +25,21 @@ function Main() {
   const browserLangIndex = langs.indexOf(browserLang)
   const [langIndex, setLangIndex] = useState(browserLangIndex !== -1 ? browserLangIndex : 0)
 
-  const findDemandFromId = demandId => headerData.find(demand => demand.demand_id === demandId)
-  const scrollToDemand = () => {
-    if (demandBodyRef && demandBodyRef.current)
-      demandBodyRef.current.scrollIntoView({ behavior: 'smooth' })
-  }
-  const showDemand = () => {
-    if (!currentDemand) return null
-    const matchedDemand = findDemandFromId(currentDemand)
-    return <DemandBody {...matchedDemand}
-      lang={matchedDemand[langs[langIndex]]}
-      sectionRef={demandBodyRef} />
-  }
-
-  const gsapConfig = {
-    duration: 0.2,
-    ease: 'power2'
-  }
-
-  useEffect(() => {
-    if (!hash) return
-    const demandId = hash.slice(1)
-    if (findDemandFromId(demandId)) setCurrentDemand(demandId)
-  }, [hash])
-
-  useEffect(scrollToDemand, [currentDemand, demandBodyRef])
-  useLayoutEffect(() => {
-    let ctx = gsap.context(
-      gsap.to(
-        demandBodyRef.current, { opacity: 1, ...gsapConfig }
-      ), compRef)
-    return () => ctx.revert()
-  }, [langIndex])
-
   const handleLangButton = i => {
-    if (langIndex === i) return
-    setBrowserLang(langs[i])
-    gsap.to(demandBodyRef.current, {
-      opacity: 0,
-      onComplete: () => setLangIndex(i),
-      ...gsapConfig
-    })
+    // if (langIndex === i) return
+    // setBrowserLang(langs[i])
+    // gsap.to(demandBodyRef.current, {
+    //   opacity: 0,
+    //   onComplete: () => setLangIndex(i),
+    //   ...gsapConfig
+    // })
   }
 
-  const handleHeaderClick = (demand_id) => {
-    setCurrentDemand(demand_id)
-    scrollToDemand()
-    navigate(`#${demand_id}`)
-  }
+  // const handleHeaderClick = (demand_id) => {
+  //   setCurrentDemand(demand_id)
+  //   scrollToDemand()
+  //   navigate(`#${demand_id}`)
+  // }
 
   return (
     <>
@@ -117,29 +68,33 @@ function Main() {
           c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
             className='red'>\</span>d<span className='red'>\</span>a<br />
           WE DEMAND...
-          {headerData.map((header, i) =>
+          {demandData.map((header, i) =>
             <DemandHeader {...header}
               navigate={navigate}
-              handleClick={handleHeaderClick}
+              handleClick={() => { navigate(`/demand/${header.demand_id}`) }}
               key={i}
               lang={header[langs[langIndex]]} />
           )}
         </div>
       </section>
 
-      {/* {showDemand()} */}
-
-      <Outlet />
+      <Routes location={location} key={location.pathname}>
+        <Route index element={null} />
+        {demandData.map((demand, i) =>
+          <Route
+            path={`demand/${demand.demand_id}`}
+            element={<DemandBody {...demand} lang={demand.en} />}
+            key={i}
+          />)}
+        {pageData.map((page, i) =>
+          <Route
+            path={`page/${page.view_node}`}
+            element={<PageBody {...page} />}
+            key={i}
+          />)}
+        {/* <Route path='*' element={null} /> */}
+      </Routes >
       <Footer />
-
-
-
-      {/* {pageData.map((page, i) =>
-        <PageBody {...page}
-          onPageRefLoad={ref => pageRefs.current[i] = ref}
-          key={i} />
-      )} */}
-
     </>
   )
 }
