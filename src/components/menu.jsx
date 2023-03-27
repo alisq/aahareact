@@ -9,7 +9,7 @@ function Menu({ navigate, pageRefs }) {
     // gets the reference to the corresponding body
     // pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
     //navigate(`#${view_node}`)
-    navigate(`about/${view_node}`)
+    navigate(`page/${view_node}`)
     setVisibility(false)
   }
 

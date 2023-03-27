@@ -1,9 +1,13 @@
 import { useEffect, useRef } from 'react'
+import { useLocation } from 'react-router-dom'
 
 function PageBody({ view_node, body, title }) {
+  const location = useLocation()
   const pageRef = useRef(null)
 
-  useEffect(() => { pageRef.current.scrollIntoView({ behavior: 'smooth' }) }, [])
+  useEffect(() => {
+    pageRef.current.scrollIntoView({ behavior: 'smooth' })
+  }, [location])
 
   return (
     <section id={view_node} className='page' ref={pageRef}>

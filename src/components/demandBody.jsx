@@ -1,15 +1,17 @@
 
 import { useEffect, useRef } from 'react'
+import { useLocation } from 'react-router-dom'
 import Action from './action'
 
 function DemandBody({ lang, demand_id }) {
+  const location = useLocation()
 
   const sectionRef = useRef(null)
   document.title = "AAHA | " + lang.title
 
   useEffect(() => {
-    sectionRef.current.scrollIntoView({ top: 0, left: 0, behavior: 'smooth' })
-  }, [])
+    sectionRef.current.scrollIntoView({ behavior: 'smooth' })
+  }, [location])
 
   return (
     <section id={demand_id} className='demand' ref={sectionRef}>
