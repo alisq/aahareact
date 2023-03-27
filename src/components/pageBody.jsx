@@ -1,30 +1,28 @@
-import { useRef, useEffect } from 'react'
-import useOnScreen from '../hooks/useOnScreen'
+import { useEffect } from 'react'
+import { useNavigate, useParams } from 'react-router-dom'
+import pageData from '../pages.json'
 
-function PageBody({ title, view_node, body, onPageRefLoad }) {
+function PageBody({}) {
+  const params = useParams()
+  const data = pageData.find(page => page.view_node === params.view_node)
 
-  const sectionRef = useRef(null)
+
+  const navigate = useNavigate()
   useEffect(() => {
-    if (sectionRef.current) onPageRefLoad(sectionRef)
-  }, [sectionRef])
+    if (!data) navigate('/')
+  }, [])
 
-  const isVisible = useOnScreen(sectionRef)
-
-  useEffect(() => {
-
-  }, [sectionRef, isVisible])
-
-  return (
-    <section id={view_node} className='page' ref={sectionRef}>
+  return data && (
+    <section id={data.view_node} className='page'>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
 
-            <h2>{title}</h2>
+            <h2>{data.title}</h2>
 
           </div>
           <div className='six columns'>
-            <div dangerouslySetInnerHTML={{ __html: body }}></div>
+            <div dangerouslySetInnerHTML={{ __html: data.body }}></div>
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
 

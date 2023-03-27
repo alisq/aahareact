@@ -7,8 +7,9 @@ function Menu({ navigate, pageRefs }) {
 
   const createHandleClick = (i, view_node) => () => {
     // gets the reference to the corresponding body
-    pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
-    navigate(`#${view_node}`)
+    // pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
+    //navigate(`#${view_node}`)
+    navigate(`about/${view_node}`)
     setVisibility(false)
   }
 
@@ -28,8 +29,6 @@ function Menu({ navigate, pageRefs }) {
 
           {pageData.map((page, i) =>
             <MenuLink {...page}
-              navigate={navigate}
-              getBodyRef={() => pageRefs.current[i]}
               handleClick={createHandleClick(i, page.view_node)}
               key={i} />
           )}

@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes, Outlet } from 'react-router-dom'
+import { Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { useLocation, useNavigate } from 'react-router-dom'
@@ -16,22 +16,20 @@ import { getBrowserLang, setBrowserLang } from './services/languageServices'
 import LangButton from './components/langButton'
 
 function App() {
-  return (
-    <Routes>
-      <Route element={<Main />}>
-        <Route index element={null} />
-        <Route path='about/:view_node' element={<PageBody />} />
-      </Route>
-    </Routes >
-  )
-}
 
-function Main() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/'>
+
+      </Route>
+    )
+  )
 
   const [currentDemand, setCurrentDemand] = useState(null)
 
   const compRef = useRef(null)
   const demandBodyRef = useRef(null)
+  const pageRefs = useRef(Array(pageData.length))
 
   const { hash } = useLocation()
   const navigate = useNavigate()
@@ -92,7 +90,7 @@ function Main() {
 
   return (
     <>
-      <Menu navigate={navigate} />
+      <Menu navigate={navigate} pageRefs={pageRefs} />
       <HomeFist />
 
       <div id='lang'>
@@ -127,11 +125,9 @@ function Main() {
         </div>
       </section>
 
-      {/* {showDemand()} */}
+      {showDemand()}
 
-      <Outlet />
       <Footer />
-
 
 
       {/* {pageData.map((page, i) =>
