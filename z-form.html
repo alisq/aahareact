@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label {
+            display:inline-block;
+            width:200px;
+            padding-bottom:1em;
+        }    
+
+        input,
+        textarea {
+            font-size: 20px;
+            padding:0.25em;
+            width:400px;
+        }
+    </style>
+
+</head>
+<body>
+        <form>
+            <div><label>Demand ID:</label> <input name="demand_id" type="text"></div>
+            <div><label>demand Number:</label> <input name="field_demand_no" type="text"></div>
+            <div><label>exmark:</label> <input name="field_exmark" type="text"></div>
+            
+            <div class="en">
+                <h2>EN</h2>
+                <div><label>en_title</label><input type="text" name="en_title"></div>
+                <div><label>en_header_html</label><input type="text" name="en_header_html"></div>
+                <div><label>en_field_region</label><input type="text" name="en_field_region"></div>
+                <div><label>en_field_content</label><textarea name="en_field_content"></textarea></div>
+                <div><label>en_field_long_summary</label><input type="text" name="en_field_long_summary"></div>
+                <div><label>en_field_short_summary</label><input type="text" name="en_field_short_summary"></div>
+                <div><label>en_field_dom_text</label><input type="text" name="en_field_dom_text"></div>
+                <div><label>en_title_1</label><input type="text" name="en_title_1"></div>
+            </div>
+
+            <div class="fr">
+                <h2>FR</h2>
+                <div><label>fr_title</label><input type="text" name="fr_title"></div>
+                <div><label>fr_header_html</label><input type="text" name="fr_header_html"></div>
+                <div><label>fr_field_region</label><input type="text" name="fr_field_region"></div>
+                <div><label>fr_field_content</label><textarea name="fr_field_content"></textarea></div>
+                <div><label>fr_field_long_summary</label><input type="text" name="fr_field_long_summary"></div>
+                <div><label>fr_field_short_summary</label><input type="text" name="fr_field_short_summary"></div>
+                <div><label>fr_field_dom_text</label><input type="text" name="fr_field_dom_text"></div>
+                <div><label>fr_title_1</label><input type="text" name="fr_title_1"></div>
+            </div>
+        </form>
+        <button id="load_json">load json</button><br /><br />
+        <textarea id="dump_json"></textarea>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <script>
+
+            
+        </script>
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+{
+    
+    "en": {      
+      "title": "Land Back",
+      "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Land</span> Back!",
+      "field_region": "Vancouver",
+      "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
+      "field_long_summary": "We demand that all land c\\a\\n\\a\\d\\a claims for the “crown” be returned to First Nations, Métis, and Inuit Peoples as Indigenous lands. ",
+      "field_short_summary": "",
+      "field_dom_text": "Land Back",
+      "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+    },
+    "fr": {
+      "title": "Terre Retour",
+      "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Terre</span> Retour!",
+      "field_region": "Vancouver",
+      "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
+      "field_long_summary": "",
+      "field_short_summary": "",
+      "field_dom_text": "Land Back",
+      "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+    }
+    
+    
+  },
