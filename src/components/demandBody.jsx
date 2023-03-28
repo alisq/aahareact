@@ -16,16 +16,14 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
             <p>
               {lang.field_long_summary}
             </p>
-            <label>{
-              lang === "en" ? "REGION" : "Région" 
-            }:</label> {lang.field_region}
+            <label>{ lang === "en" ? "REGION" : "Région"}:</label> {lang.field_region}
             <br />
-            <label>Activist:</label> Gentrification Tax Action
+            <label>{ lang === "en" ? "Activist" : "Activiste"}:</label> Gentrification Tax Action
             <br />
-            <label>Advocate:</label>
+            <label>{ lang === "en" ? "Advocate" : "Intervenant"}:</label>
             Parkdale Neighborhood Land Trust
             <br />
-            <label>Architect:</label>
+            <label>{ lang === "en" ? "Architect" : "Architecte"}:</label>
             Levitt Goodman Associates
 
           </div>
