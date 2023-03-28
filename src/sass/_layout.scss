@@ -336,6 +336,13 @@ h1 {
             cursor:pointer;
             transition:color $transition-time;
 
+            & a,
+            & a:link,
+            & a:visited {
+                color:$red; 
+                text-decoration:none;
+            }
+
             &:hover {
                 color:$foreground;
             }

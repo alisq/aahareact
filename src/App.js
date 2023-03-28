@@ -81,7 +81,7 @@ function Main({ currentLang }) {
       <h1>
 
 
-        <div className='title-top'>{(currentLang === 'fr') ? "ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!" : "ARCHITECTS AGAINST HOUSING ALIENATION!"}</div>
+        <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
         {/* <div className='title-bottom'>ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div> */}
       </h1>
 

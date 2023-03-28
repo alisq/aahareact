@@ -21,15 +21,17 @@ body {
     color: $background;
   }
 
+  a,
 a:link,
 a:visited {
-    color:inherit;
+    color:$red; 
     text-decoration-color: $red!important;
     text-decoration:underline;
 }
 
 a:hover,
 a:active {
+    color:$red; 
     text-decoration:none;
 }
 
