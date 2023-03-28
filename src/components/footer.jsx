@@ -25,7 +25,9 @@ function Footer({lang}) {
                         <ul className="label">
 
                             {pageData.map((page, i) =>
-                                <MenuLink {...page}
+                                <MenuLink 
+                                    page={page}
+                                    lang={lang}
                                     // navigate={navigate}
                                     // getBodyRef={() => pageRefs.current[i]}
                                     // handleClick={createHandleClick(i, page.view_node)}

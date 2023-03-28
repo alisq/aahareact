@@ -3,6 +3,8 @@ import './App.css'
 import { Navigate, Outlet, Route, Routes, useNavigate, useLocation } from 'react-router-dom'
 import demandData from './demands.json'
 import pageData from './pages.json'
+import contributorData from './contributors.json'
+import orgData from './orgs.json'
 import DemandHeader from './components/demandHeader'
 import DemandBody from './components/demandBody'
 import PageBody from './components/pageBody'
@@ -42,7 +44,7 @@ function App() {
             <Route
               path={`page/${page.view_node}`}
               element={<BodySection {...page}
-
+                lang={lang}
                 Component={PageBody} />}
               key={i}
             />)}
@@ -64,7 +66,7 @@ function Main({ currentLang }) {
 
   return (
     <>
-      <Menu navigate={navigate} />
+      <Menu navigate={navigate} lang={currentLang} />
       <HomeFist />
 
       <div id='lang'>

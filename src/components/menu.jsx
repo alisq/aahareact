@@ -2,8 +2,10 @@ import { useState } from 'react'
 import pageData from '../pages.json'
 import MenuLink from './menuLink'
 
-function Menu({ navigate, pageRefs }) {
+function Menu({ navigate, pageRefs, lang   }) {
   const [visibility, setVisibility] = useState(false)
+
+  
 
   const createHandleClick = (i, view_node) => () => {
     // gets the reference to the corresponding body
@@ -28,8 +30,8 @@ function Menu({ navigate, pageRefs }) {
         <ul>
 
           {pageData.map((page, i) =>
-            <MenuLink {...page}
-              handleClick={createHandleClick(i, page.view_node)}
+            <MenuLink lang={lang} page={page}
+              handleClick={createHandleClick(i, page.page_id)}
               key={i} />
           )}
 
