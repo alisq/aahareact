@@ -4,6 +4,7 @@ import Action from './action'
 
 const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
   document.title = "AAHA | " + lang.title
+  
   return (
     <section id={demand_id} className='demand' ref={ref}>
       <div className='container'>
@@ -15,7 +16,9 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
             <p>
               {lang.field_long_summary}
             </p>
-            <label>region:</label> {lang.field_region}
+            <label>{
+              lang === "en" ? "REGION" : "Région" 
+            }:</label> {lang.field_region}
             <br />
             <label>Activist:</label> Gentrification Tax Action
             <br />
