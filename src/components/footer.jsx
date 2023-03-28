@@ -48,14 +48,14 @@ function Footer({lang}) {
                        
                     </div>
                 </div>
-
+{/* 
                 {orgData.map((member, i) => 
                             <Member member={member} lang={lang} key={i}/>
                         )}
                 
                 {contributorData.map((member, i) => 
                             <Member member={member} lang={lang} key={i}/>
-                        )}
+                        )} */}
 
 
             </div>

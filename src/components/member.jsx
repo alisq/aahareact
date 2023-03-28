@@ -25,12 +25,13 @@ function Member({member, lang}) {
             <td>{demandTitles[member["team_id"]][lang]}</td>
             <td>{member[lang]["Role"]}</td>
             <td>{member[lang]["Organization"]}</td>
+            <td>{ hasBio && "read more" }</td>
       </tr>
 
 {
     hasBio && <tr>
             
-    <td colSpan='4'>{member[lang]["Bio"]}</td>
+    <td colSpan='5'>{member[lang]["Bio"]}</td>
     </tr>
 }
 </>
