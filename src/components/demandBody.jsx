@@ -4,6 +4,8 @@ import Action from './action'
 
 const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
   document.title = "AAHA | " + lang.title
+
+  console.log(lang)
   
   return (
     <section id={demand_id} className='demand' ref={ref}>
@@ -16,14 +18,16 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
             <p>
               {lang.field_long_summary}
             </p>
-            <label>{ lang === "en" ? "REGION" : "Région"}:</label> {lang.field_region}
+
+
+            <label>{ lang.lang === "en" ? "REGION" : "Région"}:</label> {lang.field_region}
             <br />
-            <label>{ lang === "en" ? "Activist" : "Activiste"}:</label> Gentrification Tax Action
+            <label>{ lang.lang === "en" ? "Activist" : "Activiste"}:</label> {lang.activist}
             <br />
-            <label>{ lang === "en" ? "Advocate" : "Intervenant"}:</label>
+            <label>{ lang.lang === "en" ? "Advocate" : "Intervenant"}:</label> {lang.advocate}
             Parkdale Neighborhood Land Trust
             <br />
-            <label>{ lang === "en" ? "Architect" : "Architecte"}:</label>
+            <label>{ lang.lang === "en" ? "Architect" : "Architecte"}:</label> {lang.architect}
             Levitt Goodman Associates
 
           </div>
