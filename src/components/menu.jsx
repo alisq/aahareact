@@ -28,13 +28,13 @@ function Menu({ navigate, pageRefs, lang   }) {
 
       <section id='menu' className={visibility ? 'active' : ''}>
         <ul>
-
+    <li><a href="/">DEMANDS</a></li>
           {pageData.map((page, i) =>
             <MenuLink lang={lang} page={page}
               handleClick={createHandleClick(i, page.page_id)}
               key={i} />
           )}
-
+<li><a href="/">CONTACT</a></li>
         </ul>
       </section>
     </>
