@@ -1,9 +1,10 @@
 
 import { forwardRef } from 'react'
 import Action from './action'
+import HighlightedText from './highlightedText'
 
-const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
-  document.title = "AAHA | " + lang.title
+const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
+  document.title = "AAHA | " + content.title
 
   return (
     <section id={demand_id} className='demand' ref={ref}>
@@ -11,21 +12,23 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
         <div className='row'>
           <div className='three columns sticky'>
 
-            <h2>{lang.title}</h2>
+            <h2>{content.title}</h2>
 
             <p>
-              {lang.field_long_summary}
+              <HighlightedText>
+                {content.field_long_summary}
+              </HighlightedText>
             </p>
 
-
-            <label>{lang.lang === "en" ? "REGION" : "Région"}:</label> {lang.field_region}
+            <label>{content.lang === "en" ? "REGION" : "Région"}:</label>
+            {content.field_region}
             <br /><br />
-            <label>{lang.lang === "en" ? "Activist" : "Activiste"}:</label> {lang.activist}
+            <label>{content.lang === "en" ? "Activist" : "Activiste"}:</label> {content.activist}
             <br /><br />
-            <label>{lang.lang === "en" ? "Advocate" : "Intervenant"}:</label> {lang.advocate}
+            <label>{content.lang === "en" ? "Advocate" : "Intervenant"}:</label> {content.advocate}
             Parkdale Neighborhood Land Trust
             <br /><br />
-            <label>{lang.lang === "en" ? "Architect" : "Architecte"}:</label> {lang.architect}
+            <label>{content.lang === "en" ? "Architect" : "Architecte"}:</label> {content.architect}
             Levitt Goodman Associates
 
           </div>
@@ -33,7 +36,7 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
 
             <img src={'/img/banners/' + banner} />
 
-            <div dangerouslySetInnerHTML={{ __html: lang.field_content }}></div>
+            <div dangerouslySetInnerHTML={{ __html: content.field_content }}></div>
 
             {/* <div className='main-carousel'>
               <div className='carousel-cell'>
@@ -52,16 +55,9 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>TAKE ACTION</h3>
-
-
             <ul className='actions'>
-
-
               <Action />
             </ul>
-
-
-
           </div>
         </div>
       </div>

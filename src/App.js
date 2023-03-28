@@ -1,5 +1,5 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import './App.css'
+import { useEffect, useRef } from 'react'
 import { Navigate, Outlet, Route, Routes, useNavigate, useLocation } from 'react-router-dom'
 import demandData from './demands.json'
 import pageData from './pages.json'
@@ -16,11 +16,12 @@ import { getUrlParts, setUrlPart } from './utils/urlUtil'
 const langs = ['en', 'fr']
 
 function App() {
-  const browserLang = getBrowserLang()
-  const fallbackLang = langs.includes(browserLang) ? browserLang : langs[0]
   const location = useLocation()
   const sectionRef = useRef(null)
   const urlPartsRef = useRef(getUrlParts(location))
+
+  const browserLang = getBrowserLang()
+  const fallbackLang = langs.includes(browserLang) ? browserLang : langs[0]
 
   useEffect(() => {
     const urlParts = getUrlParts(location)
@@ -38,8 +39,7 @@ function App() {
       {langs.map((lang, i) =>
         <Route
           path={lang}
-          element={<Main
-            currentLang={lang} />}
+          element={<Main currentLang={lang} />}
           key={i}>
           <Route index element={null} />
           {demandData.map((demand, i) =>
@@ -47,17 +47,16 @@ function App() {
               path={`demand/${demand.demand_id}`}
               element={<DemandBody {...demand}
                 ref={sectionRef}
-                lang={demand[lang]} />}
-              key={i}
-            />)}
+                content={demand[lang]} />}
+              key={i} />)}
           {pageData.map((page, i) =>
             <Route
               path={`page/${page.page_id}`}
               element={<PageBody {...page}
-                lang={lang}
-                ref={sectionRef} />}
-              key={i}
-            />)}
+                ref={sectionRef}
+                title={page[lang].title}
+                lang={lang} />}
+              key={i} />)}
         </Route>
       )}
       <Route path='*' element={<Navigate replace to={fallbackLang} />} />

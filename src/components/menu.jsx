@@ -11,7 +11,6 @@ function Menu({ navigate, pageRefs, lang }) {
     // gets the reference to the corresponding body
     // pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
     //navigate(`#${page_id}`)
-    console.log(page_id)
     navigate(`page/${page_id}`)
     setVisibility(false)
   }
