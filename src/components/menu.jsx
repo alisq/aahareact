@@ -2,16 +2,17 @@ import { useState } from 'react'
 import pageData from '../pages.json'
 import MenuLink from './menuLink'
 
-function Menu({ navigate, pageRefs, lang   }) {
+function Menu({ navigate, pageRefs, lang }) {
   const [visibility, setVisibility] = useState(false)
 
-  
 
-  const createHandleClick = (i, view_node) => () => {
+
+  const createHandleClick = (i, page_id) => () => {
     // gets the reference to the corresponding body
     // pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
-    //navigate(`#${view_node}`)
-    navigate(`page/${view_node}`)
+    //navigate(`#${page_id}`)
+    console.log(page_id)
+    navigate(`page/${page_id}`)
     setVisibility(false)
   }
 
@@ -28,13 +29,13 @@ function Menu({ navigate, pageRefs, lang   }) {
 
       <section id='menu' className={visibility ? 'active' : ''}>
         <ul>
-    <li><a href="/">DEMANDS</a></li>
+          <li><a href="/">DEMANDS</a></li>
           {pageData.map((page, i) =>
             <MenuLink lang={lang} page={page}
               handleClick={createHandleClick(i, page.page_id)}
               key={i} />
           )}
-<li><a href="/">CONTACT</a></li>
+          <li><a href="/">CONTACT</a></li>
         </ul>
       </section>
     </>

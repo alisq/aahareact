@@ -7,11 +7,11 @@ import pageData from '../pages.json'
 import MenuLink from './menuLink'
 
 
-function Footer({lang}) {
-    
+function Footer({ lang, tempRef }) {
+
     return (
 
-        <section id="contact" className="inverse">
+        <section id="contact" className="inverse" ref={tempRef}>
             <div className="container">
                 <div className="row">
                     <div className="six columns">
@@ -25,7 +25,7 @@ function Footer({lang}) {
                         <ul className="label">
 
                             {pageData.map((page, i) =>
-                                <MenuLink 
+                                <MenuLink
                                     page={page}
                                     lang={lang}
                                     // navigate={navigate}
@@ -43,12 +43,12 @@ function Footer({lang}) {
                             <i className="fa-brands fa-twitter"></i>
                         </div>
                         followed by contact details and credits?
-                        
 
-                       
+
+
                     </div>
                 </div>
-{/* 
+                {/* 
                 {orgData.map((member, i) => 
                             <Member member={member} lang={lang} key={i}/>
                         )}

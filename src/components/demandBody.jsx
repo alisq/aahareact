@@ -5,14 +5,12 @@ import Action from './action'
 const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
   document.title = "AAHA | " + lang.title
 
-  console.log(lang)
-  
   return (
     <section id={demand_id} className='demand' ref={ref}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
-            
+
             <h2>{lang.title}</h2>
 
             <p>
@@ -20,14 +18,14 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
             </p>
 
 
-            <label>{ lang.lang === "en" ? "REGION" : "Région"}:</label> {lang.field_region}
+            <label>{lang.lang === "en" ? "REGION" : "Région"}:</label> {lang.field_region}
             <br /><br />
-            <label>{ lang.lang === "en" ? "Activist" : "Activiste"}:</label> {lang.activist}
+            <label>{lang.lang === "en" ? "Activist" : "Activiste"}:</label> {lang.activist}
             <br /><br />
-            <label>{ lang.lang === "en" ? "Advocate" : "Intervenant"}:</label> {lang.advocate}
+            <label>{lang.lang === "en" ? "Advocate" : "Intervenant"}:</label> {lang.advocate}
             Parkdale Neighborhood Land Trust
             <br /><br />
-            <label>{ lang.lang === "en" ? "Architect" : "Architecte"}:</label> {lang.architect}
+            <label>{lang.lang === "en" ? "Architect" : "Architecte"}:</label> {lang.architect}
             Levitt Goodman Associates
 
           </div>
@@ -60,7 +58,7 @@ const DemandBody = forwardRef(({ lang, demand_id, banner }, ref) => {
 
 
               <Action />
-                          </ul>
+            </ul>
 
 
 

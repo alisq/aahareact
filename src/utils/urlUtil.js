@@ -1,10 +1,10 @@
 const delimiter = '/'
 export const getUrlParts = location => {
-  const [, lang, cateogry, content] = location.pathname.split(delimiter)
-  return { lang, cateogry, content }
+  const [, lang, category, content] = location.pathname.split(delimiter)
+  return { lang, category, content }
 }
 
-export const partsToUrl = ({ lang, cateogry: category, content }) => `/${lang}${category && content ?
+export const partsToUrl = ({ lang, category, content }) => `/${lang}${category && content ?
   `/${category}/${content}` : ''
   }`
 

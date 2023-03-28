@@ -3,10 +3,9 @@ import contributorData from '../contributors.json'
 import orgData from '../orgs.json'
 import Member from './member'
 
-const PageBody = forwardRef(({ view_node, body, title, lang }, ref) => {
-  console.log({lang})
+const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
   return (
-    <section id={view_node} className='page' ref={ref}>
+    <section id={page_id} className='page' ref={ref}>
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
@@ -24,15 +23,15 @@ const PageBody = forwardRef(({ view_node, body, title, lang }, ref) => {
       </div>
       <table>
         <tbody>
-      {orgData.map((member, i) => 
-                            <Member member={member} lang={lang} key={i}/>
-                        )}
-                
-                {contributorData.map((member, i) => 
-                            <Member member={member} lang={lang} key={i}/>
-                        )}
-  </tbody>
-  </table>
+          {orgData.map((member, i) =>
+            <Member member={member} lang={lang} key={i} />
+          )}
+
+          {contributorData.map((member, i) =>
+            <Member member={member} lang={lang} key={i} />
+          )}
+        </tbody>
+      </table>
     </section >
   )
 })
