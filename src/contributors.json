@@ -1,1217 +1,1613 @@
 [
   {
+    "category":"contributor",
     "team_id": "1",
-    "Team": "Land Back",    
-    "Name": "Sarah Silva",
+    "team": "Land Back",    
+    "title":"",
+    "name": "Sarah Silva",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Hiyam Housing"
+      "team": "Land Back",
+      "bio":"",
+      "role": "Activist",
+      "organization": "Hiyam Housing"
     },
     "fr": { 
-      "Role": "Activiste",
-      "Organization": "Hiyam Housing"
+      "team": "La restitution des terres ancestrales",
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Hiyam Housing"
     },
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "1",
-    "Team": "Land Back",    
-    "Name": "Krystel Clark",
+    "team": "Land Back",    
+    "title":"",
+    "name": "Krystel Clark",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Patrick R. Stewart Architect"
+      "team": "Land Back",
+      "bio":"",
+      "role": "Architect",
+      "organization": "Patrick R. Stewart Architect"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Patrick R. Stewart Architect"
+      "team": "La restitution des terres ancestrales",
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Patrick R. Stewart Architect"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "1",
-    "Team": "Land Back",    
-    "Name": "Alexander Moses",
+    "team": "Land Back",    
+    "title":"",
+    "name": "Alexander Moses",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Patrick R. Stewart Architect"
+      "team": "Land Back",
+      "bio":"",
+      "role": "Architect",
+      "organization": "Patrick R. Stewart Architect"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Patrick R. Stewart Architect"
+      "team": "La restitution des terres ancestrales",
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Patrick R. Stewart Architect"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "1",
-    "Team": "Land Back",    
-    "Name": "Luugigyoo, Patrick R. Stewart",
+    "team": "Land Back",    
+    "title":"",
+    "name": "Luugigyoo, Patrick R. Stewart",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Patrick R. Stewart Architect"
+      "team": "Land Back",
+      "bio":"",
+      "role": "Architect",
+      "organization": "Patrick R. Stewart Architect"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Patrick R. Stewart Architect"
+      "team": "La restitution des terres ancestrales",
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Patrick R. Stewart Architect"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "1",
-    "Team": "Land Back",    
-    "Name": "Xalek/Sekyu Siyam Chief Ian Campbell",
+    "team": "Land Back",    
+    "title":"",
+    "name": "Xalek/Sekyu Siyam Chief Ian Campbell",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Skwxwu7mesh Uxwumixw (Squamish Nation)"
+      "team": "Land Back",
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Skwxwu7mesh Uxwumixw (Squamish Nation)"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Nation des Squamish"
+      "team": "La restitution des terres ancestrales",
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Nation des Squamish"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "2",
-    "Team": "On the Land Housing",    
-    "Name": "Julia Christiansen",
+    "team": "On the Land Housing",    
+    "title":"",
+    "name": "Julia Christiansen",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "At Home in the North"
+      "team": "On the Land Housing",
+      "bio":"",
+      "role": "Advocate",
+      "organization": "At Home in the North"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "At Home in the North"
+      "team": "Des logements sur le territoire",
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "At Home in the North"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "2",
-    "Team": "On the Land Housing",    
-    "Name": "Katlia Lafferty",
+    "team": "On the Land Housing",    
+    "title":"",
+    "name": "Katlia Lafferty",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "National Indigenous Housing Network"
+      "team": "On the Land Housing",
+      "bio":"",
+      "role": "Activist",
+      "organization": "National Indigenous Housing Network"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "National Indigenous Housing Network"
+      "team": "Des logements sur le territoire",
+      "bio":"",
+      "role": "Activiste",
+      "organization": "National Indigenous Housing Network"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "2",
-    "Team": "On the Land Housing",    
-    "Name": "Ouri Scott",
+    "team": "On the Land Housing",    
+    "title":"",
+    "name": "Ouri Scott",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Urban Arts Architecture Inc"
+      "team": "On the Land Housing",
+      "bio":"",
+      "role": "Architect",
+      "organization": "Urban Arts Architecture Inc"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Urban Arts Architecture Inc"
+      "team": "Des logements sur le territoire",
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Urban Arts Architecture Inc"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Matthew Baker",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Matthew Baker",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "David T Fortin Architect Inc"
+      "bio":"",
+      "role": "Architect",
+      "organization": "David T Fortin Architect Inc"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "David T Fortin Architect Inc"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "David T Fortin Architect Inc"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Celina Rios-Nadeau",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Celina Rios-Nadeau",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "David T Fortin Architect Inc"
+      "bio":"",
+      "role": "Architect",
+      "organization": "David T Fortin Architect Inc"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "David T Fortin Architect Inc"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "David T Fortin Architect Inc"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Shawn Bailey",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Shawn Bailey",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Grounded Architecture"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Grounded Architecture"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Université du Manitoba"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Université du Manitoba"
     },
     
     
-    "Organization 2 (If Relevant)": "University of Manitoba"
+    "organization 2 (If Relevant)": "University of Manitoba"
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Sylvia McAdam",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Sylvia McAdam",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "One House Many Nations"
+      "bio":"",
+      "role": "Activist",
+      "organization": "One House Many Nations"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "One House Many Nations"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "One House Many Nations"
       
     },
     
     
-    "Organization 2 (If Relevant)": "Windsor University/Université de Windsor"
+    "organization 2 (If Relevant)": "Windsor University/Université de Windsor"
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Alex Wilson",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Alex Wilson",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "One House Many Nations"
+      "bio":"",
+      "role": "Activist",
+      "organization": "One House Many Nations"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Université de la Saskatchewan"  
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Université de la Saskatchewan"  
     },
     
     
-    "Organization 2 (If Relevant)": "University of Saskatchewan"
+    "organization 2 (If Relevant)": "University of Saskatchewan"
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Jason Surkan",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Jason Surkan",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "SOLO Architecture"
+      "bio":"",
+      "role": "Architect",
+      "organization": "SOLO Architecture"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "SOLO Architecture"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "SOLO Architecture"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Laurie Aftanas",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Laurie Aftanas",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "University of Manitoba"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "University of Manitoba"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "University of Manitoba"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "University of Manitoba"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Lancelot Coar",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Lancelot Coar",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "University of Manitoba"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "University of Manitoba"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "University of Manitoba"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "University of Manitoba"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "3",
-    "Team": "First Nations Home Building Lodges",    
-    "Name": "Luxmy Ragunathan",
+    "team": "First Nations Home Building Lodges",    
+    "title":"",
+    "name": "Luxmy Ragunathan",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "University of Manitoba"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "University of Manitoba"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "University of Manitoba"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "University of Manitoba"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "4",
-    "Team": "Reparative Architecture",    
-    "Name": "Cheryll Case",
+    "team": "Reparative Architecture",    
+    "title":"",
+    "name": "Cheryll Case",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "CP Planning (Community in Public)"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "CP Planning (Community in Public)"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "CP Planning (Community in Public)"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "CP Planning (Community in Public)"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "4",
-    "Team": "Reparative Architecture",    
-    "Name": "Leighana Mais",
+    "team": "Reparative Architecture",    
+    "title":"",
+    "name": "Leighana Mais",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Keele Eglinton Residents"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Keele Eglinton Residents"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Keele Eglinton Residents"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Keele Eglinton Residents"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "4",
-    "Team": "Reparative Architecture",    
-    "Name": "Tura Cousins Wilson",
+    "team": "Reparative Architecture",    
+    "title":"",
+    "name": "Tura Cousins Wilson",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "SOCA (Studio of Contemporary Architecture)"
+      "bio":"",
+      "role": "Architect",
+      "organization": "SOCA (Studio of Contemporary Architecture)"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "SOCA (Studio of Contemporary Architecture)"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "SOCA (Studio of Contemporary Architecture)"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "4",
-    "Team": "Reparative Architecture",    
-    "Name": "Shane Laptiste",
+    "team": "Reparative Architecture",    
+    "title":"",
+    "name": "Shane Laptiste",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "SOCA (Studio of Contemporary Architecture)"
+      "bio":"",
+      "role": "Architect",
+      "organization": "SOCA (Studio of Contemporary Architecture)"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "SOCA (Studio of Contemporary Architecture)"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "SOCA (Studio of Contemporary Architecture)"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Michael Hopkins",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Michael Hopkins",
+    "bio":"",
     "en": {
-      "Role": "Structural engineer",
-      "Organization": "Blackwell Engineers"
+      "bio":"",
+      "role": "Structural engineer",
+      "organization": "Blackwell Engineers"
     },
     "fr": {
+      "bio":"",
 
-      "Organization": "Blackwell Engineers"
+      "organization": "Blackwell Engineers"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Adrian Blackwell",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Adrian Blackwell",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Gentrification Tax Action"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Gentrification Tax Action"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Sameer Farooq",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Sameer Farooq",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Gentrification Tax Action"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Gentrification Tax Action"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Jane Mah Hutton",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Jane Mah Hutton",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Gentrification Tax Action"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Gentrification Tax Action"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Jesse Purcell",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Jesse Purcell",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Gentrification Tax Action"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Gentrification Tax Action"
     },
     
     
-    "Organization 2 (If Relevant)": "Screen Printing"
+    "organization 2 (If Relevant)": "Screen Printing"
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Ali S. Qadeer",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Ali S. Qadeer",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Gentrification Tax Action"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Gentrification Tax Action"
     },
     
     
-    "Organization 2 (If Relevant)": "Web Design"
+    "organization 2 (If Relevant)": "Web Design"
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Kika Thorne",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Kika Thorne",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Gentrification Tax Action"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Gentrification Tax Action"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Gentrification Tax Action"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Bradley Dunn",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Bradley Dunn",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architect",
+      "organization": "LGA Architectural Partners"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "LGA Architectural Partners"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Janna Levitt",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Janna Levitt",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architect",
+      "organization": "LGA Architectural Partners"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "LGA Architectural Partners"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Joe Loreto",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Joe Loreto",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architect",
+      "organization": "LGA Architectural Partners"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "LGA Architectural Partners"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Conrad Speckert",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Conrad Speckert",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architect",
+      "organization": "LGA Architectural Partners"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "LGA Architectural Partners"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Ivee Wang",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Ivee Wang",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architect",
+      "organization": "LGA Architectural Partners"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "LGA Architectural Partners"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "LGA Architectural Partners"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Joshua Barndt",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Joshua Barndt",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Parkdale Neighbourhood Land Trust"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Parkdale Neighbourhood Land Trust"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Parkdale Neighbourhood Land Trust"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Parkdale Neighbourhood Land Trust"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Monica Hutton",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Monica Hutton",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Parkdale Neighbourhood Land Trust"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Parkdale Neighbourhood Land Trust"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Parkdale Neighbourhood Land Trust"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Parkdale Neighbourhood Land Trust"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "James Partanen",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "James Partanen",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Parkdale Neighbourhood Land Trust"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Parkdale Neighbourhood Land Trust"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Parkdale Neighbourhood Land Trust"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Parkdale Neighbourhood Land Trust"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "5",
-    "Team": "A Gentrification Tax",    
-    "Name": "Michael Piper",
+    "team": "A Gentrification Tax",    
+    "title":"",
+    "name": "Michael Piper",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "tuf lab"
+      "bio":"",
+      "role": "Architect",
+      "organization": "tuf lab"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "tuf lab"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "tuf lab"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Claudia Jahn",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Claudia Jahn",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Affordable Housing Association of Nova Scotia"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Affordable Housing Association of Nova Scotia"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Affordable Housing Association of Nova Scotia"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Affordable Housing Association of Nova Scotia"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Adriane Salah",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Adriane Salah",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Affordable Housing Association of Nova Scotia"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Affordable Housing Association of Nova Scotia"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Affordable Housing Association of Nova Scotia"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Affordable Housing Association of Nova Scotia"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Susan Fitzgerald",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Susan Fitzgerald",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architect",
+      "organization": "FBM architecture • interior design • planning"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "FBM architecture • interior design • planning"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Cassie Kent",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Cassie Kent",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architect",
+      "organization": "FBM architecture • interior design • planning"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "FBM architecture • interior design • planning"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Stavros Kondeas",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Stavros Kondeas",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architect",
+      "organization": "FBM architecture • interior design • planning"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "FBM architecture • interior design • planning"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Lizzie Krnjevic",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Lizzie Krnjevic",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architect",
+      "organization": "FBM architecture • interior design • planning"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "FBM architecture • interior design • planning"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Rita Wang",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Rita Wang",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architect",
+      "organization": "FBM architecture • interior design • planning"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "FBM architecture • interior design • planning"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "FBM architecture • interior design • planning"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "6",
-    "Team": "Surplus Properties for Housing",    
-    "Name": "Eric Jonsson",
+    "team": "Surplus Properties for Housing",    
+    "title":"",
+    "name": "Eric Jonsson",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Navigator Street Outreach Program and This Should Be Housing"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Navigator Street Outreach Program and This Should Be Housing"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Programme Navigator Street Outreach"  
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Programme Navigator Street Outreach"  
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "7",
-    "Team": "Intentional Communities for Unhoused People",    
-    "Name": "Jeff Willmer",
+    "team": "Intentional Communities for Unhoused People",    
+    "title":"",
+    "name": "Jeff Willmer",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "A Better Tent City Waterloo Region"
+      "bio":"",
+      "role": "Activist",
+      "organization": "A Better Tent City Waterloo Region"
     },
     "fr": {
-    "Role": "Activiste",
-      "Organization": "A Better Tent City, région de Waterloo"  
+      "bio":"",
+    "role": "Activiste",
+      "organization": "A Better Tent City, région de Waterloo"  
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "7",
-    "Team": "Intentional Communities for Unhoused People",    
-    "Name": "John van Nostrand",
+    "team": "Intentional Communities for Unhoused People",    
+    "title":"",
+    "name": "John van Nostrand",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "SvN Architects & Planners"
+      "bio":"",
+      "role": "Architect",
+      "organization": "SvN Architects & Planners"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "SvN Architects & Planners"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "SvN Architects & Planners"
     },
     
     
-    "Organization 2 (If Relevant)": "Two Steps Home"
+    "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
+    "category":"contributor",
     "team_id": "7",
-    "Team": "Intentional Communities for Unhoused People",    
-    "Name": "Larry Chookang",
+    "team": "Intentional Communities for Unhoused People",    
+    "title":"",
+    "name": "Larry Chookang",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Toronto Tiny Shelters"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Toronto Tiny Shelters"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Toronto Tiny Shelters"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Toronto Tiny Shelters"
     },
     
     
-    "Organization 2 (If Relevant)": "Two Steps Home"
+    "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
+    "category":"contributor",
     "team_id": "7",
-    "Team": "Intentional Communities for Unhoused People",    
-    "Name": "Robert Raynor",
+    "team": "Intentional Communities for Unhoused People",    
+    "title":"",
+    "name": "Robert Raynor",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Toronto Tiny Shelters"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Toronto Tiny Shelters"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Toronto Tiny Shelters"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Toronto Tiny Shelters"
     },
     
     
-    "Organization 2 (If Relevant)": "Two Steps Home"
+    "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
+    "category":"contributor",
     "team_id": "7",
-    "Team": "Intentional Communities for Unhoused People",    
-    "Name": "Khaleel Sievwright",
+    "team": "Intentional Communities for Unhoused People",    
+    "title":"",
+    "name": "Khaleel Sievwright",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Toronto Tiny Shelters"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Toronto Tiny Shelters"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Toronto Tiny Shelters"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Toronto Tiny Shelters"
     },
     
     
-    "Organization 2 (If Relevant)": "Two Steps Home"
+    "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
+    "category":"contributor",
     "team_id": "8",
-    "Team": "Collective Ownership",    
-    "Name": "Kathy McGrenera",
+    "team": "Collective Ownership",    
+    "title":"",
+    "name": "Kathy McGrenera",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Canadian Cohousing Network"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Canadian Cohousing Network"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Réseau canadien de cohabitation"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Réseau canadien de cohabitation"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "8",
-    "Team": "Collective Ownership",    
-    "Name": "Katherine Co",
+    "team": "Collective Ownership",    
+    "title":"",
+    "name": "Katherine Co",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Haeccity Studio Architecture"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Haeccity Studio Architecture"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "8",
-    "Team": "Collective Ownership",    
-    "Name": "Lukas Ewing",
+    "team": "Collective Ownership",    
+    "title":"",
+    "name": "Lukas Ewing",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Haeccity Studio Architecture"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Haeccity Studio Architecture"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "8",
-    "Team": "Collective Ownership",    
-    "Name": "Travis Hanks",
+    "team": "Collective Ownership",    
+    "title":"",
+    "name": "Travis Hanks",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Haeccity Studio Architecture"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Haeccity Studio Architecture"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "8",
-    "Team": "Collective Ownership",    
-    "Name": "Alena Pavan",
+    "team": "Collective Ownership",    
+    "title":"",
+    "name": "Alena Pavan",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Haeccity Studio Architecture"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Haeccity Studio Architecture"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "8",
-    "Team": "Collective Ownership",    
-    "Name": "Jorge Román",
+    "team": "Collective Ownership",    
+    "title":"",
+    "name": "Jorge Román",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Haeccity Studio Architecture"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Haeccity Studio Architecture"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "8",
-    "Team": "Collective Ownership",    
-    "Name": "Shirley Shen",
+    "team": "Collective Ownership",    
+    "title":"",
+    "name": "Shirley Shen",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Haeccity Studio Architecture"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Haeccity Studio Architecture"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Haeccity Studio Architecture"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Randy Cohen",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Randy Cohen",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Atelier Big City"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Atelier Big City"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Anne Cormier",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Anne Cormier",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Atelier Big City"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Atelier Big City"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Howard Davies",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Howard Davies",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Atelier Big City"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Atelier Big City"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Gabriel Tessier",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Gabriel Tessier",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Atelier Big City"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Atelier Big City"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Fannie Yockell",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Fannie Yockell",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architect",
+      "organization": "Atelier Big City"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "Atelier Big City"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "Atelier Big City"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Éric Michaud",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Éric Michaud",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Comité logement Ville-Marie"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Comité logement Ville-Marie"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Comité logement Ville-Marie"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Comité logement Ville-Marie"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Samuel Vanzin",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Samuel Vanzin",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Comité logement Ville-Marie"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Comité logement Ville-Marie"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Comité logement Ville-Marie"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Comité logement Ville-Marie"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Kevin McMahon",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Kevin McMahon",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Interloge"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Interloge"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Interloge"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Interloge"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Isabelle Richard",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Isabelle Richard",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Maison du développement durable"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Maison du développement durable"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Maison du développement durable"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Maison du développement durable"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Pierre Samson",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Pierre Samson",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Maison du Savoir et de la Littérature"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Maison du Savoir et de la Littérature"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Maison du Savoir et de la Littérature"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Maison du Savoir et de la Littérature"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Ipek Türeli",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Ipek Türeli",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "McGill University"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "McGill University"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Université McGill"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Université McGill"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "9",
-    "Team": "Mutual Aid Housing",    
-    "Name": "Marc-André Fortin",
+    "team": "Mutual Aid Housing",    
+    "title":"",
+    "name": "Marc-André Fortin",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Table de concertation du Faubourg Saint-Laurent"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Table de concertation du Faubourg Saint-Laurent"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Table de concertation du Faubourg Saint-Laurent"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Table de concertation du Faubourg Saint-Laurent"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "10",
-    "Team": "Ambient Ecosystem Commons",    
-    "Name": "Charles Guindon",
+    "team": "Ambient Ecosystem Commons",    
+    "title":"",
+    "name": "Charles Guindon",
+    "bio":"",
     "en": {
-      "Role": "Advocate",
-      "Organization": "Bâtir Son Quartier"
+      "bio":"",
+      "role": "Advocate",
+      "organization": "Bâtir Son Quartier"
     },
     "fr": {
-      "Role": "Intervenant ",
-      "Organization": "Bâtir Son Quartier"
+      "bio":"",
+      "role": "Intervenant ",
+      "organization": "Bâtir Son Quartier"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "10",
-    "Team": "Ambient Ecosystem Commons",    
-    "Name": "Maya Gauvreau",
+    "team": "Ambient Ecosystem Commons",    
+    "title":"",
+    "name": "Maya Gauvreau",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "10",
-    "Team": "Ambient Ecosystem Commons",    
-    "Name": "Olivier Leclerc",
+    "team": "Ambient Ecosystem Commons",    
+    "title":"",
+    "name": "Olivier Leclerc",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "10",
-    "Team": "Ambient Ecosystem Commons",    
-    "Name": "Mikael St-Pierre",
+    "team": "Ambient Ecosystem Commons",    
+    "title":"",
+    "name": "Mikael St-Pierre",
+    "bio":"",
     "en": {
-      "Role": "Activist",
-      "Organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "bio":"",
+      "role": "Activist",
+      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
     },
     "fr": {
-      "Role": "Activiste",
-      "Organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "bio":"",
+      "role": "Activiste",
+      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "10",
-    "Team": "Ambient Ecosystem Commons",    
-    "Name": "Caroline Corbex",
+    "team": "Ambient Ecosystem Commons",    
+    "title":"",
+    "name": "Caroline Corbex",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "L'OEUF Architects"
+      "bio":"",
+      "role": "Architect",
+      "organization": "L'OEUF Architects"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "L'OEUF Architects"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "L'OEUF Architects"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   },
   {
+    "category":"contributor",
     "team_id": "10",
-    "Team": "Ambient Ecosystem Commons",    
-    "Name": "Daniel Pearl",
+    "team": "Ambient Ecosystem Commons",    
+    "title":"",
+    "name": "Daniel Pearl",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "L'OEUF Architects"
+      "bio":"",
+      "role": "Architect",
+      "organization": "L'OEUF Architects"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "L'OEUF Architects"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "L'OEUF Architects"
     },
     
     
-    "Organization 2 (If Relevant)": "University of Montreal"
+    "organization 2 (If Relevant)": "University of Montreal"
   },
   {
+    "category":"contributor",
     "team_id": "10",
-    "Team": "Ambient Ecosystem Commons",    
-    "Name": "Sudhir Suri",
+    "team": "Ambient Ecosystem Commons",    
+    "title":"",
+    "name": "Sudhir Suri",
+    "bio":"",
     "en": {
-      "Role": "Architect",
-      "Organization": "L'OEUF Architects"
+      "bio":"",
+      "role": "Architect",
+      "organization": "L'OEUF Architects"
     },
     "fr": {
-      "Role": "Architecte",
-      "Organization": "L'OEUF Architects"
+      "bio":"",
+      "role": "Architecte",
+      "organization": "L'OEUF Architects"
     },
     
     
-    "Organization 2 (If Relevant)": ""
+    "organization 2 (If Relevant)": ""
   }
 ]

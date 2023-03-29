@@ -398,6 +398,12 @@ h3 {
   font-size: 3rem;
   letter-spacing: 0.02em;
   line-height: 4rem; }
+  h3.bigTitle {
+    font-size: 10rem;
+    line-height: 1;
+    padding-bottom: 1rem; }
+  h3.textCenter {
+    text-align: center; }
 
 h5 {
   font-size: 2.5rem;
@@ -521,6 +527,9 @@ label,
   color: #eeeed7;
   padding: 0.25em 0.75em 0.05em;
   border-radius: 1em; }
+
+ol {
+  list-style: decimal; }
 
 section {
   background: #F5F5F5;

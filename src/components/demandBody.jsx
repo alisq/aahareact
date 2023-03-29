@@ -4,6 +4,9 @@ import Action from './action'
 import HighlightedText from './highlightedText'
 
 const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
+
+  const hasBanner = banner !== ""
+
   document.title = "AAHA | " + content.title
 
   return (
@@ -26,15 +29,15 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
             <label>{content.lang === "en" ? "Activist" : "Activiste"}:</label> {content.activist}
             <br /><br />
             <label>{content.lang === "en" ? "Advocate" : "Intervenant"}:</label> {content.advocate}
-            Parkdale Neighborhood Land Trust
+            
             <br /><br />
             <label>{content.lang === "en" ? "Architect" : "Architecte"}:</label> {content.architect}
-            Levitt Goodman Associates
+            
 
           </div>
           <div className='six columns'>
 
-            <img src={'/img/banners/' + banner} />
+          <img src={'/img/banners/' + banner} />
             <p className='caption'>{content.banner_caption}</p>
 
             <div dangerouslySetInnerHTML={{ __html: content.field_content }}></div>

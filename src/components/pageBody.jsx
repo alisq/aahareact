@@ -1,14 +1,18 @@
 import { forwardRef } from 'react'
+import committeeData from '../committee.json'
+import collaboratorData from '../collaborators.json'
 import contributorData from '../contributors.json'
 import orgData from '../orgs.json'
 import demandTitleData from '../demandTitle.json'
 import Member from './member'
 
 const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
-  const getMember = (member, i) => <Member
+  
+  const getMember = (member, i) => 
+  <Member
     member={member}
     content={member[lang]}
-    title={demandTitleData[member.team_id - 1][lang]}
+    // title={demandTitleData[member.team_id - 1][lang]}
     key={i} />
 
   return (
@@ -27,12 +31,17 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
         </div>
       </div>
       {page_id === 'collective' &&
-        <table>
-          <tbody>
-            {orgData.map(getMember)}
-            {contributorData.map(getMember)}
-          </tbody>
-        </table>
+      <>
+
+      <h3 className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>
+      
+        <table className="members"><tbody>{committeeData.map(getMember)}</tbody></table>
+        <h3 className="textCenter">{(lang === 'fr') ? "COLLABORATRICES ET COLLABORATEURS DE LA CAMPAGNE" : "CAMPAIGN COLLABORATORS"}</h3>
+        <table className="members"><tbody>{collaboratorData.map(getMember)}</tbody></table>
+        <h3 className="textCenter">{(lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM CONTRIBUTORS"}</h3>
+ 
+        <table className="members"><tbody>{contributorData.map(getMember)}</tbody></table>   
+        </>
       }
     </section >
   )

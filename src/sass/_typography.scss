@@ -63,6 +63,8 @@ h3 {
     font-size:1rem;
     padding:0;
     margin:0;
+
+
 }
 
 h1, h2, h3, h5 {
@@ -92,6 +94,16 @@ h3 {
     font-size:3rem;
     letter-spacing: 0.02em;
     line-height:4rem;
+
+    &.bigTitle {
+        font-size:10rem;
+        line-height:1;
+        padding-bottom:1rem
+    } 
+
+    &.textCenter {
+        text-align:center;
+    }
 }
 
 h5 {
@@ -265,4 +277,9 @@ label,
     color:$white;
     padding:0.25em 0.75em 0.05em;
     border-radius:1em;
+}
+
+
+ol {
+    list-style:decimal
 }

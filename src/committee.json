@@ -1,0 +1,86 @@
+[{
+  "category":"committee",
+  "team_id":"",
+  "team":"",
+  "title":"",
+  "name": "Adrian Blackwell",
+  "links": ["https://uwaterloo.ca/architecture/people-profiles/adrian-blackwell"],
+  "en": {
+      "bio": "is an artist, designer, theorist, and educator, whose work focuses on the relation between physical spaces and political economic forces. (University of Waterloo School of Architecture)"
+  },
+  "fr": {
+      "bio": "est un artiste, un designer, un théoricien et un éducateur dont le travail est axé sur la relation entre les espaces physiques et les forces économiques politiques. (École d’architecture de l’Université de Waterloo)."
+  }
+},
+
+{ 
+  "category":"committee",
+  "team_id":"",
+  "team":"",
+  "title":"",
+  "name": "David Fortin",
+  "links": ["https://uwaterloo.ca/architecture/people-profiles/david-fortin","https://www.davidtfortinarchitect.com/our-team"],
+  "en": {
+      "bio": "est un citoyen de la Nation métisse de l’Ontario et un architecte professionnel qui dirige un petit bureau d’architecture œuvrant principalement auprès des communautés métisses et des Premières Nations de partout au c\\a\\n\\a\\d\\a. Auparavant, il a agi en tant que co-commissaire pour UNCEDED: Terres en récit, exposition présentée à la Biennale de Venise 2018. (École d’architecture de l’Université de Waterloo). "
+  },
+  "fr": {
+      "bio": "is a citizen of the Métis Nation of Ontario and a professional architect who runs a small architectural office working primarily with Métis and First Nations communities across c\\a\\n\\a\\d\\a. He previously acted as co-curator for UNCEDED: Voices of the Land at the 2018 Venice Biennale. (University of Waterloo School of Architecture)."
+  }
+},
+{
+  "category":"committee",
+  "team_id":"",
+  "team":"",
+  "title":"",
+  "name": "Matthew Soules",
+  "links": ["https://sala.ubc.ca/people/faculty/matthew-soules","https://msaprojects.com/" ],
+  "en": {
+      "bio":"is an architect and professor who focuses on contemporary capitalism and architecture and has written about the financialization of physical space. (University of British Columbia School of Architecture and Landscape Architecture) "
+  },
+  "fr": {
+      "bio":"est un architecte et un professeur qui s'intéresse au capitalisme contemporain et à l'architecture. Il a écrit sur la financiarisation de l'espace physique. (École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique)."
+  }
+},
+{
+  "category":"committee",
+  "team_id":"",
+  "team":"",
+  "title":"",
+  "name": "Sara Stevens",
+  "links": ["https://sala.ubc.ca/people/faculty/sara-stevens"],
+  "en": {
+      "bio": "is an architectural and urban historian whose research focuses on real estate developers of the twentieth century. (University of British Columbia School of Architecture and Landscape Architecture) "
+  },
+  "fr": {
+      "bio": "est une historienne de l’architecture et de l’urbanisme dont les recherches portent sur les promoteurs immobiliers du XXe siècle. (École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique)."
+  }
+},
+{
+  "category":"committee",
+  "team_id":"",
+  "team":"",
+  "title":"",
+  "name": "Luugigyoo Patrick Stewart",
+  "links": ["https://www.patrickstewartarchitect.com/","https://raic.org/raic/luugigyoo-patrick-robert-reid-stewart"],
+  "en": {
+      "bio": "is a member of the Killerwhale House of Daaxan of the Nisga’a Nation and an award-winning architect with 27 years of architectural experience who was the first architect of First Nations ancestry to own and operate an architectural firm in British Columbia, and an exhibiting architect with UNCEDED at the 2018 Venice Biennale. (Laurentian University McEwen School of Architecture) "
+  },
+  "fr": {
+      "bio": "fait partie de la Killerwhale House of Daaxan au sein de la Nation Nisga’a et est un architecte primé cumulant 27 ans d’expérience en architecture. Il a été le premier architecte originaire des Premières Nations à posséder et à exploiter un cabinet d’architecture en Colombie-Britannique, et était l’un des architectes exposants à UNCEDED, une exposition présentée à la Biennale de Venise 2018. (École d’architecture McEwen de l’Université Laurentienne)."
+  }
+},
+
+{   
+  "category":"committee",
+  "team_id":"",
+  "team":"",
+  "title":"",  
+"name": "Tijana Vujosevic",
+  "links": ["https://sala.ubc.ca/people/faculty/tijana-vujosevic"],
+  "en": {
+      "bio": "is an architectural historian whose research focuses on communist and feminist forms of domesticity. (University of British Columbia School of Architecture and Landscape Architecture)"
+  },
+  "fr": {
+      "bio": "est une historienne de l’architecture dont les recherches portent sur les formes communistes et féministes de la domesticité. (École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique)."
+  }
+}]

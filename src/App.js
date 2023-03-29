@@ -55,6 +55,7 @@ function App() {
               element={<PageBody {...page}
                 ref={sectionRef}
                 title={page[lang].title}
+                body={page[lang].body}
                 lang={lang} />}
               key={i} />)}
         </Route>
