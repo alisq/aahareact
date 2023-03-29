@@ -31,17 +31,21 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
         </div>
       </div>
       {page_id === 'collective' &&
-      <>
-
-      <h3 className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>
       
+
+<div className="container">
+<br /><br />
+      <h3 className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>      
         <table className="members"><tbody>{committeeData.map(getMember)}</tbody></table>
+        <br /><br />
         <h3 className="textCenter">{(lang === 'fr') ? "COLLABORATRICES ET COLLABORATEURS DE LA CAMPAGNE" : "CAMPAIGN COLLABORATORS"}</h3>
         <table className="members"><tbody>{collaboratorData.map(getMember)}</tbody></table>
+        <br /><br />
         <h3 className="textCenter">{(lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM CONTRIBUTORS"}</h3>
  
         <table className="members"><tbody>{contributorData.map(getMember)}</tbody></table>   
-        </>
+        
+        </div>
       }
     </section >
   )

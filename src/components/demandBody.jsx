@@ -60,7 +60,7 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
           <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>TAKE ACTION</h3>
             <ul className='actions'>
-              <Action />
+              <Action lang={content.lang}/>
             </ul>
           </div>
         </div>

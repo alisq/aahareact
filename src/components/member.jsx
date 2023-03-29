@@ -1,34 +1,49 @@
+
+
 function Member({ member, content, title }) {
-// console.log(member)
-    
+ 
+        
      const hasBio = content.bio !== "";
      const hasTeam = member.team_id !== ""
      const hasRole = content.role !== ""
      const hasTitle = member.title !== ""
      const hasOrg = content.organization !== ""
+     const hasLink = member.links !== ""
+     
+     
+    
 
-     console.log(hasTeam)
+     
     return (
-        <tr>
+            <>
 
                 {
                 (member.category === "committee") ? (
-                    <td><strong>{member.name}</strong> {content.bio}</td>
+                    
+                    <tr>
+                    <td><strong>{member.name}</strong> {content.bio}<br />
+                    <a href={member.links[0]}>{member.links[0]}</a></td>
+                    </tr>
+                    
+                    
                 ) : (
-                    <>
+                    <tr>
                     <td>{member.name}</td>
                     {hasTitle && ( <td>{member.title}</td> )}
-                    {hasTeam && ( <td>{member.team_id}</td> )}
+                    {hasTeam && ( 
+                        <td>{content.team}</td> 
+                        )}
                     {hasRole && ( <td>{content.role}</td> )}
                     {hasOrg && ( <td>{content.organization}</td> )}
+                    {hasBio && ( <td>{content.bio}</td> )}
                     
-                    </>
+                    </tr>
                 )
             }
                 
-
+                </>
                 
-        </tr>
+        
     )
 
 }

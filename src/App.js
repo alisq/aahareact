@@ -14,7 +14,7 @@ import LangButton from './components/langButton'
 import { getUrlParts, setUrlPart } from './utils/urlUtil'
 
 const langs = ['en', 'fr']
-
+let currentLang = "";
 function App() {
   const location = useLocation()
   const sectionRef = useRef(null)
@@ -71,6 +71,7 @@ function Main({ currentLang }) {
 
   useEffect(() => {
     const scrolledToTop = () => {
+      console.log(currentLang);
       if (window.scrollY === 0) navigate(`/${currentLang}`)
     }
     window.addEventListener('scroll', scrolledToTop)
