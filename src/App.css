@@ -575,23 +575,24 @@ h1 {
   width: 100vw;
   height: 100vh;
   z-index: 1;
-  transition: transform 0.4s;
-  mix-blend-mode: multiply; }
+  transition: transform 0.4s; }
   h1.fr {
     transform: rotate(180deg); }
   h1 .title-top,
   h1 .title-bottom {
     position: absolute;
     color: #c00000;
-    mix-blend-mode: multiply;
     width: 100%;
     z-index: 1;
     text-align: center;
-    letter-spacing: 0.05em; }
+    letter-spacing: 0.05em;
+    pointer-events: all; }
+    h1 .title-top a:link,
+    h1 .title-bottom a:link {
+      text-decoration: none; }
   h1 .title-top {
     top: 1em; }
   h1 .title-bottom {
-    transform: rotate(180deg);
     bottom: 1em; }
 
 .title-top.invert,

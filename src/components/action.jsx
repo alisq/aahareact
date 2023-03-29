@@ -1,7 +1,7 @@
 function Action(lang){
 
     return (
-      lang.lang == 'fr' ?
+      lang.lang == 'en' ?
       (
 
         <li>

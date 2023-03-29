@@ -103,7 +103,7 @@ function Main({ currentLang }) {
 
       <h1>
         <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
-        {/* <div className='title-bottom'>ARCHITECTES CONTRE L'ALIENATION AU LOGEMENT!</div> */}
+        <div className='title-bottom'><a href="https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses" target="blank">CLICK HERE TO JOIN THE CAMPAIGN</a></div>
       </h1>
 
       <section id='demands'>
