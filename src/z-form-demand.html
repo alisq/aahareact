@@ -52,6 +52,7 @@
                 <div><label>en_advocate</label><input type="text" name="en_advocate" id="en_advocate"></div>
                 <div><label>en_architect</label><input type="text" name="en_architect" id="en_architect"></div>
                 <div><label>en_field_long_summary</label><input type="text" name="en_field_long_summary" id="en_field_long_summary"></div>
+                <div><label>en_banner_caption</label><input type="text" name="en_banner_caption" id="en_banner_caption"></div>
                 <div><label>en_field_content</label><textarea name="en_field_content" id="en_field_content"></textarea></div>
                 
                 <!-- <div><label>en_field_short_summary</label><input type="text" name="en_field_short_summary" id="en_field_short_summary"></div>
@@ -68,6 +69,7 @@
                 <div><label>fr_advocate</label><input type="text" name="fr_advocate" id="fr_advocate"></div>
                 <div><label>fr_architect</label><input type="text" name="fr_architect" id="fr_architect"></div>
                 <div><label>fr_field_long_summary</label><input type="text" name="fr_field_long_summary" id="fr_field_long_summary"></div>
+                <div><label>fr_banner_caption</label><input type="text" name="fr_banner_caption" id="fr_banner_caption"></div>
                 <div><label>fr_field_content</label><textarea name="fr_field_content" id="fr_field_content"></textarea></div>
                 
                 <!-- <div><label>fr_field_short_summary</label><input type="text" name="fr_field_short_summary" id="fr_field_short_summary"></div>
@@ -116,6 +118,7 @@ $("#en_field_region").val(demands[d].en.field_region)
 $("#en_activist").val(demands[d].en.activist)
 $("#en_advocate").val(demands[d].en.advocate)
 $("#en_architect").val(demands[d].en.architect)
+$("#en_banner_caption").val(demands[d].en.banner_caption)
 $("#en_field_content").val(demands[d].en.field_content)
 $("#en_field_long_summary").val(demands[d].en.field_long_summary)
 $("#en_field_short_summary").val(demands[d].en.field_short_summary)
@@ -127,6 +130,7 @@ $("#fr_field_region").val(demands[d].fr.field_region)
 $("#fr_activist").val(demands[d].fr.activist)
 $("#fr_advocate").val(demands[d].fr.advocate)
 $("#fr_architect").val(demands[d].fr.architect)
+$("#fr_banner_caption").val(demands[d].fr.banner_caption)
 $("#fr_field_content").val(demands[d].fr.field_content)
 $("#fr_field_long_summary").val(demands[d].fr.field_long_summary)
 $("#fr_field_short_summary").val(demands[d].fr.field_short_summary)
@@ -147,6 +151,7 @@ $("#fr_title_1").val(demands[d].fr.title_1)
     demands[d].en.activist = $("#en_activist").val()
     demands[d].en.advocate = $("#en_advocate").val()
     demands[d].en.architect = $("#en_architect").val()
+    demands[d].en.banner_caption = $("#en_banner_caption").val()
     demands[d].en.field_content = $("#en_field_content").val()
     demands[d].en.field_long_summary = $("#en_field_long_summary").val()
     demands[d].en.field_short_summary = $("#en_field_short_summary").val()
@@ -158,6 +163,7 @@ $("#fr_title_1").val(demands[d].fr.title_1)
     demands[d].fr.activist = $("#fr_activist").val()
     demands[d].fr.advocate = $("#fr_advocate").val()
     demands[d].fr.architect = $("#fr_architect").val()
+    demands[d].fr.banner_caption = $("#fr_banner_caption").val()
     demands[d].fr.field_content = $("#fr_field_content").val()
     demands[d].fr.field_long_summary = $("#fr_field_long_summary").val()
     demands[d].fr.field_short_summary = $("#fr_field_short_summary").val()
@@ -171,37 +177,6 @@ $("#fr_title_1").val(demands[d].fr.title_1)
 
 
    
-
-
-//             let demands={
-//     "demand_id": "land-back",    
-//     "field_demand_no": "\u00b9",
-//     "field_exmark": "",
-//     "en": {      
-//       "title": "Land Back",
-//       "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Land</span> Back!",
-//       "field_region": "Vancouver",
-//       "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
-//       "field_long_summary": "We demand that all land c\\a\\n\\a\\d\\a claims for the “crown” be returned to First Nations, Métis, and Inuit Peoples as Indigenous lands. ",
-//       "field_short_summary": "",
-//       "field_dom_text": "Land Back",
-//       "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
-//     },
-//     "fr": {
-//       "title": "Terre Retour",
-//       "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Terre</span> Retour!",
-//       "field_region": "Vancouver",
-//       "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
-//       "field_long_summary": "",
-//       "field_short_summary": "",
-//       "field_dom_text": "Land Back",
-//       "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
-//     }
-    
-    
-//   }
-
-  //loadJSON();
 
   
 
@@ -217,26 +192,6 @@ $("#fr_title_1").val(demands[d].fr.title_1)
 function loadJSON() {
 
     console.log(demands)
-// $("#viewport").val(demands.viewport)
-// $("#demand_id").val(demands.demand_id)
-// $("#field_demand_no").val(demands.field_demand_no)
-// $("#field_exmark").val(demands.field_exmark)
-// $("#en_title").val(demands.en.title)
-// $("#en_header_html").val(demands.en.header_html)
-// $("#en_field_region").val(demands.en.field_region)
-// $("#en_field_content").val(demands.en.field_content)
-// $("#en_field_long_summary").val(demands.en.field_long_summary)
-// $("#en_field_short_summary").val(demands.en.field_short_summary)
-// $("#en_field_dom_text").val(demands.en.field_dom_text)
-// $("#en_title_1").val(demands.en.title_1)
-// $("#fr_title").val(demands.fr.title)
-// $("#fr_header_html").val(demands.fr.header_html)
-// $("#fr_field_region").val(demands.fr.field_region)
-// $("#fr_field_content").val(demands.fr.field_content)
-// $("#fr_field_long_summary").val(demands.fr.field_long_summary)
-// $("#fr_field_short_summary").val(demands.fr.field_short_summary)
-// $("#fr_field_dom_text").val(demands.fr.field_dom_text)
-// $("#fr_title_1").val(demands.fr.title_1)
 
 }
 
