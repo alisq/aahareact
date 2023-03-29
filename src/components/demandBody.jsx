@@ -35,6 +35,7 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
           <div className='six columns'>
 
             <img src={'/img/banners/' + banner} />
+            <p className='caption'>{content.banner_caption}</p>
 
             <div dangerouslySetInnerHTML={{ __html: content.field_content }}></div>
 
