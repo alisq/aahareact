@@ -78,7 +78,7 @@
     "category":"collaborator",
     "team_id":"",
     "team":"",
-    "title": "[Not applicable]",
+    "title": "",
     "name": "Stop the Sweeps (Documentary)",
     "en": {
       "bio": ""
@@ -118,5 +118,57 @@
     },
     "organization": "--"
     
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Project Logistics",
+    "name": "Tamara Andruszkiewicz",
+    "en": {
+      "bio": " "
+    },
+    "fr": {
+      "bio": " "
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Project Research + Design Team",
+    "name": " ",
+    "en": {
+      "bio": "David Kalman, Josephine Li, Piero Sovrani, Noa Wang, & Donald Zhu"
+    },
+    "fr": {
+      "bio": "David Kalman, Josephine Li, Piero Sovrani, Noa Wang, & Donald Zhu"
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Social Media Team",
+    "name": "",
+    "en": {
+      "bio": "Kara Crabbe, Lee-Ann Kam & Anaïs Trembling "
+    },
+    "fr": {
+      "bio": "Kara Crabbe, Lee-Ann Kam & Anaïs Trembling "
+    },
+    "organization": "--"
+    
   }
 ]
+
+
+
+
+
+ 
+

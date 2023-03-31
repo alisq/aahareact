@@ -71,7 +71,7 @@ function Main({ currentLang }) {
 
   useEffect(() => {
     const scrolledToTop = () => {
-      console.log(currentLang);
+      
       if (window.scrollY === 0) navigate(`/${currentLang}`)
     }
     window.addEventListener('scroll', scrolledToTop)
@@ -103,12 +103,22 @@ function Main({ currentLang }) {
 
       <h1>
         <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
-        <div className='title-bottom'><a href="https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses" target="blank">CLICK HERE TO JOIN THE CAMPAIGN</a></div>
+        <div className='title-bottom'><a href="https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses" target="blank">
+          
+          {currentLang === 'en' ? (
+            "CLICK HERE TO JOIN THE CAMPAIGN"
+          ) : (
+            "CLIQUEZ ICI POUR REJOINDRE LA CAMPAGNE"
+          )}
+          
+          
+          </a></div>
       </h1>
 
       <section id='demands'>
         <div className={'manifesto ' + currentLang}>
 
+            <span className="intro">
 
           {
             currentLang === 'en' ? <>TO END HOUSING ALIENATION IN c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span className='red'>\</span>d<span className='red'>\</span>a<br /> WE DEMAND...</> :
@@ -116,7 +126,7 @@ function Main({ currentLang }) {
                 className='red'>\</span>d<span className='red'>\</span>a, NOUS DEMANDONS…
               </>
           }
-
+</span>
           {demandData.map((header, i) =>
             <DemandHeader {...header}
               handleClick={() => { handleHeaderClick(header) }}

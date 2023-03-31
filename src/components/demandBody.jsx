@@ -3,14 +3,34 @@ import { forwardRef } from 'react'
 import Action from './action'
 import HighlightedText from './highlightedText'
 
+import contributorData from '../contributors.json'
+import Member from './member'
+
 const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
+
+
+  
+  const teamMembers = contributorData.filter(function (m) {
+    return m.team_id === demand_id;
+  });
+  
 
   const hasBanner = banner !== ""
 
   document.title = "AAHA | " + content.title
+  
 
+  
+  const getMember = (member, i) => 
+  <Member
+    member={member}
+    content={member[content.lang]}
+    // title={demandTitleData[member.team_id - 1][lang]}
+    key={i} />
+  
   return (
     <section id={demand_id} className='demand' ref={ref}>
+      
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
@@ -22,17 +42,19 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
                 {content.field_long_summary}
               </HighlightedText>
             </p>
-
+            <p>
             <label>{content.lang === "en" ? "REGION" : "Région"}:</label>
             {content.field_region}
-            <br /><br />
+            </p>
+            <p>
             <label>{content.lang === "en" ? "Activist" : "Activiste"}:</label> {content.activist}
-            <br /><br />
+            </p>
+            <p>
             <label>{content.lang === "en" ? "Advocate" : "Intervenant"}:</label> {content.advocate}
-            
-            <br /><br />
+            </p>
+            <p>
             <label>{content.lang === "en" ? "Architect" : "Architecte"}:</label> {content.architect}
-            
+            </p>
 
           </div>
           <div className='six columns'>
@@ -65,7 +87,11 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
           </div>
         </div>
       </div>
-    </section >
+      <br /><br />
+      <h3 className="textCenter">Team Members</h3>
+      <br />
+      <table className="members"><tbody>{teamMembers.map(getMember)}</tbody></table>   
+    </section>
   )
 })
 

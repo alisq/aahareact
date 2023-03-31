@@ -28,12 +28,11 @@ function Member({ member, content, title }) {
                     
                 ) : (
                     <tr>
-                    <td>{member.name}</td>
-                    {hasTitle && ( <td>{member.title}</td> )}
-                    {hasTeam && ( 
-                        <td>{content.team}</td> 
-                        )}
-                    {hasRole && ( <td>{content.role}</td> )}
+                    <td><strong>{member.name}</strong></td>
+                    {hasTitle && ( <td><label>{member.title}</label></td> )}
+                    {hasRole && ( <td className="smallHalf"><label>{content.role}</label></td> )}
+                    {hasTeam && ( <td className="smallHalf">{content.team}</td> )}
+                    
                     {hasOrg && ( <td>{content.organization}</td> )}
                     {hasBio && ( <td>{content.bio}</td> )}
                     

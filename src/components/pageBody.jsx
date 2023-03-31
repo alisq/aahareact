@@ -2,8 +2,6 @@ import { forwardRef } from 'react'
 import committeeData from '../committee.json'
 import collaboratorData from '../collaborators.json'
 import contributorData from '../contributors.json'
-import orgData from '../orgs.json'
-import demandTitleData from '../demandTitle.json'
 import Member from './member'
 
 const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
@@ -32,8 +30,8 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
       </div>
       {page_id === 'collective' &&
       
+<>
 
-<div className="container">
 <br /><br />
       <h3 className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>      
         <table className="members"><tbody>{committeeData.map(getMember)}</tbody></table>
@@ -45,7 +43,7 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
  
         <table className="members"><tbody>{contributorData.map(getMember)}</tbody></table>   
         
-        </div>
+      </>
       }
     </section >
   )

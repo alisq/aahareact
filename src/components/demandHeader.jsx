@@ -1,7 +1,6 @@
 
 function DemandHeader({ lang, handleClick, field_demand_no, field_exmark, demand_id, tempRef }) {
 
-
   const t = lang.title.split(" ")
   let l = ""
 
@@ -10,7 +9,7 @@ function DemandHeader({ lang, handleClick, field_demand_no, field_exmark, demand
   }
 
   const ex = (field_exmark === "") ? "!" : ""
-
+  
   return (
     <h2 onClick={() => handleClick(demand_id)} ref={tempRef}>
       <span className='noBreak'><span className='num'>{field_demand_no}</span>

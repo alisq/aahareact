@@ -1,7 +1,8 @@
 [
   {
     "category":"contributor",
-    "team_id": "1",
+    "team_num": "1",
+    "team_id":"land-back",
     "team": "Land Back",    
     "title":"",
     "name": "Sarah Silva",
@@ -24,7 +25,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "1",
+    "team_num": "1",
+    "team_id":"land-back",
     "team": "Land Back",    
     "title":"",
     "name": "Krystel Clark",
@@ -49,7 +51,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "1",
+    "team_num": "1",
+    "team_id":"land-back",
     "team": "Land Back",    
     "title":"",
     "name": "Alexander Moses",
@@ -74,7 +77,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "1",
+    "team_num": "1",
+    "team_id":"land-back",
     "team": "Land Back",    
     "title":"",
     "name": "Luugigyoo, Patrick R. Stewart",
@@ -99,7 +103,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "1",
+    "team_num": "1",
+    "team_id":"land-back",
     "team": "Land Back",    
     "title":"",
     "name": "Xalek/Sekyu Siyam Chief Ian Campbell",
@@ -124,7 +129,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "2",
+    "team_num": "2",
+    "team_id":"land-housing",
     "team": "On the Land Housing",    
     "title":"",
     "name": "Julia Christiansen",
@@ -149,7 +155,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "2",
+    "team_num": "2",
+    "team_id":"land-housing",
     "team": "On the Land Housing",    
     "title":"",
     "name": "Katlia Lafferty",
@@ -174,7 +181,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "2",
+    "team_num": "2",
+    "team_id":"land-housing",
     "team": "On the Land Housing",    
     "title":"",
     "name": "Ouri Scott",
@@ -199,7 +207,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Matthew Baker",
     "bio":"",
@@ -223,7 +232,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Celina Rios-Nadeau",
     "bio":"",
@@ -247,7 +257,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Shawn Bailey",
     "bio":"",
@@ -271,7 +282,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Sylvia McAdam",
     "bio":"",
@@ -296,7 +308,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Alex Wilson",
     "bio":"",
@@ -320,7 +333,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Jason Surkan",
     "bio":"",
@@ -344,7 +358,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Laurie Aftanas",
     "bio":"",
@@ -368,7 +383,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Lancelot Coar",
     "bio":"",
@@ -392,7 +408,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "3",        
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
     "title":"",
     "name": "Luxmy Ragunathan",
     "bio":"",
@@ -416,7 +433,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "4",        
+    "team_num": "4",
+    "team_id":"reparative-architecture",        
     "title":"",
     "name": "Cheryll Case",
     "bio":"",
@@ -440,7 +458,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "4",        
+    "team_num": "4",
+    "team_id":"reparative-architecture",        
     "title":"",
     "name": "Leighana Mais",
     "bio":"",
@@ -464,7 +483,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "4",        
+    "team_num": "4",
+    "team_id":"reparative-architecture",        
     "title":"",
     "name": "Tura Cousins Wilson",
     "bio":"",
@@ -488,7 +508,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "4",        
+    "team_num": "4",
+    "team_id":"reparative-architecture",        
     "title":"",
     "name": "Shane Laptiste",
     "bio":"",
@@ -512,7 +533,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Michael Hopkins",
     "bio":"",
@@ -536,7 +558,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Adrian Blackwell",
     "bio":"",
@@ -560,7 +583,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Sameer Farooq",
     "bio":"",
@@ -584,7 +608,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Jane Mah Hutton",
     "bio":"",
@@ -608,7 +633,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Jesse Purcell",
     "bio":"",
@@ -632,7 +658,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Ali S. Qadeer",
     "bio":"",
@@ -656,7 +683,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Kika Thorne",
     "bio":"",
@@ -680,7 +708,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Bradley Dunn",
     "bio":"",
@@ -704,7 +733,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Janna Levitt",
     "bio":"",
@@ -728,7 +758,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Joe Loreto",
     "bio":"",
@@ -752,7 +783,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Conrad Speckert",
     "bio":"",
@@ -776,7 +808,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Ivee Wang",
     "bio":"",
@@ -800,7 +833,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Joshua Barndt",
     "bio":"",
@@ -824,7 +858,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Monica Hutton",
     "bio":"",
@@ -848,7 +883,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "James Partanen",
     "bio":"",
@@ -872,7 +908,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "5",
+    "team_num": "5",
+    "team_id": "gentrification-tax",
     "title":"",
     "name": "Michael Piper",
     "bio":"",
@@ -896,7 +933,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Claudia Jahn",
     "bio":"",
@@ -920,7 +958,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Adriane Salah",
     "bio":"",
@@ -944,7 +983,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Susan Fitzgerald",
     "bio":"",
@@ -968,7 +1008,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Cassie Kent",
     "bio":"",
@@ -992,7 +1033,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Stavros Kondeas",
     "bio":"",
@@ -1016,7 +1058,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Lizzie Krnjevic",
     "bio":"",
@@ -1040,7 +1083,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Rita Wang",
     "bio":"",
@@ -1064,7 +1108,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "6",
+    "team_num": "6",
+    "team_id":"surplus-properties-housing",
     "title":"",
     "name": "Eric Jonsson",
     "bio":"",
@@ -1088,7 +1133,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "7",
+    "team_num": "7",
+    "team_id":"intentional-communities-unhoused-people",
     "title":"",
     "name": "Jeff Willmer",
     "bio":"",
@@ -1112,7 +1158,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "7",
+    "team_num": "7",
+    "team_id":"intentional-communities-unhoused-people",
     "title":"",
     "name": "John van Nostrand",
     "bio":"",
@@ -1136,7 +1183,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "7",
+    "team_num": "7",
+    "team_id":"intentional-communities-unhoused-people",
     "title":"",
     "name": "Larry Chookang",
     "bio":"",
@@ -1160,7 +1208,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "7",
+    "team_num": "7",
+    "team_id":"intentional-communities-unhoused-people",
     "title":"",
     "name": "Robert Raynor",
     "bio":"",
@@ -1184,7 +1233,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "7",
+    "team_num": "7",
+    "team_id":"intentional-communities-unhoused-people",
     "title":"",
     "name": "Khaleel Sievwright",
     "bio":"",
@@ -1208,7 +1258,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "8",
+    "team_num": "8",
+    "team_id":"collective-ownership",
     "title":"",
     "name": "Kathy McGrenera",
     "bio":"",
@@ -1232,7 +1283,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "8",
+    "team_num": "8",
+    "team_id":"collective-ownership",
     "title":"",
     "name": "Katherine Co",
     "bio":"",
@@ -1256,7 +1308,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "8",
+    "team_num": "8",
+    "team_id":"collective-ownership",
     "title":"",
     "name": "Lukas Ewing",
     "bio":"",
@@ -1280,7 +1333,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "8",
+    "team_num": "8",
+    "team_id":"collective-ownership",
     "title":"",
     "name": "Travis Hanks",
     "bio":"",
@@ -1304,7 +1358,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "8",
+    "team_num": "8",
+    "team_id":"collective-ownership",
     "title":"",
     "name": "Alena Pavan",
     "bio":"",
@@ -1328,7 +1383,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "8",
+    "team_num": "8",
+    "team_id":"collective-ownership",
     "title":"",
     "name": "Jorge Román",
     "bio":"",
@@ -1352,7 +1408,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "8",
+    "team_num": "8",
+    "team_id":"collective-ownership",
     "title":"",
     "name": "Shirley Shen",
     "bio":"",
@@ -1376,7 +1433,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Randy Cohen",
     "bio":"",
@@ -1400,7 +1458,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Anne Cormier",
     "bio":"",
@@ -1424,7 +1483,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Howard Davies",
     "bio":"",
@@ -1448,7 +1508,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Gabriel Tessier",
     "bio":"",
@@ -1472,7 +1533,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Fannie Yockell",
     "bio":"",
@@ -1496,7 +1558,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Éric Michaud",
     "bio":"",
@@ -1520,7 +1583,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Samuel Vanzin",
     "bio":"",
@@ -1544,7 +1608,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Kevin McMahon",
     "bio":"",
@@ -1568,7 +1633,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Isabelle Richard",
     "bio":"",
@@ -1592,7 +1658,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Pierre Samson",
     "bio":"",
@@ -1616,7 +1683,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Ipek Türeli",
     "bio":"",
@@ -1640,7 +1708,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "9",
+    "team_num": "9",
+    "team_id": "mutual-aid-housing",
     "title":"",
     "name": "Marc-André Fortin",
     "bio":"",
@@ -1664,7 +1733,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "10",
+    "team_num": "10",
+    "team_id": "ambient-ecosystems-commons",
     "title":"",
     "name": "Charles Guindon",
     "bio":"",
@@ -1688,7 +1758,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "10",
+    "team_num": "10",
+    "team_id": "ambient-ecosystems-commons",
     "title":"",
     "name": "Maya Gauvreau",
     "bio":"",
@@ -1712,7 +1783,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "10",
+    "team_num": "10",
+    "team_id": "ambient-ecosystems-commons",
     "title":"",
     "name": "Olivier Leclerc",
     "bio":"",
@@ -1736,7 +1808,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "10",
+    "team_num": "10",
+    "team_id": "ambient-ecosystems-commons",
     "title":"",
     "name": "Mikael St-Pierre",
     "bio":"",
@@ -1760,7 +1833,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "10",
+    "team_num": "10",
+    "team_id": "ambient-ecosystems-commons",
     "title":"",
     "name": "Caroline Corbex",
     "bio":"",
@@ -1784,7 +1858,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "10",
+    "team_num": "10",
+    "team_id": "ambient-ecosystems-commons",
     "title":"",
     "name": "Daniel Pearl",
     "bio":"",
@@ -1808,7 +1883,8 @@
   },
   {
     "category":"contributor",
-    "team_id": "10",
+    "team_num": "10",
+    "team_id": "ambient-ecosystems-commons",
     "title":"",
     "name": "Sudhir Suri",
     "bio":"",
