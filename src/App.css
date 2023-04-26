@@ -318,7 +318,7 @@ html, body {
 img {
   width: 100%;
   max-width: 100%;
-  filter: grayscale(100%) contrast(500%);
+  filter: grayscale(100%) contrast(200%);
   mix-blend-mode: multiply;
   transition: filter 0.4s; }
   img:hover {
@@ -428,8 +428,8 @@ h3 {
 h5 {
   font-size: 2.25rem;
   float: left;
-  height: 4em;
-  margin-top: 0.1em;
+  height: 3em;
+  margin-top: -0.1em;
   padding-right: 0.75em; }
 
 .exAlt1:before {
@@ -777,8 +777,8 @@ h1 {
         color: #101010; }
 
 .socials {
-  font-size: 2em;
-  letter-spacing: 0.1em;
+  font-size: 4em;
+  letter-spacing: 0.05em;
   padding-bottom: 0.5em; }
   .socials i {
     cursor: pointer;
@@ -806,10 +806,12 @@ table {
     margin: 0;
     visibility: visible;
     transition: height 0.4s;
-    height: 100px;
+    min-height: 50px;
     overflow: hidden; }
     table tr:hover h3 {
       color: #F5F5F5; }
+    table tr td {
+      padding: 0.25em; }
     table tr.hide {
       height: 0;
       visibility: collapse; }
@@ -839,6 +841,12 @@ table {
 #contact #logoUW,
 #contact #logoSALA {
   width: 80%; }
+
+#contact .footerList {
+  font-family: AAHA;
+  text-transform: uppercase;
+  list-style-type: disc;
+  margin-left: -1.25em; }
 
 #contact .footerLogo {
   fill: whitesmoke;

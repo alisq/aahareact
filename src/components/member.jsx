@@ -10,9 +10,6 @@ function Member({ member, content, title }) {
      const hasOrg = content.organization !== ""
      const hasLink = member.links !== ""
      
-     console.log("content")
-     console.log(content)
-     
     
 
      
@@ -23,15 +20,15 @@ function Member({ member, content, title }) {
                 (member.category === "committee") ? (
                     
                     <tr>
-                    <td class="sidebearing"></td>
-                    <td><h5><a href={member.links[0]} target="_blank">{member.name}</a></h5> {content.bio}<br /></td>
-                    <td class="sidebearing"></td>
+                    <td className="sidebearing"></td>
+                    <td className="hideText"><h5><a href={member.links[0]} target="_blank">{member.name}</a></h5> <div className="longText">{content.bio}</div></td>
+                    <td className="sidebearing"></td>
                     </tr>
                     
                     
                 ) : (
                     <tr>
-                    <td class="sidebearing"></td>    
+                    <td className="sidebearing"></td>    
                     <td><strong>{member.name}</strong></td>
                     {hasTitle && ( <td><label>{content.title}</label></td> )}
                     {hasRole && ( <td className="smallHalf"><label>{content.role}</label></td> )}
@@ -39,7 +36,7 @@ function Member({ member, content, title }) {
                     
                     {hasOrg && ( <td>{content.organization}</td> )}
                     {hasBio && ( <td>{content.bio}</td> )}
-                    <td class="sidebearing"></td>
+                    <td className="sidebearing"></td>
                     </tr>
                 )
             }

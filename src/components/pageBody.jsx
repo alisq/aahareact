@@ -40,14 +40,14 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
         <table className="members">
         <thead>
             <tr>
-            <td class="sidebearing"></td>
+            <td className="sidebearing"></td>
             <td><label className="red">{(lang === 'fr') ? "Nom" : "name"}</label></td>
               <td><label className="red">{(lang === 'fr') ? "Rôle" : "role"}</label></td>
               
               <td></td>
               <td className="smallHalf"></td>
               <td><label className="red">{(lang === 'fr') ? "Biographie" : "biography"}</label></td>
-              <td class="sidebearing"></td>
+              <td className="sidebearing"></td>
             </tr>
           </thead>  
           <tbody>{collaboratorData.map(getMember)}</tbody>
@@ -58,13 +58,13 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
         <table className="members">
         <thead>
             <tr>
-              <td class="sidebearing"></td>
+              <td className="sidebearing"></td>
               <td><label className="red">{(lang === 'fr') ? "Nom" : "name"}</label></td>
               <td></td>
               <td><label className="red">{(lang === 'fr') ? "Rôle" : "role"}</label></td>
               <td><label className="red">{(lang === 'fr') ? "equipe" : "team"}</label></td>              
               <td><label className="red">{(lang === 'fr') ? "organisme" : "organization"}</label></td>
-              <td class="sidebearing"></td>
+              <td className="sidebearing"></td>
               
             </tr>
           </thead>  

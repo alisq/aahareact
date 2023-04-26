@@ -128,11 +128,11 @@
     "name": "Tamara Andruszkiewicz",
     "en": {
       "title":"Project Logistics",
-      "bio": "——"
+      "bio": "Canada Council of the Arts"
     },
     "fr": {
       "title":"Coordonatrice de la logistique du projet",
-      "bio": "——"
+      "bio": "Counseil des arts du Canada"
     },
     "organization": "--"
     
@@ -166,7 +166,7 @@
     },
     "fr": {
       "title": "Conseiller en conception d'expositions",
-      "bio": "Artist, curator, writer, and dramaturge, Emelie Chhangur is known for her process-based, infra-cultural and participatory practice that re-structures artistic labour as an ethical process to counter the status quo. She’s a proud supporter of AAHA’s contribution to the Venice Architecture Biennial and their concomitant commitment to infrastructural change in housing paradigms in Canada. Chhangur is Director/Curator of Agnes Etherington Art Centre, where she fights for a community-engaged architectural design process that reimagines new museum architectures, ensuring the cultural spaces of Canada’s future no longer look like those of Canada’s colonial past. She puts forward a practice she invented called “in-reach.” "
+      "bio": "Artist, curator, writer, and dramaturge, Emelie Chhangur is known for her process-based, infra-cultural and participatory practice that re-structures artistic labour as an ethical process to counter the status quo. She’s a proud supporter of AAHA’s contribution to the Venice Architecture Biennial and their concomitant commitment to infrastructural change in housing paradigms in Canada. Chhangur is Director/Curator of Agnes Etherington Art Centre, where she fights for a community-engaged architectural design process that reimagines new museum architectures, ensuring the cultural spaces of Canada’s future no longer look like those of Canada’s colonial past. She puts forward a practice she invented called “in-reach.” Artiste, commissaire, auteure et dramaturge, Emelie Chhangur est connue pour sa pratique qui est à la fois infraculturelle, participative et axée sur la démarche. Sa démarche repositionne le travail artistique comme étant un processus éthique, ce qui permet de remettre en question le statu quo. Elle est fière d’appuyer la contribution d’AAHA à la Biennale de Venise en architecture et l’engagement de la campagne à induire des changements infrastructurels aux paradigmes de logement observables au Canada. Emelie Chhangur est directrice et commissaire de l’Agnes Etherington Art Centre, où elle défend une démarche de conception architecturale communautaire qui permet d’imaginer de nouvelles architectures pour les musées du Canada afin d’affranchir les prochains espaces culturels de l’héritage colonial de ce pays. Elle préconise la pratique « in reach », qu’elle a inventée. "
     },
     "organization": " "
     
@@ -183,7 +183,7 @@
     },
     "fr": {
       "title": "Conseiller en conception d'expositions",
-      "bio": "Brendan Cormier is a Canadian curator and writer and is currently the Chief Curator of V&A East in London, UK. Prior to his work at the V&A, he was managing editor of Volume Magazine, based in Amsterdam, NL. From 2009-2012, he co-founded and co-directed Department of Unusual Certainties, a Toronto-based design practice, which translated urban research into speculative exhibition and publication projects. "
+      "bio": "Brendan Cormier, commissaire et auteur canadien, est actuellement commissaire principal au V&A East Museum, à Londres, au Royaume-Uni. Il a auparavant été directeur de rédaction de la revue Volume, une publication dont les bureaux sont établis à Amsterdam, aux Pays-Bas. De 2009 à 2012, il a codirigé le Department of Unusual Certainties, un studio de design torontois qu’il a cofondé, où il s’employait à transposer des recherches urbaines en projets spéculatifs d’exposition et de publication. "
     },
     "organization": ""
     
@@ -200,7 +200,7 @@
     },
     "fr": {
       "title": "Conseiller en conception d'expositions",
-      "bio": "Cheryl L’Hirondelle (Cree/Halfbreed; German/Polish) is an award winning and community-engaged interdisciplinary artist, singer/songwriter and critical thinker whose family is from Papaschase First Nation / amiskwaciy wâskahikan (Edmonton) and Kikino Metis Settlement, Alberta. Her work investigates and articulates the intersections of nêhiyawin (Cree worldview) and contemporary time-place incorporating sound, Indigenous languages, music, and old and new technology.  "
+      "bio": "D’ascendance crie, mixte, allemande et polonaise, Cheryl L’Hirondelle est une artiste interdisciplinaire engagée dans la communauté, une auteure-compositrice-interprète et un esprit critique. Ses racines familiales sont associées à la Première Nation Papaschase, qui vit à amiskwaciy wâskahikan (Edmonton, Alberta), et dans l’établissement métis Kikino, en Alberta. L’œuvre de cette artiste primée a pour objet et cherche à exprimer le point de rencontre entre la nêhiyawin (vision du monde du peuple cri) et l’espace-temps contemporain en faisant appel au son, aux langues autochtones, à la musique et aux technologies nouvelles et anciennes. "
     },
     "organization": ""
     
@@ -210,14 +210,82 @@
     "team_id":"",
     "team":"",
     "title": "Project Research + Design Team",
-    "name": "David Kalman, Josephine Li, Piero Sovrani, Noa Wang, Donald Zhu ",
+    "name": "David Kalman",
     "en": {
       "title": "Project Research + Design Team",
-      "bio": "——"
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture "
     },
     "fr": {
       "title": "Recherche de projet + équipe de conception",
-      "bio": "——"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Project Research + Design Team",
+    "name": "Josephine Li ",
+    "en": {
+      "title": "Project Research + Design Team",
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture "
+    },
+    "fr": {
+      "title": "Recherche de projet + équipe de conception",
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Project Research + Design Team",
+    "name": "Piero Sovrani",
+    "en": {
+      "title": "Project Research + Design Team",
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture "
+    },
+    "fr": {
+      "title": "Recherche de projet + équipe de conception",
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Project Research + Design Team",
+    "name": "Noa Wang",
+    "en": {
+      "title": "Project Research + Design Team",
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
+    },
+    "fr": {
+      "title": "Recherche de projet + équipe de conception",
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Project Research + Design Team",
+    "name": "Donald Zhu",
+    "en": {
+      "title": "Project Research + Design Team",
+      "bio": "OCAD University"
+    },
+    "fr": {
+      "title": "Recherche de projet + équipe de conception",
+      "bio": "l’Université OCAD"
     },
     "organization": "--"
     
@@ -227,14 +295,48 @@
     "team_id":"",
     "team":"",
     "title": "Social Media Team",
-    "name": "Kara Crabbe, Lee-Ann Kam, Anaïs Trembling",
+    "name": "Kara Crabbe",
     "en": {
       "title": "Social Media Team",
-      "bio": "——"
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
     },
     "fr": {
       "title": "Équipe des réseaux sociaux",
-      "bio": "——"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Social Media Team",
+    "name": "Lee-Ann Kam",
+    "en": {
+      "title": "Social Media Team",
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
+    },
+    "fr": {
+      "title": "Équipe des réseaux sociaux",
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
+    },
+    "organization": "--"
+    
+  },
+  {
+    "category":"collaborator",
+    "team_id":"",
+    "team":"",
+    "title": "Social Media Team",
+    "name": "Anaïs Trembling",
+    "en": {
+      "title": "Social Media Team",
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
+    },
+    "fr": {
+      "title": "Équipe des réseaux sociaux",
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
     },
     "organization": "--"
     
@@ -250,8 +352,8 @@
       "bio": "Marie McGregor Pitawanakwat is an Anishinaabe kwe, at Daawganing, on Manitoulin Island, Northeastern Ontario, Canada. Marie developed a business called Szhibeegen Training Services, which provided training and development to First Nation communities and NGOs, primarily in Northwestern Ontario, focussed on community and business development. Her business won an award from the Northern Ontario Business Awards. In 2015, shortly after returning to her home community at Whitefish River First Nation, she was evicted from the original family home and became homeless. Her belief was and is that Indigenous people already own the land, so there was and is no need to “purchase” land that one’s people already own. She created a tiny home, situated in the woods on the Whitefish River reserve on unused land, where she lived off-grid for three years. In 2018, the Whitefish River reserve evicted her and she became homeless again. In 2019, Marie was accepted as a member of Wiikwemkoong Unceded Territory. She is Co-Chair of the National Indigenous Housing Network with Katlia Lafferty, and Co-Chair of the Women's National Housing and Homelessness Network. "
     },
     "fr": {
-      "title": "Elder, National Indigenous Housing Network ",
-      "bio": "Marie McGregor Pitawanakwat is an Anishinaabe kwe, at Daawganing, on Manitoulin Island, Northeastern Ontario, Canada. Marie developed a business called Szhibeegen Training Services, which provided training and development to First Nation communities and NGOs, primarily in Northwestern Ontario, focussed on community and business development. Her business won an award from the Northern Ontario Business Awards. In 2015, shortly after returning to her home community at Whitefish River First Nation, she was evicted from the original family home and became homeless. Her belief was and is that Indigenous people already own the land, so there was and is no need to “purchase” land that one’s people already own. She created a tiny home, situated in the woods on the Whitefish River reserve on unused land, where she lived off-grid for three years. In 2018, the Whitefish River reserve evicted her and she became homeless again. In 2019, Marie was accepted as a member of Wiikwemkoong Unceded Territory. She is Co-Chair of the National Indigenous Housing Network with Katlia Lafferty, and Co-Chair of the Women's National Housing and Homelessness Network. "
+      "title": "Aînée, National Indigenous Housing Network",
+      "bio": "Marie McGregor Pitawanakwat est une Anishinaabe de Daawganing, sur l’île de Manitoulin, dans le nord de l’Ontario, au Canada. Elle a fondé Szhibeegen Training Services, une entreprise qui offre à des Premières Nations et à des ONG situées surtout dans le nord-ouest de l’Ontario de la formation et du perfectionnement axés sur la communauté et le développement commercial. Son entreprise a remporté un Prix d’excellence en affaires du Nord de l’Ontario. En 2015, peu après être retournée dans sa communauté d’origine, la Première Nation de Whitefish River, elle a été évincée de sa maison familiale et est devenue sans-abri. Elle croit que les peuples autochtones sont déjà propriétaires de la terre, donc qu’il n’y a aucune nécessité pour eux « d’acheter » des terrains pour vivre. Elle s’est installée dans une minimaison, sur un terrain boisé inutilisé de la réserve de Whitefish River, où elle a vécu hors réseau pendant trois ans. En 2018, la réserve l’a évincée, et elle est redevenue une personne sans domicile fixe. En 2019, Marie McGregor Pitawanakwat a été acceptée au sein du peuple vivant sur le territoire non cédé de Wiikwemkoong. Avec Katlia Lafferty, elle assure la coprésidence du National Indigenous Housing Network, et elle est coprésidente du Women’s National Housing and Homelessness Network. "
     },
     "organization": "--"
     

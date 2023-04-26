@@ -84,11 +84,11 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
       <table className="members">
           <thead>
             <tr>
-            <td class="sidebearing"></td>
+            <td className="sidebearing"></td>
               <td><label className="red">{(content.lang === 'fr') ? "Nom" : "name"}</label></td>
               <td><label className="red">{(content.lang === 'fr') ? "Rôle" : "role"}</label></td>
               <td><label className="red">{(content.lang === 'fr') ? "Organisme" : "organizations"}</label></td>
-              <td class="sidebearing"></td>
+              <td className="sidebearing"></td>
             </tr>
           </thead>  
           <tbody>{teamMembers.map(getMember)}</tbody>

@@ -358,8 +358,8 @@ h1 {
 }
 
 .socials {
-    font-size:2em;
-    letter-spacing: 0.1em;
+    font-size:4em;
+    letter-spacing: 0.05em;
     padding-bottom:0.5em;
 
     & i {
@@ -399,7 +399,7 @@ table {
         margin:0;
         visibility:visible;
         transition:height $transition-time;
-        height:100px;
+        min-height:50px;
         overflow:hidden;
 
         &:hover {
@@ -408,6 +408,16 @@ table {
 
             & h3 {
                 color:$background
+            }
+        }
+
+        & td {
+            padding:0.25em;
+
+            &.hideText {
+                
+
+                
             }
         }
 
@@ -459,6 +469,12 @@ table {
         width:80%;
     }
 
+    & .footerList {
+        font-family: AAHA;
+        text-transform: uppercase;
+        list-style-type:disc;
+        margin-left:-1.25em;
+    }
 
     & .footerLogo {
 

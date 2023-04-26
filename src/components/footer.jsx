@@ -25,10 +25,11 @@ function Footer({ lang, tempRef }) {
                 {lang === 'en' ? (
                     <>
                     <h5>Not for Sale!</h5>
-                    <p>Housing in c\a\n\a\d\a is characterized by unaffordability, disrepair, under-housing, precarity, and homelessness. This is housing alienation—the condition of being separated from our fundamental connections to home. It separates us from the land we inhabit, the social world that supports us, and our full creative lives. We are Architects Against Housing Alienation and we believe the current housing system in c\a\n\a\d\a must be abolished!</p>
+                    <p>We are Architects Against Housing Alienation and we believe the current housing system in c\a\n\a\d\a must be abolished! 
+                        To end housing alienation in c\a\n\a\d\a we demand:</p>
                     
                     
-                    <ul className="">
+                    <ul className="footerList">
 <li><a href='/en/demand/land-back'>Land Back</a></li>
 <li><a href='/en/demand/land-housing'>On the Land Housing</a></li>
 <li><a href='/en/demand/home-building-lodges'>First Nations Home Building Lodges</a></li>
@@ -43,8 +44,10 @@ function Footer({ lang, tempRef }) {
    </>
 ) : (
     <><h5>Pas à vendre</h5>
-    <p>Le logement au c\a\n\a\d\a se caractérise par l’insuffisance d’habitations abordables, le délabrement, le manque de logements de taille appropriée, la précarité et le sans-abrisme. C’est ce qu’on appelle l’aliénation du logement, c’est-à-dire la rupture des attaches fondamentales à un chez-soi. Ce phénomène nous sépare du territoire que nous habitons, du réseau social qui nous soutient et de l’intégrité de nos vies créatives. Nous sommes Architects Against Housing Alienation (AAHA) et nous croyons que le système du logement actuel au c\a\n\a\d\a doit être aboli!</p>
-    <ul className="">
+    <p>Nous sommes Architects Against Housing Alienation (AAHA) et nous croyons que le système du logement actuel au c\a\n\a\d\a doit être aboli!
+    Pour mettre fin à l’aliénation du logement au c\a\n\a\d\a, nous demandons…
+    </p>
+    <ul className="footerList">
 <li><a href='/fr/demand/land-back'>La restitution des terres ancestrales</a></li>
 <li><a href='/fr/demand/land-housing'>Des logements sur le territoire</a></li>
 <li><a href='/fr/demand/home-building-lodges'>Pavillons pour la construction d’habitations au sein des Premières Nations</a></li>
@@ -70,27 +73,40 @@ function Footer({ lang, tempRef }) {
                             <a href="https://www.instagram.com/aaha.ca" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                             
                         </div>
-                        <a href="mailto:info@aaha.ca">info@aaha.ca</a> | <a href="mailto:press@aaha.ca">press@aaha.ca</a><br />
-                        <br />
-
-
+                        <a href="mailto:info@aaha.ca">info@aaha.ca</a> 
+                        <br /><br />
                         
-                    {lang === 'en' ? (
-                    <><h3></h3>
-                    <ul className="">
-                    <a href="/en/">DEMANDS</a> | <a href="/en/page/aaha-manifesto">AAHA MANIFESTO</a> | <a href="/en/page/collective">COLLECTIVE</a> | <a href="/en/page/collective">CONTACT</a>
-   </ul>
-   </>
-) : (
-    <>
-    
-    <a href="/fr/">DEMANDES</a> | <a href="/fr/aaha-manifesto">AAHA MANIFESTE</a> | <a href="/fr/collective">COLLECTIF</a> | <a href="/fr/collective">CONTACTE</a>
-   </>
-) }         
+                        For all enquiries regarding Not for Sale! commissioned for the Canada Pavilion, 
+                        including interview requests for the selected team Architects Against Housing Alienation (AAHA), please contact: <a href="mailto:info@aaha.ca">info@aaha.ca</a> 
+                        
+                        {/* Download the press kit here. */}
+
+
                  
                     </div>
                     <div className="three columns">
-                    <a href="https://www.labiennale.org/en/architecture/2023" target="_blank">
+
+                        
+                    {lang === 'en' ? (
+                    <ul class="footerList">
+                    
+                    <a href="/en/">DEMANDS</a><br />
+                    <a href="/en/page/aaha-manifesto">MANIFESTO</a><br /><a href="/en/page/collective">COLLECTIVE</a>
+                    <br /><br />
+                        2023, Architects Against Housing Alienation
+   </ul>
+   
+) : (
+    <ul class="footerList">
+    
+    <a href="/fr/">DEMANDES</a><br />
+    <a href="/fr/page/aaha-manifesto">MANIFESTE</a><br />
+    <a href="/fr/page/collective">COLLECTIF</a>
+    <br /><br />
+                        2023, Architects Against Housing Alienation
+   </ul>
+) }         
+                    {/* <a href="https://www.labiennale.org/en/architecture/2023" target="_blank">
                         <LogoBiennale className="footerLogo" id="logoBiennale" />
                     </a>
                         <a href="https://canadacouncil.ca/" target="_blank">
@@ -124,7 +140,7 @@ function Footer({ lang, tempRef }) {
                                 </a>
                             </div>
                         </div>
-
+ */}
 
                     </div>
                 </div>

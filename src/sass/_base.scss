@@ -20,7 +20,7 @@ html, body {
 img {
     width:100%;
     max-width:100%;
-    filter: grayscale(100%) contrast(500%);
+    filter: grayscale(100%) contrast(200%);
     mix-blend-mode: multiply;
     transition: filter $transition-time;
 

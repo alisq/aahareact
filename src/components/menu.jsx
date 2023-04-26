@@ -6,7 +6,7 @@ function Menu({ navigate, pageRefs, lang }) {
   const [visibility, setVisibility] = useState(false)
 
 
-
+  
   const createHandleClick = (i, page_id) => () => {
     // gets the reference to the corresponding body
     // pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
@@ -14,6 +14,7 @@ function Menu({ navigate, pageRefs, lang }) {
     navigate(`page/${page_id}`)
     setVisibility(false)
   }
+
 
 
   return (
@@ -35,7 +36,7 @@ function Menu({ navigate, pageRefs, lang }) {
               handleClick={createHandleClick(i, page.page_id)}
               key={i} />
           )}
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#contact" onClick={() => (setVisibility(false))}>CONTACT</a></li>
         </ul>
       </section>
     </>
