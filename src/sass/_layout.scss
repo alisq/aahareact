@@ -417,7 +417,7 @@ table {
             visibility: collapse;
         }
 
-        &:first-child td {border-top:1px solid $foreground;}
+        &:first-child td {border-top:1px solid rgba($foreground,0.2);}
         // &:nth-child(odd) {background: rgba($foreground,0.02)}
         // background:red;
 
