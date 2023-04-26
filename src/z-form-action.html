@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        label {
+            display:inline-block;
+            width:200px;
+            padding-bottom:1em;
+        }    
+
+        input,
+        textarea {
+            font-size: 20px;
+            padding:0.25em;
+            width:400px;
+        }
+
+        .split {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+        }
+
+        #json_dump {
+            width:80%;
+            height:500px;
+        }
+    </style>
+
+</head>
+<body>
+        <form>
+            <div><label></label><select id="demand">
+                <option>Demand:</option>
+            </select>
+            <div><label>Demand ID:</label> <input name="demand_id" id="demand_id" type="text"></div>
+            <div><label>demand Number:</label> <input name="field_demand_no" id="field_demand_no" type="text"></div>
+            <div><label>exmark:</label> <input name="field_exmark" id="field_exmark" type="text"></div>
+            <div><label>banner:</label> <input name="banner" id="banner" type="text"></div>
+
+            <div class="split">
+            <div class="en">
+                <h2>EN</h2>
+                <div><label>en_title</label><input type="text" name="en_title" id="en_title"></div>
+                <!-- <div><label>en_header_html</label><input type="text" name="en_header_html" id="en_header_html"></div> -->
+                <div><label>en_field_region</label><input type="text" name="en_field_region" id="en_field_region"></div>
+                <div><label>en_activist</label><input type="text" name="en_activist" id="en_activist"></div>
+                <div><label>en_advocate</label><input type="text" name="en_advocate" id="en_advocate"></div>
+                <div><label>en_architect</label><input type="text" name="en_architect" id="en_architect"></div>
+                <div><label>en_field_long_summary</label><input type="text" name="en_field_long_summary" id="en_field_long_summary"></div>
+                <div><label>en_banner_caption</label><input type="text" name="en_banner_caption" id="en_banner_caption"></div>
+                <div><label>en_field_content</label><textarea name="en_field_content" id="en_field_content"></textarea></div>
+                
+                <!-- <div><label>en_field_short_summary</label><input type="text" name="en_field_short_summary" id="en_field_short_summary"></div>
+                <div><label>en_field_dom_text</label><input type="text" name="en_field_dom_text" id="en_field_dom_text"></div>
+                <div><label>en_title_1</label><input type="text" name="en_title_1" id="en_title_1"></div> -->
+            </div>
+
+            <div class="fr">
+                <h2>FR</h2>
+                <div><label>fr_title</label><input type="text" name="fr_title" id="fr_title"></div>
+                <!-- <div><label>fr_header_html</label><input type="text" name="fr_header_html" id="fr_header_html"></div> -->
+                <div><label>fr_field_region</label><input type="text" name="fr_field_region" id="fr_field_region"></div>
+                <div><label>fr_activist</label><input type="text" name="fr_activist" id="fr_activist"></div>
+                <div><label>fr_advocate</label><input type="text" name="fr_advocate" id="fr_advocate"></div>
+                <div><label>fr_architect</label><input type="text" name="fr_architect" id="fr_architect"></div>
+                <div><label>fr_field_long_summary</label><input type="text" name="fr_field_long_summary" id="fr_field_long_summary"></div>
+                <div><label>fr_banner_caption</label><input type="text" name="fr_banner_caption" id="fr_banner_caption"></div>
+                <div><label>fr_field_content</label><textarea name="fr_field_content" id="fr_field_content"></textarea></div>
+                
+                <!-- <div><label>fr_field_short_summary</label><input type="text" name="fr_field_short_summary" id="fr_field_short_summary"></div>
+                <div><label>fr_field_dom_text</label><input type="text" name="fr_field_dom_text" id="fr_field_dom_text"></div>
+                <div><label>fr_title_1</label><input type="text" name="fr_title_1" id="fr_title_1"></div> -->
+            </div>
+            </div>
+        </form>
+        <button id="load_json">load json</button><br /><br />
+        <textarea id="json_dump"></textarea>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <script>
+
+let demandArray = [{"demand_id":"land-back","demand_no":0,"en":{"title":"Land Back"},"fr":{"title":"La restitution des terres ancestrales"}},{"demand_id":"land-housing","demand_no":1,"en":{"title":"On the Land Housing"},"fr":{"title":"Des logements sur le territoire"}},{"demand_id":"home-building-lodges","demand_no":2,"en":{"title":"First Nations Home Building Lodges"},"fr":{"title":"Pavillons pour la construction d’habitations au sein des Premières Nations"}},{"demand_id":"reparative-architecture","demand_no":3,"en":{"title":"Reparative Architecture"},"fr":{"title":"Une architecture réparatrice"}},{"demand_id":"gentrification-tax","demand_no":4,"en":{"title":"A Gentrification Tax"},"fr":{"title":"Une taxe sur l’embourgeoisement"}},{"demand_id":"surplus-properties-housing","demand_no":5,"en":{"title":"Surplus Properties for Housing"},"fr":{"title":"Des propriétés excédentaires pour le logement "}},{"demand_id":"intentional-communities-unhoused-people","demand_no":6,"en":{"title":"Intentional Communities for Unhoused People"},"fr":{"title":"Des communautés intentionnelles pour les personnes sans logement"}},{"demand_id":"collective-ownership","demand_no":7,"en":{"title":"Collective Ownership"},"fr":{"title":"La propriété collective"}},{"demand_id":"mutual-aid-housing","demand_no":8,"en":{"title":"Mutual Aid Housing"},"fr":{"title":"Habitat solidaire"}},{"demand_id":"ambient-ecosystems-commons","demand_no":9,"en":{"title":"Ambient Ecosystems Commons"},"fr":{"title":"Écosystèmes ambiants communs"}}]
+
+let demands;
+let d;
+fetch('./demands.json')
+   .then(response => response.json())
+   .then(json => {
+    demands = [...json]
+
+    for(i=0;i<demands.length;i++) {
+        $("#demand").append($('<option>', {
+                value: i,
+                text: demands[i].demand_id
+        }));
+
+        
+    }
+
+
+  
+//     let demandArray = [];
+
+//     for(let i=0;i<demands.length;i++) {
+//         let x = {
+//             "demand_id":demands[i].demand_id,
+//             "demand_no":i,
+//             "en": {
+//                 "title": demands[i].en.title
+//             },
+//             "fr": {
+//                 "title": demands[i].fr.title
+//             }
+            
+//     }
+//     demandArray[i] = x;
+    
+// }$("#json_dump").val(JSON.stringify(demandArray))
+
+    $("#demand").change(function(){
+
+        d = $(this).val()
+        demands[d].en["lang"]="en";
+        demands[d].fr["lang"]="fr";
+
+        $("#viewport").val(demands[d].viewport)
+$("#demand_id").val(demands[d].demand_id)
+$("#field_demand_no").val(demands[d].field_demand_no)
+$("#field_exmark").val(demands[d].field_exmark)
+$("#banner").val(demands[d].banner)
+$("#en_title").val(demands[d].en.title)
+$("#en_header_html").val(demands[d].en.header_html)
+$("#en_field_region").val(demands[d].en.field_region)
+$("#en_activist").val(demands[d].en.activist)
+$("#en_advocate").val(demands[d].en.advocate)
+$("#en_architect").val(demands[d].en.architect)
+$("#en_banner_caption").val(demands[d].en.banner_caption)
+$("#en_field_content").val(demands[d].en.field_content)
+$("#en_field_long_summary").val(demands[d].en.field_long_summary)
+$("#en_field_short_summary").val(demands[d].en.field_short_summary)
+$("#en_field_dom_text").val(demands[d].en.field_dom_text)
+$("#en_title_1").val(demands[d].en.title_1)
+$("#fr_title").val(demands[d].fr.title)
+$("#fr_header_html").val(demands[d].fr.header_html)
+$("#fr_field_region").val(demands[d].fr.field_region)
+$("#fr_activist").val(demands[d].fr.activist)
+$("#fr_advocate").val(demands[d].fr.advocate)
+$("#fr_architect").val(demands[d].fr.architect)
+$("#fr_banner_caption").val(demands[d].fr.banner_caption)
+$("#fr_field_content").val(demands[d].fr.field_content)
+$("#fr_field_long_summary").val(demands[d].fr.field_long_summary)
+$("#fr_field_short_summary").val(demands[d].fr.field_short_summary)
+$("#fr_field_dom_text").val(demands[d].fr.field_dom_text)
+$("#fr_title_1").val(demands[d].fr.title_1)
+    })
+
+
+    $("input, #en_field_content, #fr_field_content").on("input", function(){
+    
+    demands[d].demand_id = $("#demand_id").val()
+    demands[d].field_demand_no = $("#field_demand_no").val()
+    demands[d].demand_num = d
+    demands[d].field_exmark = $("#field_exmark").val()
+    demands[d].banner = $("#banner").val()
+    demands[d].en.title = $("#en_title").val()
+    demands[d].en.header_html = $("#en_header_html").val()
+    demands[d].en.field_region = $("#en_field_region").val()
+    demands[d].en.activist = $("#en_activist").val()
+    demands[d].en.advocate = $("#en_advocate").val()
+    demands[d].en.architect = $("#en_architect").val()
+    demands[d].en.banner_caption = $("#en_banner_caption").val()
+    demands[d].en.field_content = $("#en_field_content").val()
+    demands[d].en.field_long_summary = $("#en_field_long_summary").val()
+    demands[d].en.field_short_summary = $("#en_field_short_summary").val()
+    demands[d].en.field_dom_text = $("#en_field_dom_text").val()
+    demands[d].en.title_1 = $("#en_title_1").val()
+    demands[d].fr.title = $("#fr_title").val()
+    demands[d].fr.header_html = $("#fr_header_html").val()
+    demands[d].fr.field_region = $("#fr_field_region").val()
+    demands[d].fr.activist = $("#fr_activist").val()
+    demands[d].fr.advocate = $("#fr_advocate").val()
+    demands[d].fr.architect = $("#fr_architect").val()
+    demands[d].fr.banner_caption = $("#fr_banner_caption").val()
+    demands[d].fr.field_content = $("#fr_field_content").val()
+    demands[d].fr.field_long_summary = $("#fr_field_long_summary").val()
+    demands[d].fr.field_short_summary = $("#fr_field_short_summary").val()
+    demands[d].fr.field_dom_text = $("#fr_field_dom_text").val()
+    demands[d].fr.title_1 = $("#fr_title_1").val()
+    $("#json_dump").val(JSON.stringify(demands))
+    
+ })
+    
+})
+
+
+   
+
+
+
+
+
+
+function loadJSON() {
+
+    console.log(demands)
+
+}
+
+
+            
+        </script>
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+

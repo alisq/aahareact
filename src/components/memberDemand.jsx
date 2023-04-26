@@ -1,17 +1,15 @@
 
 
-function Member({ member, content, title }) {
+function MemberDemand({ member, content, title }) {
  
         
      const hasBio = content.bio !== "";
      const hasTeam = member.team_id !== ""
      const hasRole = content.role !== ""
-     const hasTitle = content.title !== ""
+     const hasTitle = member.title !== ""
      const hasOrg = content.organization !== ""
      const hasLink = member.links !== ""
      
-     console.log("content")
-     console.log(content)
      
     
 
@@ -23,19 +21,20 @@ function Member({ member, content, title }) {
                 (member.category === "committee") ? (
                     
                     <tr>
-                    <td class="sidebearing"></td>
-                    <td><strong><a href={member.links[0]} target="_blank">{member.name}</a></strong> {content.bio}<br /></td>
+                        <td class="sidebearing"></td>
+                    <td><strong>{member.name}</strong> {content.bio}<br />
+                    <a href={member.links[0]}>{member.links[0]}</a></td>
                     <td class="sidebearing"></td>
                     </tr>
                     
                     
                 ) : (
                     <tr>
-                    <td class="sidebearing"></td>    
+                        <td class="sidebearing"></td>
                     <td><strong>{member.name}</strong></td>
-                    {hasTitle && ( <td><label>{content.title}</label></td> )}
+                    {hasTitle && ( <td><label>{member.title}</label></td> )}
                     {hasRole && ( <td className="smallHalf"><label>{content.role}</label></td> )}
-                    {hasTeam && ( <td className="smallHalf">{content.team}</td> )}
+                    
                     
                     {hasOrg && ( <td>{content.organization}</td> )}
                     {hasBio && ( <td>{content.bio}</td> )}
@@ -51,4 +50,4 @@ function Member({ member, content, title }) {
 
 }
 
-export default Member
+export default MemberDemand

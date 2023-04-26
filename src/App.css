@@ -324,13 +324,33 @@ img {
   img:hover {
     filter: grayscale(0%) contrast(100%); }
 
+@media (max-width: 800px) {
+  img {
+    filter: grayscale(0%) contrast(100%); } }
+
 @font-face {
   font-family: 'AAHA-WEB';
   src: url("../public/fonts/AAHA-Regular.woff2") format("woff");
   font-weight: normal; }
 
+@font-face {
+  font-family: 'Starling';
+  src: url("../public/fonts/starling/Starling Book.woff2") format("woff");
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Starling';
+  src: url("../public/fonts/starling/Starling Book Italic.woff2") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Starling';
+  src: url("../public/fonts/starling/Starling Bold.woff2") format("woff");
+  font-weight: bold; }
+
 body {
-  font-family: freight-text-pro;
+  font-family: 'Starling', freight-text-pro;
   font-size: 21px;
   line-height: 1.4em; }
 
@@ -406,11 +426,11 @@ h3 {
     text-align: center; }
 
 h5 {
-  font-size: 2.5rem;
-  letter-spacing: 0.02em;
-  line-height: 3rem;
-  padding-bottom: 0;
-  margin-bottom: 0; }
+  font-size: 2.25rem;
+  float: left;
+  height: 4em;
+  margin-top: 0.1em;
+  padding-right: 0.75em; }
 
 .exAlt1:before {
   content: '\0777'; }
@@ -465,7 +485,7 @@ button:visited {
   top: 50%;
   transform: translateY(-50%); }
   .manifesto.fr {
-    font-size: 4vw; }
+    font-size: 3.75vw; }
   .manifesto:hover h2,
   .manifesto:hover .num {
     color: rgba(16, 16, 16, 0.3); }
@@ -474,7 +494,8 @@ button:visited {
     display: inline;
     font-size: inherit;
     cursor: pointer;
-    transition: color 0.4s; }
+    transition: color 0.4s;
+    text-transform: uppercase; }
     .manifesto h2:hover {
       color: #c00000; }
       .manifesto h2:hover span.num {
@@ -803,6 +824,36 @@ table {
       border-bottom: 1px solid rgba(16, 16, 16, 0.2); }
       table tr td:first-child {
         padding-left: 1em; }
+
+.thirds {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-column-gap: 1em; }
+
+#contact h5 {
+  color: whitesmoke; }
+
+#contact li {
+  margin-bottom: 0; }
+
+#contact #logoBiennale {
+  width: 50%; }
+
+#contact #logoUW,
+#contact #logoSALA {
+  width: 80%; }
+
+#contact .footerLogo {
+  fill: whitesmoke;
+  width: 100%;
+  transition: fill 0.4s;
+  height: auto;
+  padding-bottom: 2em; }
+  #contact .footerLogo:hover {
+    fill: #c00000; }
+
+.sidebearing {
+  width: calc(100vw / 2 - 1800px / 2); }
 
 @media (max-width: 800px) {
   body {

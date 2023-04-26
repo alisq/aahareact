@@ -40,7 +40,7 @@
     <H1>PAGES</h1>
         <form>
             <div><label></label><select id="page">
-                <option>page:</option>
+                <option>people:</option>
             </select>
             <div><label>Page ID:</label> <input name="page_id" id="page_id" type="text"></div>
             
@@ -52,7 +52,7 @@
                 <h2>EN</h2>
                 <div><label>en_title</label><input type="text" name="en_title" id="en_title"></div>
                 
-                <div><label>en_body</label><textarea name="en_body" id="en_body"></textarea></div>
+                <div><label>en_bio</label><textarea name="en_bio" id="en_bio"></textarea></div>
                 
             </div>
 
@@ -60,7 +60,7 @@
                 <h2>FR</h2>
                 <div><label>fr_title</label><input type="text" name="fr_title" id="fr_title"></div>
                 
-                <div><label>fr_body</label><textarea name="fr_body" id="fr_body"></textarea></div>
+                <div><label>fr_bio</label><textarea name="fr_bio" id="fr_bio"></textarea></div>
                 
             </div>
             </div>
@@ -74,15 +74,16 @@
 
 let demands;
 let d;
-fetch('./pages.json')
+fetch('./contributors.json')
    .then(response => response.json())
    .then(json => {
-    pages = [...json]
+    people = [...json]
+    console.log(people)
 
-    for(i=0;i<pages.length;i++) {
+    for(i=0;i<people.length;i++) {
         $("#page").append($('<option>', {
                 value: i,
-                text: pages[i].page_id
+                text: people[i].name
         }));
 
         
@@ -93,26 +94,26 @@ fetch('./pages.json')
         p = $(this).val()
         
         
-$("#page_id").val(pages[p].page_id)
+$("#page_id").val(people[p].name)
 
-$("#en_title").val(pages[p].en.title)
-$("#en_body").val(pages[p].en.body)
+$("#en_title").val(people[p].en.title)
+$("#en_bio").val(people[p].en.bio)
 
-$("#fr_title").val(pages[p].fr.title)
-$("#fr_body").val(pages[p].fr.body)
+$("#fr_title").val(people[p].fr.title)
+$("#fr_bio").val(people[p].fr.bio)
     })
 
 
-    $("input, #en_body, #fr_body").on("input", function(){
+    $("input, #en_bio, #fr_bio").on("input", function(){
     
 
 pages[p].page_id = $("#page_id").val()
 
 pages[p].en.title = $("#en_title").val()
-pages[p].en.body = $("#en_body").val()
+pages[p].en.bio = $("#en_bio").val()
 
 pages[p].fr.title = $("#fr_title").val()
-pages[p].fr.body = $("#fr_body").val()
+pages[p].fr.bio = $("#fr_bio").val()
 
 
         

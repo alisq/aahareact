@@ -5,8 +5,29 @@
 }
 
 
+@font-face {
+    font-family: 'Starling';
+    src: url('../public/fonts/starling/Starling Book.woff2') format('woff');
+    font-weight:normal;
+}
+
+@font-face {
+    font-family: 'Starling';
+    src: url('../public/fonts/starling/Starling Book Italic.woff2') format('woff');
+    font-weight:normal;
+    font-style:italic;
+}
+
+@font-face {
+    font-family: 'Starling';
+    src: url('../public/fonts/starling/Starling Bold.woff2') format('woff');
+    font-weight:bold;
+    
+}
+
+
 body {
-    font-family:freight-text-pro;
+    font-family:'Starling', freight-text-pro;
     font-size:21px;
     line-height:1.4em;
 }
@@ -107,11 +128,12 @@ h3 {
 }
 
 h5 {
-    font-size:2.5rem;
-    letter-spacing: 0.02em;
-    line-height:3rem;
-    padding-bottom:0;
-    margin-bottom:0;
+    font-size:2.25rem;
+        
+        float:left;
+        height:4em;
+        margin-top:0.1em;
+        padding-right:0.75em;
 }
 
 .exAlt1:before {
@@ -176,7 +198,7 @@ button:visited {
     transform:translateY(-50%);
 
     &.fr {
-        font-size:4vw;
+        font-size:3.75vw;
     }
 
     &:hover h2, 
@@ -192,6 +214,7 @@ button:visited {
         font-size:inherit;
         cursor:pointer;
         transition:color $transition-time;
+        text-transform: uppercase;
 
         &:hover {
             color:$red;

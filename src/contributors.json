@@ -12,14 +12,14 @@
       "team": "Land Back",
       "bio":"",
       "role": "Activist",
-      "organization": "Hiyam Housing"
+      "organization": "Hiyam Housing, Squamish Nation"
     },
     "fr": {
       "lang":"fr", 
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Activiste",
-      "organization": "Hiyam Housing"
+      "organization": "Hiyam Housing, Squamish Nation"
     },
     "organization 2 (If Relevant)": ""
   },
@@ -36,14 +36,14 @@
       "team": "Land Back",
       "bio":"",
       "role": "Architect",
-      "organization": "Patrick R. Stewart Architect"
+      "organization": "Patrick R. Stewart Architect, Montreal Lake Cree Nation"
     },
     "fr": {
       "lang":"fr",
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Architecte",
-      "organization": "Patrick R. Stewart Architect"
+      "organization": "Patrick R. Stewart Architect, Montreal Lake Cree Nation"
     },
     
     
@@ -88,14 +88,14 @@
       "team": "Land Back",
       "bio":"",
       "role": "Architect",
-      "organization": "Patrick R. Stewart Architect"
+      "organization": "Patrick R. Stewart Architect, Nisga'a Nation"
     },
     "fr": {
       "lang":"fr",
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Architecte",
-      "organization": "Patrick R. Stewart Architect"
+      "organization": "Patrick R. Stewart Architect, Nisga'a Nation"
     },
     
     
@@ -120,7 +120,7 @@
       "lang":"fr",
       "team": "La restitution des terres ancestrales",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Nation des Squamish"
     },
     
@@ -146,7 +146,7 @@
       "lang":"fr",
       "team": "Des logements sur le territoire",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "At Home in the North"
     },
     
@@ -166,14 +166,14 @@
       "team": "On the Land Housing",
       "bio":"",
       "role": "Activist",
-      "organization": "National Indigenous Housing Network"
+      "organization": "National Indigenous Housing Network, Yellowknives Dene First Nation"
     },
     "fr": {
       "lang":"fr",
       "team": "Des logements sur le territoire",
       "bio":"",
       "role": "Activiste",
-      "organization": "National Indigenous Housing Network"
+      "organization": "National Indigenous Housing Network, Yellowknives Dene First Nation"
     },
     
     
@@ -192,14 +192,14 @@
       "team": "On the Land Housing",
       "bio":"",
       "role": "Architect",
-      "organization": "Urban Arts Architecture Inc"
+      "organization": "Urban Arts Architecture Inc, Tłı̨chǫ Dene"
     },
     "fr": {
       "lang":"fr",
       "team": "Des logements sur le territoire",
       "bio":"",
       "role": "Architecte",
-      "organization": "Urban Arts Architecture Inc"
+      "organization": "Urban Arts Architecture Inc, Tłı̨chǫ Dene"
     },
     
     
@@ -267,14 +267,14 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Grounded Architecture"
+      "organization": "Grounded Architecture, University of Manitoba, Métis Nation of Saskatchewan"
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
-      "organization": "Université du Manitoba"
+      "role": "Défenseur",
+      "organization": "Grounded Architecture, Université du Manitoba, Métis Nation of Saskatchewan"
     },
     
     
@@ -292,14 +292,14 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "One House Many Nations"
+      "organization": "One House Many Nations, Big River First Nation"
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "One House Many Nations"
+      "organization": "One House Many Nations, Big River First Nation"
       
     },
     
@@ -318,14 +318,14 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "One House Many Nations"
+      "organization": "One House Many Nations, Opaskwayak Cree Nation"
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Université de la Saskatchewan"  
+      "organization": "Université de la Saskatchewan, Opaskwayak Cree Nation"  
     },
     
     
@@ -343,14 +343,14 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "SOLO Architecture"
+      "organization": "SOLO Architecture, Métis Nation of Saskatchewan "
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "SOLO Architecture"
+      "organization": "SOLO Architecture, Métis Nation of Saskatchewan "
     },
     
     
@@ -368,14 +368,14 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "University of Manitoba"
+      "organization": "Grounded Architecture"
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
-      "organization": "University of Manitoba"
+      "role": "Défenseur",
+      "organization": "Grounded Architecture"
     },
     
     
@@ -399,7 +399,57 @@
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
+      "organization": "University of Manitoba"
+    },
+    
+    
+    "organization 2 (If Relevant)": ""
+  },
+  {
+    "category":"contributor",
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
+    "title":"",
+    "name": "Naomi Ratte",
+    "bio":"",
+    "en": {
+      "team": "First Nations Home Building Lodges",
+      "lang":"en",
+      "bio":"",
+      "role": "Advocate",
+      "organization": "University of Manitoba"
+    },
+    "fr": {
+      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang":"fr",
+      "bio":"",
+      "role": "Défenseur",
+      "organization": "University of Manitoba"
+    },
+    
+    
+    "organization 2 (If Relevant)": ""
+  },
+  {
+    "category":"contributor",
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
+    "title":"",
+    "name": "Honoure Black",
+    "bio":"",
+    "en": {
+      "team": "First Nations Home Building Lodges",
+      "lang":"en",
+      "bio":"",
+      "role": "Advocate",
+      "organization": "University of Manitoba"
+    },
+    "fr": {
+      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang":"fr",
+      "bio":"",
+      "role": "Défenseur",
       "organization": "University of Manitoba"
     },
     
@@ -418,14 +468,14 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "University of Manitoba"
+      "organization": "Grounded Architecture"
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
-      "organization": "University of Manitoba"
+      "role": "Défenseur",
+      "organization": "Grounded Architecture"
     },
     
     
@@ -449,7 +499,7 @@
       "team": "Une architecture réparatrice",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "CP Planning (Community in Public)"
     },
     
@@ -574,7 +624,7 @@
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Gentrification Tax Action"
     },
     
@@ -599,7 +649,7 @@
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Gentrification Tax Action"
     },
     
@@ -624,7 +674,7 @@
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Gentrification Tax Action"
     },
     
@@ -649,7 +699,7 @@
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Gentrification Tax Action"
     },
     
@@ -674,7 +724,7 @@
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Gentrification Tax Action"
     },
     
@@ -699,7 +749,7 @@
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Gentrification Tax Action"
     },
     
@@ -949,7 +999,7 @@
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Affordable Housing Association of Nova Scotia"
     },
     
@@ -974,7 +1024,7 @@
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Affordable Housing Association of Nova Scotia"
     },
     
@@ -1168,14 +1218,14 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "SvN Architects & Planners"
+      "organization": "SvN Architects + Planners"
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "SvN Architects & Planners"
+      "organization": "SvN Architects + Planners"
     },
     
     
@@ -1199,7 +1249,7 @@
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Toronto Tiny Shelters"
     },
     
@@ -1224,7 +1274,7 @@
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Toronto Tiny Shelters"
     },
     
@@ -1249,7 +1299,7 @@
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Toronto Tiny Shelters"
     },
     
@@ -1274,7 +1324,7 @@
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Réseau canadien de cohabitation"
     },
     
@@ -1699,7 +1749,7 @@
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Université McGill"
     },
     
@@ -1749,7 +1799,7 @@
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
-      "role": "Intervenant ",
+      "role": "Défenseur",
       "organization": "Bâtir Son Quartier"
     },
     

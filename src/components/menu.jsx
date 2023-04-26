@@ -15,6 +15,7 @@ function Menu({ navigate, pageRefs, lang }) {
     setVisibility(false)
   }
 
+
   return (
     <>
       <div id='menu-button'
@@ -34,7 +35,7 @@ function Menu({ navigate, pageRefs, lang }) {
               handleClick={createHandleClick(i, page.page_id)}
               key={i} />
           )}
-          <li><a href="/">CONTACT</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </section>
     </>

@@ -4,7 +4,7 @@ import Action from './action'
 import HighlightedText from './highlightedText'
 
 import contributorData from '../contributors.json'
-import Member from './member'
+import MemberDemand from './memberDemand'
 
 const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
 
@@ -22,7 +22,7 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
 
   
   const getMember = (member, i) => 
-  <Member
+  <MemberDemand
     member={member}
     content={member[content.lang]}
     // title={demandTitleData[member.team_id - 1][lang]}
@@ -50,11 +50,15 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
             <label>{content.lang === "en" ? "Activist" : "Activiste"}:</label> {content.activist}
             </p>
             <p>
-            <label>{content.lang === "en" ? "Advocate" : "Intervenant"}:</label> {content.advocate}
-            </p>
-            <p>
             <label>{content.lang === "en" ? "Architect" : "Architecte"}:</label> {content.architect}
             </p>
+
+            {content.advocate !== "" ? (
+            <p>
+            <label>{content.lang === "en" ? "Advocate" : "Défenseur"}:</label> {content.advocate}
+            </p>
+            ) : ""}
+            
 
           </div>
           <div className='six columns'>
@@ -64,20 +68,7 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
 
             <div dangerouslySetInnerHTML={{ __html: content.field_content }}></div>
 
-            {/* <div className='main-carousel'>
-              <div className='carousel-cell'>
-                <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_3cc.jpg?itok=BppEniI5' />
-                <p className='caption'>example caption</p>
-              </div>
-              <div className='carousel-cell'>
-                <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_2cc.jpg?itok=pPtOD-xP' />
-                <p className='caption'>example caption</p>
-              </div>
-              <div className='carousel-cell'>
-                <img src='https://server-aaha.codepanel.in/web/sites/default/files/2022-12/AAHA_unit_1cc.jpg?itok=8t0Is5R_' />
-                <p className='caption'>example caption</p>
-              </div>
-            </div> */}
+    
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>TAKE ACTION</h3>
@@ -88,9 +79,20 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
         </div>
       </div>
       <br /><br />
-      <h3 className="textCenter">Team Members</h3>
+      <h3 className="textCenter">{(content.lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM MEMBERS"}</h3>
       <br />
-      <table className="members"><tbody>{teamMembers.map(getMember)}</tbody></table>   
+      <table className="members">
+          <thead>
+            <tr>
+            <td class="sidebearing"></td>
+              <td><label className="red">{(content.lang === 'fr') ? "Nom" : "name"}</label></td>
+              <td><label className="red">{(content.lang === 'fr') ? "Rôle" : "role"}</label></td>
+              <td><label className="red">{(content.lang === 'fr') ? "Organisme" : "organizations"}</label></td>
+              <td class="sidebearing"></td>
+            </tr>
+          </thead>  
+          <tbody>{teamMembers.map(getMember)}</tbody>
+      </table>   
     </section>
   )
 })

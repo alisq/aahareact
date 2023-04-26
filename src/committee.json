@@ -4,7 +4,7 @@
   "team":"",
   "title":"",
   "name": "Adrian Blackwell",
-  "links": ["https://uwaterloo.ca/architecture/people-profiles/adrian-blackwell"],
+  "links": ["https://uwaterloo.ca/architecture/profile/a3blackw"],
   "en": {
       "bio": "is an artist, designer, theorist, and educator, whose work focuses on the relation between physical spaces and political economic forces. (University of Waterloo School of Architecture)"
   },
@@ -19,12 +19,13 @@
   "team":"",
   "title":"",
   "name": "David Fortin",
-  "links": ["https://uwaterloo.ca/architecture/people-profiles/david-fortin","https://www.davidtfortinarchitect.com/our-team"],
+  "links": ["https://uwaterloo.ca/architecture/profile/dtfortin"],
   "en": {
-      "bio": "est un citoyen de la Nation métisse de l’Ontario et un architecte professionnel qui dirige un petit bureau d’architecture œuvrant principalement auprès des communautés métisses et des Premières Nations de partout au c\\a\\n\\a\\d\\a. Auparavant, il a agi en tant que co-commissaire pour UNCEDED: Terres en récit, exposition présentée à la Biennale de Venise 2018. (École d’architecture de l’Université de Waterloo). "
+    "bio": "is a citizen of the Métis Nation of Ontario and a professional architect who runs a small architectural office working primarily with Métis and First Nations communities across c\\a\\n\\a\\d\\a. He previously acted as co-curator for UNCEDED: Voices of the Land at the 2018 Venice Biennale. (University of Waterloo School of Architecture)."  
+    
   },
   "fr": {
-      "bio": "is a citizen of the Métis Nation of Ontario and a professional architect who runs a small architectural office working primarily with Métis and First Nations communities across c\\a\\n\\a\\d\\a. He previously acted as co-curator for UNCEDED: Voices of the Land at the 2018 Venice Biennale. (University of Waterloo School of Architecture)."
+    "bio": "est un citoyen de la Nation métisse de l’Ontario et un architecte professionnel qui dirige un petit bureau d’architecture œuvrant principalement auprès des communautés métisses et des Premières Nations de partout au c\\a\\n\\a\\d\\a. Auparavant, il a agi en tant que co-commissaire pour UNCEDED: Terres en récit, exposition présentée à la Biennale de Venise 2018. (École d’architecture de l’Université de Waterloo). " 
   }
 },
 {

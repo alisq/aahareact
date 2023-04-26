@@ -1,0 +1,212 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+        <title>Document</title>
+
+    <style>
+        label {
+            display:inline-block;
+            width:200px;
+            padding-bottom:1em;
+        }    
+
+        input,
+        textarea {
+            font-size: 20px;
+            padding:0.25em;
+            width:400px;
+        }
+
+        .split {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+        }
+
+        #json_dump {
+            width:80%;
+            height:500px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <H1>PAGES</h1>
+        <form>
+            <div><label></label><select id="page">
+                <option>page:</option>
+            </select>
+            <div><label>Page ID:</label> <input name="page_id" id="page_id" type="text"></div>
+            
+            
+            
+
+            <div class="split">
+            <div class="en">
+                <h2>EN</h2>
+                <div><label>en_title</label><input type="text" name="en_title" id="en_title"></div>
+                
+                <div><label>en_body</label><textarea name="en_body" id="en_body"></textarea></div>
+                
+            </div>
+
+            <div class="fr">
+                <h2>FR</h2>
+                <div><label>fr_title</label><input type="text" name="fr_title" id="fr_title"></div>
+                
+                <div><label>fr_body</label><textarea name="fr_body" id="fr_body"></textarea></div>
+                
+            </div>
+            </div>
+        </form>
+        <button id="load_json">load json</button><br /><br />
+        <textarea id="json_dump"></textarea>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+        <script>
+
+let demands;
+let d;
+fetch('./pages.json')
+   .then(response => response.json())
+   .then(json => {
+    pages = [...json]
+
+    for(i=0;i<pages.length;i++) {
+        $("#page").append($('<option>', {
+                value: i,
+                text: pages[i].page_id
+        }));
+
+        
+    }
+
+    $("#page").change(function(){
+
+        p = $(this).val()
+        
+        
+$("#page_id").val(pages[p].page_id)
+
+$("#en_title").val(pages[p].en.title)
+$("#en_body").val(pages[p].en.body)
+
+$("#fr_title").val(pages[p].fr.title)
+$("#fr_body").val(pages[p].fr.body)
+    })
+
+
+    $("input, #en_body, #fr_body").on("input", function(){
+    
+
+pages[p].page_id = $("#page_id").val()
+
+pages[p].en.title = $("#en_title").val()
+pages[p].en.body = $("#en_body").val()
+
+pages[p].fr.title = $("#fr_title").val()
+pages[p].fr.body = $("#fr_body").val()
+
+
+        
+    $("#json_dump").val(JSON.stringify(pages))
+    
+ })
+    
+})
+
+
+   
+
+
+//             let demands={
+//     "demand_id": "land-back",    
+//     "field_demand_no": "\u00b9",
+//     "field_exmark": "",
+//     "en": {      
+//       "title": "Land Back",
+//       "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Land</span> Back!",
+//       "field_region": "Vancouver",
+//       "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
+//       "field_long_summary": "We demand that all land c\\a\\n\\a\\d\\a claims for the “crown” be returned to First Nations, Métis, and Inuit Peoples as Indigenous lands. ",
+//       "field_short_summary": "",
+//       "field_dom_text": "Land Back",
+//       "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+//     },
+//     "fr": {
+//       "title": "Terre Retour",
+//       "header_html": "<span className='noBreak'><span className='num'>\u00b9</span>Terre</span> Retour!",
+//       "field_region": "Vancouver",
+//       "field_content": "<p>All land in c\\a\\n\\a\\d\\a is Indigenous land. Acknowledging that this country has built itself on stolen land, its legacy is one of genocide. </p><p>As a first step, we will identify all land deemed “surplus” by government entities such as military lands, lands held by RCMP, and “lands claimed by the “crown” within Indigenous traditional territories” by federal and provincial real property to be returned to the Nations traditional territory as a “co-management trust” held in right of the Indigenous Nation for the betterment of Indigenous Peoples in whose territory the land resides. We would open up conversations with communities where such land is identified to see how they would like to proceed. </p><h4>Advocate Campaign Strategy:</h4><p>We will establish a communication protocol with those entities who are holding land in the traditional territory of First Nations, Inuit, or Métis Peoples. We will reach out to the First Nations, Inuit and Métis communities whose land is being held by the “crown.”</p><h4>Architectural Design Strategy:</h4><p>Working with the Squamish Nation-based activist and advocate, we propose housing typologies that meet the intergenerational needs of Indigenous individuals, couples and families as Nations re-settle their returned lands. This would be a strategy that would be scalable and applicable across the country in all First Nations, Inuit, and Métis communities.</p>",
+//       "field_long_summary": "",
+//       "field_short_summary": "",
+//       "field_dom_text": "Land Back",
+//       "title_1": "<a href='/land-back' hreflang='en'>Land Back</a>"
+//     }
+    
+    
+//   }
+
+  //loadJSON();
+
+  
+
+
+
+
+
+
+
+
+
+
+function loadJSON() {
+
+    console.log(demands)
+// $("#viewport").val(demands.viewport)
+// $("#demand_id").val(demands.demand_id)
+// $("#field_demand_no").val(demands.field_demand_no)
+// $("#field_exmark").val(demands.field_exmark)
+// $("#en_title").val(demands.en.title)
+// $("#en_header_html").val(demands.en.header_html)
+// $("#en_field_region").val(demands.en.field_region)
+// $("#en_field_content").val(demands.en.field_content)
+// $("#en_field_long_summary").val(demands.en.field_long_summary)
+// $("#en_field_short_summary").val(demands.en.field_short_summary)
+// $("#en_field_dom_text").val(demands.en.field_dom_text)
+// $("#en_title_1").val(demands.en.title_1)
+// $("#fr_title").val(demands.fr.title)
+// $("#fr_header_html").val(demands.fr.header_html)
+// $("#fr_field_region").val(demands.fr.field_region)
+// $("#fr_field_content").val(demands.fr.field_content)
+// $("#fr_field_long_summary").val(demands.fr.field_long_summary)
+// $("#fr_field_short_summary").val(demands.fr.field_short_summary)
+// $("#fr_field_dom_text").val(demands.fr.field_dom_text)
+// $("#fr_title_1").val(demands.fr.title_1)
+
+}
+
+
+            
+        </script>
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -36,12 +36,40 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
       <h3 className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>      
         <table className="members"><tbody>{committeeData.map(getMember)}</tbody></table>
         <br /><br />
-        <h3 className="textCenter">{(lang === 'fr') ? "COLLABORATRICES ET COLLABORATEURS DE LA CAMPAGNE" : "CAMPAIGN COLLABORATORS"}</h3>
-        <table className="members"><tbody>{collaboratorData.map(getMember)}</tbody></table>
+        <h3 className="textCenter">{(lang === 'fr') ? "COLLABORATEURS DE LA CAMPAGNE" : "CAMPAIGN COLLABORATORS"}</h3>
+        <table className="members">
+        <thead>
+            <tr>
+            <td class="sidebearing"></td>
+            <td><label className="red">{(lang === 'fr') ? "Nom" : "name"}</label></td>
+              <td><label className="red">{(lang === 'fr') ? "Rôle" : "role"}</label></td>
+              
+              <td></td>
+              <td className="smallHalf"></td>
+              <td><label className="red">{(lang === 'fr') ? "Biographie" : "biography"}</label></td>
+              <td class="sidebearing"></td>
+            </tr>
+          </thead>  
+          <tbody>{collaboratorData.map(getMember)}</tbody>
+          </table>
         <br /><br />
-        <h3 className="textCenter">{(lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM CONTRIBUTORS"}</h3>
+        <h3 className="textCenter">{(lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM MEMBERS"}</h3>
  
-        <table className="members"><tbody>{contributorData.map(getMember)}</tbody></table>   
+        <table className="members">
+        <thead>
+            <tr>
+              <td class="sidebearing"></td>
+              <td><label className="red">{(lang === 'fr') ? "Nom" : "name"}</label></td>
+              <td></td>
+              <td><label className="red">{(lang === 'fr') ? "Rôle" : "role"}</label></td>
+              <td><label className="red">{(lang === 'fr') ? "equipe" : "team"}</label></td>              
+              <td><label className="red">{(lang === 'fr') ? "organisme" : "organization"}</label></td>
+              <td class="sidebearing"></td>
+              
+            </tr>
+          </thead>  
+          <tbody>{contributorData.map(getMember)}</tbody>
+          </table>   
         
       </>
       }
