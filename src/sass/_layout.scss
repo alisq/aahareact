@@ -403,8 +403,8 @@ table {
         overflow:hidden;
 
         &:hover {
-            background:$foreground!important;
-            color:$background;
+            // background:$foreground!important;
+            // color:$background;
 
             & h3 {
                 color:$background

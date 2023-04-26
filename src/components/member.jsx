@@ -24,7 +24,7 @@ function Member({ member, content, title }) {
                     
                     <tr>
                     <td class="sidebearing"></td>
-                    <td><strong><a href={member.links[0]} target="_blank">{member.name}</a></strong> {content.bio}<br /></td>
+                    <td><h5><a href={member.links[0]} target="_blank">{member.name}</a></h5> {content.bio}<br /></td>
                     <td class="sidebearing"></td>
                     </tr>
                     

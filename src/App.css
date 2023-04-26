@@ -808,11 +808,8 @@ table {
     transition: height 0.4s;
     height: 100px;
     overflow: hidden; }
-    table tr:hover {
-      background: #101010 !important;
+    table tr:hover h3 {
       color: #F5F5F5; }
-      table tr:hover h3 {
-        color: #F5F5F5; }
     table tr.hide {
       height: 0;
       visibility: collapse; }
