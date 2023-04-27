@@ -2,20 +2,27 @@ import { useState } from 'react'
 import pageData from '../pages.json'
 import MenuLink from './menuLink'
 
-function Menu({ navigate, pageRefs, lang }) {
+function Menu({ navigate, lang, contactRef }) {
   const [visibility, setVisibility] = useState(false)
 
-
-  
-  const createHandleClick = (i, page_id) => () => {
-    // gets the reference to the corresponding body
-    // pageRefs.current[i].current.scrollIntoView({ behavior: 'smooth' })
-    //navigate(`#${page_id}`)
+  const createHandleClick = (page_id) => () => {
     navigate(`page/${page_id}`)
     setVisibility(false)
   }
 
+  const handleContactClick = () => {
+    if (contactRef.current) {
+      setVisibility(false)
+      setTimeout(() => {
+        contactRef.current.scrollIntoView({ behavior: 'smooth' })
+      }, 50)
+    }
+  }
 
+  const contactData = {
+    'en': { title: 'CONTACT' },
+    'fr': { title: 'CONTACTER' }
+  }
 
   return (
     <>
@@ -33,10 +40,11 @@ function Menu({ navigate, pageRefs, lang }) {
           <li><a href="/">DEMANDS</a></li>
           {pageData.map((page, i) =>
             <MenuLink lang={lang} page={page}
-              handleClick={createHandleClick(i, page.page_id)}
+              handleClick={createHandleClick(page.page_id)}
               key={i} />
           )}
-          <li><a href="#contact" onClick={() => (setVisibility(false))}>CONTACT</a></li>
+          <MenuLink lang={lang} page={contactData}
+            handleClick={handleContactClick} />
         </ul>
       </section>
     </>

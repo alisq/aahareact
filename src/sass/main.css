@@ -920,8 +920,6 @@ h1 .title-bottom {
 }
 #menu.active {
   opacity: 1;
-  user-select: initial;
-  pointer-events: initial;
 }
 #menu ul {
   list-style-type: none;
@@ -1236,4 +1234,4 @@ h4 {
   color: rgb(192, 0, 0);
 }
 
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=main.css.map */

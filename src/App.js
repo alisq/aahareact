@@ -14,7 +14,6 @@ import LangButton from './components/langButton'
 import { getUrlParts, setUrlPart } from './utils/urlUtil'
 
 const langs = ['en', 'fr']
-let currentLang = "";
 function App() {
   const location = useLocation()
   const sectionRef = useRef(null)
@@ -68,10 +67,11 @@ function App() {
 function Main({ currentLang }) {
   const navigate = useNavigate()
   const location = useLocation()
+  const contactRef = useRef(null)
 
   useEffect(() => {
     const scrolledToTop = () => {
-      
+
       if (window.scrollY === 0) navigate(`/${currentLang}`)
     }
     window.addEventListener('scroll', scrolledToTop)
@@ -89,7 +89,10 @@ function Main({ currentLang }) {
 
   return (
     <>
-      <Menu navigate={navigate} lang={currentLang} />
+      <Menu
+        navigate={navigate}
+        lang={currentLang}
+        contactRef={contactRef} />
       <HomeFist />
 
       <div id='lang'>
@@ -104,29 +107,29 @@ function Main({ currentLang }) {
       <h1>
         <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
         <div className='title-bottom'><a href="https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses" target="blank">
-          
+
           {currentLang === 'en' ? (
             "CLICK HERE TO JOIN THE CAMPAIGN"
           ) : (
             "CLIQUEZ ICI POUR REJOINDRE LA CAMPAGNE"
           )}
-          
-          
-          </a></div>
+
+
+        </a></div>
       </h1>
 
       <section id='demands'>
         <div className={'manifesto ' + currentLang}>
 
-            <span className="intro">
+          <span className="intro">
 
-          {
-            currentLang === 'en' ? <>TO END HOUSING ALIENATION IN c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span className='red'>\</span>d<span className='red'>\</span>a<br /> WE DEMAND...</> :
-              <>POUR METTRE FIN À L’ALIÉNATION DU LOGEMENT AU c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
-                className='red'>\</span>d<span className='red'>\</span>a, NOUS DEMANDONS…
-              </>
-          }
-</span>
+            {
+              currentLang === 'en' ? <>TO END HOUSING ALIENATION IN c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span className='red'>\</span>d<span className='red'>\</span>a<br /> WE DEMAND...</> :
+                <>POUR METTRE FIN À L’ALIÉNATION DU LOGEMENT AU c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
+                  className='red'>\</span>d<span className='red'>\</span>a, NOUS DEMANDONS…
+                </>
+            }
+          </span>
           {demandData.map((header, i) =>
             <DemandHeader {...header}
               handleClick={() => { handleHeaderClick(header) }}
@@ -137,7 +140,7 @@ function Main({ currentLang }) {
       </section>
 
       <Outlet />
-      <Footer lang={currentLang} />
+      <Footer lang={currentLang} ref={contactRef} />
     </>
   )
 }
