@@ -8,9 +8,8 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
 
   const getMember = (member, i) =>
     <Member
-      member={member}
-      content={member[lang]}
-      // title={demandTitleData[member.team_id - 1][lang]}
+      lang={lang}
+      member={member}      
       key={i} />
 
   return (

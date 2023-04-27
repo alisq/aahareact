@@ -1,17 +1,16 @@
 
 
-function Member({ member, content, title }) {
+function Member({ member, title, lang}) {
  
         
-     const hasBio = content.bio !== "";
+     const hasBio = member[lang].bio !== "";
      const hasTeam = member.team_id !== ""
-     const hasRole = content.role !== ""
-     const hasTitle = content.title !== ""
-     const hasOrg = content.organization !== ""
+     const hasRole = member[lang].role !== ""
+     const hasTitle = member[lang].title !== ""
+     const hasOrg = member[lang].organization !== ""
      const hasLink = member.links !== ""
-     
     
-
+     console.log()
      
     return (
             <>
@@ -21,7 +20,7 @@ function Member({ member, content, title }) {
                     
                     <tr>
                     <td className="sidebearing"></td>
-                    <td className="hideText"><h5><a href={member.links[0]} target="_blank">{member.name}</a></h5> <div className="longText">{content.bio}</div></td>
+                    <td className="hideText"><h5><a href={member.links[0]} target="_blank">{member.name}</a></h5> <div className="longText">{member[lang].bio}</div></td>
                     <td className="sidebearing"></td>
                     </tr>
                     
@@ -30,12 +29,12 @@ function Member({ member, content, title }) {
                     <tr>
                     <td className="sidebearing"></td>    
                     <td><strong>{member.name}</strong></td>
-                    {hasTitle && ( <td><label>{content.title}</label></td> )}
-                    {hasRole && ( <td className="smallHalf"><label>{content.role}</label></td> )}
-                    {hasTeam && ( <td className="smallHalf">{content.team}</td> )}
+                    {hasTitle && ( <td><label>{member[lang].title}</label></td> )}
+                    {hasRole && ( <td className="smallHalf"><label>{member[lang].role}</label></td> )}
+                    {hasTeam && ( <td className="smallHalf"><a href={'/'+lang+"/demand/"+member.team_id}>{member[lang].team}</a></td> )}
                     
-                    {hasOrg && ( <td>{content.organization}</td> )}
-                    {hasBio && ( <td>{content.bio}</td> )}
+                    {hasOrg && ( <td>{member[lang].organization}</td> )}
+                    {hasBio && ( <td>{member[lang].bio}</td> )}
                     <td className="sidebearing"></td>
                     </tr>
                 )

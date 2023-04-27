@@ -547,7 +547,7 @@ label,
 .label--red {
   background: #c00000;
   color: #eeeed7;
-  padding: 0.25em 0.75em 0.05em;
+  padding: 0.5em 0.9em 0.20em;
   border-radius: 1em; }
 
 ol {
@@ -558,7 +558,7 @@ section {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding: 7em 0;
+  padding: 7em 0 0;
   border-bottom: 1px solid rgba(192, 0, 0, 0.5); }
   section.inverse {
     background: #101010;
@@ -773,8 +773,9 @@ h1 {
       #menu ul li a:link,
       #menu ul li a:visited {
         color: #c00000;
-        text-decoration: none; }
-      #menu ul li:hover {
+        text-decoration: none;
+        transition: color 0.4s; }
+      #menu ul li a:hover {
         color: #101010; }
 
 .socials {
@@ -801,7 +802,11 @@ ul.actions {
 
 table {
   width: 100%;
-  border-spacing: 0; }
+  border-spacing: 0;
+  margin-bottom: 0; }
+  table thead tr td {
+    border-top: none !important;
+    border-bottom: none; }
   table tr {
     padding: 0;
     margin: 0;
@@ -817,11 +822,11 @@ table {
       height: 0;
       visibility: collapse; }
     table tr:first-child td {
-      border-top: 1px solid rgba(16, 16, 16, 0.2); }
+      border-top: 1px solid rgba(16, 16, 16, 0.3); }
     table tr td {
       margin: 0;
       padding: 0.5em;
-      border-bottom: 1px solid rgba(16, 16, 16, 0.2); }
+      border-bottom: 1px solid rgba(16, 16, 16, 0.3); }
       table tr td:first-child {
         padding-left: 1em; }
 
@@ -943,10 +948,10 @@ table {
   .members tr {
     display: block;
     padding: 1em 0;
-    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-bottom: 1px solid rgba(16, 16, 16, 0.3);
     height: auto; }
     .members tr:first-child {
-      border-top: 1px solid rgba(16, 16, 16, 0.2); }
+      border-top: 1px solid rgba(16, 16, 16, 0.3); }
     .members tr:first-child td {
       border: none; }
   .members td {

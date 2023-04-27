@@ -4,14 +4,14 @@
 // import MenuLink from './menuLink'
 
 import { forwardRef } from 'react'
-import { ReactComponent as LogoCCA } from '../svg/LogoCCA.svg'
-import { ReactComponent as LogoBiennale } from '../svg/LogoBiennale.svg'
-import { ReactComponent as LogoSALA } from '../svg/LogoSALA.svg'
-import { ReactComponent as LogoUW } from '../svg/LogoUW.svg'
-import { ReactComponent as LogoRAIC } from '../svg/LogoRAIC.svg'
-import { ReactComponent as LogoOAA } from '../svg/LogoOAA.svg'
-import { ReactComponent as LogoAFBC } from '../svg/LogoAFBC.svg'
-import { ReactComponent as LogoFed } from '../svg/LogoFed.svg'
+// import { ReactComponent as LogoCCA } from '../svg/LogoCCA.svg'
+// import { ReactComponent as LogoBiennale } from '../svg/LogoBiennale.svg'
+// import { ReactComponent as LogoSALA } from '../svg/LogoSALA.svg'
+// import { ReactComponent as LogoUW } from '../svg/LogoUW.svg'
+// import { ReactComponent as LogoRAIC } from '../svg/LogoRAIC.svg'
+// import { ReactComponent as LogoOAA } from '../svg/LogoOAA.svg'
+// import { ReactComponent as LogoAFBC } from '../svg/LogoAFBC.svg'
+// import { ReactComponent as LogoFed } from '../svg/LogoFed.svg'
 
 
 
@@ -21,7 +21,7 @@ const Footer = forwardRef(({ lang }, ref) => {
         <section id="contact" className="inverse" ref={ref}>
             <div className="container">
                 <div className="row">
-                    <div className="five columns">
+                    <div className="four columns">
 
                         {lang === 'en' ? (
                             <>
@@ -85,11 +85,11 @@ const Footer = forwardRef(({ lang }, ref) => {
 
 
                     </div>
-                    <div className="three columns">
+                    <div className="four columns">
 
                         
                     {lang === 'en' ? (
-                    <ul class="footerList">
+                    <ul className="footerList">
                     
                     <a href="/en/">DEMANDS</a><br />
                     <a href="/en/page/aaha-manifesto">MANIFESTO</a><br /><a href="/en/page/collective">COLLECTIVE</a>
@@ -98,7 +98,7 @@ const Footer = forwardRef(({ lang }, ref) => {
    </ul>
    
 ) : (
-    <ul class="footerList">
+    <ul className="footerList">
     
     <a href="/fr/">DEMANDES</a><br />
     <a href="/fr/page/aaha-manifesto">MANIFESTE</a><br />

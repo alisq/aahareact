@@ -22,7 +22,7 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
   const getMember = (member, i) =>
     <MemberDemand
       member={member}
-      content={member[content.lang]}
+      lang={content.lang}
       // title={demandTitleData[member.team_id - 1][lang]}
       key={i} />
 

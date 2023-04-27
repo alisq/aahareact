@@ -1,13 +1,13 @@
 
 
-function MemberDemand({ member, content, title }) {
+function MemberDemand({ member, title, lang }) {
  
         
-     const hasBio = content.bio !== "";
+     const hasBio = member[lang].bio !== "";
      const hasTeam = member.team_id !== ""
-     const hasRole = content.role !== ""
+     const hasRole = member[lang].role !== ""
      const hasTitle = member.title !== ""
-     const hasOrg = content.organization !== ""
+     const hasOrg = member[lang].organization !== ""
      const hasLink = member.links !== ""
      
      
@@ -22,7 +22,7 @@ function MemberDemand({ member, content, title }) {
                     
                     <tr>
                         <td className="sidebearing"></td>
-                    <td><strong>{member.name}</strong> {content.bio}<br />
+                    <td><strong>{member.name}</strong> {member[lang].bio}<br />
                     <a href={member.links[0]}>{member.links[0]}</a></td>
                     <td className="sidebearing"></td>
                     </tr>
@@ -33,11 +33,11 @@ function MemberDemand({ member, content, title }) {
                         <td className="sidebearing"></td>
                     <td><strong>{member.name}</strong></td>
                     {hasTitle && ( <td><label>{member.title}</label></td> )}
-                    {hasRole && ( <td className="smallHalf"><label>{content.role}</label></td> )}
+                    {hasRole && ( <td className="smallHalf"><label>{member[lang].role}</label></td> )}
                     
                     
-                    {hasOrg && ( <td>{content.organization}</td> )}
-                    {hasBio && ( <td>{content.bio}</td> )}
+                    {hasOrg && ( <td>{member[lang].organization}</td> )}
+                    {hasBio && ( <td>{member[lang].bio}</td> )}
                     <td className="sidebearing"></td>
                     </tr>
                 )

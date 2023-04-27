@@ -3,7 +3,7 @@ section {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  padding: 7em 0;
+  padding: 7em 0 0;
   border-bottom: 1px solid rgba($red, 0.5);
 
   &.inverse {
@@ -316,9 +316,10 @@ h1 {
       & a:visited {
         color: $red;
         text-decoration: none;
+        transition:color 0.4s
       }
 
-      &:hover {
+      & a:hover {
         color: $foreground;
       }
     }
@@ -358,6 +359,13 @@ ul.actions {
 table {
   width: 100%;
   border-spacing: 0;
+  margin-bottom:0;
+
+  & thead tr td {
+    border-top:none!important;
+    border-bottom:none;
+  }
+  
   & tr {
     padding: 0;
     margin: 0;
@@ -389,7 +397,8 @@ table {
     }
 
     &:first-child td {
-      border-top: 1px solid rgba($foreground, 0.2);
+      border-top: 1px solid rgba($foreground, 0.3);
+      
     }
     // &:nth-child(odd) {background: rgba($foreground,0.02)}
     // background:red;
@@ -397,7 +406,7 @@ table {
     & td {
       margin: 0;
       padding: 0.5em;
-      border-bottom: 1px solid rgba($foreground, 0.2);
+      border-bottom: 1px solid rgba($foreground, 0.3);
 
       &:first-child {
         padding-left: 1em;
@@ -604,10 +613,10 @@ table {
     & tr {
       display: block;
       padding: 1em 0;
-      border-bottom: 1px solid rgba($foreground, 0.2);
+      border-bottom: 1px solid rgba($foreground, 0.3);
       height: auto;
       &:first-child {
-        border-top: 1px solid rgba($foreground, 0.2);
+        border-top: 1px solid rgba($foreground, 0.3);
       }
 
       &:first-child td {
