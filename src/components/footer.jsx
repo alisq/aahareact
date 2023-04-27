@@ -87,27 +87,27 @@ const Footer = forwardRef(({ lang }, ref) => {
                     </div>
                     <div className="three columns">
 
-
-                        {lang === 'en' ? (
-                            <ul className="footerList">
-
-                                <a href="/en/">DEMANDS</a><br />
-                                <a href="/en/page/aaha-manifesto">MANIFESTO</a><br /><a href="/en/page/collective">COLLECTIVE</a>
-                                <br /><br />
-                                2023, Architects Against Housing Alienation
-                            </ul>
-
-                        ) : (
-                            <ul className="footerList">
-
-                                <a href="/fr/">DEMANDES</a><br />
-                                <a href="/fr/page/aaha-manifesto">MANIFESTE</a><br />
-                                <a href="/fr/page/collective">COLLECTIF</a>
-                                <br /><br />
-                                2023, Architects Against Housing Alienation
-                            </ul>
-                        )}
-                        {/* <a href="https://www.labiennale.org/en/architecture/2023" target="_blank">
+                        
+                    {lang === 'en' ? (
+                    <ul class="footerList">
+                    
+                    <a href="/en/">DEMANDS</a><br />
+                    <a href="/en/page/aaha-manifesto">MANIFESTO</a><br /><a href="/en/page/collective">COLLECTIVE</a>
+                    <br /><br />
+                        2023, Architects Against Housing Alienation
+   </ul>
+   
+) : (
+    <ul class="footerList">
+    
+    <a href="/fr/">DEMANDES</a><br />
+    <a href="/fr/page/aaha-manifesto">MANIFESTE</a><br />
+    <a href="/fr/page/collective">COLLECTIF</a>
+    <br /><br />
+                        2023, Architects Against Housing Alienation
+   </ul>
+) }         
+                    {/* <a href="https://www.labiennale.org/en/architecture/2023" target="_blank">
                         <LogoBiennale className="footerLogo" id="logoBiennale" />
                     </a>
                         <a href="https://canadacouncil.ca/" target="_blank">
