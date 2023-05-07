@@ -56,6 +56,12 @@ a:active {
     text-decoration:none;
 }
 
+.aaha-text {
+    font-family: 'AAHA-WEB';
+    font-size: 0.95em;
+    font-weight:normal!important;
+    letter-spacing: 0.05em;
+}
 
 .inverse a:link,
 .inverse a:visited {
@@ -91,6 +97,14 @@ h3 {
 h1, h2, h3, h5 {
     font-family: 'AAHA-WEB';
     color:$foreground;
+}
+
+
+#contact h1,
+#contact h2, 
+#contact h3, 
+#contact h5 {
+    color: $background;
 }
 
 h4 {

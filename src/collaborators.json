@@ -7,13 +7,17 @@
     "name": "Chris Lee",
     "en": {
       "title": "Graphic Designer",
-      "bio": "Chris Lee is a Canadian graphic designer and educator based in Lenapehoking (Brooklyn, NY). He is currently an assistant professor in the undergraduate communications design department at the Pratt Institute. Chris’s studio-based research explores graphic design’s entanglement with power and standardization, and as a matter of how design figures in questions of what is thinkable, sayable, and knowable."
+      "bio": "Chris Lee is a Canadian graphic designer and educator based in Lenapehoking (Brooklyn, NY). He is currently an assistant professor in the undergraduate communications design department at the Pratt Institute. Chris’s studio-based research explores graphic design’s entanglement with power and standardization, and as a matter of how design figures in questions of what is thinkable, sayable, and knowable.",
+      "organization": ["Pratt Institute"],
+      "organization_links": ["https://pratt.edu"]
     },
     "fr": {
       "title": "Graphiste",
-      "bio": "Chris Lee est un graphiste et un pédagogue canadien qui vit à Lenapehoking (Brooklyn, New York). Il est actuellement professeur adjoint au département d’études de premier cycle en conception des communications à l’Institut Pratt. Ses recherches en studio explorent les façons dont le graphisme est inextricablement lié au pouvoir et à la standardisation ainsi que la place qu’occupe la conception dans les questionnements sur ce qui peut être pensé, dit et su."
-    },
-    "organization": "Pratt Institute"
+      "bio": "Chris Lee est un graphiste et un pédagogue canadien qui vit à Lenapehoking (Brooklyn, New York). Il est actuellement professeur adjoint au département d’études de premier cycle en conception des communications à l’Institut Pratt. Ses recherches en studio explorent les façons dont le graphisme est inextricablement lié au pouvoir et à la standardisation ainsi que la place qu’occupe la conception dans les questionnements sur ce qui peut être pensé, dit et su.",
+      "organization": ["Pratt Institute"],
+    "organization_links": ["https://pratt.edu"]
+    }
+    
     
   },
   {
@@ -24,13 +28,16 @@
     "name": "Ali S. Qadeer",
     "en": {
       "title": "Web Designer",
-      "bio": "Ali Shamas Qadeer is a designerand educator based in Toronto. His work focuses on the intersection of design labour and political economy as well as digital surveillance. Ali teaches graphic design at OCAD University."
+      "bio": "Ali Shamas Qadeer is a designerand educator based in Toronto. His work focuses on the intersection of design labour and political economy as well as digital surveillance. Ali teaches graphic design at OCAD University.",
+      "organization": ["OCAD University"],
+    "organization_links": ["https://ocadu.ca"]
     },
     "fr": {
       "title": "Développement web",
-      "bio": "Ali Shamas Qadeer, designer et pédagogue. Son travail se situe à la rencontre des activités de design, de l’économie politique et de la surveillance numérique. Il enseigne le graphisme à l’Université de l’EADO."
-    },
-    "organization": "OCAD University"
+      "bio": "Ali Shamas Qadeer, designer et pédagogue. Son travail se situe à la rencontre des activités de design, de l’économie politique et de la surveillance numérique. Il enseigne le graphisme à l’Université de l’EADO.",
+      "organization": ["OCAD University"],
+      "organization_links": ["https://ocadu.ca"]
+    }    
     
   },
   {
@@ -41,13 +48,17 @@
     "name": "Vince Tao",
     "en": {
       "title": "Campaign Strategist",
-      "bio": "Vince Tao is a community organizer at the Vancouver Area Network of Drug Users. Prior to this, he was a labour organizer with the Teaching Support Staff Union and a librarian in Vancouver's Chinatown. Tao is also a member of the Vancouver Tenants Union and the Our Homes Can’t Wait Coalition."
+      "bio": "Vince Tao is a community organizer at the Vancouver Area Network of Drug Users. Prior to this, he was a labour organizer with the Teaching Support Staff Union and a librarian in Vancouver's Chinatown. Tao is also a member of the Vancouver Tenants Union and the Our Homes Can’t Wait Coalition.",
+      "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Stratège de campagne",
-      "bio": "Vince Tao est un organisateur communautaire au Vancouver Area Network of Drug Users. Avant son arrivée au sein de cette organisation, il a été propagandiste syndical avec le Teaching Support Staff Union et bibliothécaire dans le quartier chinois de Vancouver. Tao est également membre du Vancouver Tenants Union et de la coalition Our Homes Can’t Wait."
-    },
-    "organization": " "
+      "bio": "Vince Tao est un organisateur communautaire au Vancouver Area Network of Drug Users. Avant son arrivée au sein de cette organisation, il a été propagandiste syndical avec le Teaching Support Staff Union et bibliothécaire dans le quartier chinois de Vancouver. Tao est également membre du Vancouver Tenants Union et de la coalition Our Homes Can’t Wait.",
+      "organization": [],
+    "organization_links": []
+    }
+    
     
   },
   {
@@ -58,13 +69,17 @@
     "name": "Marie-Espérance Cerda",
     "en": {
       "title": "Film Producer and Editor",
-      "bio": "Marie-Espérance Cerda is a multidisciplinary video creator from Montréal, Québec. She most recently worked as an editor and producer at news organizations such as The Canadian Press and HuffPost in Toronto, Canada. Her current work is focused on experimenting with video forms and using motion graphics to tell stories."
+      "bio": "Marie-Espérance Cerda is a multidisciplinary video creator from Montréal, Québec. She most recently worked as an editor and producer at news organizations such as The Canadian Press and HuffPost in Toronto, Canada. Her current work is focused on experimenting with video forms and using motion graphics to tell stories.",
+      "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Produttrice e montatrice cinematografica",
-      "bio": "Marie-Espérance Cerda est une créatrice vidéo polyvalente de Montréal. Présentement freelance, elle collabore avec une diversité de client et recherche particulièrement les mandats qui lui permettront de pousser plus loin sa créativité ou qui lui demanderont d’allier le montage à une discipline connexe comme le design pour créer des récits forts et engageants. Avant d’être agente-libre, Marie-Espérance était monteuse et productrice vidéo pour des organisations de nouvelles de l’information telles que La presse canadienne et le HuffPost Canada."
-    },
-    "organization": " "
+      "bio": "Marie-Espérance Cerda est une créatrice vidéo polyvalente de Montréal. Présentement freelance, elle collabore avec une diversité de client et recherche particulièrement les mandats qui lui permettront de pousser plus loin sa créativité ou qui lui demanderont d’allier le montage à une discipline connexe comme le design pour créer des récits forts et engageants. Avant d’être agente-libre, Marie-Espérance était monteuse et productrice vidéo pour des organisations de nouvelles de l’information telles que La presse canadienne et le HuffPost Canada.",
+      "organization": [],
+    "organization_links": []
+    }
+    
     
   },
   {
@@ -75,13 +90,17 @@
     "name": "Ryan Sudds",
     "en": {
       "title": "Hoarding Graphic",
-      "bio": "Ryan is a documentarian and organizer on unceded Coast Salish land in so-called Vancouver, Canada. His work focuses on tent cities, the people living there, their supporters and the state actors (police, city workers, polticians) attempting to evict people. He is a member of the Stop the Sweeps Coalition."
+      "bio": "Ryan is a documentarian and organizer on unceded Coast Salish land in so-called Vancouver, Canada. His work focuses on tent cities, the people living there, their supporters and the state actors (police, city workers, polticians) attempting to evict people. He is a member of the Stop the Sweeps Coalition.",
+      "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Graphiste du collage sur les palissades",
-      "bio": "Ryan est documentariste et organisateur sur un territoire non cédé des Salish de la Côte situé à ce qu’on appelle Vancouver, au Canada. Dans son travail, il s’intéresse aux villages de tentes, aux gens qui y vivent, à ceux qui les défendent et aux acteurs étatiques (police, travailleuses et travailleurs municipaux, politiciennes et politiciens) qui essaient de les évincer. Il est membre de la coalition Stop the Sweeps."
-    },
-    "organization": " "
+      "bio": "Ryan est documentariste et organisateur sur un territoire non cédé des Salish de la Côte situé à ce qu’on appelle Vancouver, au Canada. Dans son travail, il s’intéresse aux villages de tentes, aux gens qui y vivent, à ceux qui les défendent et aux acteurs étatiques (police, travailleuses et travailleurs municipaux, politiciennes et politiciens) qui essaient de les évincer. Il est membre de la coalition Stop the Sweeps.",
+      "organization": [],
+    "organization_links": []
+    }
+    
     
   },
   {
@@ -92,13 +111,16 @@
     "name": "Housing Solidarity Network",
     "en": {
       "title": "Community Collaborator",
-      "bio": "The Housing Solidarity Network (HSN) unites and empowers housed and unhoused tenants to take direct action against Vancouver's unjust housing system."
+      "bio": "The Housing Solidarity Network (HSN) unites and empowers housed and unhoused tenants to take direct action against Vancouver's unjust housing system.",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Collaborateur communautaire",
-      "bio": "Le Housing Solidarity Network (HSN) réunit l’ensemble des locataires, qu’elles ou ils aient un logement ou non, et les encourage à prendre des mesures concrètes contre le système de logement injuste de Vancouver."
-    },
-    "organization": "--"
+      "bio": "Le Housing Solidarity Network (HSN) réunit l’ensemble des locataires, qu’elles ou ils aient un logement ou non, et les encourage à prendre des mesures concrètes contre le système de logement injuste de Vancouver.",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
 
@@ -110,13 +132,16 @@
     "name": "Grey Piitaapan Muldoon",
     "en": {
       "title": "Banner Artist",
-      "bio": "Grey Piitaapan Muldoon is an artist working in installation and performance. Grey makes immersive spaces, participatory structures, storytelling diagrams, and imagines human / non-human collaborations. They were born in a giant meteorite impact crater, where they learnt to resist the effects of structural violence and alienation from Land. "
+      "bio": "Grey Piitaapan Muldoon is an artist working in installation and performance. Grey makes immersive spaces, participatory structures, storytelling diagrams, and imagines human / non-human collaborations. They were born in a giant meteorite impact crater, where they learnt to resist the effects of structural violence and alienation from Land. ",
+      "organization": [],
+      "organization_links": []
     },
     "fr": {
       "title": "Artiste de la bannière ",
-      "bio": "Grey Piitaapan Muldoon, qui pratique l’art de l’installation et de la performance, crée des espaces immersifs, des structures invitant à la participation, des diagrammex s de mise en récit et des collaborations humaines et non humaines. Depuis sa naissance dans un cratère météorique géant, l’artiste a appris à résister aux effets de la violence structurelle et à l’aliénation de la Terre. "
-    },
-    "organization": " "
+      "bio": "Grey Piitaapan Muldoon, qui pratique l’art de l’installation et de la performance, crée des espaces immersifs, des structures invitant à la participation, des diagrammex s de mise en récit et des collaborations humaines et non humaines. Depuis sa naissance dans un cratère météorique géant, l’artiste a appris à résister aux effets de la violence structurelle et à l’aliénation de la Terre. ",
+      "organization": [],
+      "organization_links": []
+    }
     
   },
 
@@ -128,13 +153,16 @@
     "name": "Tamara Andruszkiewicz",
     "en": {
       "title":"Project Logistics",
-      "bio": "Canada Council of the Arts"
+      "bio": "Canada Council of the Arts",
+      "organization": [],
+      "organization_links": []
     },
     "fr": {
       "title":"Coordonatrice de la logistique du projet",
-      "bio": "Counseil des arts du Canada"
-    },
-    "organization": "--"
+      "bio": "Counseil des arts du Canada",
+      "organization": [],
+      "organization_links": []
+    }
     
   },
   {
@@ -145,13 +173,16 @@
     "name": "Cory Zurell",
     "en": {
       "title": "Structural Consultant",
-      "bio": "Cory Zurell is a Lecturer in the Department of Civil & Environmental Engineering at the University of Waterloo, supporting the Architectural Engineering program. He is a licenced Professional Engineer in Ontario and Nova Scotia and is also a Principal at Blackwell Structural Engineers."
+      "bio": "Cory Zurell is a Lecturer in the Department of Civil & Environmental Engineering at the University of Waterloo, supporting the Architectural Engineering program. He is a licenced Professional Engineer in Ontario and Nova Scotia and is also a Principal at Blackwell Structural Engineers.",
+      "organization": [],
+      "organization_links": []
     },
     "fr": {
       "title": "Consultant structurel",
-      "bio": "Cory Zurell est chargé de cours au département de génie civil et environnemental de l’Université de Waterloo dans le cadre du programme de génie architectural. Il est un ingénieur agréé en Ontario et en Nouvelle-Écosse et est également directeur à Blackwell Structural Engineers."
-    },
-    "organization": " "
+      "bio": "Cory Zurell est chargé de cours au département de génie civil et environnemental de l’Université de Waterloo dans le cadre du programme de génie architectural. Il est un ingénieur agréé en Ontario et en Nouvelle-Écosse et est également directeur à Blackwell Structural Engineers.",
+      "organization": [],
+      "organization_links": []
+    }
     
   },
   {
@@ -162,13 +193,16 @@
     "name": "Emelie Chhangur",
     "en": {
       "title": "Curatorial consultant",
-      "bio": "Artist, curator, writer, and dramaturge, Emelie Chhangur is known for her process-based, infra-cultural and participatory practice that re-structures artistic labour as an ethical process to counter the status quo. She’s a proud supporter of AAHA’s contribution to the Venice Architecture Biennial and their concomitant commitment to infrastructural change in housing paradigms in Canada. Chhangur is Director/Curator of Agnes Etherington Art Centre, where she fights for a community-engaged architectural design process that reimagines new museum architectures, ensuring the cultural spaces of Canada’s future no longer look like those of Canada’s colonial past. She puts forward a practice she invented called “in-reach.” "
+      "bio": "Artist, curator, writer, and dramaturge, Emelie Chhangur is known for her process-based, infra-cultural and participatory practice that re-structures artistic labour as an ethical process to counter the status quo. She’s a proud supporter of AAHA’s contribution to the Venice Architecture Biennial and their concomitant commitment to infrastructural change in housing paradigms in Canada. Chhangur is Director/Curator of Agnes Etherington Art Centre, where she fights for a community-engaged architectural design process that reimagines new museum architectures, ensuring the cultural spaces of Canada’s future no longer look like those of Canada’s colonial past. She puts forward a practice she invented called “in-reach.” ",
+      "organization": [],
+      "organization_links": []
     },
     "fr": {
       "title": "Conseiller en conception d'expositions",
-      "bio": "Artist, curator, writer, and dramaturge, Emelie Chhangur is known for her process-based, infra-cultural and participatory practice that re-structures artistic labour as an ethical process to counter the status quo. She’s a proud supporter of AAHA’s contribution to the Venice Architecture Biennial and their concomitant commitment to infrastructural change in housing paradigms in Canada. Chhangur is Director/Curator of Agnes Etherington Art Centre, where she fights for a community-engaged architectural design process that reimagines new museum architectures, ensuring the cultural spaces of Canada’s future no longer look like those of Canada’s colonial past. She puts forward a practice she invented called “in-reach.” Artiste, commissaire, auteure et dramaturge, Emelie Chhangur est connue pour sa pratique qui est à la fois infraculturelle, participative et axée sur la démarche. Sa démarche repositionne le travail artistique comme étant un processus éthique, ce qui permet de remettre en question le statu quo. Elle est fière d’appuyer la contribution d’AAHA à la Biennale de Venise en architecture et l’engagement de la campagne à induire des changements infrastructurels aux paradigmes de logement observables au Canada. Emelie Chhangur est directrice et commissaire de l’Agnes Etherington Art Centre, où elle défend une démarche de conception architecturale communautaire qui permet d’imaginer de nouvelles architectures pour les musées du Canada afin d’affranchir les prochains espaces culturels de l’héritage colonial de ce pays. Elle préconise la pratique « in reach », qu’elle a inventée. "
-    },
-    "organization": " "
+      "bio": "Artist, curator, writer, and dramaturge, Emelie Chhangur is known for her process-based, infra-cultural and participatory practice that re-structures artistic labour as an ethical process to counter the status quo. She’s a proud supporter of AAHA’s contribution to the Venice Architecture Biennial and their concomitant commitment to infrastructural change in housing paradigms in Canada. Chhangur is Director/Curator of Agnes Etherington Art Centre, where she fights for a community-engaged architectural design process that reimagines new museum architectures, ensuring the cultural spaces of Canada’s future no longer look like those of Canada’s colonial past. She puts forward a practice she invented called “in-reach.” Artiste, commissaire, auteure et dramaturge, Emelie Chhangur est connue pour sa pratique qui est à la fois infraculturelle, participative et axée sur la démarche. Sa démarche repositionne le travail artistique comme étant un processus éthique, ce qui permet de remettre en question le statu quo. Elle est fière d’appuyer la contribution d’AAHA à la Biennale de Venise en architecture et l’engagement de la campagne à induire des changements infrastructurels aux paradigmes de logement observables au Canada. Emelie Chhangur est directrice et commissaire de l’Agnes Etherington Art Centre, où elle défend une démarche de conception architecturale communautaire qui permet d’imaginer de nouvelles architectures pour les musées du Canada afin d’affranchir les prochains espaces culturels de l’héritage colonial de ce pays. Elle préconise la pratique « in reach », qu’elle a inventée. ",
+      "organization": [],
+      "organization_links": []
+    }
     
   },
   {
@@ -179,13 +213,16 @@
     "name": "Brendan Cormier",
     "en": {
       "title": "Curatorial consultant",
-      "bio": "Brendan Cormier is a Canadian curator and writer and is currently the Chief Curator of V&A East in London, UK. Prior to his work at the V&A, he was managing editor of Volume Magazine, based in Amsterdam, NL. From 2009-2012, he co-founded and co-directed Department of Unusual Certainties, a Toronto-based design practice, which translated urban research into speculative exhibition and publication projects."
+      "bio": "Brendan Cormier is a Canadian curator and writer and is currently the Chief Curator of V&A East in London, UK. Prior to his work at the V&A, he was managing editor of Volume Magazine, based in Amsterdam, NL. From 2009-2012, he co-founded and co-directed Department of Unusual Certainties, a Toronto-based design practice, which translated urban research into speculative exhibition and publication projects.",
+      "organization": [],
+      "organization_links": []
     },
     "fr": {
       "title": "Conseiller en conception d'expositions",
-      "bio": "Brendan Cormier, commissaire et auteur canadien, est actuellement commissaire principal au V&A East Museum, à Londres, au Royaume-Uni. Il a auparavant été directeur de rédaction de la revue Volume, une publication dont les bureaux sont établis à Amsterdam, aux Pays-Bas. De 2009 à 2012, il a codirigé le Department of Unusual Certainties, un studio de design torontois qu’il a cofondé, où il s’employait à transposer des recherches urbaines en projets spéculatifs d’exposition et de publication. "
-    },
-    "organization": ""
+      "bio": "Brendan Cormier, commissaire et auteur canadien, est actuellement commissaire principal au V&A East Museum, à Londres, au Royaume-Uni. Il a auparavant été directeur de rédaction de la revue Volume, une publication dont les bureaux sont établis à Amsterdam, aux Pays-Bas. De 2009 à 2012, il a codirigé le Department of Unusual Certainties, un studio de design torontois qu’il a cofondé, où il s’employait à transposer des recherches urbaines en projets spéculatifs d’exposition et de publication. ",
+      "organization": [],
+      "organization_links": []
+    }
     
   },
   {
@@ -196,13 +233,16 @@
     "name": "Cheryl L'Hirondelle",
     "en": {
       "title": "Curatorial consultant",
-      "bio": "Cheryl L’Hirondelle (Cree/Halfbreed; German/Polish) is an award winning and community-engaged interdisciplinary artist, singer/songwriter and critical thinker whose family is from Papaschase First Nation / amiskwaciy wâskahikan (Edmonton) and Kikino Metis Settlement, Alberta. Her work investigates and articulates the intersections of nêhiyawin (Cree worldview) and contemporary time-place incorporating sound, Indigenous languages, music, and old and new technology. "
+      "bio": "Cheryl L’Hirondelle (Cree/Halfbreed; German/Polish) is an award winning and community-engaged interdisciplinary artist, singer/songwriter and critical thinker whose family is from Papaschase First Nation / amiskwaciy wâskahikan (Edmonton) and Kikino Metis Settlement, Alberta. Her work investigates and articulates the intersections of nêhiyawin (Cree worldview) and contemporary time-place incorporating sound, Indigenous languages, music, and old and new technology. ",
+      "organization": [],
+      "organization_links": []
     },
     "fr": {
       "title": "Conseiller en conception d'expositions",
-      "bio": "D’ascendance crie, mixte, allemande et polonaise, Cheryl L’Hirondelle est une artiste interdisciplinaire engagée dans la communauté, une auteure-compositrice-interprète et un esprit critique. Ses racines familiales sont associées à la Première Nation Papaschase, qui vit à amiskwaciy wâskahikan (Edmonton, Alberta), et dans l’établissement métis Kikino, en Alberta. L’œuvre de cette artiste primée a pour objet et cherche à exprimer le point de rencontre entre la nêhiyawin (vision du monde du peuple cri) et l’espace-temps contemporain en faisant appel au son, aux langues autochtones, à la musique et aux technologies nouvelles et anciennes. "
-    },
-    "organization": ""
+      "bio": "D’ascendance crie, mixte, allemande et polonaise, Cheryl L’Hirondelle est une artiste interdisciplinaire engagée dans la communauté, une auteure-compositrice-interprète et un esprit critique. Ses racines familiales sont associées à la Première Nation Papaschase, qui vit à amiskwaciy wâskahikan (Edmonton, Alberta), et dans l’établissement métis Kikino, en Alberta. L’œuvre de cette artiste primée a pour objet et cherche à exprimer le point de rencontre entre la nêhiyawin (vision du monde du peuple cri) et l’espace-temps contemporain en faisant appel au son, aux langues autochtones, à la musique et aux technologies nouvelles et anciennes. ",
+      "organization": [],
+      "organization_links": []
+    }
     
   },
   {
@@ -213,13 +253,16 @@
     "name": "David Kalman",
     "en": {
       "title": "Project Research + Design Team",
-      "bio": "University of British Columbia, School of Architecture and Landscape Architecture "
+      "bio": "",
+    "organization": ["University of British Columbia, School of Architecture and Landscape Architecture "],
+    "organization_links": []
     },
     "fr": {
       "title": "Recherche de projet + équipe de conception",
-      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
-    },
-    "organization": "--"
+      "bio": "",
+    "organization": ["École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"],
+    "organization_links": []
+    }
     
   },
   {
@@ -230,13 +273,16 @@
     "name": "Josephine Li ",
     "en": {
       "title": "Project Research + Design Team",
-      "bio": "University of British Columbia, School of Architecture and Landscape Architecture "
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture ",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Recherche de projet + équipe de conception",
-      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
-    },
-    "organization": "--"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
   {
@@ -247,13 +293,16 @@
     "name": "Piero Sovrani",
     "en": {
       "title": "Project Research + Design Team",
-      "bio": "University of British Columbia, School of Architecture and Landscape Architecture "
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture ",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Recherche de projet + équipe de conception",
-      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
-    },
-    "organization": "--"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
   {
@@ -264,13 +313,16 @@
     "name": "Noa Wang",
     "en": {
       "title": "Project Research + Design Team",
-      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Recherche de projet + équipe de conception",
-      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
-    },
-    "organization": "--"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
   {
@@ -281,13 +333,16 @@
     "name": "Donald Zhu",
     "en": {
       "title": "Project Research + Design Team",
-      "bio": "OCAD University"
+      "bio": "OCAD University",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Recherche de projet + équipe de conception",
-      "bio": "l’Université OCAD"
-    },
-    "organization": "--"
+      "bio": "l’Université OCAD",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
   {
@@ -298,13 +353,16 @@
     "name": "Kara Crabbe",
     "en": {
       "title": "Social Media Team",
-      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Équipe des réseaux sociaux",
-      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
-    },
-    "organization": "--"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
   {
@@ -315,13 +373,16 @@
     "name": "Lee-Ann Kam",
     "en": {
       "title": "Social Media Team",
-      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Équipe des réseaux sociaux",
-      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
-    },
-    "organization": "--"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
   {
@@ -332,13 +393,16 @@
     "name": "Anaïs Trembling",
     "en": {
       "title": "Social Media Team",
-      "bio": "University of British Columbia, School of Architecture and Landscape Architecture"
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Équipe des réseaux sociaux",
-      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"
-    },
-    "organization": "--"
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique",
+    "organization": [],
+    "organization_links": []
+    }
     
   },
   {
@@ -349,13 +413,16 @@
     "name": "Marie McGregor Pitawanakwat",
     "en": {
       "title": "Elder, National Indigenous Housing Network ",
-      "bio": "Marie McGregor Pitawanakwat is an Anishinaabe kwe, at Daawganing, on Manitoulin Island, Northeastern Ontario, Canada. Marie developed a business called Szhibeegen Training Services, which provided training and development to First Nation communities and NGOs, primarily in Northwestern Ontario, focussed on community and business development. Her business won an award from the Northern Ontario Business Awards. In 2015, shortly after returning to her home community at Whitefish River First Nation, she was evicted from the original family home and became homeless. Her belief was and is that Indigenous people already own the land, so there was and is no need to “purchase” land that one’s people already own. She created a tiny home, situated in the woods on the Whitefish River reserve on unused land, where she lived off-grid for three years. In 2018, the Whitefish River reserve evicted her and she became homeless again. In 2019, Marie was accepted as a member of Wiikwemkoong Unceded Territory. She is Co-Chair of the National Indigenous Housing Network with Katlia Lafferty, and Co-Chair of the Women's National Housing and Homelessness Network. "
+      "bio": "Marie McGregor Pitawanakwat is an Anishinaabe kwe, at Daawganing, on Manitoulin Island, Northeastern Ontario, Canada. Marie developed a business called Szhibeegen Training Services, which provided training and development to First Nation communities and NGOs, primarily in Northwestern Ontario, focussed on community and business development. Her business won an award from the Northern Ontario Business Awards. In 2015, shortly after returning to her home community at Whitefish River First Nation, she was evicted from the original family home and became homeless. Her belief was and is that Indigenous people already own the land, so there was and is no need to “purchase” land that one’s people already own. She created a tiny home, situated in the woods on the Whitefish River reserve on unused land, where she lived off-grid for three years. In 2018, the Whitefish River reserve evicted her and she became homeless again. In 2019, Marie was accepted as a member of Wiikwemkoong Unceded Territory. She is Co-Chair of the National Indigenous Housing Network with Katlia Lafferty, and Co-Chair of the Women's National Housing and Homelessness Network. ",
+    "organization": [],
+    "organization_links": []
     },
     "fr": {
       "title": "Aînée, National Indigenous Housing Network",
-      "bio": "Marie McGregor Pitawanakwat est une Anishinaabe de Daawganing, sur l’île de Manitoulin, dans le nord de l’Ontario, au Canada. Elle a fondé Szhibeegen Training Services, une entreprise qui offre à des Premières Nations et à des ONG situées surtout dans le nord-ouest de l’Ontario de la formation et du perfectionnement axés sur la communauté et le développement commercial. Son entreprise a remporté un Prix d’excellence en affaires du Nord de l’Ontario. En 2015, peu après être retournée dans sa communauté d’origine, la Première Nation de Whitefish River, elle a été évincée de sa maison familiale et est devenue sans-abri. Elle croit que les peuples autochtones sont déjà propriétaires de la terre, donc qu’il n’y a aucune nécessité pour eux « d’acheter » des terrains pour vivre. Elle s’est installée dans une minimaison, sur un terrain boisé inutilisé de la réserve de Whitefish River, où elle a vécu hors réseau pendant trois ans. En 2018, la réserve l’a évincée, et elle est redevenue une personne sans domicile fixe. En 2019, Marie McGregor Pitawanakwat a été acceptée au sein du peuple vivant sur le territoire non cédé de Wiikwemkoong. Avec Katlia Lafferty, elle assure la coprésidence du National Indigenous Housing Network, et elle est coprésidente du Women’s National Housing and Homelessness Network. "
-    },
-    "organization": "--"
+      "bio": "Marie McGregor Pitawanakwat est une Anishinaabe de Daawganing, sur l’île de Manitoulin, dans le nord de l’Ontario, au Canada. Elle a fondé Szhibeegen Training Services, une entreprise qui offre à des Premières Nations et à des ONG situées surtout dans le nord-ouest de l’Ontario de la formation et du perfectionnement axés sur la communauté et le développement commercial. Son entreprise a remporté un Prix d’excellence en affaires du Nord de l’Ontario. En 2015, peu après être retournée dans sa communauté d’origine, la Première Nation de Whitefish River, elle a été évincée de sa maison familiale et est devenue sans-abri. Elle croit que les peuples autochtones sont déjà propriétaires de la terre, donc qu’il n’y a aucune nécessité pour eux « d’acheter » des terrains pour vivre. Elle s’est installée dans une minimaison, sur un terrain boisé inutilisé de la réserve de Whitefish River, où elle a vécu hors réseau pendant trois ans. En 2018, la réserve l’a évincée, et elle est redevenue une personne sans domicile fixe. En 2019, Marie McGregor Pitawanakwat a été acceptée au sein du peuple vivant sur le territoire non cédé de Wiikwemkoong. Avec Katlia Lafferty, elle assure la coprésidence du National Indigenous Housing Network, et elle est coprésidente du Women’s National Housing and Homelessness Network. ",
+    "organization": [],
+    "organization_links": []
+    }
     
   }
 ]

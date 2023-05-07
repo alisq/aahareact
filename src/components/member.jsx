@@ -7,10 +7,11 @@ function Member({ member, title, lang}) {
      const hasTeam = member.team_id !== ""
      const hasRole = member[lang].role !== ""
      const hasTitle = member[lang].title !== ""
-     const hasOrg = member[lang].organization !== ""
+     const hasOrg = member[lang].organization.length > 0;
+
+     
      const hasLink = member.links !== ""
     
-     console.log()
      
     return (
             <>
@@ -33,7 +34,7 @@ function Member({ member, title, lang}) {
                     {hasRole && ( <td className="smallHalf"><label>{member[lang].role}</label></td> )}
                     {hasTeam && ( <td className="smallHalf"><a href={'/'+lang+"/demand/"+member.team_id}>{member[lang].team}</a></td> )}
                     
-                    {hasOrg && ( <td>{member[lang].organization}</td> )}
+                    <td> {hasOrg && (  member[lang].organization[0]   )} </td>
                     {hasBio && ( <td>{member[lang].bio}</td> )}
                     <td className="sidebearing"></td>
                     </tr>

@@ -41,19 +41,26 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
               </HighlightedText>
             </p>
             <p>
-              <label>{content.lang === "en" ? "REGION" : "Région"}:</label>
-              {content.field_region}
+              <label>{content.lang === "en" ? "REGION:" : "Région : "} </label> {content.field_region}
             </p>
-            <p>
-              <label>{content.lang === "en" ? "Activist" : "Activiste"}:</label> {content.activist}
-            </p>
-            <p>
-              <label>{content.lang === "en" ? "Architect" : "Architecte"}:</label> {content.architect}
-            </p>
+
+
+            {content.activist !== "" ? (
+              <p>
+                <label>{content.lang === "en" ? "Activist:" : "Activiste : "} </label> {content.activist}
+              </p>
+            ) : ""}
+            
+            {content.architect !== "" ? (
+              <p>
+                <label>{content.lang === "en" ? "Architect:" : "Architecte : "} </label> {content.architect}
+              </p>
+            ) : ""}
+            
 
             {content.advocate !== "" ? (
               <p>
-                <label>{content.lang === "en" ? "Advocate" : "Défenseur"}:</label> {content.advocate}
+                <label>{content.lang === "en" ? "Advocate:" : "Défenseur : "} </label> {content.advocate}
               </p>
             ) : ""}
 
@@ -69,7 +76,9 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
 
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
-            <h3>TAKE ACTION</h3>
+            <h3>{content.lang === "en" ? "TAKE ACTION:" : "PASSION À L'ACTION : "}</h3>
+
+            
             <ul className='actions'>
               <Action lang={content.lang} />
             </ul>

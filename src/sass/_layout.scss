@@ -37,7 +37,7 @@ p {
   background: $red;
   color: $background;
   padding: 0.25em 1em;
-  font-family: "AAHA";
+  font-family: "AAHA-WEB";
 }
 
 //white-bg
@@ -419,6 +419,45 @@ table {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr;
   grid-column-gap: 1em;
+  & svg {
+    width:100%;
+    height:auto;
+  }
+}
+
+.partners {
+
+  margin-top:2em;
+  max-width:40%;
+
+  & .footerLogo {
+    fill: rgba($foreground, 1);
+    width: 100%;
+    transition: fill 0.4s;
+    height: auto;
+    padding-bottom: 2em;
+
+    &:hover {
+      fill: $red;
+    }
+
+  & svg {
+    height:auto;
+  }
+
+  & #logoBiennale {
+    width: 50%;
+    
+  }
+
+  & #logoCCA,
+  & #logoUW,
+  & #logoSALA,
+  & #logoRAIC {
+    width: 80%;
+  }
+
+
 }
 
 #contact {
@@ -430,32 +469,14 @@ table {
     margin-bottom: 0;
   }
 
-  & #logoBiennale {
-    width: 50%;
-  }
-
-  & #logoUW,
-  & #logoSALA {
-    width: 80%;
-  }
-
   & .footerList {
-    font-family: AAHA;
-    text-transform: uppercase;
-    list-style-type: disc;
-    margin-left: -1.25em;
+    font-family: 'AAHA-WEB';
+    text-transform: uppercase; 
+    // list-style-type: disc;
+    // margin-left: -1.25em;
   }
 
-  & .footerLogo {
-    fill: rgba($background, 1);
-    width: 100%;
-    transition: fill 0.4s;
-    height: auto;
-    padding-bottom: 2em;
-
-    &:hover {
-      fill: $red;
-    }
+  
   }
 }
 
@@ -505,6 +526,18 @@ table {
   #lang {
     bottom: 0.5em;
     right: -0.75em;
+  }
+
+  #contact {
+    text-align:center;
+    position:relative;
+
+    & .row {
+      padding:0 2em ;
+      position:absolute;;
+      top:50vh;
+      transform:translateY(-50%)
+    }
   }
 
   .manifesto {
@@ -610,6 +643,13 @@ table {
   }
 
   .members {
+
+    & thead {
+      display:none;
+
+    }
+
+
     & tr {
       display: block;
       padding: 1em 0;
@@ -640,5 +680,9 @@ table {
       //     height:1.2em
       // }
     }
+  }
+
+  .partners {
+    max-width:100%;
   }
 }

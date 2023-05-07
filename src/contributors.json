@@ -12,14 +12,16 @@
       "team": "Land Back",
       "bio":"",
       "role": "Activist",
-      "organization": "Hiyam Housing, Squamish Nation"
+      "organization": ["Hiyam Housing", "Squamish Nation"],
+      "organization_links":["",""]
     },
     "fr": {
       "lang":"fr", 
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Activiste",
-      "organization": "Hiyam Housing, Squamish Nation"
+      "organization": ["Hiyam Housing", "Squamish Nation"],
+      "organization_links":["",""]
     },
     "organization 2 (If Relevant)": ""
   },
@@ -36,14 +38,16 @@
       "team": "Land Back",
       "bio":"",
       "role": "Architect",
-      "organization": "Patrick R. Stewart Architect, Montreal Lake Cree Nation"
+      "organization": ["Patrick R. Stewart Architect", "Montreal Lake Cree Nation"],
+      "organization_links":["",""]
     },
     "fr": {
       "lang":"fr",
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Architecte",
-      "organization": "Patrick R. Stewart Architect, Montreal Lake Cree Nation"
+      "organization": ["Patrick R. Stewart Architect", "Montreal Lake Cree Nation"],
+      "organization_links":["",""]
     },
     
     
@@ -62,14 +66,16 @@
       "team": "Land Back",
       "bio":"",
       "role": "Architect",
-      "organization": "Patrick R. Stewart Architect"
+      "organization": ["Patrick R. Stewart Architect"],
+      "organization_links":[""]
     },
     "fr": {
       "lang":"fr",
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Architecte",
-      "organization": "Patrick R. Stewart Architect"
+      "organization": ["Patrick R. Stewart Architect"],
+      "organization_links":[""]
     },
     
     
@@ -88,14 +94,16 @@
       "team": "Land Back",
       "bio":"",
       "role": "Architect",
-      "organization": "Patrick R. Stewart Architect, Nisga'a Nation"
+      "organization": ["Patrick R. Stewart Architect", "Nisga'a Nation"],
+      "organization_links":["",""]
     },
     "fr": {
       "lang":"fr",
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Architecte",
-      "organization": "Patrick R. Stewart Architect, Nisga'a Nation"
+      "organization": ["Patrick R. Stewart Architect", "Nisga'a Nation"],
+      "organization_links":["",""]
     },
     
     
@@ -114,14 +122,16 @@
       "team": "Land Back",
       "bio":"",
       "role": "Advocate",
-      "organization": "Skwxwu7mesh Uxwumixw (Squamish Nation)"
+      "organization": ["Skwxwu7mesh Uxwumixw (Squamish Nation)"],
+      "organization_links":[""]
     },
     "fr": {
       "lang":"fr",
       "team": "La restitution des terres ancestrales",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Nation des Squamish"
+      "organization": ["Nation des Squamish"],
+      "organization_links":[""]
     },
     
     
@@ -140,14 +150,16 @@
       "team": "On the Land Housing",
       "bio":"",
       "role": "Advocate",
-      "organization": "At Home in the North"
+      "organization": ["At Home in the North"],
+      "organization_links":[""]
     },
     "fr": {
       "lang":"fr",
       "team": "Des logements sur le territoire",
       "bio":"",
       "role": "Défenseur",
-      "organization": "At Home in the North"
+      "organization": ["At Home in the North"],
+      "organization_links":[""]
     },
     
     
@@ -166,14 +178,16 @@
       "team": "On the Land Housing",
       "bio":"",
       "role": "Activist",
-      "organization": "National Indigenous Housing Network, Yellowknives Dene First Nation"
+      "organization": ["National Indigenous Housing Network", "Yellowknives Dene First Nation"],
+      "organization_links":["",""]
     },
     "fr": {
       "lang":"fr",
       "team": "Des logements sur le territoire",
       "bio":"",
       "role": "Activiste",
-      "organization": "National Indigenous Housing Network, Yellowknives Dene First Nation"
+      "organization": ["National Indigenous Housing Network", "Yellowknives Dene First Nation"],
+      "organization_links":["",""]
     },
     
     
@@ -192,14 +206,44 @@
       "team": "On the Land Housing",
       "bio":"",
       "role": "Architect",
-      "organization": "Urban Arts Architecture Inc, Tłı̨chǫ Dene"
+      "organization": ["Urban Arts Architecture Inc", "Tłı̨chǫ Dene"],
+      "organization_links":["",""]
     },
     "fr": {
       "lang":"fr",
       "team": "Des logements sur le territoire",
       "bio":"",
       "role": "Architecte",
-      "organization": "Urban Arts Architecture Inc, Tłı̨chǫ Dene"
+      "organization": ["Urban Arts Architecture Inc", "Tłı̨chǫ Dene"],
+      "organization_links":["",""]
+    },
+    
+    
+    "organization 2 (If Relevant)": ""
+  },
+
+  {
+    "category":"contributor",
+    "team_num": "3",
+    "team_id":"home-building-lodges",        
+    "title":"",
+    "name": "David Fortin",
+    "bio":"",
+    "en": {
+      "team": "First Nations Home Building Lodges",
+      "lang":"en",
+      "bio":"",
+      "role": "Architect",
+      "organization": ["David T Fortin Architect Inc"],
+      "organization_links":[""]
+    },
+    "fr": {
+      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang":"fr",
+      "bio":"",
+      "role": "Architecte",
+      "organization": ["David T Fortin Architect Inc"],
+      "organization_links":[""]
     },
     
     
@@ -217,14 +261,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "David T Fortin Architect Inc"
+      "organization": ["David T Fortin Architect Inc"],
+      "organization_links":[""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "David T Fortin Architect Inc"
+      "organization": ["David T Fortin Architect Inc"],
+      "organization_links":[""]
     },
     
     
@@ -242,14 +288,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "David T Fortin Architect Inc"
+      "organization": ["David T Fortin Architect Inc"],
+      "organization_links":[""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "David T Fortin Architect Inc"
+      "organization": ["David T Fortin Architect Inc"],
+      "organization_links":[""]
     },
     
     
@@ -267,14 +315,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Grounded Architecture, University of Manitoba, Métis Nation of Saskatchewan"
+      "organization": ["Grounded Architecture", "University of Manitoba", "Métis Nation of Saskatchewan"],
+      "organization_links":["","",""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Grounded Architecture, Université du Manitoba, Métis Nation of Saskatchewan"
+      "organization": ["Grounded Architecture", "Université du Manitoba", "Métis Nation of Saskatchewan"],
+      "organization_links":["","",""]
     },
     
     
@@ -292,14 +342,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "One House Many Nations, Big River First Nation"
+      "organization": ["One House Many Nations", "Big River First Nation"],
+      "organization_links":["",""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "One House Many Nations, Big River First Nation"
+      "organization": ["One House Many Nations", "Big River First Nation"],
+      "organization_links":["",""]
       
     },
     
@@ -318,14 +370,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "One House Many Nations, Opaskwayak Cree Nation"
+      "organization": ["One House Many Nations", "Opaskwayak Cree Nation"],
+      "organization_links":["",""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Université de la Saskatchewan, Opaskwayak Cree Nation"  
+      "organization": ["Université de la Saskatchewan", "Opaskwayak Cree Nation"  ],
+      "organization_links":["",""]
     },
     
     
@@ -343,14 +397,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "SOLO Architecture, Métis Nation of Saskatchewan "
+      "organization": ["SOLO Architecture", "Métis Nation of Saskatchewan "],
+      "organization_links":["",""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "SOLO Architecture, Métis Nation of Saskatchewan "
+      "organization": ["SOLO Architecture", "Métis Nation of Saskatchewan "],
+      "organization_links":["",""]
     },
     
     
@@ -368,14 +424,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Grounded Architecture"
+      "organization": ["Grounded Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Grounded Architecture"
+      "organization": ["Grounded Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -393,14 +451,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "University of Manitoba"
+      "organization": ["University of Manitoba"],
+      "organization_links":[""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "University of Manitoba"
+      "organization": ["University of Manitoba"],
+      "organization_links":[""]
     },
     
     
@@ -418,14 +478,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "University of Manitoba"
+      "organization": ["University of Manitoba"],
+      "organization_links":[""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "University of Manitoba"
+      "organization": ["University of Manitoba"],
+      "organization_links":[""]
     },
     
     
@@ -443,14 +505,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "University of Manitoba"
+      "organization": ["University of Manitoba"],
+      "organization_links":[""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "University of Manitoba"
+      "organization": ["University of Manitoba"],
+      "organization_links":[""]
     },
     
     
@@ -468,14 +532,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Grounded Architecture"
+      "organization": ["Grounded Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Grounded Architecture"
+      "organization": ["Grounded Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -493,14 +559,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "CP Planning (Community in Public)"
+      "organization": ["CP Planning (Community in Public)"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une architecture réparatrice",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "CP Planning (Community in Public)"
+      "organization": ["CP Planning (Community in Public)"],
+      "organization_links":[""]
     },
     
     
@@ -518,14 +586,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Keele Eglinton Residents"
+      "organization": ["Keele Eglinton Residents"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une architecture réparatrice",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Keele Eglinton Residents"
+      "organization": ["Keele Eglinton Residents"],
+      "organization_links":[""]
     },
     
     
@@ -543,14 +613,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "SOCA (Studio of Contemporary Architecture)"
+      "organization": ["SOCA (Studio of Contemporary Architecture)"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une architecture réparatrice",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "SOCA (Studio of Contemporary Architecture)"
+      "organization": ["SOCA (Studio of Contemporary Architecture)"],
+      "organization_links":[""]
     },
     
     
@@ -568,14 +640,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "SOCA (Studio of Contemporary Architecture)"
+      "organization": ["SOCA (Studio of Contemporary Architecture)"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une architecture réparatrice",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "SOCA (Studio of Contemporary Architecture)"
+      "organization": ["SOCA (Studio of Contemporary Architecture)"],
+      "organization_links":[""]
     },
     
     
@@ -593,14 +667,16 @@
       "lang":"en",
       "bio":"",
       "role": "Structural engineer",
-      "organization": "Blackwell Engineers"
+      "organization": ["Blackwell Engineers"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
 
-      "organization": "Blackwell Engineers"
+      "organization": ["Blackwell Engineers"],
+      "organization_links":[""]
     },
     
     
@@ -618,14 +694,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     
     
@@ -643,14 +721,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     
     
@@ -668,14 +748,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     
     
@@ -693,14 +775,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     
     
@@ -718,14 +802,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     
     
@@ -743,14 +829,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Gentrification Tax Action"
+      "organization": ["Gentrification Tax Action"],
+      "organization_links":[""]
     },
     
     
@@ -768,14 +856,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     
     
@@ -793,14 +883,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     
     
@@ -818,14 +910,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     
     
@@ -843,14 +937,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     
     
@@ -868,14 +964,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "LGA Architectural Partners"
+      "organization": ["LGA Architectural Partners"],
+      "organization_links":[""]
     },
     
     
@@ -893,14 +991,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Parkdale Neighbourhood Land Trust"
+      "organization": ["Parkdale Neighbourhood Land Trust"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Parkdale Neighbourhood Land Trust"
+      "organization": ["Parkdale Neighbourhood Land Trust"],
+      "organization_links":[""]
     },
     
     
@@ -918,14 +1018,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Parkdale Neighbourhood Land Trust"
+      "organization": ["Parkdale Neighbourhood Land Trust"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Parkdale Neighbourhood Land Trust"
+      "organization": ["Parkdale Neighbourhood Land Trust"],
+      "organization_links":[""]
     },
     
     
@@ -943,14 +1045,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Parkdale Neighbourhood Land Trust"
+      "organization": ["Parkdale Neighbourhood Land Trust"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Parkdale Neighbourhood Land Trust"
+      "organization": ["Parkdale Neighbourhood Land Trust"],
+      "organization_links":[""]
     },
     
     
@@ -968,14 +1072,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "tuf lab"
+      "organization": ["tuf lab"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "tuf lab"
+      "organization": ["tuf lab"],
+      "organization_links":[""]
     },
     
     
@@ -993,14 +1099,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Affordable Housing Association of Nova Scotia"
+      "organization": ["Affordable Housing Association of Nova Scotia"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Affordable Housing Association of Nova Scotia"
+      "organization": ["Affordable Housing Association of Nova Scotia"],
+      "organization_links":[""]
     },
     
     
@@ -1018,14 +1126,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Affordable Housing Association of Nova Scotia"
+      "organization": ["Affordable Housing Association of Nova Scotia"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Affordable Housing Association of Nova Scotia"
+      "organization": ["Affordable Housing Association of Nova Scotia"],
+      "organization_links":[""]
     },
     
     
@@ -1043,14 +1153,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     
     
@@ -1068,14 +1180,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     
     
@@ -1093,14 +1207,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     
     
@@ -1118,14 +1234,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     
     
@@ -1143,14 +1261,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "FBM architecture • interior design • planning"
+      "organization": ["FBM architecture • interior design • planning"],
+      "organization_links":[""]
     },
     
     
@@ -1168,14 +1288,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Navigator Street Outreach Program and This Should Be Housing"
+      "organization": ["Navigator Street Outreach Program","This Should Be Housing"],
+      "organization_links":["",""]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Programme Navigator Street Outreach"  
+      "organization": ["Programme Navigator Street Outreach"],
+      "organization_links":[""]
     },
     
     
@@ -1193,14 +1315,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "A Better Tent City Waterloo Region"
+      "organization": ["A Better Tent City Waterloo Region"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
     "role": "Activiste",
-      "organization": "A Better Tent City, région de Waterloo"  
+      "organization": ["A Better Tent City, région de Waterloo"  ],
+      "organization_links":[""]
     },
     
     
@@ -1218,14 +1342,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "SvN Architects + Planners"
+      "organization": ["SvN Architects + Planners"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "SvN Architects + Planners"
+      "organization": ["SvN Architects + Planners"],
+      "organization_links":[""]
     },
     
     
@@ -1243,14 +1369,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Toronto Tiny Shelters"
+      "organization": ["Toronto Tiny Shelters"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Toronto Tiny Shelters"
+      "organization": ["Toronto Tiny Shelters"],
+      "organization_links":[""]
     },
     
     
@@ -1268,14 +1396,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Toronto Tiny Shelters"
+      "organization": ["Toronto Tiny Shelters"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Toronto Tiny Shelters"
+      "organization": ["Toronto Tiny Shelters"],
+      "organization_links":[""]
     },
     
     
@@ -1293,14 +1423,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Toronto Tiny Shelters"
+      "organization": ["Toronto Tiny Shelters"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Toronto Tiny Shelters"
+      "organization": ["Toronto Tiny Shelters"],
+      "organization_links":[""]
     },
     
     
@@ -1318,14 +1450,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Canadian Cohousing Network"
+      "organization": ["Canadian Cohousing Network"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Réseau canadien de cohabitation"
+      "organization": ["Réseau canadien de cohabitation"],
+      "organization_links":[""]
     },
     
     
@@ -1343,14 +1477,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -1368,14 +1504,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -1393,14 +1531,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -1418,14 +1558,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -1443,14 +1585,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -1468,14 +1612,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "La propriété collective",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Haeccity Studio Architecture"
+      "organization": ["Haeccity Studio Architecture"],
+      "organization_links":[""]
     },
     
     
@@ -1493,14 +1639,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     
     
@@ -1518,14 +1666,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     
     
@@ -1543,14 +1693,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     
     
@@ -1568,14 +1720,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     
     
@@ -1593,14 +1747,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "Atelier Big City"
+      "organization": ["Atelier Big City"],
+      "organization_links":[""]
     },
     
     
@@ -1618,14 +1774,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Comité logement Ville-Marie"
+      "organization": ["Comité logement Ville-Marie"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Comité logement Ville-Marie"
+      "organization": ["Comité logement Ville-Marie"],
+      "organization_links":[""]
     },
     
     
@@ -1643,14 +1801,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Comité logement Ville-Marie"
+      "organization": ["Comité logement Ville-Marie"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Comité logement Ville-Marie"
+      "organization": ["Comité logement Ville-Marie"],
+      "organization_links":[""]
     },
     
     
@@ -1668,14 +1828,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Interloge"
+      "organization": ["Interloge"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Interloge"
+      "organization": ["Interloge"],
+      "organization_links":[""]
     },
     
     
@@ -1693,14 +1855,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Maison du développement durable"
+      "organization": ["Maison du développement durable"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Maison du développement durable"
+      "organization": ["Maison du développement durable"],
+      "organization_links":[""]
     },
     
     
@@ -1718,14 +1882,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Maison du Savoir et de la Littérature"
+      "organization": ["Maison du Savoir et de la Littérature"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Maison du Savoir et de la Littérature"
+      "organization": ["Maison du Savoir et de la Littérature"],
+      "organization_links":[""]
     },
     
     
@@ -1743,14 +1909,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "McGill University"
+      "organization": ["McGill University"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Université McGill"
+      "organization": ["Université McGill"],
+      "organization_links":[""]
     },
     
     
@@ -1768,14 +1936,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Table de concertation du Faubourg Saint-Laurent"
+      "organization": ["Table de concertation du Faubourg Saint-Laurent"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Habitat solidaire",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Table de concertation du Faubourg Saint-Laurent"
+      "organization": ["Table de concertation du Faubourg Saint-Laurent"],
+      "organization_links":[""]
     },
     
     
@@ -1793,14 +1963,16 @@
       "lang":"en",
       "bio":"",
       "role": "Advocate",
-      "organization": "Bâtir Son Quartier"
+      "organization": ["Bâtir Son Quartier"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
       "role": "Défenseur",
-      "organization": "Bâtir Son Quartier"
+      "organization": ["Bâtir Son Quartier"],
+      "organization_links":[""]
     },
     
     
@@ -1818,14 +1990,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
+      "organization_links":[""]
     },
     
     
@@ -1843,14 +2017,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
+      "organization_links":[""]
     },
     
     
@@ -1868,14 +2044,16 @@
       "lang":"en",
       "bio":"",
       "role": "Activist",
-      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
       "role": "Activiste",
-      "organization": "Centre d’écologie urbaine de Montréal (CEUM)"
+      "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
+      "organization_links":[""]
     },
     
     
@@ -1893,14 +2071,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "L'OEUF Architects"
+      "organization": ["L'OEUF Architects"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "L'OEUF Architects"
+      "organization": ["L'OEUF Architects"],
+      "organization_links":[""]
     },
     
     
@@ -1918,14 +2098,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "L'OEUF Architects"
+      "organization": ["L'OEUF Architects"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "L'OEUF Architects"
+      "organization": ["L'OEUF Architects"],
+      "organization_links":[""]
     },
     
     
@@ -1943,14 +2125,16 @@
       "lang":"en",
       "bio":"",
       "role": "Architect",
-      "organization": "L'OEUF Architects"
+      "organization": ["L'OEUF Architects"],
+      "organization_links":[""]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
       "lang":"fr",
       "bio":"",
       "role": "Architecte",
-      "organization": "L'OEUF Architects"
+      "organization": ["L'OEUF Architects"],
+      "organization_links":[""]
     },
     
     

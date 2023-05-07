@@ -324,6 +324,14 @@ img {
   img:hover {
     filter: grayscale(0%) contrast(100%); }
 
+svg {
+  width: 100%;
+  height: auto; }
+
+.img {
+  width: 100%;
+  max-width: 100%; }
+
 @media (max-width: 800px) {
   img {
     filter: grayscale(0%) contrast(100%); } }
@@ -375,6 +383,12 @@ a:active {
   color: #c00000;
   text-decoration: none; }
 
+.aaha-text {
+  font-family: 'AAHA-WEB';
+  font-size: 0.95em;
+  font-weight: normal !important;
+  letter-spacing: 0.05em; }
+
 .inverse a:link,
 .inverse a:visited {
   color: #F5F5F5;
@@ -401,6 +415,12 @@ h3 {
 h1, h2, h3, h5 {
   font-family: 'AAHA-WEB';
   color: #101010; }
+
+#contact h1,
+#contact h2,
+#contact h3,
+#contact h5 {
+  color: #F5F5F5; }
 
 h4 {
   font-size: 1em;
@@ -585,7 +605,7 @@ p {
   background: #c00000;
   color: #F5F5F5;
   padding: 0.25em 1em;
-  font-family: "AAHA"; }
+  font-family: "AAHA-WEB"; }
 
 h1 {
   pointer-events: none;
@@ -834,34 +854,37 @@ table {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr;
   grid-column-gap: 1em; }
+  .thirds svg {
+    width: 100%;
+    height: auto; }
 
-#contact h5 {
-  color: whitesmoke; }
-
-#contact li {
-  margin-bottom: 0; }
-
-#contact #logoBiennale {
-  width: 50%; }
-
-#contact #logoUW,
-#contact #logoSALA {
-  width: 80%; }
-
-#contact .footerList {
-  font-family: AAHA;
-  text-transform: uppercase;
-  list-style-type: disc;
-  margin-left: -1.25em; }
-
-#contact .footerLogo {
-  fill: whitesmoke;
-  width: 100%;
-  transition: fill 0.4s;
-  height: auto;
-  padding-bottom: 2em; }
-  #contact .footerLogo:hover {
-    fill: #c00000; }
+.partners {
+  margin-top: 2em;
+  max-width: 40%; }
+  .partners .footerLogo {
+    fill: #101010;
+    width: 100%;
+    transition: fill 0.4s;
+    height: auto;
+    padding-bottom: 2em; }
+    .partners .footerLogo:hover {
+      fill: #c00000; }
+    .partners .footerLogo svg {
+      height: auto; }
+    .partners .footerLogo #logoBiennale {
+      width: 50%; }
+    .partners .footerLogo #logoCCA,
+    .partners .footerLogo #logoUW,
+    .partners .footerLogo #logoSALA,
+    .partners .footerLogo #logoRAIC {
+      width: 80%; }
+  .partners #contact h5 {
+    color: whitesmoke; }
+  .partners #contact li {
+    margin-bottom: 0; }
+  .partners #contact .footerList {
+    font-family: 'AAHA-WEB';
+    text-transform: uppercase; }
 
 .sidebearing {
   width: calc(100vw / 2 - 1800px / 2); }
@@ -880,6 +903,14 @@ table {
   #lang {
     bottom: 0.5em;
     right: -0.75em; }
+  #contact {
+    text-align: center;
+    position: relative; }
+    #contact .row {
+      padding: 0 2em;
+      position: absolute;
+      top: 50vh;
+      transform: translateY(-50%); }
   .manifesto {
     font-size: 1.75em;
     text-align: left;
@@ -945,6 +976,8 @@ table {
     position: static; }
   #menu ul li {
     font-size: 6rem; }
+  .members thead {
+    display: none; }
   .members tr {
     display: block;
     padding: 1em 0;
@@ -961,7 +994,9 @@ table {
     border: none;
     height: auto; }
     .members td:first-child {
-      padding: 0; } }
+      padding: 0; }
+  .partners {
+    max-width: 100%; } }
 
 #loud-title {
   font-size: 80vh;
