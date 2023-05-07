@@ -3,16 +3,27 @@ import committeeData from '../committee.json'
 import collaboratorData from '../collaborators.json'
 import contributorData from '../contributors.json'
 import Member from './member'
+import MemberCommittee from './memberCommittee'
 import Pavillion from './pavillion'
 import Logos from './logos'
 
 const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
 
+
+  const getMemberCommittee = (member, i) =>
+    <MemberCommittee
+      lang={lang}
+      member={member}      
+      key={i} />
+
+      
   const getMember = (member, i) =>
     <Member
       lang={lang}
       member={member}      
       key={i} />
+
+
 
   return (
     <section id={page_id} className='page' ref={ref}>
@@ -69,7 +80,7 @@ Robyn Adams
 
           <br /><br />
           <h3 className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>
-          <table className="members"><tbody>{committeeData.map(getMember)}</tbody></table>
+          <table className="members"><tbody>{committeeData.map(getMemberCommittee)}</tbody></table>
           <br /><br />
           <h3 className="textCenter">{(lang === 'fr') ? "COLLABORATEURS DE LA CAMPAGNE" : "CAMPAIGN COLLABORATORS"}</h3>
           <table className="members">
@@ -79,8 +90,6 @@ Robyn Adams
                 <td><label className="red">{(lang === 'fr') ? "Nom" : "name"}</label></td>
                 <td><label className="red">{(lang === 'fr') ? "Rôle" : "role"}</label></td>
 
-                <td></td>
-                <td className="smallHalf"></td>
                 <td><label className="red">{(lang === 'fr') ? "Biographie" : "biography"}</label></td>
                 <td className="sidebearing"></td>
               </tr>
