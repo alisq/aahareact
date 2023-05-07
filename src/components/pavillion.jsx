@@ -1,8 +1,9 @@
-import { ReactComponent as PavillionBig } from '../svg/pavillionBig.svg'
+import { ReactComponent as PavillionBigEn } from '../svg/pavillionBig_en.svg'
+import { ReactComponent as PavillionBigFr } from '../svg/pavillionBig_fr.svg'
 import { ReactComponent as PavillionSmall } from '../svg/pavillionSmall.svg'
 import { useEffect, useState } from 'react'
 
-function Pavillion() {
+function Pavillion({lang}) {
 
 
   const [width, setWidth] = useState(window.innerWidth);
@@ -15,7 +16,13 @@ function Pavillion() {
 
     return (
      
-      width < breakpoint ? <PavillionSmall /> : <PavillionBig />
+      (width < breakpoint) ? <PavillionSmall /> : (
+      
+        (lang === 'en') ? <PavillionBigEn /> : <PavillionBigFr />
+      
+      
+      
+      )
     )
 }
 

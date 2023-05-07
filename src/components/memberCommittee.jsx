@@ -2,10 +2,10 @@
 function MemberCommittee({ member, title, lang}) {
  
         
-    const hasBio = member[lang].bio !== "";
-    const hasTitle = member[lang].title !== ""
-    const hasOrg = member[lang].organization !== ""
-    const hasLink = member.links !== ""
+    // const hasBio = member[lang].bio !== "";
+    // const hasTitle = member[lang].title !== ""
+    // const hasOrg = member[lang].organization !== ""
+    // const hasLink = member.links !== ""
    
     
     

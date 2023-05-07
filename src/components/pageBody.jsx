@@ -45,9 +45,10 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
           <div className="row">
           <div className='three columns'><br /></div>
             <div className='six columns'>
-          <h3>Not for Sale! Heartquarters</h3>
+          <br />
+          <h3>{(lang === 'fr') ?  "Pas à vendre / Quartier général" : "Not for Sale! Heartquarters"}</h3>
           </div>
-            <Pavillion className="img" />
+            <Pavillion lang={lang} className="img" />
             <div className='three columns'><br /></div>
             <div className='six columns'>
             <p className="caption">Pavillion layout for Not For Sale exhibition in Venice, Italy.</p>
@@ -55,21 +56,10 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
 
 
 
-            <Logos />
+            <Logos lang={lang}/>
 
 
 
-           <strong>Gracious Support and Collaboration of: </strong><br />
-
-Ron Kellett<br />
-Tamara Ross<br />
-Tracy Satterfield<br />
-Emma Fennell <br />
-Maya Przybylski<br />
-Julie Dring <br />
-Marie McGregor Pitawanakwat <br />
-Chinook Song Catchers <br />
-Robyn Adams
           </div>
           </div>
         </div>
