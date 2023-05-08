@@ -559,7 +559,11 @@ table {
       padding:0 2em ;
       position:absolute;;
       top:50vh;
-      transform:translateY(-50%)
+      transform:translateY(-50%);
+
+      & .text-right {
+        text-align:center;
+      }
     }
   }
 

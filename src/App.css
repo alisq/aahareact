@@ -966,6 +966,8 @@ table {
       position: absolute;
       top: 50vh;
       transform: translateY(-50%); }
+      #contact .row .text-right {
+        text-align: center; }
   .manifesto {
     font-size: 1.75em;
     text-align: left;

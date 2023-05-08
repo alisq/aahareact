@@ -10,7 +10,7 @@
 	.st3{font-size:11.76px;}
 	.st4{letter-spacing:24;}
 </style>
-<image style="overflow:visible;" width="1136" height="1580" xlink:href="/img/pavillion.png"  transform="matrix(0.48 0 0 0.48 235.2 22.14)">
+<image style="overflow:visible;" width="1136" height="1580" xlink:href="/img/pavilion.png"  transform="matrix(0.48 0 0 0.48 235.2 22.14)">
 </image>
 <line class="st0" x1="255.3" y1="474.6" x2="253.1" y2="473"/>
 <line class="st0" x1="247" y1="412.3" x2="246.6" y2="411.9"/>

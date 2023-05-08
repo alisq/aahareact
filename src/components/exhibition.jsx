@@ -1,4 +1,4 @@
-import Pavillion from './pavillion'
+import Pavilion from './pavilion'
 import Logos from './logos'
 
 function Exhibition({lang}) {
@@ -13,10 +13,10 @@ function Exhibition({lang}) {
           <br />
           <h3>{(lang === 'fr') ?  "Pas à vendre / Quartier général" : "Not for Sale! Heartquarters"}</h3>
           </div>
-            <Pavillion lang={lang} className="img" />
+            <Pavilion lang={lang} className="img" />
             <div className='three columns'><br /></div>
             <div className='six columns'>
-            <p className="caption text-center">Pavillion layout for Not For Sale exhibition in Venice, Italy.</p>
+            <p className="caption text-center">Pavilion layout for Not For Sale exhibition in Venice, Italy.</p>
             
 
 
