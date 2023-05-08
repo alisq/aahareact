@@ -476,6 +476,12 @@ h5 {
 .noBreak {
   white-space: nowrap; }
 
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
 .caption {
   font-size: 1em;
   line-height: 1.3;
@@ -891,6 +897,14 @@ table {
     width: 100%;
     height: auto; }
 
+#contact {
+  position: relative;
+  padding: 0; }
+  #contact .row {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%); }
+
 .partners {
   margin-top: 2em;
   max-width: 40%; }
@@ -911,13 +925,21 @@ table {
     .partners .footerLogo #logoSALA,
     .partners .footerLogo #logoRAIC {
       width: 80%; }
-  .partners #contact h5 {
-    color: whitesmoke; }
-  .partners #contact li {
-    margin-bottom: 0; }
-  .partners #contact .footerList {
-    font-family: 'AAHA-WEB';
-    text-transform: uppercase; }
+  .partners #contact {
+    position: relative; }
+    .partners #contact .row {
+      padding: 0 2em;
+      position: absolute;
+      background: red;
+      top: 50vh;
+      transform: translateY(-50%); }
+    .partners #contact h5 {
+      color: whitesmoke; }
+    .partners #contact li {
+      margin-bottom: 0; }
+    .partners #contact .footerList {
+      font-family: 'AAHA-WEB';
+      text-transform: uppercase; }
 
 .sidebearing {
   width: calc(100vw / 2 - 1800px / 2); }

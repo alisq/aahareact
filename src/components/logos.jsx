@@ -57,19 +57,6 @@ function Logos({lang}){
 
       
 
-<strong>
-{(lang === 'fr') ? "Le soutien gracieux et la collaboration de : " : "Gracious Support and Collaboration of"}
-</strong><br />
-Ron Kellett<br />
-Tamara Ross<br />
-Tracy Satterfield<br />
-Emma Fennell <br />
-Maya Przybylski<br />
-Julie Dring <br />
-Marie McGregor Pitawanakwat <br />
-Chinook Song Catchers <br />
-Robyn Adams
-
       </div>
 
     )

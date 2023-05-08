@@ -1,5 +1,5 @@
 
-function MemberCommittee({ member, title, lang}) {
+function MemberCommittee({ member, lang}) {
  
         
     // const hasBio = member[lang].bio !== "";

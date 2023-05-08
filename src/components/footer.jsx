@@ -41,7 +41,7 @@ const Footer = forwardRef(({ lang }, ref) => {
 
                     </div>
 
-                    <div className="four columns">
+                    <div className="four columns text-center">
 
                     <h3><a href="mailto:info@aaha.ca">info@aaha.ca</a></h3>
                     <br />
@@ -60,7 +60,7 @@ const Footer = forwardRef(({ lang }, ref) => {
 
 
                     </div>
-                    <div className="four columns">
+                    <div className="four columns text-right">
 
                     <span className="aaha-text">
                     {lang === 'en' ? (

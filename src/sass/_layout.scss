@@ -424,7 +424,20 @@ table {
     height:auto;
   }
 }
+#contact {
+  position:relative;
+  padding:0;
 
+  & .row {
+    // padding:0 2em ;
+    position:absolute;
+    
+    top:50vh;
+    transform:translateY(-50%)
+  } 
+
+
+}
 .partners {
 
   margin-top:2em;
@@ -461,6 +474,16 @@ table {
 }
 
 #contact {
+    position:relative;
+
+    & .row {
+      padding:0 2em ;
+      position:absolute;
+      background:red;
+      top:50vh;
+      transform:translateY(-50%)
+    } 
+
   & h5 {
     color: rgba($background, 1);
   }
