@@ -471,6 +471,27 @@ h5 {
   font-weight: bold;
   font-style: italic; }
 
+.teamTitle:link,
+.teamTitle:visited {
+  font-family: "AAHA-WEB";
+  font-size: 1.2em;
+  color: #101010;
+  text-decoration: none; }
+
+.teamTitle:hover {
+  color: #c00000; }
+
+.orgLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .orgLinks li {
+    margin: 0;
+    padding: 0; }
+    .orgLinks li a:link,
+    .orgLinks li a:visited {
+      color: #101010; }
+
 button {
   background: #c00000;
   color: #F5F5F5;

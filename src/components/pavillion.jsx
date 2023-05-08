@@ -1,6 +1,5 @@
-import { ReactComponent as PavillionBigEn } from '../svg/pavillionBig_en.svg'
-import { ReactComponent as PavillionBigFr } from '../svg/pavillionBig_fr.svg'
-import { ReactComponent as PavillionSmall } from '../svg/pavillionSmall.svg'
+import { ReactComponent as PavillionBigEn } from '../svg/pavillionBigRaster_en.svg'
+import { ReactComponent as PavillionBigFr } from '../svg/pavillionBigRaster_fr.svg'
 import { useEffect, useState } from 'react'
 
 function Pavillion({lang}) {
@@ -16,9 +15,11 @@ function Pavillion({lang}) {
 
     return (
      
-      (width < breakpoint) ? <PavillionSmall /> : (
+      (width < breakpoint) ? (
+        <img src='/img/pavillion.jpg'/>
+      ) : (
       
-        (lang === 'en') ? <PavillionBigEn /> : <PavillionBigFr />
+        (lang === 'en') ? <PavillionBigEn className="multiply" /> : <PavillionBigFr className="multiply" />
       
       
       

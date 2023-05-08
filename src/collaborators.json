@@ -8,7 +8,7 @@
     "en": {
       "title": "Graphic Designer",
       "bio": "Chris Lee is a Canadian graphic designer and educator based in Lenapehoking (Brooklyn, NY). He is currently an assistant professor in the undergraduate communications design department at the Pratt Institute. Chris’s studio-based research explores graphic design’s entanglement with power and standardization, and as a matter of how design figures in questions of what is thinkable, sayable, and knowable.",
-      "organization": [],
+      "organization": ["Pratt Institute"],
       "organization_links": ["https://pratt.edu"]
     },
     "fr": {
@@ -29,7 +29,7 @@
     "en": {
       "title": "Web Designer",
       "bio": "Ali Shamas Qadeer is a designerand educator based in Toronto. His work focuses on the intersection of design labour and political economy as well as digital surveillance. Ali teaches graphic design at OCAD University.",
-      "organization": [],
+      "organization": ["OCAD University"],
     "organization_links": ["https://ocadu.ca"]
     },
     "fr": {
@@ -253,14 +253,14 @@
     "name": "David Kalman",
     "en": {
       "title": "Project Research + Design Team",
-      "bio": "",
-    "organization": ["University of British Columbia, School of Architecture and Landscape Architecture "],
+      "bio": "University of British Columbia, School of Architecture and Landscape Architecture",
+    "organization": [],
     "organization_links": []
     },
     "fr": {
       "title": "Recherche de projet + équipe de conception",
-      "bio": "",
-    "organization": ["École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique"],
+      "bio": "École d’architecture et d’architecture de paysage de l’Université de la Colombie-Britannique",
+    "organization": [],
     "organization_links": []
     }
     

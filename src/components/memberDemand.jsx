@@ -3,13 +3,13 @@
 function MemberDemand({ member, title, lang }) {
  
         
-     const hasBio = member[lang].bio !== "";
-     const hasTeam = member.team_id !== ""
-     const hasRole = member[lang].role !== ""
-     const hasTitle = member.title !== ""
-     const hasOrg = member[lang].organization !== ""
-     const hasLink = member.links !== ""
-     
+    const hasBio = member[lang].bio !== "";
+    const hasRole = member[lang].role !== ""
+    const hasTitle = member[lang].title !== ""
+    let orgList = [];
+        member[lang].organization.forEach((org, index) => {
+            orgList.push(<li key={index}><a target='_blank' href={member[lang].organization_links[index]}>{org}</a></li>);
+        });
      
     
 
@@ -17,31 +17,17 @@ function MemberDemand({ member, title, lang }) {
     return (
             <>
 
-                {
-                (member.category === "committee") ? (
-                    
-                    <tr>
-                        <td className="sidebearing"></td>
-                    <td><strong>{member.name}</strong> {member[lang].bio}<br />
-                    <a href={member.links[0]}>{member.links[0]}</a></td>
-                    <td className="sidebearing"></td>
-                    </tr>
-                    
-                    
-                ) : (
-                    <tr>
-                        <td className="sidebearing"></td>
-                    <td><strong>{member.name}</strong></td>
-                    {hasTitle && ( <td><label>{member.title}</label></td> )}
-                    {hasRole && ( <td className="smallHalf"><label>{member[lang].role}</label></td> )}
-                    
-                    
-                    {hasOrg && ( <td>{member[lang].organization}</td> )}
-                    {hasBio && ( <td>{member[lang].bio}</td> )}
-                    <td className="sidebearing"></td>
-                    </tr>
-                )
-            }
+<tr>
+                   <td className="sidebearing"></td>    
+                   <td><strong>{member.name}</strong></td>
+                   
+                   {hasRole && ( <td className="smallHalf"><label>{member[lang].role}</label></td> )}
+                   
+                   
+                    <td><ul className="orgLinks">{orgList}</ul></td> 
+                   {hasBio && ( <td>{member[lang].bio}</td> )}
+                   <td className="sidebearing"></td>
+                   </tr>
                 
                 </>
                 
