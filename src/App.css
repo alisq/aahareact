@@ -358,7 +358,7 @@ svg {
   font-weight: bold; }
 
 body {
-  font-family: 'Starling', freight-text-pro;
+  font-family: 'Starling', "Times New Roman", serif;
   font-size: 21px;
   line-height: 1.4em; }
 
@@ -535,7 +535,7 @@ button:visited {
   position: absolute;
   width: 100%;
   top: 50%;
-  transform: translateY(-50%); }
+  transform: translateY(-48%); }
   .manifesto.fr {
     font-size: 3.75vw; }
   .manifesto:hover h2,
@@ -920,7 +920,7 @@ table {
     text-transform: uppercase; }
 
 .sidebearing {
-  width: calc(100vw / 2 - 1700px / 2); }
+  width: calc(100vw / 2 - 1800px / 2); }
 
 @media (max-width: 800px) {
   body {
@@ -1000,6 +1000,9 @@ table {
       font-size: 3em; }
   section {
     padding: 1rem; }
+    section#demands {
+      min-height: 0;
+      padding: 0; }
   .container {
     width: 100%;
     padding: 0; }

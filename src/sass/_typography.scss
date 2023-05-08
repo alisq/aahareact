@@ -27,7 +27,7 @@
 
 
 body {
-    font-family:'Starling', freight-text-pro;
+    font-family:'Starling', "Times New Roman", serif;
     font-size:21px;
     line-height:1.4em;
 }
@@ -248,7 +248,7 @@ button:visited {
     position:absolute;
     width:100%;
     top:50%;
-    transform:translateY(-50%);
+    transform:translateY(-48%);
 
     &.fr {
         font-size:3.75vw;

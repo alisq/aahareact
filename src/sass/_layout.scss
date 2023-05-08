@@ -17,7 +17,7 @@ section {
 }
 
 .container {
-  max-width: 1700px;
+  max-width: $max-container-width;
 }
 p {
   padding: 0;
@@ -623,7 +623,12 @@ table {
   }
 
   section {
+    
     padding: 1rem;
+    &#demands {
+      min-height:0;
+      padding:0;
+    }
   }
 
   .container {

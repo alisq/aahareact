@@ -440,12 +440,12 @@ img:hover {
   font-weight: bold;
 }
 body {
-  font-family: "Starling", freight-text-pro;
+  font-family: "Starling", "Times New Roman", serif;
   font-size: 21px;
   line-height: 1.4em;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection { /* Code for Firefox */ 
   background: rgb(192, 0, 0);
   color: #F5F5F5;
 }
