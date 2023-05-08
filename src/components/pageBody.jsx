@@ -69,10 +69,10 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
         <>
 
           <br /><br />
-          <h3 className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>
+          <h3 id="collective__organizing-committee" className="textCenter">{(lang === 'fr') ? "COMITÉ ORGANISATEUR" : "ORGANIZING COMMITTEE"}</h3>
           <table className="members"><tbody>{committeeData.map(getMemberCommittee)}</tbody></table>
           <br /><br />
-          <h3 className="textCenter">{(lang === 'fr') ? "COLLABORATEURS DE LA CAMPAGNE" : "CAMPAIGN COLLABORATORS"}</h3>
+          <h3 id="collective__collaborators" className="textCenter">{(lang === 'fr') ? "COLLABORATEURS DE LA CAMPAGNE" : "CAMPAIGN COLLABORATORS"}</h3>
           <table className="members">
             <thead>
               <tr>
@@ -87,7 +87,7 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
             <tbody>{collaboratorData.map(getMember)}</tbody>
           </table>
           <br /><br />
-          <h3 className="textCenter">{(lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM MEMBERS"}</h3>
+          <h3 id="collective__team-members" className="textCenter">{(lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM MEMBERS"}</h3>
 
           <table className="members">
             <thead>

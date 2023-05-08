@@ -69,14 +69,15 @@ function Main({ currentLang }) {
   const location = useLocation()
   const contactRef = useRef(null)
 
-  useEffect(() => {
-    const scrolledToTop = () => {
+  // ALI COMMENTING THIS OUT TO SEE IF THIS FEELS LIKE A BETTER USER EXPERIENCE 
+  // useEffect(() => {
+  //   const scrolledToTop = () => {
 
-      if (window.scrollY === 0) navigate(`/${currentLang}`)
-    }
-    window.addEventListener('scroll', scrolledToTop)
-    return () => window.removeEventListener('scroll', scrolledToTop)
-  }, [])
+  //     if (window.scrollY === 0) navigate(`/${currentLang}`)
+  //   }
+  //   window.addEventListener('scroll', scrolledToTop)
+  //   return () => window.removeEventListener('scroll', scrolledToTop)
+  // }, [])
 
   const handleLangSwitch = lang => {
     if (currentLang === lang) return
@@ -105,13 +106,13 @@ function Main({ currentLang }) {
       </div>
 
       <h1>
-        <div className='title-top'>ARCHITECTS AGAINST HOUSING ALIENATION!</div>
+        <div className='title-top'>Architects Against Housing Alienation<span className="exAlt2">!</span></div>
         <div className='title-bottom'><a href="https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses" target="blank">
 
           {currentLang === 'en' ? (
-            "CLICK HERE TO JOIN THE CAMPAIGN"
+            "Click Here to Join The Campaign"
           ) : (
-            "CLIQUEZ ICI POUR REJOINDRE LA CAMPAGNE"
+            "Cliquez ici pour rejoindre la campagne"
           )}
 
 

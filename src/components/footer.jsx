@@ -62,9 +62,9 @@ const Footer = forwardRef(({ lang }, ref) => {
                     </div>
                     <div className="four columns">
 
-                        
+                    <span className="aaha-text">
                     {lang === 'en' ? (
-                    <ul className="footerList">
+                    <>
                     
                     <a href="/en/">DEMANDS</a><br />
                     <a href="/en/page/aaha-manifesto">MANIFESTO</a><br />
@@ -72,10 +72,10 @@ const Footer = forwardRef(({ lang }, ref) => {
                     <a href="/en/page/exhibition">EXHIBITION</a>
                     <br /><br />
                         2023, Architects Against Housing Alienation
-   </ul>
+                        </>
    
 ) : (
-    <span className="aaha-text">
+    <>
     
     <a href="/fr/">DEMANDES</a><br />
     <a href="/fr/page/aaha-manifesto">MANIFESTE</a><br />
@@ -83,44 +83,10 @@ const Footer = forwardRef(({ lang }, ref) => {
     <a href="/fr/page/exhibition">EXHIBITION</a>
     <br /><br />
                         2023, Architects Against Housing Alienation
-   </span>
+                        </>
 ) }         
-                    {/* <a href="https://www.labiennale.org/en/architecture/2023" target="_blank">
-                        <LogoBiennale className="footerLogo" id="logoBiennale" />
-                    </a>
-                        <a href="https://canadacouncil.ca/" target="_blank">
-                            <LogoCCA className="footerLogo" id="logoCCA"/>
-                        </a>
-
-                        <a href="https://sala.ubc.ca/" target="_blank">
-                            <LogoSALA className="footerLogo" id="logoSALA"/>
-                        </a>
-                        <a href="https://uwaterloo.ca/architecture/" target="_blank">
-                            <LogoUW className="footerLogo" id="logoUW"/>
-                        </a>
-                        <a href="https://raic.org/" target="_blank">
-                            <LogoRAIC className="footerLogo" id="logoRAIC"/>
-                        </a>
-
-                        <div className="thirds">
-                            <div>
-                                <a href="https://www.oaa.on.ca/" target="_blank">
-                                    <LogoOAA className="footerLogo" id="logoOAA"/>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.architecturefoundationbc.ca/" target="_blank">
-                                    <LogoAFBC className="footerLogo" id="logoAFBC"/>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://canadacouncil.ca/" target="_blank">
-                                    <LogoFed className="footerLogo" id="logoFed"/>
-                                </a>
-                            </div>
-                        </div>
- */}
-
+                  
+                  </span>
                     </div>
                 </div>
 
