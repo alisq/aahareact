@@ -17,8 +17,6 @@ function Collective({ lang }) {
     'collective__team-members': useRef(null)
   }
 
-
-
   useEffect(() => {
     if (!location) return noop
     const matchedRef = sectionRefs[location.hash.slice(1)]
