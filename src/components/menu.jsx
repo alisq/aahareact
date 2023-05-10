@@ -33,7 +33,13 @@ function Menu({ navigate, lang, contactRef }) {
 
       <section id='menu' className={visibility ? 'active' : ''}>
         <ul>
-          <li><a href="/">DEMANDS</a></li>
+          <li><a href="/">
+            
+
+            {lang === "en" ? "DEMANDS" : "DEMANDES"}
+            
+            
+            </a></li>
           {pageData.map((page, i) =>
             <MenuLink
               lang={lang}

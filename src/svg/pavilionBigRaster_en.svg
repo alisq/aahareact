@@ -73,7 +73,7 @@
 <line class="st0" x1="247.4" y1="469.5" x2="245.6" y2="468.7"/>
 <line class="st0" x1="268.5" y1="466.1" x2="245.5" y2="468.6"/>
 <line class="st0" x1="269.5" y1="467.1" x2="247.4" y2="469.5"/>
-<polyline class="st1" points="272.7,485.8 202.9,505.1 160.1,505.1 "/>
+
 <text transform="matrix(1 0 0 1 53.0627 646.0122)" class="st2 st3">CAMPAIGN CALENDAR</text>
 <text transform="matrix(1 0 0 1 31.7727 460.041)" class="st2 st3">UNDER STAIR STORAGE</text>
 <text transform="matrix(0.995 0 0 1 844.8892 205.9058)" class="st2 st4">BANNERS FOR FUGITIVES</text>
@@ -237,13 +237,15 @@
 <image style="overflow:visible;" width="1136" height="1580" xlink:href="/img/pavilion.png"  transform="matrix(0.48 0 0 0.48 235.2 22.14)">
 </image>
 <polyline class="st1" points="599.9,647.8 794.4,594.8 839.1,594.8 "/>
+<polyline class="st1" points="297.8,560.6 202.9,543.2 180.9,543.2 "/>
 <polyline class="st1" points="351.8,165.9 195.6,456 154.3,456 "/>
 <polyline class="st1" points="583.2,314.5 797.4,311.7 839.1,311.7 "/>
+<polyline class="st1" points="272.7,485.8 202.9,505.1 160.1,505.1 "/>
 <polyline class="st1" points="343.4,637.5 202.9,690.2 113.6,690.2 "/>
 <polyline class="st1" points="645.3,490.9 794.4,367.6 839.1,367.6 "/>
 <polyline class="st1" points="533.7,544.6 794.4,511.2 839.1,511.2 "/>
 <polyline class="st1" points="612.9,689.3 794.4,667 839.1,667 "/>
-<polyline class="st1" points="532.6,754.5 793.3,727.8 838,727.8 "/>
+<polyline class="st1" points="532.6,754.5 793.3,726.8 838,726.8 "/>
 <polyline class="st1" points="607.4,212.2 790.2,256.6 839.1,256.6 "/>
 <polyline class="st1" points="713.4,157.4 790.2,201.7 839.1,201.7 "/>
 <polyline class="st1" points="493.4,615 202.9,748.8 113.6,748.8 "/>
