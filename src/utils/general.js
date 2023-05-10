@@ -9,3 +9,4 @@ export function reviewNumber(num) {
 }
 
 
+export const noop = () => {}

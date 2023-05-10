@@ -10,7 +10,6 @@ import { enFr } from '../utils/languageUtil'
 // import { ReactComponent as LogoFed } from '../svg/LogoFed.svg'
 
 
-
 const Footer = forwardRef(({ lang }, ref) => {
     return (
         <section id='contact' className='inverse' ref={ref}>

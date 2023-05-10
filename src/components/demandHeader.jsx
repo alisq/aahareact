@@ -1,7 +1,6 @@
 
 function DemandHeader({ lang, handleClick, field_demand_no, field_exmark, demand_id, tempRef }) {
 
-  // console.log(lang.title)
   const titleSplit = lang.title.split(' ')
   let brokenString = ''
 
