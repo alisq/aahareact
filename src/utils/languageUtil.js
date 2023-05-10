@@ -5,3 +5,5 @@ export const getBrowserLang = () => {
 
   return lang.split('-')[0].split('_')[0]
 }
+
+export const enFr = (lang, en, fr) => lang === 'en' ? en : fr 

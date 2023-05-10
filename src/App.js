@@ -22,13 +22,15 @@ function App() {
   const browserLang = getBrowserLang()
   const fallbackLang = langs.includes(browserLang) ? browserLang : langs[0]
 
+  // onUrlChange
   useEffect(() => {
     const urlParts = getUrlParts(location)
     if (sectionRef.current) {
+      // doesn't trigger on language change
       if (urlPartsRef.current && urlParts.lang === urlPartsRef.current.lang)
         setTimeout(() => {
           sectionRef.current.scrollIntoView({ behavior: 'smooth' })
-        }, 50)
+        }, 50) // jank fix
     }
     urlPartsRef.current = { ...urlParts }
   }, [location, sectionRef])
@@ -80,13 +82,13 @@ function Main({ currentLang }) {
   // }, [])
 
   const handleLangSwitch = lang => {
-    if (currentLang === lang) return
-    setUrlPart(location, navigate, 'lang', lang)
+    if (currentLang !== lang)
+      setUrlPart(location, navigate, 'lang', lang)
   }
 
-  const handleHeaderClick = header => {
+  // don't push if the same header is clicked
+  const handleHeaderClick = header =>
     navigate(`demand/${header.demand_id}`, { replace: header.demand_id === getUrlParts(location).content })
-  }
 
   return (
     <>
@@ -106,37 +108,26 @@ function Main({ currentLang }) {
       </div>
 
       <h1>
-        <div className='title-top'>Architects Against Housing Alienation<span className="exAlt2">!</span></div>
-        <div className='title-bottom'><a href="https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses" target="blank">
-
-          {currentLang === 'en' ? (
-            "Click Here to Join The Campaign"
-          ) : (
-            "Cliquez ici pour rejoindre la campagne"
-          )}
-
-
+        <div className='title-top'>Architects Against Housing Alienation<span className='exAlt2'>!</span></div>
+        <div className='title-bottom'><a href='https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses' target='blank'>
+          {currentLang === 'en' ?
+            'Click Here to Join The Campaign' :
+            'Cliquez ici pour rejoindre la campagne'}
         </a></div>
       </h1>
 
       <section id='demands'>
         <div className={'manifesto ' + currentLang}>
-
-          <span className="intro">
-
-            {
-              currentLang === 'en' ? <>TO END HOUSING ALIENATION IN c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span className='red'>\</span>d<span className='red'>\</span>a<br /> WE DEMAND...</> :
-                <>POUR METTRE FIN À L’ALIÉNATION DU LOGEMENT AU c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
-                  className='red'>\</span>d<span className='red'>\</span>a, NOUS DEMANDONS…
-                </>
-            }
+          <span className='intro'>
+            {currentLang === 'en' ? <>TO END HOUSING ALIENATION IN c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span className='red'>\</span>d<span className='red'>\</span>a<br /> WE DEMAND...</> :
+              <>POUR METTRE FIN À L’ALIÉNATION DU LOGEMENT AU c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span
+                className='red'>\</span>d<span className='red'>\</span>a, NOUS DEMANDONS…</>}
           </span>
           {demandData.map((header, i) =>
             <DemandHeader {...header}
               handleClick={() => { handleHeaderClick(header) }}
               key={i}
-              lang={header[currentLang]} />
-          )}
+              lang={header[currentLang]} />)}
         </div>
       </section>
 

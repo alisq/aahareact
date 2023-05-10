@@ -1,9 +1,5 @@
-// import { useState } from 'react'
-// import demands from '../demands.json'
-// import pageData from '../pages.json'
-// import MenuLink from './menuLink'
-
 import { forwardRef } from 'react'
+import { enFr } from '../utils/languageUtil'
 // import { ReactComponent as LogoCCA } from '../svg/LogoCCA.svg'
 // import { ReactComponent as LogoBiennale } from '../svg/LogoBiennale.svg'
 // import { ReactComponent as LogoSALA } from '../svg/LogoSALA.svg'
@@ -16,85 +12,59 @@ import { forwardRef } from 'react'
 
 
 const Footer = forwardRef(({ lang }, ref) => {
-
     return (
-        <section id="contact" className="inverse" ref={ref}>
-            <div className="container">
-                <div className="row">
-                    <div className="four columns">
-
-                        {lang === 'en' ? (
-                            <>
-                                <h3>Not for Sale!</h3>
-                                <p>We are Architects Against Housing Alienation and we believe the current housing system in c\a\n\a\d\a must be abolished!
-                                    </p>
-
-
-                            </>
-                        ) : (
-                            <><h3>Pas à vendre!</h3>
-                                <p>Nous sommes Architects Against Housing Alienation (AAHA) et nous croyons que le système du logement actuel au c\a\n\a\d\a doit être aboli!</p>
-                               
-                            </>
-                        )}
-
+        <section id='contact' className='inverse' ref={ref}>
+            <div className='container'>
+                <div className='row'>
+                    <div className='four columns'>
+                        {enFr(lang, (<>
+                            <h3>Not for Sale!</h3>
+                            <p>We are Architects Against Housing Alienation and we believe the current housing system in c\a\n\a\d\a must be abolished!
+                            </p>
+                        </>), (<>
+                            <h3>Pas à vendre!</h3>
+                            <p>Nous sommes Architects Against Housing Alienation (AAHA) et nous croyons que le système du logement actuel au c\a\n\a\d\a doit être aboli!</p>
+                        </>))}
 
                     </div>
 
-                    <div className="four columns text-center">
+                    <div className='four columns text-center'>
 
-                    <h3><a href="mailto:info@aaha.ca">info@aaha.ca</a></h3>
-                    <br />
-                        <div className="socials">
-                            <a href="https://www.tiktok.com/@aaha.ca" target="_blank"><i className="fa-brands fa-tiktok"></i></a>&nbsp;&nbsp;
-                            <a href="https://www.instagram.com/aaha.ca" target="_blank"><i className="fa-brands fa-instagram"></i></a>
+                        <h3><a href='mailto:info@aaha.ca'>info@aaha.ca</a></h3>
+                        <br />
+                        <div className='socials'>
+                            <a href='https://www.tiktok.com/@aaha.ca' target='_blank'><i className='fa-brands fa-tiktok'></i></a>&nbsp;&nbsp;
+                            <a href='https://www.instagram.com/aaha.ca' target='_blank'><i className='fa-brands fa-instagram'></i></a>
 
                         </div>
                         <br /><br />
 
-                        
-                        
-
                         {/* Download the press kit here. */}
 
-
-
                     </div>
-                    <div className="four columns text-right">
+                    <div className='four columns text-right'>
 
-                    <span className="aaha-text">
-                    {lang === 'en' ? (
-                    <>
-                    
-                    <a href="/en/">DEMANDS</a><br />
-                    <a href="/en/page/aaha-manifesto">MANIFESTO</a><br />
-                    <a href="/en/page/collective">COLLECTIVE</a><br />
-                    <a href="/en/page/exhibition">EXHIBITION</a>
-                    <br /><br />
-                        2023, Architects Against Housing Alienation
-                        </>
-   
-) : (
-    <>
-    
-    <a href="/fr/">DEMANDES</a><br />
-    <a href="/fr/page/aaha-manifesto">MANIFESTE</a><br />
-    <a href="/fr/page/collective">COLLECTIF</a><br />
-    <a href="/fr/page/exhibition">EXHIBITION</a>
-    <br /><br />
-                        2023, Architects Against Housing Alienation
-                        </>
-) }         
-                  
-                  </span>
+                        <span className='aaha-text'>
+                            {enFr(lang, (<>
+                                <a href='/en/'>DEMANDS</a><br />
+                                <a href='/en/page/aaha-manifesto'>MANIFESTO</a><br />
+                                <a href='/en/page/collective'>COLLECTIVE</a><br />
+                                <a href='/en/page/exhibition'>EXHIBITION</a>
+                                <br /><br />
+                                2023, Architects Against Housing Alienation
+                            </>), (<>
+                                <a href='/fr/'>DEMANDES</a><br />
+                                <a href='/fr/page/aaha-manifesto'>MANIFESTE</a><br />
+                                <a href='/fr/page/collective'>COLLECTIF</a><br />
+                                <a href='/fr/page/exhibition'>EXHIBITION</a>
+                                <br /><br />
+                                2023, Architects Against Housing Alienation
+                            </>))}
+                        </span>
                     </div>
                 </div>
-
-
-
             </div>
         </section>
-
     )
 })
 

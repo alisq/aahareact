@@ -1,7 +1,4 @@
-import React from 'react'
-
 function LangButton({ lang, isActive, handleClick }) {
-
 
   return (
     <div

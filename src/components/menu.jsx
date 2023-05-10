@@ -5,11 +5,6 @@ import MenuLink from './menuLink'
 function Menu({ navigate, lang, contactRef }) {
   const [visibility, setVisibility] = useState(false)
 
-  const createHandleClick = (page_id) => () => {
-    navigate(`page/${page_id}`)
-    setVisibility(false)
-  }
-
   const handleContactClick = () => {
     if (contactRef.current) {
       setVisibility(false)
@@ -19,6 +14,7 @@ function Menu({ navigate, lang, contactRef }) {
     }
   }
 
+  // filled in data here because not in pages.json
   const contactData = {
     'en': { title: 'CONTACT' },
     'fr': { title: 'CONTACTER' }
@@ -39,11 +35,18 @@ function Menu({ navigate, lang, contactRef }) {
         <ul>
           <li><a href="/">DEMANDS</a></li>
           {pageData.map((page, i) =>
-            <MenuLink lang={lang} page={page}
-              handleClick={createHandleClick(page.page_id)}
+            <MenuLink
+              lang={lang}
+              page={page}
+              handleClick={() => {
+                navigate(`page/${page.page_id}`)
+                setVisibility(false)
+              }}
               key={i} />
           )}
-          <MenuLink lang={lang} page={contactData}
+          <MenuLink
+            lang={lang}
+            page={contactData}
             handleClick={handleContactClick} />
         </ul>
       </section>

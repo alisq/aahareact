@@ -12,6 +12,7 @@ function HomeFist() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  // css transition for opacity?
   return (
     <FistHome
       id='menu-fist'

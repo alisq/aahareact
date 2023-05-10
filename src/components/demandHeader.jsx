@@ -1,19 +1,19 @@
 
 function DemandHeader({ lang, handleClick, field_demand_no, field_exmark, demand_id, tempRef }) {
 
-  const t = lang.title.split(" ")
-  let l = ""
+  // console.log(lang.title)
+  const titleSplit = lang.title.split(' ')
+  let brokenString = ''
 
-  for (let i = 1; i < t.length - 1; i++) {
-    l += t[i] + " "
-  }
+  for (let i = 1; i < titleSplit.length - 1; i++)
+    brokenString += titleSplit[i] + ' '
 
-  const ex = (field_exmark === "") ? "!" : ""
-  
+  const exMark = field_exmark === '' ? '!' : ''
+
   return (
     <h2 onClick={() => handleClick(demand_id)} ref={tempRef}>
       <span className='noBreak'><span className='num'>{field_demand_no}</span>
-        {t[0]}</span> {l} <span className='noBreak'>{t[t.length - 1]}<span className={field_exmark}>{ex}</span> </span>
+        {titleSplit[0]}</span> {brokenString} <span className='noBreak'>{titleSplit[titleSplit.length - 1]}<span className={field_exmark}>{exMark}</span> </span>
     </h2>
   )
 }

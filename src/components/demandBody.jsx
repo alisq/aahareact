@@ -1,30 +1,23 @@
 
 import { forwardRef } from 'react'
+import parse from 'html-react-parser'
 import Action from './action'
 import HighlightedText from './highlightedText'
 
 import contributorData from '../contributors.json'
 import MemberDemand from './memberDemand'
+import { enFr } from '../utils/languageUtil'
 
 const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
 
 
-  const teamMembers = contributorData.filter(function (m) {
-    return m.team_id === demand_id
-  })
+  const { title, lang, field_long_summary, field_region, activist, architect, advocate, banner_caption, field_content } = content
+  const teamMembers = contributorData.filter(member => member.team_id === demand_id)
 
-  const hasBanner = banner !== ""
+  // const hasBanner = banner !== ''
 
-  document.title = "AAHA | " + content.title
+  document.title = `AAHA | ${title}`
 
-
-
-  const getMember = (member, i) =>
-    <MemberDemand
-      member={member}
-      lang={content.lang}
-      // title={demandTitleData[member.team_id - 1][lang]}
-      key={i} />
 
   return (
     <section id={demand_id} className='demand' ref={ref}>
@@ -32,73 +25,62 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
-
-            <h2>{content.title}</h2>
-
+            <h2>{title}</h2>
             <p>
-              <HighlightedText>
-                {content.field_long_summary}
-              </HighlightedText>
+              {/* disabled highlight text as it can't be applied to main body,
+              since parsing react element is too involved */}
+              {field_long_summary}
+              {/* <HighlightedText>
+              </HighlightedText> */}
             </p>
             <p>
-              <label>{content.lang === "en" ? "REGION:" : "Région : "} </label> {content.field_region}
+              <label>{enFr(lang, 'REGION:', 'Région : ')} </label> {field_region}
             </p>
-
-
-            {content.activist !== "" ? (
+            {activist &&
               <p>
-                <label>{content.lang === "en" ? "Activist:" : "Activiste : "} </label> {content.activist}
-              </p>
-            ) : ""}
-            
-            {content.architect !== "" ? (
+                <label>{enFr(lang, 'Activist:', 'Activiste : ')} </label> {activist}
+              </p>}
+            {architect && <p>
+              <label>{enFr(lang, 'Architect:', 'Architecte : ')} </label> {architect}
+            </p>}
+            {advocate &&
               <p>
-                <label>{content.lang === "en" ? "Architect:" : "Architecte : "} </label> {content.architect}
-              </p>
-            ) : ""}
-            
-
-            {content.advocate !== "" ? (
-              <p>
-                <label>{content.lang === "en" ? "Advocate:" : "Défenseur : "} </label> {content.advocate}
-              </p>
-            ) : ""}
-
+                <label>{enFr(lang, 'Advocate:', 'Défenseur : ')} </label> {advocate}
+              </p>}
 
           </div>
           <div className='six columns'>
-
-            <img src={'/img/banners/' + banner} />
-            <p className='caption'>{content.banner_caption}</p>
-
-            <div dangerouslySetInnerHTML={{ __html: content.field_content }}></div>
-
-
+            <img src={'/img/banners/' + banner} alt='' />
+            <p className='caption'>{banner_caption}</p>
+            <div>
+              {parse(field_content)}
+            </div>
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
-            <h3>{content.lang === "en" ? "TAKE ACTION:" : "PASSION À L'ACTION : "}</h3>
-
-            
-            <ul className='actions'>
-              <Action lang={content.lang} />
-            </ul>
+            <h3>{enFr(lang, 'TAKE ACTION:', "PASSION À L'ACTION : ")}</h3>
+            <ul className='actions'><Action lang={lang} /></ul>
           </div>
         </div>
       </div>
       <br /><br />
-      <h3 className="textCenter">{(content.lang === 'fr') ? "MEMBRES DE L’ÉQUIPE" : "TEAM MEMBERS"}</h3>
+      <h3 className='textCenter'>{enFr(lang, 'TEAM MEMBERS', 'MEMBRES DE L’ÉQUIPE')}</h3>
       <br />
-      <table className="members">
+      <table className='members'>
         <thead>
           <tr>
-            <td className="sidebearing"></td>
-            <td><label className="red">{(content.lang === 'fr') ? "Nom" : "name"}</label></td>
-            <td><label className="red">{(content.lang === 'fr') ? "Rôle" : "role"}</label></td>
-            <td><label className="red">{(content.lang === 'fr') ? "Organisme" : "organizations"}</label></td>
-            <td className="sidebearing"></td>
+            <td className='sidebearing'></td>
+            <td><label className='red'>{enFr(lang, 'name', 'Nom')}</label></td>
+            <td><label className='red'>{enFr(lang, 'role', 'Rôle')}</label></td>
+            <td><label className='red'>{enFr(lang, 'organizations', 'Organisme')}</label></td>
+            <td className='sidebearing'></td>
           </tr>
         </thead>
-        <tbody>{teamMembers.map(getMember)}</tbody>
+        <tbody>{teamMembers.map((member, i) =>
+          <MemberDemand
+            member={member}
+            lang={lang}
+            // title={demandTitleData[member.team_id - 1][lang]}
+            key={i} />)}</tbody>
       </table>
     </section>
   )
