@@ -70,8 +70,8 @@ function Collective({ lang }) {
     setFilterState({ ...filterState, [filterName]: target.value })
   }
 
-  const getCollaboratorRole = language => [...new Set(collaboratorData.map(collaborator => collaborator[language].title).flat())]
-  const getOrgNames = language => [...new Set(contributorData.map(contributor => contributor[language].organization).flat())]
+  // const getCollaboratorRole = language => [...new Set(collaboratorData.map(collaborator => collaborator[language].title).flat())]
+  // const getOrgNames = language => [...new Set(contributorData.map(contributor => contributor[language].organization).flat())]
 
   return (
     <>

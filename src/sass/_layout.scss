@@ -362,6 +362,33 @@ h1 {
 
 }
 
+
+
+
+.flickity-viewport {
+  overflow:visible;
+
+& .slide {
+  border-right:3px solid rgba($foreground, 0);
+
+  & .caption {
+    opacity:0;
+    transition:0.4s;
+  }
+
+  &.is-selected  {
+    & .caption {
+      opacity:1;
+    }
+    & img{
+      filter: grayscale(0) contrast(100%);
+    }
+    
+  }
+}
+
+}
+
 #bottom_fist {
   display: inline-block;
   fill: $white;

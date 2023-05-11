@@ -881,6 +881,18 @@ h1 {
   .filter-section option {
     font-family: 'AAHA-WEB'; }
 
+.flickity-viewport {
+  overflow: visible; }
+  .flickity-viewport .slide {
+    border-right: 3px solid rgba(16, 16, 16, 0); }
+    .flickity-viewport .slide .caption {
+      opacity: 0;
+      transition: 0.4s; }
+    .flickity-viewport .slide.is-selected .caption {
+      opacity: 1; }
+    .flickity-viewport .slide.is-selected img {
+      filter: grayscale(0) contrast(100%); }
+
 #bottom_fist {
   display: inline-block;
   fill: #eeeed7;
