@@ -1,1937 +1,2021 @@
 [
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "1",
-    "team_id":"land-back",
-    "team": "Land Back",    
-    "title":"",
+    "team_id": "land-back",
+    "team": "Land Back",
+    "title": "",
     "name": "Sarah Silva",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "Land Back",
-      "bio":"",
+      "bio": "",
       "role": "Activist",
       "organization": ["Hiyam Housing, Squamish Nation"],
-      "organization_links":["https://www.squamish.net/hiyam-housing/"]
+      "organization_links": ["https://www.squamish.net/hiyam-housing/"]
     },
     "fr": {
-      "lang":"fr", 
+      "lang": "fr",
       "team": "La restitution des terres ancestrales",
-      "bio":"",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Hiyam Housing, Squamish Nation"],
-      "organization_links":["https://www.squamish.net/hiyam-housing/"]
+      "organization_links": ["https://www.squamish.net/hiyam-housing/"]
     },
     "organization 2 (If Relevant)": ""
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "1",
-    "team_id":"land-back",
-    "team": "Land Back",    
-    "title":"",
+    "team_id": "land-back",
+    "team": "Land Back",
+    "title": "",
     "name": "Krystel Clark",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "Land Back",
-      "bio":"",
+      "bio": "",
       "role": "Architect",
-      "organization": ["Patrick R. Stewart Architect", "Montreal Lake Cree Nation"],
-      "organization_links":["https://www.patrickstewartarchitect.com/","https://mlcn.ca/"]
+      "organization": [
+        "Patrick R. Stewart Architect",
+        "Montreal Lake Cree Nation"
+      ],
+      "organization_links": [
+        "https://www.patrickstewartarchitect.com/",
+        "https://mlcn.ca/"
+      ]
     },
     "fr": {
-      "lang":"fr",
+      "lang": "fr",
       "team": "La restitution des terres ancestrales",
-      "bio":"",
+      "bio": "",
       "role": "Architecte",
-      "organization": ["Patrick R. Stewart Architect", "Montreal Lake Cree Nation"],
-      "organization_links":["https://www.patrickstewartarchitect.com/","https://mlcn.ca/"]
+      "organization": [
+        "Patrick R. Stewart Architect",
+        "Montreal Lake Cree Nation"
+      ],
+      "organization_links": [
+        "https://www.patrickstewartarchitect.com/",
+        "https://mlcn.ca/"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "1",
-    "team_id":"land-back",
-    "team": "Land Back",    
-    "title":"",
+    "team_id": "land-back",
+    "team": "Land Back",
+    "title": "",
     "name": "Alexander Moses",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "Land Back",
-      "bio":"",
+      "bio": "",
       "role": "Architect",
       "organization": ["Patrick R. Stewart Architect"],
-      
-      "organization_links":["https://www.patrickstewartarchitect.com/"]
+
+      "organization_links": ["https://www.patrickstewartarchitect.com/"]
     },
     "fr": {
-      "lang":"fr",
+      "lang": "fr",
       "team": "La restitution des terres ancestrales",
-      "bio":"",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Patrick R. Stewart Architect"],
-      "organization_links":["https://www.patrickstewartarchitect.com/"]
+      "organization_links": ["https://www.patrickstewartarchitect.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "1",
-    "team_id":"land-back",
-    "team": "Land Back",    
-    "title":"",
+    "team_id": "land-back",
+    "team": "Land Back",
+    "title": "",
     "name": "Luugigyoo, Patrick R. Stewart",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "Land Back",
-      "bio":"",
+      "bio": "",
       "role": "Architect",
       "organization": ["Patrick R. Stewart Architect", "Nisga'a Nation"],
-      "organization_links":["https://www.patrickstewartarchitect.com/","https://www.nisgaanation.ca/"]
+      "organization_links": [
+        "https://www.patrickstewartarchitect.com/",
+        "https://www.nisgaanation.ca/"
+      ]
     },
     "fr": {
-      "lang":"fr",
+      "lang": "fr",
       "team": "La restitution des terres ancestrales",
-      "bio":"",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Patrick R. Stewart Architect", "Nisga'a Nation"],
-      "organization_links":["https://www.patrickstewartarchitect.com/","https://www.nisgaanation.ca/"]
+      "organization_links": [
+        "https://www.patrickstewartarchitect.com/",
+        "https://www.nisgaanation.ca/"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "1",
-    "team_id":"land-back",
-    "team": "Land Back",    
-    "title":"",
+    "team_id": "land-back",
+    "team": "Land Back",
+    "title": "",
     "name": "Xalek/Sekyu Siyam Chief Ian Campbell",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "Land Back",
-      "bio":"",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Sḵwx̱wú7mesh Úxwumixw (Squamish Nation)"],
-      "organization_links":["https://www.squamish.net/"]
+      "organization_links": ["https://www.squamish.net/"]
     },
     "fr": {
-      "lang":"fr",
+      "lang": "fr",
       "team": "La restitution des terres ancestrales",
-      "bio":"",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Sḵwx̱wú7mesh Úxwumixw (Squamish Nation)"],
-      "organization_links":["https://www.squamish.net/"]
+      "organization_links": ["https://www.squamish.net/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "2",
-    "team_id":"land-housing",
-    "team": "On the Land Housing",    
-    "title":"",
+    "team_id": "land-housing",
+    "team": "On the Land Housing",
+    "title": "",
     "name": "Julia Christiansen",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "On the Land Housing",
-      "bio":"",
+      "bio": "",
       "role": "Advocate",
       "organization": ["At Home in the North"],
-      "organization_links":["https://athomeinthenorth.org/"]
+      "organization_links": ["https://athomeinthenorth.org/"]
     },
     "fr": {
-      "lang":"fr",
+      "lang": "fr",
       "team": "Des logements sur le territoire",
-      "bio":"",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["At Home in the North"],
-      "organization_links":["https://athomeinthenorth.org/"]
+      "organization_links": ["https://athomeinthenorth.org/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "2",
-    "team_id":"land-housing",
-    "team": "On the Land Housing",    
-    "title":"",
+    "team_id": "land-housing",
+    "team": "On the Land Housing",
+    "title": "",
     "name": "Katlia Lafferty",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "On the Land Housing",
-      "bio":"",
+      "bio": "",
       "role": "Activist",
-      "organization": ["National Indigenous Housing Network", "Yellowknives Dene First Nation"],
-      "organization_links":["https://womenshomelessness.ca/nihn/","https://ykdene.com/"]
+      "organization": [
+        "National Indigenous Housing Network",
+        "Yellowknives Dene First Nation"
+      ],
+      "organization_links": [
+        "https://womenshomelessness.ca/nihn/",
+        "https://ykdene.com/"
+      ]
     },
     "fr": {
-      "lang":"fr",
+      "lang": "fr",
       "team": "Des logements sur le territoire",
-      "bio":"",
+      "bio": "",
       "role": "Activiste",
-      "organization": ["National Indigenous Housing Network", "Yellowknives Dene First Nation"],
-      "organization_links":["https://womenshomelessness.ca/nihn/","https://ykdene.com/"]
+      "organization": [
+        "National Indigenous Housing Network",
+        "Yellowknives Dene First Nation"
+      ],
+      "organization_links": [
+        "https://womenshomelessness.ca/nihn/",
+        "https://ykdene.com/"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "2",
-    "team_id":"land-housing",
-    "team": "On the Land Housing",    
-    "title":"",
+    "team_id": "land-housing",
+    "team": "On the Land Housing",
+    "title": "",
     "name": "Ouri Scott",
-    "bio":"",
+    "bio": "",
     "en": {
-      "lang":"en",
+      "lang": "en",
       "team": "On the Land Housing",
-      "bio":"",
+      "bio": "",
       "role": "Architect",
       "organization": ["Urban Arts Architecture Inc", "Tłı̨chǫ Dene"],
-      "organization_links":["https://www.urban-arts.ca/","https://www.tlicho.ca/"]
+      "organization_links": [
+        "https://www.urban-arts.ca/",
+        "https://www.tlicho.ca/"
+      ]
     },
     "fr": {
-      "lang":"fr",
+      "lang": "fr",
       "team": "Des logements sur le territoire",
-      "bio":"",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Urban Arts Architecture Inc", "Tłı̨chǫ Dene"],
-      "organization_links":["https://www.urban-arts.ca/","https://www.tlicho.ca/"]
+      "organization_links": [
+        "https://www.urban-arts.ca/",
+        "https://www.tlicho.ca/"
+      ]
     }
   },
 
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "David Fortin",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["David T Fortin Architect Inc"],
-      "organization_links":["https://www.davidtfortinarchitect.com/"]
+      "organization_links": ["https://www.davidtfortinarchitect.com/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["David T Fortin Architect Inc"],
-      "organization_links":["https://www.davidtfortinarchitect.com/"]
+      "organization_links": ["https://www.davidtfortinarchitect.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Matthew Baker",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["David T Fortin Architect Inc"],
-      "organization_links":["https://www.davidtfortinarchitect.com/"]
+      "organization_links": ["https://www.davidtfortinarchitect.com/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["David T Fortin Architect Inc"],
-      "organization_links":["https://www.davidtfortinarchitect.com/"]
+      "organization_links": ["https://www.davidtfortinarchitect.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Celina Rios-Nadeau",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["David T Fortin Architect Inc"],
-      "organization_links":["https://www.davidtfortinarchitect.com/"]
+      "organization_links": ["https://www.davidtfortinarchitect.com/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["David T Fortin Architect Inc"],
-      "organization_links":["https://www.davidtfortinarchitect.com/"]
+      "organization_links": ["https://www.davidtfortinarchitect.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Shawn Bailey",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
-      "organization": ["Grounded Architecture", "University of Manitoba", "Métis Nation of Saskatchewan"],
-      "organization_links":["https://www.groundedarch.ca/","https://umanitoba.ca/","https://metisnationsk.com/"]
+      "organization": [
+        "Grounded Architecture",
+        "University of Manitoba",
+        "Métis Nation of Saskatchewan"
+      ],
+      "organization_links": [
+        "https://www.groundedarch.ca/",
+        "https://umanitoba.ca/",
+        "https://metisnationsk.com/"
+      ]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
-      "organization": ["Grounded Architecture", "Université du Manitoba", "Métis Nation of Saskatchewan"],
-      "organization_links":["https://www.groundedarch.ca/","https://umanitoba.ca/","https://metisnationsk.com/"]
+      "organization": [
+        "Grounded Architecture",
+        "Université du Manitoba",
+        "Métis Nation of Saskatchewan"
+      ],
+      "organization_links": [
+        "https://www.groundedarch.ca/",
+        "https://umanitoba.ca/",
+        "https://metisnationsk.com/"
+      ]
     },
-    
-    
+
     "organization 2 (If Relevant)": "University of Manitoba"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Sylvia McAdam",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["One House Many Nations", "Big River First Nation"],
-      "organization_links":["https://idlenomore.ca/one-house-many-nations/","https://www.bigriverfirstnation.ca/"]
+      "organization_links": [
+        "https://idlenomore.ca/one-house-many-nations/",
+        "https://www.bigriverfirstnation.ca/"
+      ]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["One House Many Nations", "Big River First Nation"],
-      "organization_links":["https://idlenomore.ca/one-house-many-nations/","https://www.bigriverfirstnation.ca/"]
-      
+      "organization_links": [
+        "https://idlenomore.ca/one-house-many-nations/",
+        "https://www.bigriverfirstnation.ca/"
+      ]
     },
-    
-    
+
     "organization 2 (If Relevant)": "Windsor University/Université de Windsor"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Alex Wilson",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["One House Many Nations", "Opaskwayak Cree Nation"],
-      "organization_links":["https://idlenomore.ca/one-house-many-nations/","https://opaskwayak.com/"]
+      "organization_links": [
+        "https://idlenomore.ca/one-house-many-nations/",
+        "https://opaskwayak.com/"
+      ]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
-      "organization": ["Université de la Saskatchewan", "Opaskwayak Cree Nation"  ],
-      "organization_links":["https://www.usask.ca/","https://opaskwayak.com/"]
+      "organization": [
+        "Université de la Saskatchewan",
+        "Opaskwayak Cree Nation"
+      ],
+      "organization_links": ["https://www.usask.ca/", "https://opaskwayak.com/"]
     },
-    
-    
+
     "organization 2 (If Relevant)": "University of Saskatchewan"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Jason Surkan",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["SOLO Architecture", "Métis Nation of Saskatchewan "],
-      "organization_links":["https://soloarchitecture.ca/","https://metisnationsk.com/"]
+      "organization_links": [
+        "https://soloarchitecture.ca/",
+        "https://metisnationsk.com/"
+      ]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["SOLO Architecture", "Métis Nation of Saskatchewan "],
-      "organization_links":["https://soloarchitecture.ca/","https://metisnationsk.com/"]
+      "organization_links": [
+        "https://soloarchitecture.ca/",
+        "https://metisnationsk.com/"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Laurie Aftanas",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Grounded Architecture"],
-      "organization_links":["https://www.groundedarch.ca/"]
+      "organization_links": ["https://www.groundedarch.ca/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Grounded Architecture"],
-      "organization_links":["https://www.groundedarch.ca/"]
+      "organization_links": ["https://www.groundedarch.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Lancelot Coar",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["University of Manitoba"],
-      "organization_links":["https://umanitoba.ca/"]
+      "organization_links": ["https://umanitoba.ca/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["University of Manitoba"],
-      "organization_links":["https://umanitoba.ca/"]
+      "organization_links": ["https://umanitoba.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Naomi Ratte",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["University of Manitoba"],
-      "organization_links":["https://umanitoba.ca/"]
+      "organization_links": ["https://umanitoba.ca/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["University of Manitoba"],
-      "organization_links":["https://umanitoba.ca/"]
+      "organization_links": ["https://umanitoba.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Honoure Black",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["University of Manitoba"],
-      "organization_links":["https://umanitoba.ca/"]
+      "organization_links": ["https://umanitoba.ca/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["University of Manitoba"],
-      "organization_links":["https://umanitoba.ca/"]
+      "organization_links": ["https://umanitoba.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "3",
-    "team_id":"home-building-lodges",        
-    "title":"",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Luxmy Ragunathan",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "First Nations Home Building Lodges",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Grounded Architecture"],
-      "organization_links":["https://www.groundedarch.ca/"]
+      "organization_links": ["https://www.groundedarch.ca/"]
     },
     "fr": {
-      "team":"Pavillons pour la construction d’habitations au sein des Premières Nations",
-      "lang":"fr",
-      "bio":"",
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Grounded Architecture"],
-      "organization_links":["https://www.groundedarch.ca/"]
+      "organization_links": ["https://www.groundedarch.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "4",
-    "team_id":"reparative-architecture",        
-    "title":"",
+    "team_id": "reparative-architecture",
+    "title": "",
     "name": "Cheryll Case",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Reparative Architecture",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["CP Planning (Community in Public)"],
-      "organization_links":["https://cpplanning.ca/"]
+      "organization_links": ["https://cpplanning.ca/"]
     },
     "fr": {
       "team": "Une architecture réparatrice",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["CP Planning (Community in Public)"],
-      "organization_links":["https://cpplanning.ca/"]
+      "organization_links": ["https://cpplanning.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "4",
-    "team_id":"reparative-architecture",        
-    "title":"",
+    "team_id": "reparative-architecture",
+    "title": "",
     "name": "Leighana Mais",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Reparative Architecture",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Keele Eglinton Residents"],
-      "organization_links":[""]
+      "organization_links": [""]
     },
     "fr": {
       "team": "Une architecture réparatrice",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Keele Eglinton Residents"],
-      "organization_links":[""]
+      "organization_links": [""]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "4",
-    "team_id":"reparative-architecture",        
-    "title":"",
+    "team_id": "reparative-architecture",
+    "title": "",
     "name": "Tura Cousins Wilson",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Reparative Architecture",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["SOCA (Studio of Contemporary Architecture)"],
-      "organization_links":["https://socadesign.ca/"]
+      "organization_links": ["https://socadesign.ca/"]
     },
     "fr": {
       "team": "Une architecture réparatrice",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["SOCA (Studio of Contemporary Architecture)"],
-      "organization_links":["https://socadesign.ca/"]
+      "organization_links": ["https://socadesign.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "4",
-    "team_id":"reparative-architecture",        
-    "title":"",
+    "team_id": "reparative-architecture",
+    "title": "",
     "name": "Shane Laptiste",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Reparative Architecture",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["SOCA (Studio of Contemporary Architecture)"],
-      "organization_links":["https://socadesign.ca/"]
+      "organization_links": ["https://socadesign.ca/"]
     },
     "fr": {
       "team": "Une architecture réparatrice",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["SOCA (Studio of Contemporary Architecture)"],
-      "organization_links":["https://socadesign.ca/"]
+      "organization_links": ["https://socadesign.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Michael Hopkins",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Blackwell Engineers"],
-      "organization_links":["https://blackwell.ca/"]
+      "organization_links": ["https://blackwell.ca/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
-
+      "lang": "fr",
+      "bio": "",
+      "role": "Architecte",
       "organization": ["Blackwell Engineers"],
-      "organization_links":["https://blackwell.ca/"]
+      "organization_links": ["https://blackwell.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Adrian Blackwell",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Sameer Farooq",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Jane Mah Hutton",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Jesse Purcell",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     },
-    
-    
+
     "organization 2 (If Relevant)": "Screen Printing"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Ali S. Qadeer",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Kika Thorne",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Gentrification Tax Action"],
-      "organization_links":["https://www.gentrification.tax/"]
+      "organization_links": ["https://www.gentrification.tax/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Bradley Dunn",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Janna Levitt",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Joe Loreto",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Conrad Speckert",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Ivee Wang",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["LGA Architectural Partners"],
-      "organization_links":["https://lga-ap.com/"]
+      "organization_links": ["https://lga-ap.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Joshua Barndt",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Parkdale Neighbourhood Land Trust"],
-      "organization_links":["http://www.pnlt.ca/"]
+      "organization_links": ["http://www.pnlt.ca/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Parkdale Neighbourhood Land Trust"],
-      "organization_links":["http://www.pnlt.ca/"]
+      "organization_links": ["http://www.pnlt.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Monica Hutton",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Parkdale Neighbourhood Land Trust"],
-      "organization_links":["http://www.pnlt.ca/"]
+      "organization_links": ["http://www.pnlt.ca/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Parkdale Neighbourhood Land Trust"],
-      "organization_links":["http://www.pnlt.ca/"]
+      "organization_links": ["http://www.pnlt.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "James Partanen",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Parkdale Neighbourhood Land Trust"],
-      "organization_links":["http://www.pnlt.ca/"]
+      "organization_links": ["http://www.pnlt.ca/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Parkdale Neighbourhood Land Trust"],
-      "organization_links":["http://www.pnlt.ca/"]
+      "organization_links": ["http://www.pnlt.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "5",
     "team_id": "gentrification-tax",
-    "title":"",
+    "title": "",
     "name": "Michael Piper",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "A Gentrification Tax",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["tuf lab"],
-      "organization_links":["https://tuflab.ca/"]
+      "organization_links": ["https://tuflab.ca/"]
     },
     "fr": {
       "team": "Une taxe sur l’embourgeoisement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["tuf lab"],
-      "organization_links":["https://tuflab.ca/"]
+      "organization_links": ["https://tuflab.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Claudia Jahn",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Affordable Housing Association of Nova Scotia"],
-      "organization_links":["https://www.ahans.ca/"]
+      "organization_links": ["https://www.ahans.ca/"]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Affordable Housing Association of Nova Scotia"],
-      "organization_links":["https://www.ahans.ca/"]
+      "organization_links": ["https://www.ahans.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Adriane Salah",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Affordable Housing Association of Nova Scotia"],
-      "organization_links":["https://www.ahans.ca/"]
+      "organization_links": ["https://www.ahans.ca/"]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Affordable Housing Association of Nova Scotia"],
-      "organization_links":["https://www.ahans.ca/"]
+      "organization_links": ["https://www.ahans.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Susan Fitzgerald",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Cassie Kent",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Stavros Kondeas",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Lizzie Krnjevic",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Rita Wang",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["FBM architecture • interior design • planning"],
-      "organization_links":["https://fbm.ca/"]
+      "organization_links": ["https://fbm.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "6",
-    "team_id":"surplus-properties-housing",
-    "title":"",
+    "team_id": "surplus-properties-housing",
+    "title": "",
     "name": "Eric Jonsson",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Surplus Properties for Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
-      "organization": ["Navigator Street Outreach Program","This Should Be Housing"],
-      "organization_links":["https://downtownhalifax.ca/downtown-halifaxs-navigator-outreach-program","https://thisshouldbehousing.com/"]
+      "organization": [
+        "Navigator Street Outreach Program",
+        "This Should Be Housing"
+      ],
+      "organization_links": [
+        "https://downtownhalifax.ca/downtown-halifaxs-navigator-outreach-program",
+        "https://thisshouldbehousing.com/"
+      ]
     },
     "fr": {
       "team": "Des propriétés excédentaires pour le logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
-      "organization": ["Programme Navigator Street Outreach", "This Should Be Housing"],
-      "organization_links":["https://downtownhalifax.ca/downtown-halifaxs-navigator-outreach-program","https://thisshouldbehousing.com/"]
+      "organization": [
+        "Programme Navigator Street Outreach",
+        "This Should Be Housing"
+      ],
+      "organization_links": [
+        "https://downtownhalifax.ca/downtown-halifaxs-navigator-outreach-program",
+        "https://thisshouldbehousing.com/"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "7",
-    "team_id":"intentional-communities-unhoused-people",
-    "title":"",
+    "team_id": "intentional-communities-unhoused-people",
+    "title": "",
     "name": "Jeff Willmer",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Intentional Communities for Unhoused People",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["A Better Tent City Waterloo Region"],
-      "organization_links":["https://www.abettertentcity.org/"]
+      "organization_links": ["https://www.abettertentcity.org/"]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
-      "lang":"fr",
-      "bio":"",
-    "role": "Activiste",
-      "organization": ["A Better Tent City, région de Waterloo"  ],
-      "organization_links":["https://www.abettertentcity.org/"]
+      "lang": "fr",
+      "bio": "",
+      "role": "Activiste",
+      "organization": ["A Better Tent City, région de Waterloo"],
+      "organization_links": ["https://www.abettertentcity.org/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "7",
-    "team_id":"intentional-communities-unhoused-people",
-    "title":"",
+    "team_id": "intentional-communities-unhoused-people",
+    "title": "",
     "name": "John van Nostrand",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Intentional Communities for Unhoused People",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["SvN Architects + Planners"],
-      "organization_links":["https://svn-ap.com/"]
+      "organization_links": ["https://svn-ap.com/"]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["SvN Architects + Planners"],
-      "organization_links":["https://svn-ap.com/"]
+      "organization_links": ["https://svn-ap.com/"]
     },
-    
-    
+
     "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "7",
-    "team_id":"intentional-communities-unhoused-people",
-    "title":"",
+    "team_id": "intentional-communities-unhoused-people",
+    "title": "",
     "name": "Larry Chookang",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Intentional Communities for Unhoused People",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Toronto Tiny Shelters"],
-      "organization_links":[""]
+      "organization_links": [""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Toronto Tiny Shelters"],
-      "organization_links":[""]
+      "organization_links": [""]
     },
-    
-    
+
     "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "7",
-    "team_id":"intentional-communities-unhoused-people",
-    "title":"",
+    "team_id": "intentional-communities-unhoused-people",
+    "title": "",
     "name": "Robert Raynor",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Intentional Communities for Unhoused People",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Toronto Tiny Shelters"],
-      "organization_links":[""]
+      "organization_links": [""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Toronto Tiny Shelters"],
-      "organization_links":[""]
+      "organization_links": [""]
     },
-    
-    
+
     "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "7",
-    "team_id":"intentional-communities-unhoused-people",
-    "title":"",
+    "team_id": "intentional-communities-unhoused-people",
+    "title": "",
     "name": "Khaleel Sievwright",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Intentional Communities for Unhoused People",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Toronto Tiny Shelters"],
-      "organization_links":[""]
+      "organization_links": [""]
     },
     "fr": {
       "team": "Des communautés intentionnelles pour les personnes sans logement",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Toronto Tiny Shelters"],
-      "organization_links":[""]
+      "organization_links": [""]
     },
-    
-    
+
     "organization 2 (If Relevant)": "Two Steps Home"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "8",
-    "team_id":"collective-ownership",
-    "title":"",
+    "team_id": "collective-ownership",
+    "title": "",
     "name": "Kathy McGrenera",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Collective Ownership",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Canadian Cohousing Network"],
-      "organization_links":["https://cohousing.ca/"]
+      "organization_links": ["https://cohousing.ca/"]
     },
     "fr": {
       "team": "La propriété collective",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Réseau canadien de cohabitation"],
-      "organization_links":["https://cohousing.ca/"]
+      "organization_links": ["https://cohousing.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "8",
-    "team_id":"collective-ownership",
-    "title":"",
+    "team_id": "collective-ownership",
+    "title": "",
     "name": "Katherine Co",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Collective Ownership",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     },
     "fr": {
       "team": "La propriété collective",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "8",
-    "team_id":"collective-ownership",
-    "title":"",
+    "team_id": "collective-ownership",
+    "title": "",
     "name": "Lukas Ewing",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Collective Ownership",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     },
     "fr": {
       "team": "La propriété collective",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "8",
-    "team_id":"collective-ownership",
-    "title":"",
+    "team_id": "collective-ownership",
+    "title": "",
     "name": "Travis Hanks",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Collective Ownership",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     },
     "fr": {
       "team": "La propriété collective",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "8",
-    "team_id":"collective-ownership",
-    "title":"",
+    "team_id": "collective-ownership",
+    "title": "",
     "name": "Alena Pavan",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Collective Ownership",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     },
     "fr": {
       "team": "La propriété collective",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "8",
-    "team_id":"collective-ownership",
-    "title":"",
+    "team_id": "collective-ownership",
+    "title": "",
     "name": "Jorge Román",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Collective Ownership",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     },
     "fr": {
       "team": "La propriété collective",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "8",
-    "team_id":"collective-ownership",
-    "title":"",
+    "team_id": "collective-ownership",
+    "title": "",
     "name": "Shirley Shen",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Collective Ownership",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     },
     "fr": {
       "team": "La propriété collective",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Haeccity Studio Architecture"],
-      "organization_links":["https://www.haeccity.com/"]
+      "organization_links": ["https://www.haeccity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Randy Cohen",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Anne Cormier",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Howard Davies",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Gabriel Tessier",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Fannie Yockell",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["Atelier Big City"],
-      "organization_links":["https://www.atelierbigcity.com/"]
+      "organization_links": ["https://www.atelierbigcity.com/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Éric Michaud",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Comité logement Ville-Marie"],
-      "organization_links":["http://clvm.org/locations/comite-logement-ville-marie/"]
+      "organization_links": [
+        "http://clvm.org/locations/comite-logement-ville-marie/"
+      ]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Comité logement Ville-Marie"],
-      "organization_links":["http://clvm.org/locations/comite-logement-ville-marie/"]
+      "organization_links": [
+        "http://clvm.org/locations/comite-logement-ville-marie/"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Samuel Vanzin",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Comité logement Ville-Marie"],
-      "organization_links":["http://clvm.org/locations/comite-logement-ville-marie/"]
+      "organization_links": [
+        "http://clvm.org/locations/comite-logement-ville-marie/"
+      ]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Comité logement Ville-Marie"],
-      "organization_links":["http://clvm.org/locations/comite-logement-ville-marie/"]
+      "organization_links": [
+        "http://clvm.org/locations/comite-logement-ville-marie/"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Kevin McMahon",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Interloge"],
-      "organization_links":["https://interloge.org/"]
+      "organization_links": ["https://interloge.org/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Interloge"],
-      "organization_links":["https://interloge.org/"]
+      "organization_links": ["https://interloge.org/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Isabelle Richard",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Maison du développement durable"],
-      "organization_links":["https://lamdd.org/"]
+      "organization_links": ["https://lamdd.org/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Maison du développement durable"],
-      "organization_links":["https://lamdd.org/"]
+      "organization_links": ["https://lamdd.org/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Pierre Samson",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Maison du Savoir et de la Littérature"],
-      "organization_links":["https://faubourgstlaurent.ca/wp-content/uploads/2020/10/Memoire-Maison-Savoir-et-Litterature-et-appuis-PPU-faubourgs-Oct-2020.pdf"]
+      "organization_links": [
+        "https://faubourgstlaurent.ca/wp-content/uploads/2020/10/Memoire-Maison-Savoir-et-Litterature-et-appuis-PPU-faubourgs-Oct-2020.pdf"
+      ]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Maison du Savoir et de la Littérature"],
-      "organization_links":["https://faubourgstlaurent.ca/wp-content/uploads/2020/10/Memoire-Maison-Savoir-et-Litterature-et-appuis-PPU-faubourgs-Oct-2020.pdf"]
+      "organization_links": [
+        "https://faubourgstlaurent.ca/wp-content/uploads/2020/10/Memoire-Maison-Savoir-et-Litterature-et-appuis-PPU-faubourgs-Oct-2020.pdf"
+      ]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Ipek Türeli",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["McGill University"],
-      "organization_links":["https://mcgill.ca"]
+      "organization_links": ["https://mcgill.ca"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Université McGill"],
-      "organization_links":["https://mcgill.ca"]
+      "organization_links": ["https://mcgill.ca"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "9",
     "team_id": "mutual-aid-housing",
-    "title":"",
+    "title": "",
     "name": "Marc-André Fortin",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Mutual Aid Housing",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Table de concertation du Faubourg Saint-Laurent"],
-      "organization_links":["https://faubourgstlaurent.ca/"]
+      "organization_links": ["https://faubourgstlaurent.ca/"]
     },
     "fr": {
       "team": "Habitat solidaire",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Table de concertation du Faubourg Saint-Laurent"],
-      "organization_links":["https://faubourgstlaurent.ca/"]
+      "organization_links": ["https://faubourgstlaurent.ca/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "10",
     "team_id": "ambient-ecosystems-commons",
-    "title":"",
+    "title": "",
     "name": "Charles Guindon",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Ambient Ecosystem Commons",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Advocate",
       "organization": ["Bâtir Son Quartier"],
-      "organization_links":["Bâtir Son Quartier"]
+      "organization_links": ["Bâtir Son Quartier"]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Défenseur",
       "organization": ["Bâtir Son Quartier"],
-      "organization_links":["Bâtir Son Quartier"]
+      "organization_links": ["Bâtir Son Quartier"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "10",
     "team_id": "ambient-ecosystems-commons",
-    "title":"",
+    "title": "",
     "name": "Maya Gauvreau",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Ambient Ecosystem Commons",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
-      "organization_links":["https://www.ecologieurbaine.net/fr/"]
+      "organization_links": ["https://www.ecologieurbaine.net/fr/"]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
-      "organization_links":["https://www.ecologieurbaine.net/fr/"]
+      "organization_links": ["https://www.ecologieurbaine.net/fr/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "10",
     "team_id": "ambient-ecosystems-commons",
-    "title":"",
+    "title": "",
     "name": "Olivier Leclerc",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Ambient Ecosystem Commons",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
-      "organization_links":["https://www.ecologieurbaine.net/fr/"]
+      "organization_links": ["https://www.ecologieurbaine.net/fr/"]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
-      "organization_links":["https://www.ecologieurbaine.net/fr/"]
+      "organization_links": ["https://www.ecologieurbaine.net/fr/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "10",
     "team_id": "ambient-ecosystems-commons",
-    "title":"",
+    "title": "",
     "name": "Mikael St-Pierre",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Ambient Ecosystem Commons",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Activist",
       "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
-      "organization_links":["https://www.ecologieurbaine.net/fr/"]
+      "organization_links": ["https://www.ecologieurbaine.net/fr/"]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Activiste",
       "organization": ["Centre d’écologie urbaine de Montréal (CEUM)"],
-      "organization_links":["https://www.ecologieurbaine.net/fr/"]
+      "organization_links": ["https://www.ecologieurbaine.net/fr/"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "10",
     "team_id": "ambient-ecosystems-commons",
-    "title":"",
+    "title": "",
     "name": "Caroline Corbex",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Ambient Ecosystem Commons",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["L'OEUF Architects"],
-      "organization_links":["L'OEUF Architects"]
+      "organization_links": ["L'OEUF Architects"]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["L'OEUF Architects"],
-      "organization_links":["L'OEUF Architects"]
+      "organization_links": ["L'OEUF Architects"]
     }
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "10",
     "team_id": "ambient-ecosystems-commons",
-    "title":"",
+    "title": "",
     "name": "Daniel Pearl",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Ambient Ecosystem Commons",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["L'OEUF Architects"],
-      "organization_links":["L'OEUF Architects"]
+      "organization_links": ["L'OEUF Architects"]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["L'OEUF Architects"],
-      "organization_links":["L'OEUF Architects"]
+      "organization_links": ["L'OEUF Architects"]
     },
-    
-    
+
     "organization 2 (If Relevant)": "University of Montreal"
   },
   {
-    "category":"contributor",
+    "category": "contributor",
     "team_num": "10",
     "team_id": "ambient-ecosystems-commons",
-    "title":"",
+    "title": "",
     "name": "Sudhir Suri",
-    "bio":"",
+    "bio": "",
     "en": {
       "team": "Ambient Ecosystem Commons",
-      "lang":"en",
-      "bio":"",
+      "lang": "en",
+      "bio": "",
       "role": "Architect",
       "organization": ["L'OEUF Architects"],
-      "organization_links":["L'OEUF Architects"]
+      "organization_links": ["L'OEUF Architects"]
     },
     "fr": {
       "team": "Écosystèmes ambiants communs",
-      "lang":"fr",
-      "bio":"",
+      "lang": "fr",
+      "bio": "",
       "role": "Architecte",
       "organization": ["L'OEUF Architects"],
-      "organization_links":["L'OEUF Architects"]
+      "organization_links": ["L'OEUF Architects"]
     }
   }
 ]
