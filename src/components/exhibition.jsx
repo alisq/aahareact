@@ -1,6 +1,7 @@
 import Pavilion from './pavilion'
 import Logos from './logos'
 import { enFr } from '../utils/languageUtil'
+import Carousel from './carousel'
 
 function Exhibition({ lang }) {
   return (
@@ -14,6 +15,7 @@ function Exhibition({ lang }) {
         <Pavilion lang={lang} className='img' />
         <div className='three columns'><br /></div>
         <div className='six columns'>
+          <Carousel />
           <p className='caption text-center'>Pavilion layout for Not For Sale exhibition in Venice, Italy.</p>
 
           <Logos lang={lang} />
