@@ -3,6 +3,12 @@ import Logos from './logos'
 import { enFr } from '../utils/languageUtil'
 import Carousel from './carousel'
 
+const carouselImages = [
+  "https://placeimg.com/640/480/animals",
+  "https://placeimg.com/640/480/nature",
+  "https://placeimg.com/640/480/architecture"
+]
+
 function Exhibition({ lang }) {
   return (
     <div className='container'>
@@ -15,7 +21,10 @@ function Exhibition({ lang }) {
         <Pavilion lang={lang} className='img' />
         <div className='three columns'><br /></div>
         <div className='six columns'>
-          <Carousel />
+          <Carousel 
+            lang={lang}
+            carouselImages={carouselImages}
+          />
           <p className='caption text-center'>Pavilion layout for Not For Sale exhibition in Venice, Italy.</p>
 
           <Logos lang={lang} />

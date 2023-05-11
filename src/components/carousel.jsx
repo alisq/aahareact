@@ -5,7 +5,13 @@ const flickityOptions = {
     initialIndex: 2
 }
 
-function Carousel({lang}) {
+function Carousel({lang, carouselImages}) {
+
+    console.log({carouselImages})
+
+    const getImages = (image, i) =>
+    <img src={image} key={i} />
+
   return (
     <Flickity
       className={'carousel'} // default ''
@@ -15,9 +21,8 @@ function Carousel({lang}) {
       reloadOnUpdate // default false
       static // default false
     >
-      <img src="https://placeimg.com/640/480/animals"/>
-      <img src="https://placeimg.com/640/480/nature"/>
-      <img src="https://placeimg.com/640/480/architecture"/>
+   {carouselImages.map(getImages)}
+   {/* getImages */}
     </Flickity>
   )
 }
