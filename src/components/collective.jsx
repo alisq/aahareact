@@ -65,13 +65,13 @@ function Collective({ lang }) {
         key={i} />
   }
 
-  const handleFilter = (target, filterState, setFilterState, filterName) =>
+  const handleFilter = (target, filterState, setFilterState, filterName) => {
+    console.log(target)
     setFilterState({ ...filterState, [filterName]: target.value })
+  }
 
   const getCollaboratorRole = language => [...new Set(collaboratorData.map(collaborator => collaborator[language].title).flat())]
   const getOrgNames = language => [...new Set(contributorData.map(contributor => contributor[language].organization).flat())]
-
-  console.log(getCollaboratorRole('en'))
 
   return (
     <>
@@ -80,12 +80,7 @@ function Collective({ lang }) {
       <table className='members'><tbody>{committeeData.map(getCommitteeMember)}</tbody></table>
       <br /><br />
       <h3 ref={sectionRefs['collective__collaborators']} className='textCenter'>{enFr(lang, 'CAMPAIGN COLLABORATORS', 'COLLABORATEURS DE LA CAMPAGNE')}</h3>
-      <Filter
-        name='team-members-organization'
-        placeholder={enFr(lang, 'ROLE', 'RÔLE')}
-        list={enFr(lang, getCollaboratorRole('en'), getCollaboratorRole('fr'))}
-        handleFilter={({ target }) =>
-          handleFilter(target, collaboratorFilters, setCollaboratorFilters, 'role')} />
+    
       <table className='members'>
         <thead>
           <tr>
@@ -101,6 +96,7 @@ function Collective({ lang }) {
       </table>
       <br /><br />
       <h3 ref={sectionRefs['collective__team-members']} className='textCenter'>{enFr(lang, 'TEAM MEMBERS', 'MEMBRES DE L’ÉQUIPE')}</h3>
+      <div class="text-center">
       <Filter
         name='team-members-role'
         placeholder={enFr(lang, 'ROLE', 'RÔLE')}
@@ -117,18 +113,15 @@ function Collective({ lang }) {
           demandData.map(demand => demand.fr.title))}
         handleFilter={({ target }) =>
           handleFilter(target, teamMemberFilters, setTeamMemberFilters, 'team')} />
-      <Filter
-        name='team-members-organization'
-        placeholder={enFr(lang, 'ORGANIZATION', 'ORGANISME')}
-        list={enFr(lang, getOrgNames('en'), getOrgNames('fr'))}
-        handleFilter={({ target }) =>
-          handleFilter(target, teamMemberFilters, setTeamMemberFilters, 'organization')} />
+      </div>
+
+      
       <table className='members'>
         <thead>
           <tr>
             <td className='sidebearing'></td>
             <td><label className='red'>{enFr(lang, 'NAME', 'NOM')}</label></td>
-            <td></td>
+            
             <td><label className='red'>{enFr(lang, 'ROLE', 'RÔLE')}</label></td>
             <td><label className='red'>{enFr(lang, 'TEAM', 'EQUIPE')}</label></td>
             <td><label className='red'>{enFr(lang, 'ORGANIZATION', 'ORGANISME')}</label></td>
