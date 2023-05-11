@@ -4,9 +4,16 @@ import { enFr } from '../utils/languageUtil'
 import Carousel from './carousel'
 
 const carouselImages = [
-  "https://placeimg.com/640/480/animals",
-  "https://placeimg.com/640/480/nature",
-  "https://placeimg.com/640/480/architecture"
+  "/img/b4f/land-back.jpg",
+  "/img/b4f/land-housing.jpg",
+  "/img/b4f/home-building-lodges.jpg",
+  "/img/b4f/reparative-architecture.jpg",
+  "/img/b4f/gentrification-tax.jpg",
+  "/img/b4f/surplus-properties-housing.jpg",
+  "/img/b4f/intentional-communities-unhoused-people.jpg",
+  "/img/b4f/collective-ownership.jpg",
+  "/img/b4f/mutual-aid-housing.jpg",
+  "/img/b4f/ambient-ecosystems-commons.jpg",
 ]
 
 function Exhibition({ lang }) {
