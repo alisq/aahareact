@@ -54,19 +54,19 @@ function Exhibition({ lang }) {
         <div className='three columns'><br /></div>
         <div className='six columns'>
           <br />
-          <h3>{enFr(lang, 'Not for Sale! Heartquarters', 'Pas à vendre / Quartier général')}</h3>
+          <h3 className="text-center">{enFr(lang, 'Not for Sale! Heartquarters', 'Pas à vendre / Quartier général')}</h3>
         </div>
         <Pavilion lang={lang} className='img' />
         <div className='three columns'><br /></div>
         <div className='six columns'>
           
           <p className='caption text-center'>Pavilion layout for Not For Sale exhibition in Venice, Italy.</p>
-
-
+{/* 
+          <h3 className="text-center">Banners for Fugitives</h3>
           <Carousel 
             lang={lang}
             carouselImages={carouselImages}
-          />
+          /> */}
           <Logos lang={lang} />
           <h4>
             {enFr(lang, 'Gracious Support and Collaboration of', 'Le soutien gracieux et la collaboration de : ')}

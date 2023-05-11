@@ -11,13 +11,13 @@ const flickityOptions = {
 
 function Carousel({lang, carouselImages}) {
 
-    console.log(carouselImages)
+    console.log(lang)
 
     const getImages = (image, i) => 
     
     <div className="slide" key={i}>
-        <img src={image.uri} key={i} alt={image.en.alt} />
-        <p className="caption text-center">{image.en.caption}</p>
+        <img src={image.uri} key={i} alt={image[lang].alt} />
+        <p className="caption text-center">{image[lang].caption}</p>
     </div>
 
   return (
