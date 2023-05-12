@@ -10,6 +10,8 @@ import { enFr } from '../utils/languageUtil'
 function Logos({ lang }) {
 
     return (
+        <>
+        <h3 className='text-center'>{enFr(lang,'Sponsors','Sponsors')}</h3>
         <div className='partners'>
             <h4>{enFr(lang, 'Commissioner ', 'Organisateur')} </h4>
             <a href='https://canadacouncil.ca/' target='_blank'>
@@ -54,7 +56,7 @@ function Logos({ lang }) {
 
 
         </div>
-
+        </>
     )
 }
 
