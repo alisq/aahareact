@@ -896,6 +896,17 @@ h1 {
     .flickity-viewport .slide.is-selected img {
       filter: grayscale(0) contrast(100%); }
 
+button.flickity-button {
+  padding: 0;
+  border: 1px solid #F5F5F5;
+  background: none; }
+  button.flickity-button svg {
+    fill: #F5F5F5; }
+  button.flickity-button:hover {
+    border: 1px solid #c00000; }
+    button.flickity-button:hover svg {
+      fill: #c00000; }
+
 #bottom_fist {
   display: inline-block;
   fill: #eeeed7;

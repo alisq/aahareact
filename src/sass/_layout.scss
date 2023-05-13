@@ -389,6 +389,26 @@ h1 {
 
 }
 
+button.flickity-button {
+  padding:0;
+  border:1px solid $background;
+  background:none;
+
+  & svg {
+    fill:$background
+    
+  }
+
+  &:hover {
+    border:1px solid $red;
+
+    & svg {
+      fill:$red;
+    }
+  }
+}
+
+
 #bottom_fist {
   display: inline-block;
   fill: $white;
