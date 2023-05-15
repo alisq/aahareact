@@ -73,6 +73,7 @@ import { noop } from '../utils/general'
  *   }, ['main', 'secondary']}
  * )
  * ```
+ * **We need both the image list and priority list as objects aren't ordered.**
  * 
  * With this example, all the images in the `"main"` array will be loaded first before the `"secondary"` category
  * 
