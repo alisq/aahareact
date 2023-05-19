@@ -12,9 +12,9 @@ import Footer from './components/footer'
 import { getBrowserLang } from './utils/languageUtil'
 import LangButton from './components/langButton'
 import { getUrlParts, setUrlPart } from './utils/urlUtil'
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-8JJ40D5L38"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+import ReactGA from 'react-ga'
+const TRACKING_ID = "G-8JJ40D5L38" // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID)
 
 const langs = ['en', 'fr']
 function App() {
