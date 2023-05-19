@@ -38,7 +38,10 @@ const Footer = forwardRef(({ lang }, ref) => {
                         </div>
                         <br /><br />
 
-                        {/* Download the press kit here. */}
+                        
+                        <p><h3>Media</h3>For all enquiries regarding <em>Not for Sale!</em>, including interview requests, please contact:  <a href="mailto:info@aaha.ca">info@aaha.ca</a></p>
+
+                        <p><h3>Médias</h3>Pour toute question à propos de <em>Pas à vendre!</em>, l’exposition présentée au pavillon du Canada, y compris les demandes d’entrevue avec des membres d’Architects Against Housing Alienation (AAHA), écrire à <a href="mailto:info@aaha.ca">info@aaha.ca</a>.</p>
 
                     </div>
                     <div className='four columns text-right'>
