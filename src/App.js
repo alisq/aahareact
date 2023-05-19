@@ -110,16 +110,11 @@ function Main({ currentLang }) {
             key={i} />)}
       </div>
 
-      <h1>
-        <div className='title-top'>Architects Against Housing Alienation<span className='exAlt2'>!</span></div>
-        <div className='title-bottom'><a href='https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses' target='blank'>
-          {currentLang === 'en' ?
-            'Click Here to Join The Campaign' :
-            'Cliquez ici pour rejoindre la campagne'}
-        </a></div>
-      </h1>
-
+      
+        
+        
       <section id='demands'>
+      <h1 className='title-top'>Architects Against Housing Alienation<span className='exAlt2'>!</span></h1>
         <div className={'manifesto ' + currentLang}>
           <span className='intro'>
             {currentLang === 'en' ? <>TO END HOUSING ALIENATION IN c<span className='red'>\</span>a<span className='red'>\</span>n<span className='red'>\</span>a<span className='red'>\</span>d<span className='red'>\</span>a<br /> WE DEMAND...</> :
@@ -132,6 +127,12 @@ function Main({ currentLang }) {
               key={i}
               lang={header[currentLang]} />)}
         </div>
+        <h1 className='title-bottom'><a href='https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses' target='blank'>
+          {currentLang === 'en' ?
+            'Click Here to Join The Campaign' :
+            'Cliquez ici pour rejoindre la campagne'}
+        </a></h1>
+      
       </section>
 
       <Outlet />

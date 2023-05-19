@@ -674,27 +674,26 @@ h1 {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
   z-index: 1;
   transition: transform 0.4s; }
+  h1.title-top {
+    top: 0.75em; }
+  h1.title-bottom {
+    color: black;
+    position: fixed;
+    top: calc(100vh - 1.6em); }
   h1.fr {
     transform: rotate(180deg); }
-  h1 .title-top,
-  h1 .title-bottom {
-    position: absolute;
+  h1.title-top, h1.title-bottom {
+    position: fixed;
     color: #c00000;
     width: 100%;
     z-index: 1;
     text-align: center;
     letter-spacing: 0.05em;
     pointer-events: all; }
-    h1 .title-top a:link,
-    h1 .title-bottom a:link {
+    h1.title-top a:link, h1.title-bottom a:link {
       text-decoration: none; }
-  h1 .title-top {
-    top: 0.75em; }
-  h1 .title-bottom {
-    bottom: 0.4em; }
 
 .title-top.invert,
 .title-bottom.invert {
@@ -1021,6 +1020,8 @@ table {
   #contact {
     text-align: center;
     position: relative; }
+    #contact .socials {
+      padding-bottom: 0.5rem; }
     #contact .row {
       padding: 0 2em;
       position: absolute;
@@ -1061,14 +1062,14 @@ table {
     height: auto;
     margin: auto;
     margin-top: 1.7em;
-    font-size: 1.25rem; }
-    h1 .title-top,
-    h1 .title-bottom {
+    font-size: 2rem; }
+    h1.title-top, h1.title-bottom {
       position: static;
       display: block; }
-    h1 .title-bottom {
+    h1.title-bottom {
       transform: rotate(0);
-      display: none; }
+      position: static;
+      padding: 0.5em; }
     h1.fr {
       transform: rotate(0); }
       h1.fr .title-bottom {

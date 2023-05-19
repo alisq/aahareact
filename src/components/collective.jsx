@@ -96,7 +96,7 @@ function Collective({ lang }) {
       </table>
       <br /><br />
       <h3 ref={sectionRefs['collective__team-members']} className='textCenter'>{enFr(lang, 'TEAM MEMBERS', 'MEMBRES DE L’ÉQUIPE')}</h3>
-      <div class="text-center">
+      <div className="text-center">
       <Filter
         name='team-members-role'
         placeholder={enFr(lang, 'ROLE', 'RÔLE')}

@@ -48,18 +48,32 @@ h1 {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  // height: 100vh;
   z-index: 1;
   transition: transform $transition-time;
   // mix-blend-mode: multiply;
+
+  &.title-top {
+    top: 0.75em;
+    
+  }
+
+  &.title-bottom {
+    // transform:rotate(180deg);
+    color:black;
+    position:fixed;
+    top:calc(100vh - 1.6em);
+  }
 
   &.fr {
     transform: rotate(180deg);
   }
 
-  & .title-top,
-  & .title-bottom {
-    position: absolute;
+ 
+
+  &.title-top,
+  &.title-bottom {
+    position: fixed;
     color: $red;
     // mix-blend-mode: multiply;
     width: 100%;
@@ -73,14 +87,7 @@ h1 {
     }
   }
 
-  & .title-top {
-    top: 0.75em;
-  }
-
-  & .title-bottom {
-    // transform:rotate(180deg);
-    bottom: 0.4em;
-  }
+  
 }
 
 .title-top.invert,
@@ -624,6 +631,10 @@ table {
   #contact {
     text-align:center;
     position:relative;
+    
+    & .socials {
+      padding-bottom: 0.5rem;
+    }
 
     & .row {
       padding:0 2em ;
@@ -634,6 +645,7 @@ table {
       & .text-right {
         text-align:center;
       }
+      
     }
   }
 
@@ -681,17 +693,18 @@ table {
     // max-width:80%;
     margin: auto;
     margin-top: 1.7em;
-    font-size: 1.25rem;
+    font-size: 2rem;
 
-    & .title-top,
-    & .title-bottom {
+    &.title-top,
+    &.title-bottom {
       position: static;
       display: block;
     }
 
-    & .title-bottom {
+    &.title-bottom {
       transform: rotate(0);
-      display: none;
+      position:static;
+      padding:0.5em;
     }
 
     &.fr {

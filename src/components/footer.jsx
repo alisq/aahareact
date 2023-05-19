@@ -1,5 +1,6 @@
 import { forwardRef } from 'react'
 import { enFr } from '../utils/languageUtil'
+import parse from 'html-react-parser'
 // import { ReactComponent as LogoCCA } from '../svg/LogoCCA.svg'
 // import { ReactComponent as LogoBiennale } from '../svg/LogoBiennale.svg'
 // import { ReactComponent as LogoSALA } from '../svg/LogoSALA.svg'
@@ -36,13 +37,14 @@ const Footer = forwardRef(({ lang }, ref) => {
                             <a href='https://www.instagram.com/aaha.ca' target='_blank'><i className='fa-brands fa-instagram'></i></a>
 
                         </div>
-                        <br /><br />
-
                         
-                        <p><h3>Media</h3>For all enquiries regarding <em>Not for Sale!</em>, including interview requests, please contact:  <a href="mailto:info@aaha.ca">info@aaha.ca</a></p>
 
-                        <p><h3>Médias</h3>Pour toute question à propos de <em>Pas à vendre!</em>, l’exposition présentée au pavillon du Canada, y compris les demandes d’entrevue avec des membres d’Architects Against Housing Alienation (AAHA), écrire à <a href="mailto:info@aaha.ca">info@aaha.ca</a>.</p>
-
+                        <h3>
+                        {enFr(lang, parse('<a className="aaha-text" href="https://www.dropbox.com/sh/v45fyvebyivi7g8/AABwz65YK1-10i8TTwmcSdL2a?dl=0" target="_blank">Download Press Kit</a>'),
+                                    parse('<a className="aaha-text" href="https://www.dropbox.com/sh/v45fyvebyivi7g8/AABwz65YK1-10i8TTwmcSdL2a?dl=0" target="_blank">Télécharger le dossier de presse.</a>')
+                        )}
+                        </h3>
+                        <br /><br />
                     </div>
                     <div className='four columns text-right'>
 
