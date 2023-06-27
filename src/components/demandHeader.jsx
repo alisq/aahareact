@@ -13,7 +13,7 @@ function DemandHeader({ lang, handleClick, field_demand_no, field_exmark, demand
     <h2 onClick={() => handleClick(demand_id)} ref={tempRef}>
       <span className='noBreak'><span className='num'>{field_demand_no}</span>
         {titleSplit[0]}</span> {brokenString} <span className='noBreak'>{titleSplit[titleSplit.length - 1]}<span className={field_exmark}>{exMark}</span> </span>
-    </h2>
+    </h2> 
   )
 }
 

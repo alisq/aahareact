@@ -55,9 +55,10 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
             <div>
               {parse(field_content)}
             </div>
+            
             <div>
-            {gallery.images.map((member, i) =>
-          <img src={member.field_gallery_image} />
+            {gallery.images.map((image, i) =>
+          <img src={image.field_gallery_image} />
         )}
             </div>
           </div>
