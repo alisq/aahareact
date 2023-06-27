@@ -3,17 +3,17 @@ import { forwardRef } from 'react'
 import parse from 'html-react-parser'
 import Action from './action'
 import HighlightedText from './highlightedText'
+import CarouselDemand from './carouselDemand'
 
 import contributorData from '../contributors.json'
 import MemberDemand from './memberDemand'
 import { enFr } from '../utils/languageUtil'
 
-const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
-
-
+const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => {
+  
   const { title, lang, field_long_summary, field_region, activist, architect, advocate, banner_caption, field_content } = content
   const teamMembers = contributorData.filter(member => member.team_id === demand_id)
-
+ 
   // const hasBanner = banner !== ''
 
   document.title = `AAHA | ${title}`
@@ -54,6 +54,11 @@ const DemandBody = forwardRef(({ content, demand_id, banner }, ref) => {
             <p className='caption'>{banner_caption}</p>
             <div>
               {parse(field_content)}
+            </div>
+            <div>
+            {gallery.images.map((member, i) =>
+          <img src={member.field_gallery_image} />
+        )}
             </div>
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>

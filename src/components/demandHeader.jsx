@@ -1,5 +1,5 @@
 
-function DemandHeader({ lang, handleClick, field_demand_no, field_exmark, demand_id, tempRef }) {
+function DemandHeader({ lang, handleClick, field_demand_no, field_exmark, demand_id, tempRef, gallery }) {
 
   const titleSplit = lang.title.split(' ')
   let brokenString = ''
