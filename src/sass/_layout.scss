@@ -375,8 +375,31 @@ h1 {
 .flickity-viewport {
   overflow:visible;
 
+  
+
+
+
 & .slide {
   border-right:3px solid rgba($foreground, 0);
+  
+
+  & .demand-slide {
+    height:600px;
+    overflow:hidden;
+    position:relative;
+
+    & img {
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      display:block;
+      max-width:100%;
+      max-height:500px;
+      width:auto;
+      height:auto;
+    }
+  }
 
   & .caption {
     opacity:0;
@@ -398,11 +421,12 @@ h1 {
 
 button.flickity-button {
   padding:0;
-  border:1px solid $background;
+  border:1px solid $red;
   background:none;
+  z-index:10000;
 
   & svg {
-    fill:$background
+    fill:$red
     
   }
 

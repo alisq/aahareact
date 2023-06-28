@@ -11,13 +11,15 @@ const flickityOptions = {
 
 function CarouselDemand({lang, carouselImages}) {
 
-
+console.log(carouselImages)
 
     const getImages = (image, i) => 
     
     <div className="slide" key={i}>
-        <img src={image.uri} key={i} alt={image[lang].alt} />
-        {image[lang].caption !== "" && <p className="caption text-center">{image[lang].caption}</p>}
+      <div className="demand-slide">
+        <img src={"http://server-aaha.codepanel.in/"+image.uri} key={i} alt={image[lang].alt} />
+      </div>
+        {image[lang].caption !== "" && <div className="caption text-center">{image[lang].caption.replace(/(<([^>]+)>)/gi, "")}</div>}
     </div>
 
   return (

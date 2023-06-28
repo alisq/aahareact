@@ -11,6 +11,7 @@ import { enFr } from '../utils/languageUtil'
 
 const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => {
   
+  
   const { title, lang, field_long_summary, field_region, activist, architect, advocate, banner_caption, field_content } = content
   const teamMembers = contributorData.filter(member => member.team_id === demand_id)
  
@@ -55,15 +56,18 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
             <div>
               {parse(field_content)}
             </div>
-            
             <div>
-            {gallery.images.map((image, i) =>
-          <img src={image.field_gallery_image} />
-        )}
+            
+          <CarouselDemand
+            carouselImages={gallery}
+            lang={lang}
+            
+            />
+            
             </div>
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
-            <h3>{enFr(lang, 'TAKE ACTION:', "PASSION À L'ACTION : ")}</h3>
+            <h3>{enFr(lang, 'TAKE ACTION:', "PASSIONS À L'ACTION : ")}</h3>
             <ul className='actions'><Action lang={lang} /></ul>
           </div>
         </div>

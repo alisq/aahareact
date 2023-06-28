@@ -887,6 +887,20 @@ h1 {
   overflow: visible; }
   .flickity-viewport .slide {
     border-right: 3px solid rgba(16, 16, 16, 0); }
+    .flickity-viewport .slide .demand-slide {
+      height: 600px;
+      overflow: hidden;
+      position: relative; }
+      .flickity-viewport .slide .demand-slide img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        max-width: 100%;
+        max-height: 500px;
+        width: auto;
+        height: auto; }
     .flickity-viewport .slide .caption {
       opacity: 0;
       transition: 0.4s; }
@@ -897,10 +911,11 @@ h1 {
 
 button.flickity-button {
   padding: 0;
-  border: 1px solid #F5F5F5;
-  background: none; }
+  border: 1px solid #c00000;
+  background: none;
+  z-index: 10000; }
   button.flickity-button svg {
-    fill: #F5F5F5; }
+    fill: #c00000; }
   button.flickity-button:hover {
     border: 1px solid #c00000; }
     button.flickity-button:hover svg {
