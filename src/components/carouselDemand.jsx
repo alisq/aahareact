@@ -2,7 +2,7 @@
 import Flickity from 'react-flickity-component'
 
 const flickityOptions = {
-    initialIndex: 2,
+    initialIndex: 0,
     draggable: true,
     wrapAround:true,
     pageDots:false

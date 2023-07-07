@@ -6,10 +6,9 @@ function MemberDemand({ member, lang }) {
             <td className='sidebearing'></td>
             <td><strong>{member.name}</strong></td>
 
-            {member[lang].role && (<td className='smallHalf'><label>{member[lang].role}</label></td>)}
-
             <td><ul className='orgLinks'>{orgList}</ul></td>
-            {member[lang].bio && (<td>{member[lang].bio}</td>)}
+            <td className='smallHalf'><label>{member[lang].role}</label></td>
+
             <td className='sidebearing'></td>
         </tr>
     )

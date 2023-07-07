@@ -67,7 +67,7 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
             </div>
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
-            <h3>{enFr(lang, 'TAKE ACTION:', "PASSIONS À L'ACTION : ")}</h3>
+            <h3>{enFr(lang, 'TAKE ACTION:', "PASSONS À L'ACTION : ")}</h3>
             <ul className='actions'><Action lang={lang} /></ul>
           </div>
         </div>
@@ -80,8 +80,9 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
           <tr>
             <td className='sidebearing'></td>
             <td><label className='red'>{enFr(lang, 'name', 'Nom')}</label></td>
-            <td><label className='red'>{enFr(lang, 'role', 'Rôle')}</label></td>
             <td><label className='red'>{enFr(lang, 'organizations', 'Organisme')}</label></td>
+            <td><label className='red'>{enFr(lang, 'role', 'Rôle')}</label></td>
+            
             <td className='sidebearing'></td>
           </tr>
         </thead>

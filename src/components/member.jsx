@@ -14,10 +14,11 @@ function Member({ member, lang }) {
             <td className='sidebearing'></td>
             <td><strong>{member.name}</strong></td>
             {member[lang].title && (<td><label>{member[lang].title}</label></td>)}
-            {member[lang].role && (<td className='smallHalf'><label>{member[lang].role}</label></td>)}
-            {member.team_id && (<td className='smallHalf'><a className='teamTitle' href={'/' + lang + '/demand/' + member.team_id}>{member[lang].team}</a></td>)}
-
             <td><ul className='orgLinks'>{orgList}</ul></td>
+            
+            {member.team_id && (<td className='smallHalf'><a className='teamTitle' href={'/' + lang + '/demand/' + member.team_id}>{member[lang].team}</a></td>)}
+            {member[lang].role && (<td className='smallHalf'><label>{member[lang].role}</label></td>)}
+            
             {member[lang].bio && (<td>{member[lang].bio}</td>)}
             <td className='sidebearing'></td>
         </tr>

@@ -486,7 +486,8 @@ h5 {
   text-align: center; }
 
 .text-right {
-  text-align: right; }
+  text-align: right;
+  padding-right: 1em; }
 
 .caption {
   font-size: 1em;
@@ -658,7 +659,7 @@ p {
   position: relative;
   position: -webkit-sticky;
   position: sticky;
-  top: 1em; }
+  top: 3em; }
 
 .sticky-demo {
   position: fixed;
@@ -886,9 +887,11 @@ h1 {
 .flickity-viewport {
   overflow: visible; }
   .flickity-viewport .slide {
-    border-right: 3px solid rgba(16, 16, 16, 0); }
+    border-right: 3px solid rgba(16, 16, 16, 0);
+    width: 100%; }
     .flickity-viewport .slide .demand-slide {
-      height: 600px;
+      width: 100%;
+      height: 700px;
       overflow: hidden;
       position: relative; }
       .flickity-viewport .slide .demand-slide img {
@@ -898,16 +901,18 @@ h1 {
         transform: translate(-50%, -50%);
         display: block;
         max-width: 100%;
-        max-height: 500px;
+        max-height: 600px;
         width: auto;
-        height: auto; }
+        height: auto;
+        opacity: 0.3; }
     .flickity-viewport .slide .caption {
       opacity: 0;
       transition: 0.4s; }
     .flickity-viewport .slide.is-selected .caption {
       opacity: 1; }
     .flickity-viewport .slide.is-selected img {
-      filter: grayscale(0) contrast(100%); }
+      filter: grayscale(0) contrast(100%);
+      opacity: 1; }
 
 button.flickity-button {
   padding: 0;
@@ -1043,7 +1048,8 @@ table {
       top: 50vh;
       transform: translateY(-50%); }
       #contact .row .text-right {
-        text-align: center; }
+        text-align: center;
+        padding-right: 0; }
   .manifesto {
     font-size: 1.75em;
     text-align: left;

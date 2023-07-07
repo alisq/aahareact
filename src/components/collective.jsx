@@ -122,9 +122,10 @@ function Collective({ lang }) {
             <td className='sidebearing'></td>
             <td><label className='red'>{enFr(lang, 'NAME', 'NOM')}</label></td>
             
-            <td><label className='red'>{enFr(lang, 'ROLE', 'RÔLE')}</label></td>
-            <td><label className='red'>{enFr(lang, 'TEAM', 'EQUIPE')}</label></td>
+            
             <td><label className='red'>{enFr(lang, 'ORGANIZATION', 'ORGANISME')}</label></td>
+            <td><label className='red'>{enFr(lang, 'TEAM', 'EQUIPE')}</label></td>
+            <td><label className='red'>{enFr(lang, 'ROLE', 'RÔLE')}</label></td>
             <td className='sidebearing'></td>
 
           </tr>
