@@ -841,13 +841,15 @@ h1 {
   #menu ul {
     list-style-type: none;
     margin-top: 5em;
-    margin-left: 0.5em; }
+    margin-left: 0.5em;
+    column-count: 2; }
     #menu ul li {
       font-family: "AAHA-WEB";
       color: #c00000;
-      font-size: 15vh;
+      break-inside: avoid-column;
+      font-size: 8vw;
       line-height: 0.8;
-      padding-bottom: 0.2em;
+      padding-bottom: 0.3em;
       cursor: pointer;
       transition: color 0.4s; }
       #menu ul li a,
@@ -858,6 +860,15 @@ h1 {
         transition: color 0.4s; }
       #menu ul li a:hover {
         color: #101010; }
+  #menu .menu-socials {
+    position: absolute;
+    font-size: 1.5em;
+    bottom: 0.5em;
+    left: 0.5em; }
+    #menu .menu-socials a {
+      transition: all 0.2s; }
+      #menu .menu-socials a:active, #menu .menu-socials a:hover {
+        color: #000; }
 
 .socials {
   font-size: 4em;
@@ -1116,8 +1127,10 @@ table {
     padding-top: 3em; }
   .sticky {
     position: static; }
+  #menu ul {
+    column-count: 1; }
   #menu ul li {
-    font-size: 6rem; }
+    font-size: 5rem; }
   .members thead {
     display: none; }
   .members tr {

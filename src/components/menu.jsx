@@ -55,6 +55,8 @@ function Menu({ navigate, lang, contactRef }) {
             page={contactData}
             handleClick={handleContactClick} />
         </ul>
+
+        <div class="menu-socials"><a href="https://www.tiktok.com/@aaha.ca" target="_blank"><i class="fa-brands fa-tiktok"></i></a>&nbsp;&nbsp;<a href="https://www.instagram.com/aaha.ca" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
       </section>
     </>
   )
