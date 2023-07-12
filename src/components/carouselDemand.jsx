@@ -11,7 +11,7 @@ const flickityOptions = {
 
 function CarouselDemand({lang, carouselImages}) {
 
-console.log(carouselImages)
+
 
     const getImages = (image, i) => 
     
@@ -23,17 +23,18 @@ console.log(carouselImages)
     </div>
 
   return (
+    <div>
     <Flickity
       className={'carousel'} // default ''
       elementType={'div'} // default 'div'
       options={flickityOptions} // takes flickity options {}
       disableImagesLoaded={false} // default false
       reloadOnUpdate // default false
-      static // default false
+      static={false}
     >
    {carouselImages.map(getImages)}
-   {/* getImages */}
     </Flickity>
+    </div>
   )
 }
 
