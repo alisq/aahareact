@@ -29,10 +29,10 @@ console.log(carouselImages)
       options={flickityOptions} // takes flickity options {}
       disableImagesLoaded={false} // default false
       reloadOnUpdate // default false
-      static // default false
+      static={false} // default false
     >
    {carouselImages.map(getImages)}
-   {/* getImages */}
+   
     </Flickity>
   )
 }
