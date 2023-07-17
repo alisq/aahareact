@@ -369,13 +369,35 @@ h1 {
 
 }
 
+.slide-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
 
+  > img {
+    width: 100%;
+    height: 100%;    
+    object-fit: contain;
+    mix-blend-mode: normal;
+    cursor: zoom-out;
+    transition: none;
+
+    &, &:hover{
+      filter: none;
+    }
+  }
+}
 
 
 .flickity-viewport {
   overflow:visible;
-
-  
 
 
 
@@ -401,6 +423,7 @@ h1 {
       width:auto;
       height:auto;
       opacity:0.3;
+      cursor: zoom-in;
     }
   }
 

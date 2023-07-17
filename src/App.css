@@ -884,6 +884,27 @@ h1 {
   .filter-section option {
     font-family: 'AAHA-WEB'; }
 
+.slide-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .slide-fullscreen > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    mix-blend-mode: normal;
+    cursor: zoom-out;
+    transition: none; }
+    .slide-fullscreen > img, .slide-fullscreen > img:hover {
+      filter: none; }
+
 .flickity-viewport {
   overflow: visible; }
   .flickity-viewport .slide {
@@ -904,7 +925,8 @@ h1 {
         max-height: 600px;
         width: auto;
         height: auto;
-        opacity: 0.3; }
+        opacity: 0.3;
+        cursor: zoom-in; }
     .flickity-viewport .slide .caption {
       opacity: 0;
       transition: 0.4s; }
