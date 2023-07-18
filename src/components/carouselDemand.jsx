@@ -1,6 +1,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import Flickity from 'react-flickity-component'
+import parse from 'html-react-parser'
 
 const flickityOptions = {
   initialIndex: 0,
@@ -21,7 +22,9 @@ function CarouselDemand({ lang, carouselImages }) {
 
   const getImages = (image, i) => {
     const Img = <img src={"http://server-aaha.codepanel.in/" + image.uri} key={i} alt={image[lang].alt} />
-    imgRefs.current.push(Img)
+    const Caption = <div className="caption">{parse(image[lang].caption)}</div>
+
+    imgRefs.current.push(Img+Caption)
     return (
       <div className="slide" key={i} >
         <div className="demand-slide">
@@ -36,7 +39,9 @@ function CarouselDemand({ lang, carouselImages }) {
   return (
     <>
       {typeof zoomedImgIndex === 'number' &&
-        <div className='slide-fullscreen' onClick={() => setZoomImgIndex(null)}>
+        <div className='slide-fullscreen' onClick={() => setZoomImgIndex(null)} >
+          <div className="close" onClick={() => setZoomImgIndex(null)}>&times;</div>
+          
           {imgRefs.current[zoomedImgIndex]}
         </div>}
       <Flickity
