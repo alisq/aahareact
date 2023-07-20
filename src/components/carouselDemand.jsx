@@ -24,7 +24,7 @@ function CarouselDemand({ lang, carouselImages }) {
     const Img = <img src={"http://server-aaha.codepanel.in/" + image.uri} key={i} alt={image[lang].alt} />
     const Caption = <div className="caption">{parse(image[lang].caption)}</div>
 
-    imgRefs.current.push(Img+Caption)
+    imgRefs.current.push(<>{Img}{Caption}</>)
     return (
       <div className="slide" key={i} >
         <div className="demand-slide">
@@ -36,12 +36,17 @@ function CarouselDemand({ lang, carouselImages }) {
     )
   }
 
+  const renderImages = carouselImages => {
+    imgRefs.current = []
+    return carouselImages.map(getImages)
+  }
+
   return (
     <>
       {typeof zoomedImgIndex === 'number' &&
         <div className='slide-fullscreen' onClick={() => setZoomImgIndex(null)} >
           <div className="close" onClick={() => setZoomImgIndex(null)}>&times;</div>
-          
+
           {imgRefs.current[zoomedImgIndex]}
         </div>}
       <Flickity
@@ -53,7 +58,7 @@ function CarouselDemand({ lang, carouselImages }) {
         reloadOnUpdate={false} // default false
         static={false} // default false
       >
-        {carouselImages.map(getImages)}
+        {renderImages(carouselImages)}
 
       </Flickity>
     </>
