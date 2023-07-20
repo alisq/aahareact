@@ -35,11 +35,13 @@ function CarouselDemand({ lang, carouselImages }) {
       </div>
     )
   }
-
+  
   const renderImages = carouselImages => {
     imgRefs.current = []
     return carouselImages.map(getImages)
   }
+
+
 
   return (
     <>
