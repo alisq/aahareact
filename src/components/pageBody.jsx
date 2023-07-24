@@ -2,9 +2,12 @@ import { forwardRef } from 'react'
 import parse from 'html-react-parser'
 import Collective from './collective'
 import Exhibition from './exhibition'
+import News from './news'
 
 
 const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
+
+  
 
   return (
     <section id={page_id} className='page' ref={ref}>
@@ -24,6 +27,7 @@ const PageBody = forwardRef(({ page_id, body, title, lang }, ref) => {
       </div>
       {page_id === 'exhibition' && <Exhibition lang={lang} />}
       {page_id === 'collective' && <Collective lang={lang} />}
+      {page_id === 'news' && <News lang={lang} />}
     </section >
   )
 })
