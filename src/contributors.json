@@ -389,6 +389,36 @@
     "team_num": "3",
     "team_id": "home-building-lodges",
     "title": "",
+    "name": "Sadie-Phoenix Lavoie",
+    "bio": "",
+    "en": {
+      "team": "First Nations Home Building Lodges",
+      "lang": "en",
+      "bio": "",
+      "role": "Activist",
+      "organization": ["One House Many Nations"],
+      "organization_links": [
+        "https://idlenomore.ca/one-house-many-nations/"
+      ]
+    },
+    "fr": {
+      "team": "Pavillons pour la construction d’habitations au sein des Premières Nations",
+      "lang": "fr",
+      "bio": "",
+      "role": "Activiste",
+      "organization": ["One House Many Nations"],
+      "organization_links": [
+        "https://idlenomore.ca/one-house-many-nations/"
+      ]
+    },
+
+    "organization 2 (If Relevant)": "Windsor University/Université de Windsor"
+  },
+  {
+    "category": "contributor",
+    "team_num": "3",
+    "team_id": "home-building-lodges",
+    "title": "",
     "name": "Alex Wilson",
     "bio": "",
     "en": {
