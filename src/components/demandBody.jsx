@@ -90,7 +90,6 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
           <MemberDemand
             member={member}
             lang={lang}
-            // title={demandTitleData[member.team_id - 1][lang]}
             key={i} />)}</tbody>
       </table>
     </section>
