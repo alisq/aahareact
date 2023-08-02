@@ -10,7 +10,7 @@ function News({lang}) {
       key={i} />
 
     return(
-        <table>
+        <table className="news">
           <tbody>
           {pressData.map(getPressItems)}
           </tbody>

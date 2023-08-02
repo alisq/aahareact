@@ -349,6 +349,12 @@ label,
   padding: 0.5em 0.9em 0.2em;
   border-radius: 1em;
   // margin-left:-1em;
+  transition:background 0.4s;
+
+  a &:hover {
+    background:$foreground;
+    cursor:pointer;
+  }
 }
 
 ol {

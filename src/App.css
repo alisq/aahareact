@@ -614,7 +614,11 @@ label,
   background: #c00000;
   color: #eeeed7;
   padding: 0.5em 0.9em 0.2em;
-  border-radius: 1em; }
+  border-radius: 1em;
+  transition: background 0.4s; }
+  a .label--red:hover {
+    background: #101010;
+    cursor: pointer; }
 
 ol {
   list-style: decimal; }
