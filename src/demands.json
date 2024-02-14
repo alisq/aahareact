@@ -112,7 +112,7 @@
       "advocate": "",
       "architect": "Ouri Scott, Urban Arts Architecture Inc.",
       "banner_caption": "Photograph by  Jiah Dzentu Sibbeston",
-      "actions":[{"label": "join", "body": "<a href=\"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674\" target=\"_blank\">Women’s National Housing and Homelessness Network</a>","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
+      "actions":[{"label": "join", "body": " <a href=\"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674\" target=\"_blank\">Women’s National Housing and Homelessness Network</a>","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
     },
     "fr": {
       "title": "Des logements sur le territoire",
@@ -124,7 +124,7 @@
       "advocate": "",
       "architect": "Ouri Scott, Urban Arts Architecture Inc., Tłı̨chǫ Dene",
       "banner_caption": "Photographe : Jiah Dzentu Sibbeston ",
-      "actions":[{"label": "Rejoignez","body": "<a href=\"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674\" target=\"_blank\">Women’s National Housing and Homelessness Network</a>","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
+      "actions":[{"label": "Rejoignez","body": " <a href=\"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674\" target=\"_blank\">Women’s National Housing and Homelessness Network</a>","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
     },
     "banner": "on_the_land_banner.jpg",
     "demand_num": "1",
@@ -365,7 +365,7 @@
       "advocate": "Lancelot Coar and Shawn Bailey, University of Manitoba ",
       "architect": "David T Fortin Architect Inc, Grounded Architecture Inc., SOLO Architecture ",
       "banner_caption": "Housing as Cosmology. The water’s edge in the Opaskwayak Cree Nation territory shows the interconnectedness of all living beings. ",
-      "actions":[{"label": "donate","body": "<a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">to One House Many Nations de Idle No More </a>","link":"https://www.ohmn.ca/contact-us/donate"}]
+      "actions":[{"label": "donate","body": " <a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">to One House Many Nations de Idle No More </a>","link":"https://www.ohmn.ca/contact-us/donate"}]
     },
     "fr": {
       "title": "Pavillons pour la construction d’habitations au sein des Premières Nations",
@@ -377,7 +377,7 @@
       "advocate": "Lancelot Coar et Shawn Bailey, Université du Manitoba",
       "architect": "David T Fortin Architect Inc, Grounded Architecture Inc., SOLO Architecture ",
       "banner_caption": "Le logement comme cosmologie. Le bord de l'eau sur le territoire de la Nation des Cris de Opaskwayak montre l'interdépendance de tous les êtres vivants. ",
-      "actions":[{"label": "Faire un don","body": "<a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">à One House Many Nations de Idle No More</a>","link":"https://www.ohmn.ca/contact-us/donate"}]
+      "actions":[{"label": "Faire un don","body": " <a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">à One House Many Nations de Idle No More</a>","link":"https://www.ohmn.ca/contact-us/donate"}]
     },
     "banner": "home_building_lodges_banner.jpg",
     "demand_num": "2",
