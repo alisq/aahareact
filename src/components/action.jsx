@@ -8,7 +8,7 @@ function Action({ lang, action }) {
     enFr(lang,
       (
         <li>
-          <a href={action.link}><label className='label--red'>{action.label}</label></a>
+          <a href={action.link} target="_blank"><label className='label--red'>{action.label}</label></a>
           {parse(action.body)}
         </li>
       ), (
