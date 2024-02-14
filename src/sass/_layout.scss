@@ -222,12 +222,11 @@ h1 {
     }
   }
 
-  &.active .menu-button-square.center {
-    opacitY:1;
-  }
+  
 
   &.active .menu-button-square,
   &:hover .menu-button-square {
+    opacity:1;
     transform: rotate(45deg);
   }
 

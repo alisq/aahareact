@@ -787,10 +787,9 @@ h1 {
       top: 10px;
       left: 10px;
       opacitY: 0; }
-  #menu-button.active .menu-button-square.center {
-    opacitY: 1; }
   #menu-button.active .menu-button-square,
   #menu-button:hover .menu-button-square {
+    opacity: 1;
     transform: rotate(45deg); }
   #menu-button.active .menu-button-square {
     background: #101010; }
