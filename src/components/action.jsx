@@ -13,7 +13,7 @@ function Action({ lang, action }) {
         </li>
       ), (
       <li>
-        <label className='label--red'>{action.label}</label><br />
+        <label className='label--red'>{action.label}</label>
         {parse(action.body)}
       </li>
     )
