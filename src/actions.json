@@ -4,8 +4,7 @@
       "team_id": "land-housing",
       "en": {
         "lang": "en",
-        "label": "join",
-        "body": "<a href=\"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674\" target=\"_blank\">Women’s National Housing and Homelessness Network</a>"
+        
       },
       "fr": {
         "lang": "fr",
@@ -19,13 +18,11 @@
         "team_id": "land-housing",
         "en": {
           "lang": "en",
-          "label": "donate",
-          "body": "<a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">to One House Many Nations de Idle No More </a>"
+          "label": "donate","body": "<a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">to One House Many Nations de Idle No More </a>"
         },
         "fr": {
           "lang": "fr",
-          "label": "Faire un don",
-          "body": "<a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">à One House Many Nations de Idle No More</a>"
+          {"label": "Faire un don","body": "<a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">à One House Many Nations de Idle No More</a>"}
         },
         
       },

@@ -19,6 +19,8 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
 
   document.title = `AAHA | ${title}`
 
+  console.log(content.actions);
+
 
   return (
     <section id={demand_id} className='demand' ref={ref}>
@@ -68,7 +70,19 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
           </div>
           <div className='action-bar three columns sticky-bottom white-bg'>
             <h3>{enFr(lang, 'TAKE ACTION:', "PASSONS À L'ACTION : ")}</h3>
-            <ul className='actions'><Action lang={lang} /></ul>
+            <ul className='actions'>
+              {/* <Action lang={lang} /> */}
+
+              
+            {content.actions.map((action, i) =>
+          <Action
+            
+            lang={lang}
+            action={action}
+           
+            key={i} />)}
+
+</ul>
           </div>
         </div>
       </div>
