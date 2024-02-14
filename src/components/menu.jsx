@@ -27,6 +27,7 @@ function Menu({ navigate, lang, contactRef }) {
         className={visibility ? 'active' : ''}>
         <div className='menu-button-square top-left'></div>
         <div className='menu-button-square top-right'></div>
+        <div className='menu-button-square center'></div>
         <div className='menu-button-square bottom-left'></div>
         <div className='menu-button-square bottom-right'></div>
       </div>

@@ -783,6 +783,12 @@ h1 {
     #menu-button .menu-button-square.bottom-right {
       bottom: 0;
       right: 0; }
+    #menu-button .menu-button-square.center {
+      top: 10px;
+      left: 10px;
+      opacitY: 0; }
+  #menu-button.active .menu-button-square.center {
+    opacitY: 1; }
   #menu-button.active .menu-button-square,
   #menu-button:hover .menu-button-square {
     transform: rotate(45deg); }
