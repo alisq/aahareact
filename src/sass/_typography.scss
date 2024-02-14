@@ -346,9 +346,16 @@ label,
 .label--red {
   background: $red;
   color: $white;
-  padding: 0.5em 0.9em 0.2em;
+  padding: 0.4em 1em 0.2em;
   border-radius: 1em;
+  cursor:pointer;
+  transition:background 0.3s;
   // margin-left:-1em;
+
+
+  &:hover {
+    background:$foreground;
+  }
 }
 
 ol {

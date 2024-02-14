@@ -112,7 +112,7 @@
       "advocate": "",
       "architect": "Ouri Scott, Urban Arts Architecture Inc.",
       "banner_caption": "Photograph by  Jiah Dzentu Sibbeston",
-      "actions":[{"label": "join", "body": " <a href=\"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674\" target=\"_blank\">Women’s National Housing and Homelessness Network</a>","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
+      "actions":[{"label": "join", "body": " Women’s National Housing and Homelessness Network","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
     },
     "fr": {
       "title": "Des logements sur le territoire",
@@ -124,7 +124,7 @@
       "advocate": "",
       "architect": "Ouri Scott, Urban Arts Architecture Inc., Tłı̨chǫ Dene",
       "banner_caption": "Photographe : Jiah Dzentu Sibbeston ",
-      "actions":[{"label": "Rejoignez","body": " <a href=\"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674\" target=\"_blank\">Women’s National Housing and Homelessness Network</a>","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
+      "actions":[{"label": "Rejoignez","body": "Women’s National Housing and Homelessness Network","link":"https://womenshomelessness.us13.list-manage.com/subscribe?u=eb98321480904e87694833b72&id=f5d1ae4674"}]
     },
     "banner": "on_the_land_banner.jpg",
     "demand_num": "1",
@@ -365,7 +365,7 @@
       "advocate": "Lancelot Coar and Shawn Bailey, University of Manitoba ",
       "architect": "David T Fortin Architect Inc, Grounded Architecture Inc., SOLO Architecture ",
       "banner_caption": "Housing as Cosmology. The water’s edge in the Opaskwayak Cree Nation territory shows the interconnectedness of all living beings. ",
-      "actions":[{"label": "donate","body": " <a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">to One House Many Nations de Idle No More </a>","link":"https://www.ohmn.ca/contact-us/donate"}]
+      "actions":[{"label": "donate","body": " to One House Many Nations de Idle No More","link":"https://www.ohmn.ca/contact-us/donate"}]
     },
     "fr": {
       "title": "Pavillons pour la construction d’habitations au sein des Premières Nations",
@@ -377,7 +377,7 @@
       "advocate": "Lancelot Coar et Shawn Bailey, Université du Manitoba",
       "architect": "David T Fortin Architect Inc, Grounded Architecture Inc., SOLO Architecture ",
       "banner_caption": "Le logement comme cosmologie. Le bord de l'eau sur le territoire de la Nation des Cris de Opaskwayak montre l'interdépendance de tous les êtres vivants. ",
-      "actions":[{"label": "Faire un don","body": " <a href=\"https://www.ohmn.ca/contact-us/donate/\" target=\"_blank\">à One House Many Nations de Idle No More</a>","link":"https://www.ohmn.ca/contact-us/donate"}]
+      "actions":[{"label": "Faire un don","body": "à One House Many Nations de Idle No More","link":"https://www.ohmn.ca/contact-us/donate"}]
     },
     "banner": "home_building_lodges_banner.jpg",
     "demand_num": "2",
@@ -574,7 +574,7 @@
       "advocate": "CP Planning (Community in Public)",
       "architect": "SOCA (Studio of Contemporary Architecture)",
       "banner_caption": "",
-      "actions":[{"label": "donate","body": "<a href=\"https://donate-can.keela.co/Black-Futures-Community-Development-Fund\" target=\"_blank\">to Black Futures Community Development Fund </a>"},{"label":"Subscribe","body":"<a href=\"https://cpplanning.ca/\" target=\"_blank\">to CP Planning's Mailing list</a>","link":"https://cpplanning.ca"}]
+      "actions":[{"label": "donate","body": " to Black Futures Community Development Fund "},{"label":"Subscribe","body":" to CP Planning's Mailing list","link":"https://cpplanning.ca"}]
     },
     "fr": {
       "title": "Une architecture réparatrice",
@@ -586,7 +586,7 @@
       "advocate": "CP Planning (Community in Public)",
       "architect": "SOCA (Studio of Contemporary Architecture)",
       "banner_caption": "",
-      "actions":[{"label": "Faire un don","body": "<a href=\"https://donate-can.keela.co/Black-Futures-Community-Development-Fund\" target=\"_blank\">à ds de développement communautaire Black Futures</a>"},{"label":"S'abonner", "body": "<a href=\"https://cpplanning.ca/\" target=\"_blank\">à la liste de diffusion par courriel de CP Planning</a>","link":"https://cpplanning.ca"}]
+      "actions":[{"label": "Faire un don","body": " à ds de développement communautaire Black Futures"},{"label":"S'abonner", "body": " à la liste de diffusion par courriel de CP Planning","link":"https://cpplanning.ca"}]
     },
     "banner": "reparative_banner.jpg",
     "demand_num": "3",
@@ -827,7 +827,7 @@
       "advocate": "Gentrification Tax Action",
       "architect": "LGA Architectural Partners, tuf lab, Blackwell, The HIDI Group, Vermeulen Quantity Surveyors  ",
       "banner_caption": "A street perspective view of an apartment building on Jameson Ave. with new housing additions superimposed in red, with activists in the foreground calling for new affordable housing now.",
-      "actions":[{"label":"Pay","body":"the voluntary Gentrification Tax.", "link":"https://gentrification.tax/pay.html"},{"label":"Pay","body":"when you are selling a property", "link":"https://gentrification.tax/pay.html"},{"label":"Offset","body":"the tax in advance", "link":"https://gentrification.tax/pay.html"},{"label":"Join","body":"a working committee, become a member and sign up for the newsletter of Parkdale Neighborhood Land Trust.","link":"https://pnlt.ca/getinvolved/membership/"},{"label":"Donate","body":"to Parkdale Neighborhood Land Trust","link":"https://pnlt.ca/donate/"},{"label":"Access","body":"resources about Parkdale and Community Land Trusts","link":"https://pnlt.ca/clt/"}]
+      "actions":[{"label":"Pay","body":" the voluntary Gentrification Tax.", "link":"https://gentrification.tax/pay.html"},{"label":"Pay","body":" when you are selling a property", "link":"https://gentrification.tax/pay.html"},{"label":"Offset","body":" the tax in advance", "link":"https://gentrification.tax/pay.html"},{"label":"Join","body":" a working committee, become a member and sign up for the newsletter of Parkdale Neighborhood Land Trust.","link":"https://pnlt.ca/getinvolved/membership/"},{"label":"Donate","body":" to Parkdale Neighborhood Land Trust","link":"https://pnlt.ca/donate/"},{"label":"Access","body":" resources about Parkdale and Community Land Trusts","link":"https://pnlt.ca/clt/"}]
     },
     "fr": {
       "title": "Une taxe sur l’embourgeoisement",
@@ -839,7 +839,7 @@
       "advocate": "Gentrification Tax Action",
       "architect": "LGA Architectural Partners, tuf lab, Blackwell, The HIDI Group, Vermeulen Quantity Surveyors  ",
       "banner_caption": "Vue d’un immeuble d’appartements de l’avenue Jameson, sur lequel sont superposées, en rouge, de nouvelles annexes de logement. À l’avant-plan, des activistes militent pour la création immédiate de logements abordables. ",
-      "actions":[{"label":"Payer","body":"la taxe volontaire de gentrification", "link":"https://gentrification.tax/pay.html"},{"label":"Payer","body":"lors de la vente d'un bien immobilier", "link":"https://gentrification.tax/pay.html"},{"label":"Compenser","body":"la taxe à l'avance", "link":"https://gentrification.tax/pay.html"},{"label":"Rejoignez","body":"un comité de travail, devenez membre, et abonnez-vous à la lettre d'information de Parkdale Neighborhood Land Trust.","link":"https://pnlt.ca/getinvolved/membership/"},{"label":"Faire un don","body":"à la Parkdale Neighborhood Land Trust","link":"https://pnlt.ca/donate/"},{"label":"Accéder","body":"à des ressources sur Parkdale et les organisme foncier solidaire ","link":"https://pnlt.ca/clt/"}]
+      "actions":[{"label":"Payer","body":" la taxe volontaire de gentrification", "link":"https://gentrification.tax/pay.html"},{"label":"Payer","body":" lors de la vente d'un bien immobilier", "link":"https://gentrification.tax/pay.html"},{"label":"Compenser","body":" la taxe à l'avance", "link":"https://gentrification.tax/pay.html"},{"label":"Rejoignez","body":" un comité de travail, devenez membre, et abonnez-vous à la lettre d'information de Parkdale Neighborhood Land Trust.","link":"https://pnlt.ca/getinvolved/membership/"},{"label":"Faire un don","body":" à la Parkdale Neighborhood Land Trust","link":"https://pnlt.ca/donate/"},{"label":"Accéder","body":" à des ressources sur Parkdale et les organisme foncier solidaire ","link":"https://pnlt.ca/clt/"}]
     },
     "banner": "gentrification_tax_banner.jpg",
     "demand_num": "4",

@@ -613,8 +613,12 @@ label,
 .label--red {
   background: #c00000;
   color: #eeeed7;
-  padding: 0.5em 0.9em 0.2em;
-  border-radius: 1em; }
+  padding: 0.4em 1em 0.2em;
+  border-radius: 1em;
+  cursor: pointer;
+  transition: background 0.3s; }
+  .label--red:hover {
+    background: #101010; }
 
 ol {
   list-style: decimal; }
