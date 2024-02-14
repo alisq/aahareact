@@ -28,7 +28,7 @@ const DemandBody = forwardRef(({ content, demand_id, banner, gallery }, ref) => 
       <div className='container'>
         <div className='row'>
           <div className='three columns sticky'>
-            <h2>{title}</h2>
+            <h2>We Demand {title}</h2>
             <p>
               {/* disabled highlight text as it can't be applied to main body,
               since parsing react element is too involved */}
