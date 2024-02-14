@@ -129,8 +129,8 @@ function Main({ currentLang }) {
         </div>
         <h1 className='title-bottom'><a href='https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses' target='blank'>
           {currentLang === 'en' ?
-            'Click Here to Join The Campaign' :
-            'Cliquez ici pour rejoindre la campagne'}
+            'Join The Campaign' :
+            'Rejoindre la campagne'}
         </a></h1>
       
       </section>
