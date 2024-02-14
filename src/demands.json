@@ -13,7 +13,7 @@
       "advocate": "Sarah Silva, Hiyam Housing, Squamish Nation",
       "architect": "Simoogit Saa Bax, Patrick R. Stewart Architect, Nisga'a Nation",
       "banner_caption": "Photograph by  Nisga’a Lisims Government / Gary Fiegehen",
-      "actions":[]
+      "actions":[{"label":"Sign","body":" the form  to stay up to date about the campaign","link":"https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses"}]
     },
     "fr": {
       "title": "La restitution des terres ancestrales",
@@ -25,7 +25,7 @@
       "advocate": "Sarah Silva, Hiy̓ám̓ ta Housing, Squamish Nation",
       "architect": "Simoogit Saa Bax Patrick R. Stewart Architecte et Nation Nisga’a",
       "banner_caption": "Photographe :  Gouvernement Nisga'a Lisims / Gary Fiegehen",
-      "actions":[]
+      "actions":[{"label":"Signez","body":"  le formulaire ci-dessous pour rester informé de la campagne","link":"https://docs.google.com/forms/d/1A4sRDWE8gjoyg1w0XlH9CImhx4BbAv9yCo67JPOkVkc/viewform?edit_requested=true#responses"}]
     },
     "banner": "landback_banner.jpg",
     "demand_num": "0",
